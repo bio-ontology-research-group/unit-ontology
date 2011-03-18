@@ -64,7 +64,7 @@ l.each {
   man.addAxiom(ont, fac.getOWLDeclarationAxiom(cl))
   if (it.unit) {
     //    def cls2 = onturi+"i"+it.id
-    def cls2 = onturi+it.id
+    def cls2 = onturi+(it.id.replaceAll(":","_"))
     def ind = fac.getOWLNamedIndividual(IRI.create(cls2))
     def oneof = fac.getOWLObjectOneOf(ind)
     def equiv = fac.getOWLEquivalentClassesAxiom(cl,oneof)
