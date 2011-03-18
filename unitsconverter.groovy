@@ -31,7 +31,7 @@ infile.eachLine {
     } else if (it.trim().size()==0) {
       term = false
     } else if (it.trim().startsWith("id:")) {
-      exp.id = it.substring(3).trim()
+      exp.id = it.substring(3).trim().replaceAll(":","_")
     } else if (it.trim().startsWith("def:")) {
       exp.definition = it.substring(4).trim()
     } else if (it.trim().startsWith("subset: unit_group_slim")) {
