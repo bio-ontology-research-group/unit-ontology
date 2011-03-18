@@ -31,7 +31,7 @@ infile.eachLine {
     } else if (it.trim().size()==0) {
       term = false
     } else if (it.trim().startsWith("id:")) {
-      exp.id = it.substring(3).trim().replaceAll(":","_")
+      exp.id = it.substring(3).trim()
     } else if (it.trim().startsWith("def:")) {
       exp.definition = it.substring(4).trim()
     } else if (it.trim().startsWith("subset: unit_group_slim")) {
@@ -52,14 +52,14 @@ infile.eachLine {
   }
 }
 
-def onturi = "http://bioonto.de/unit.owl#"
+def onturi = "http://purl.obolibrary.org/obo/"
 OWLOntologyManager man = OWLManager.createOWLOntologyManager();
 OWLDataFactory fac = man.getOWLDataFactory()
 OWLOntology ont = man.createOntology(IRI.create(onturi))
 def unitof = fac.getOWLObjectProperty(IRI.create(onturi+"unit_of"))
 
 l.each {
-  def cls = onturi+it.id
+  def cls = onturi+(it.id.replaceAll(":","_"))
   def cl = fac.getOWLClass(IRI.create(cls))
   man.addAxiom(ont, fac.getOWLDeclarationAxiom(cl))
   if (it.unit) {
@@ -71,6 +71,7 @@ l.each {
     man.addAxiom(ont, equiv)
   }
   it.isa.each { sup ->
+    sup = sup.replaceAll(":","_")
     def cl2 = fac.getOWLClass(IRI.create(onturi+sup))
     def subc = fac.getOWLSubClassOfAxiom(cl,cl2)
     man.addAxiom(ont, subc)
