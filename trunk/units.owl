@@ -1,6 +1,8 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="http://bioonto.de/unit.owl#"
      xml:base="http://bioonto.de/unit.owl"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:unit="http://bioonto.de/unit.owl#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
@@ -19,6 +21,23 @@
 
     <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
     <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#comment"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://bioonto.de/unit.owl#unit_of -->
+
+    <owl:ObjectProperty rdf:about="http://bioonto.de/unit.owl#unit_of"/>
     
 
 
@@ -47,6 +66,18 @@
     <owl:Class rdf:about="http://bioonto.de/unit.owl#UO:0000001">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">length unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://bioonto.de/unit.owl#UO:0000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://bioonto.de/unit.owl#unit_of"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0001708"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit which is a standard measure of the distance between two points.&quot; [Wikipedia:Wikipedia &quot;http://www.wikipedia.org/&quot;]</rdfs:comment>
     </owl:Class>
     
@@ -57,6 +88,19 @@
     <owl:Class rdf:about="http://bioonto.de/unit.owl#UO:0000002">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mass unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://bioonto.de/unit.owl#UO:0000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://bioonto.de/unit.owl#unit_of"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000125"/>
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000128"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit which is a standard measure of the amount of matter/energy of a physical object.&quot; [Wikipedia:Wikipedia &quot;http://www.wikipedia.org/&quot;]</rdfs:comment>
     </owl:Class>
     
@@ -67,6 +111,19 @@
     <owl:Class rdf:about="http://bioonto.de/unit.owl#UO:0000003">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">time unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://bioonto.de/unit.owl#UO:0000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://bioonto.de/unit.owl#unit_of"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000165"/>
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0001309"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit which is a standard measure of the dimension in which events occur in sequence.&quot; [Wikipedia:Wikipedia &quot;http://www.wikipedia.org/&quot;]</rdfs:comment>
     </owl:Class>
     
@@ -87,6 +144,18 @@
     <owl:Class rdf:about="http://bioonto.de/unit.owl#UO:0000005">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">temperature unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://bioonto.de/unit.owl#UO:0000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://bioonto.de/unit.owl#unit_of"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000146"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit which is a standard measure of the average kinetic energy of the particles in a sample of matter.&quot; [Wikipedia:Wikipedia &quot;http://www.wikipedia.org/&quot;]</rdfs:comment>
     </owl:Class>
     
@@ -809,6 +878,18 @@
     <owl:Class rdf:about="http://bioonto.de/unit.owl#UO:0000047">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">area unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://bioonto.de/unit.owl#UO:0000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://bioonto.de/unit.owl#unit_of"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0001709"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit which is a standard measure of the amount of a 2-dimensional flat surface.&quot; [UOC:GVG]</rdfs:comment>
     </owl:Class>
     
@@ -819,6 +900,18 @@
     <owl:Class rdf:about="http://bioonto.de/unit.owl#UO:0000048">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acceleration unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://bioonto.de/unit.owl#UO:0000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://bioonto.de/unit.owl#unit_of"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0001028"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit which is a standard measure of the rate of change of velocity in either speed or direction.&quot; [Wikipedia:Wikipedia &quot;http://www.wikipedia.org/&quot;]</rdfs:comment>
     </owl:Class>
     
@@ -829,6 +922,18 @@
     <owl:Class rdf:about="http://bioonto.de/unit.owl#UO:0000049">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">angular velocity unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://bioonto.de/unit.owl#UO:0000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://bioonto.de/unit.owl#unit_of"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0001413"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit which is a standard measure of the rate of angular movement about an axis; the angle rotated in a given time.&quot; [Wikipedia:Wikipedia &quot;http://www.wikipedia.org/&quot;]</rdfs:comment>
     </owl:Class>
     
@@ -839,6 +944,18 @@
     <owl:Class rdf:about="http://bioonto.de/unit.owl#UO:0000050">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">angular acceleration unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://bioonto.de/unit.owl#UO:0000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://bioonto.de/unit.owl#unit_of"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0001350"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit which is a standard measure of the rate of change of angular velocity.&quot; [Wikipedia:Wikipedia &quot;http://www.wikipedia.org/&quot;]</rdfs:comment>
     </owl:Class>
     
@@ -849,6 +966,18 @@
     <owl:Class rdf:about="http://bioonto.de/unit.owl#UO:0000051">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concentration unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://bioonto.de/unit.owl#UO:0000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://bioonto.de/unit.owl#unit_of"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000033"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit which represents a standard measurement of how much of a given substance there is mixed with another substance.&quot; [UOC:GVG]</rdfs:comment>
     </owl:Class>
     
@@ -859,6 +988,18 @@
     <owl:Class rdf:about="http://bioonto.de/unit.owl#UO:0000052">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mass density unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://bioonto.de/unit.owl#UO:0000182"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://bioonto.de/unit.owl#unit_of"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0001353"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A density unit which is a standard measure of the mass of a substance in a given volume.&quot; [UOC:GVG]</rdfs:comment>
     </owl:Class>
     
@@ -869,6 +1010,18 @@
     <owl:Class rdf:about="http://bioonto.de/unit.owl#UO:0000053">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">luminance unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://bioonto.de/unit.owl#UO:0000157"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://bioonto.de/unit.owl#unit_of"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0001718"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit which is a standard measure of the luminous intensity impinging on a given area.&quot; [Wikipedia:Wikipedia &quot;http://www.wikipedia.org/&quot;]</rdfs:comment>
     </owl:Class>
     
@@ -879,6 +1032,18 @@
     <owl:Class rdf:about="http://bioonto.de/unit.owl#UO:0000054">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">area density unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://bioonto.de/unit.owl#UO:0000182"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://bioonto.de/unit.owl#unit_of"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0001351"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A density unit which is a standard measure of the mass exerting an influence on a given area.&quot; [Wikipedia:Wikipedia &quot;http://www.wikipedia.org/&quot;]</rdfs:comment>
     </owl:Class>
     
@@ -889,6 +1054,18 @@
     <owl:Class rdf:about="http://bioonto.de/unit.owl#UO:0000055">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">molar mass unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://bioonto.de/unit.owl#UO:0000002"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://bioonto.de/unit.owl#unit_of"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0001681"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit which is a standard measure of the mass of a homogeneous substance containing 6.02 x 1023 atoms or molecules.&quot; [Wikipedia:Wikipedia &quot;http://www.wikipedia.org/&quot;]</rdfs:comment>
     </owl:Class>
     
@@ -899,6 +1076,18 @@
     <owl:Class rdf:about="http://bioonto.de/unit.owl#UO:0000056">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">molar volume unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://bioonto.de/unit.owl#UO:0000095"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://bioonto.de/unit.owl#unit_of"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0001680"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit which is a standard measure of the volume of a homogeneous substance containing 6.02 x 1023 atoms or molecules.&quot; [Wikipedia:Wikipedia &quot;http://www.wikipedia.org/&quot;]</rdfs:comment>
     </owl:Class>
     
@@ -909,6 +1098,19 @@
     <owl:Class rdf:about="http://bioonto.de/unit.owl#UO:0000057">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">momentum unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://bioonto.de/unit.owl#UO:0000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://bioonto.de/unit.owl#unit_of"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0001022"/>
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0001023"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit which is a standard measure of the quantity of motion measured by the product of mass and velocity.&quot; [Wikipedia:Wikipedia &quot;http://www.wikipedia.org/&quot;]</rdfs:comment>
     </owl:Class>
     
@@ -939,6 +1141,18 @@
     <owl:Class rdf:about="http://bioonto.de/unit.owl#UO:0000060">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">speed/velocity unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://bioonto.de/unit.owl#UO:0000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://bioonto.de/unit.owl#unit_of"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000008"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit which is a standard measure of the rate of movement. Speed is measured in the same physical units of measurement as velocity, but does not contain the element of direction that velocity has. Speed is thus the magnitude component of velocity.&quot; [Wikipedia:Wikipedia &quot;http://www.wikipedia.org/&quot;]</rdfs:comment>
     </owl:Class>
     
@@ -1538,6 +1752,18 @@
     <owl:Class rdf:about="http://bioonto.de/unit.owl#UO:0000095">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">volume unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://bioonto.de/unit.owl#UO:0000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://bioonto.de/unit.owl#unit_of"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0001710"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit which is a standard measure of the amount of space occupied by any substance, whether solid, liquid, or gas.&quot; [NIST:NIST &quot;http://physics.nist.gov/cuu/Units/&quot;]</rdfs:comment>
     </owl:Class>
     
@@ -1710,6 +1936,18 @@
     <owl:Class rdf:about="http://bioonto.de/unit.owl#UO:0000105">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">frequency unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://bioonto.de/unit.owl#UO:0000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://bioonto.de/unit.owl#unit_of"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000044"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit which is a standard measure of the number of repetitive actions in a particular time.&quot; [NIST:NIST &quot;http://physics.nist.gov/cuu/Units/&quot;]</rdfs:comment>
     </owl:Class>
     
@@ -1738,6 +1976,18 @@
     <owl:Class rdf:about="http://bioonto.de/unit.owl#UO:0000107">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">force unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://bioonto.de/unit.owl#UO:0000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://bioonto.de/unit.owl#unit_of"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0001035"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit which is a standard measure of the force is applied when a mass is accelerated.&quot; [NIST:NIST &quot;http://physics.nist.gov/cuu/Units/&quot;]</rdfs:comment>
     </owl:Class>
     
@@ -1766,6 +2016,18 @@
     <owl:Class rdf:about="http://bioonto.de/unit.owl#UO:0000109">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pressure unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://bioonto.de/unit.owl#UO:0000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://bioonto.de/unit.owl#unit_of"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0001025"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit which is a standard measure of the force applied to a given area.&quot; [NIST:NIST &quot;http://physics.nist.gov/cuu/Units/&quot;]</rdfs:comment>
     </owl:Class>
     
@@ -1794,6 +2056,19 @@
     <owl:Class rdf:about="http://bioonto.de/unit.owl#UO:0000111">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">energy unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://bioonto.de/unit.owl#UO:0000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://bioonto.de/unit.owl#unit_of"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0001021"/>
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0001026"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit which is a standard measure of the work done by a certain force (gravitational, electric, magnetic, force of inertia, etc).&quot; [NIST:NIST &quot;http://physics.nist.gov/cuu/Units/&quot;]</rdfs:comment>
     </owl:Class>
     
@@ -1822,6 +2097,18 @@
     <owl:Class rdf:about="http://bioonto.de/unit.owl#UO:0000113">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">power unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://bioonto.de/unit.owl#UO:0000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://bioonto.de/unit.owl#unit_of"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0001024"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit which is a standard measure power or the rate of doing work.&quot; [NIST:NIST &quot;http://physics.nist.gov/cuu/Units/&quot;]</rdfs:comment>
     </owl:Class>
     
@@ -1878,6 +2165,18 @@
     <owl:Class rdf:about="http://bioonto.de/unit.owl#UO:0000117">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">luminous flux unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://bioonto.de/unit.owl#UO:0000157"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://bioonto.de/unit.owl#unit_of"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0001296"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit which is a standard measure of the flow of radiant energy.&quot; [Wikipedia:Wikipedia &quot;http://www.wikipedia.org/&quot;]</rdfs:comment>
     </owl:Class>
     
@@ -1906,6 +2205,18 @@
     <owl:Class rdf:about="http://bioonto.de/unit.owl#UO:0000119">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">catalytic activity unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://bioonto.de/unit.owl#UO:0000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://bioonto.de/unit.owl#unit_of"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0001414"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit which is a standard measure of the amount of the action of a catalyst.&quot; [NIST:NIST &quot;http://physics.nist.gov/cuu/Units/&quot;]</rdfs:comment>
     </owl:Class>
     
@@ -1934,6 +2245,18 @@
     <owl:Class rdf:about="http://bioonto.de/unit.owl#UO:0000121">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">angle unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://bioonto.de/unit.owl#UO:0000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://bioonto.de/unit.owl#unit_of"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000133"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit which is a standard measure of the figure or space formed by the junction of two lines or planes.&quot; [Wikipedia:Wikipedia &quot;http://www.wikipedia.org/&quot;]</rdfs:comment>
     </owl:Class>
     
@@ -2010,6 +2333,18 @@
     <owl:Class rdf:about="http://bioonto.de/unit.owl#UO:0000128">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">activity (of a radionuclide) unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://bioonto.de/unit.owl#UO:0000127"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://bioonto.de/unit.owl#unit_of"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0001740"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit which is a standard measure of the transformation (disintegration) rate of a radioactive substance.&quot; [DEFRA:DEFRA &quot;http://www.defra.gov.uk/&quot;]</rdfs:comment>
     </owl:Class>
     
@@ -2020,6 +2355,18 @@
     <owl:Class rdf:about="http://bioonto.de/unit.owl#UO:0000129">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">absorbed dose unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://bioonto.de/unit.owl#UO:0000127"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://bioonto.de/unit.owl#unit_of"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0001745"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit which is a standard measure of the energy imparted by ionizing radiation to unit mass of matter such as tissue.&quot; [DEFRA:DEFRA &quot;http://www.defra.gov.uk/&quot;]</rdfs:comment>
     </owl:Class>
     
@@ -2030,6 +2377,18 @@
     <owl:Class rdf:about="http://bioonto.de/unit.owl#UO:0000130">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dose equivalent unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://bioonto.de/unit.owl#UO:0000127"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://bioonto.de/unit.owl#unit_of"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0001746"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit which is a standard measure of the expression of dose in terms of its biological effect.&quot; [ORCBS:ORCBS &quot;http://www.orcbs.msu.edu/&quot;]</rdfs:comment>
     </owl:Class>
     
@@ -2040,6 +2399,18 @@
     <owl:Class rdf:about="http://bioonto.de/unit.owl#UO:0000131">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">exposure unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://bioonto.de/unit.owl#UO:0000127"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://bioonto.de/unit.owl#unit_of"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0001744"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit which is a standard measure of the quantity that expresses the ability of radiation to ionize air and thereby create electric charges which can be collected and measured.&quot; [ORCBS:ORCBS &quot;http://www.orcbs.msu.edu/&quot;]</rdfs:comment>
     </owl:Class>
     
@@ -2502,6 +2873,18 @@
     <owl:Class rdf:about="http://bioonto.de/unit.owl#UO:0000159">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">radiant intensity unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://bioonto.de/unit.owl#UO:0000157"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://bioonto.de/unit.owl#unit_of"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0001717"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit which is a standard measure of the intensity of electromagnetic radiation.&quot; [Wikipedia:Wikipedia &quot;http://www.wikipedia.org/&quot;]</rdfs:comment>
     </owl:Class>
     
@@ -2530,6 +2913,18 @@
     <owl:Class rdf:about="http://bioonto.de/unit.owl#UO:0000161">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">radiance unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://bioonto.de/unit.owl#UO:0000157"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://bioonto.de/unit.owl#unit_of"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0001299"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit which is a standard measure of the power of electromagnetic radiation through space or through a material medium in the form of electromagnetic waves.&quot; [Wikipedia:Wikipedia &quot;http://www.wikipedia.org/&quot;]</rdfs:comment>
     </owl:Class>
     
@@ -2887,6 +3282,18 @@
     <owl:Class rdf:about="http://bioonto.de/unit.owl#UO:0000182">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">density unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://bioonto.de/unit.owl#UO:0000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://bioonto.de/unit.owl#unit_of"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0001019"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit which is a standard measure of the influence exerted by some mass.&quot; [Wikipedia:Wikipedia &quot;http://www.wikipedia.org/&quot;]</rdfs:comment>
     </owl:Class>
     
@@ -2897,6 +3304,18 @@
     <owl:Class rdf:about="http://bioonto.de/unit.owl#UO:0000183">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">linear density unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://bioonto.de/unit.owl#UO:0000182"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://bioonto.de/unit.owl#unit_of"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0001352"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A density unit which is a standard measure of the mass exerting an influence on a one-dimensional object.&quot; [Wikipedia:Wikipedia &quot;http://www.wikipedia.org/&quot;]</rdfs:comment>
     </owl:Class>
     
@@ -3108,6 +3527,18 @@
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://bioonto.de/unit.owl#UO:0000051"/>
         <rdfs:subClassOf rdf:resource="http://bioonto.de/unit.owl#UO:0000186"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://bioonto.de/unit.owl#unit_of"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0001428"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A dimensionless concentration notation which denotes the acidity of a solution in terms of activity of hydrogen ions (H+).&quot; [Wikipedia:Wikipedia &quot;http://www.wikipedia.org/&quot;]</rdfs:comment>
     </owl:NamedIndividual>
     
@@ -3200,6 +3631,18 @@
     <owl:Class rdf:about="http://bioonto.de/unit.owl#UO:0000202">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">catalytic (activity) concentration unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://bioonto.de/unit.owl#UO:0000051"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://bioonto.de/unit.owl#unit_of"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0001674"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A concentration unit which is a standard measure of the amount of the action of a catalyst in a given volume.&quot; [UOC:GVG]</rdfs:comment>
     </owl:Class>
     
@@ -3438,6 +3881,18 @@
     <owl:Class rdf:about="http://bioonto.de/unit.owl#UO:0000217">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">electric potential difference unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://bioonto.de/unit.owl#UO:0000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://bioonto.de/unit.owl#unit_of"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0001464"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit which is a standard measure of the work done per unit charge as a charge is moved between two points in an electric field.&quot; [Wikipedia:Wikipedia &quot;http://www.wikipedia.org/&quot;]</rdfs:comment>
     </owl:Class>
     
@@ -3566,6 +4021,18 @@
     <owl:Class rdf:about="http://bioonto.de/unit.owl#UO:0000225">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">magnetic flux unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://bioonto.de/unit.owl#UO:0000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://bioonto.de/unit.owl#unit_of"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0001682"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit which is a standard measure of quantity of magnetism, taking account of the strength and the extent of a magnetic field.&quot; [Wikipedia:Wikipedia &quot;http://www.wikipedia.org/&quot;]</rdfs:comment>
     </owl:Class>
     
@@ -4022,6 +4489,18 @@
     <owl:Class rdf:about="http://bioonto.de/unit.owl#UO:0000253">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">surface tension unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://bioonto.de/unit.owl#UO:0000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://bioonto.de/unit.owl#unit_of"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0001461"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit which is a standard measure of the ability of a liguid to attraction of molecules at its surface as a result of unbalanced molecular cohesive forces.&quot; [NIST:NIST &quot;http://physics.nist.gov/cuu/Units/&quot;]</rdfs:comment>
     </owl:Class>
     
@@ -4068,6 +4547,18 @@
     <owl:Class rdf:about="http://bioonto.de/unit.owl#UO:0000256">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">viscosity unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://bioonto.de/unit.owl#UO:0000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://bioonto.de/unit.owl#unit_of"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000992"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit which is a standard measure of the internal resistance of fluids to flow.&quot; [UOC:GVG]</rdfs:comment>
     </owl:Class>
     
@@ -4122,6 +4613,18 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://bioonto.de/unit.owl#UO:0000190"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://bioonto.de/unit.owl#unit_of"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0001521"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An ratio unit which is an indicator of sound power per unit area.&quot; [techtarget:techtarget &quot;http://searchsmb.techtarget.com/&quot;]</rdfs:comment>
     </owl:NamedIndividual>
     
@@ -4140,6 +4643,18 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://bioonto.de/unit.owl#UO:0000127"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://bioonto.de/unit.owl#unit_of"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0001747"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit which is a standard measure of the estimate of the stochastic effect that a non-uniform radiation dose has on a human.&quot; [Wikipedia:Wikipedia &quot;http://www.wikipedia.org&quot;]</rdfs:comment>
     </owl:NamedIndividual>
     
@@ -4160,6 +4675,18 @@
     <owl:Class rdf:about="http://bioonto.de/unit.owl#UO:0000262">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">electrical conduction unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://bioonto.de/unit.owl#UO:0000261"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://bioonto.de/unit.owl#unit_of"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0001757"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit which represents a standard measurement of the movement of electrically charged particles through a transmission medium (electrical conductor).&quot; [UOC:GVG]</rdfs:comment>
     </owl:Class>
     
@@ -4170,6 +4697,18 @@
     <owl:Class rdf:about="http://bioonto.de/unit.owl#UO:0000263">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">heat conduction unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://bioonto.de/unit.owl#UO:0000261"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://bioonto.de/unit.owl#unit_of"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0001756"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit which represents a standard measurement of the spontaneous transfer of thermal energy through matter, from a region of higher temperature to a region of lower temperature.&quot; [Wikipedia:Wikipedia &quot;http://www.wikipedia.org/&quot;]</rdfs:comment>
     </owl:Class>
     
@@ -4298,6 +4837,18 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://bioonto.de/unit.owl#UO:0000270"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://bioonto.de/unit.owl#unit_of"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0001574"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A volumetric flow rate unit which is equal to one microliter volume through a given surface in one minute.&quot; [PATOC:GVG]</rdfs:comment>
     </owl:NamedIndividual>
     
@@ -4318,6 +4869,294 @@
         <rdfs:subClassOf rdf:resource="http://bioonto.de/unit.owl#UO:0000109"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit of pressure equal to the amount of fluid pressure one millimeter deep in mercury at zero degrees centigrade on Earth.&quot; [url:en.wiktionary.org/wiki/mmHg]</rdfs:comment>
     </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0000008 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000008"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0000033 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000033"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0000044 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000044"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0000125 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000125"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0000128 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000128"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0000133 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000133"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0000146 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000146"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0000165 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000165"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0000992 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000992"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001019 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001019"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001021 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001021"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001022 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001022"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001023 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001023"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001024 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001024"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001025 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001025"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001026 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001026"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001028 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001028"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001035 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001035"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001296 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001296"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001299 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001299"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001309 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001309"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001350 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001350"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001351 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001351"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001352 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001352"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001353 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001353"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001413 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001413"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001414 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001414"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001428 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001428"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001461 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001461"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001464 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001464"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001521 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001521"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001574 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001574"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001674 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001674"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001680 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001680"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001681 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001681"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001682 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001682"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001708 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001708"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001709 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001709"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001710 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001710"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001717 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001717"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001718 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001718"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001740 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001740"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001744 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001744"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001745 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001745"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001746 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001746"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001747 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001747"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001756 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001756"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001757 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001757"/>
     
 
 
