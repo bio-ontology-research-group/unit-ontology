@@ -27,12 +27,17 @@ infile.eachLine {
       exp = new Expando()
       exp.isa = []
       exp.rel = []
+      exp.unit = false
     } else if (it.trim().size()==0) {
       term = false
     } else if (it.trim().startsWith("id:")) {
       exp.id = it.substring(3).trim()
     } else if (it.trim().startsWith("def:")) {
       exp.definition = it.substring(4).trim()
+    } else if (it.trim().startsWith("subset: unit_group_slim")) {
+      exp.unit = false
+    } else if (it.trim().startsWith("subset: unit_slim")) {
+      exp.unit = true
     } else if (it.trim().startsWith("relationship: unit_of")) {
       def rel = it.substring(22).trim()
       if (rel.indexOf('!')>-1) {
@@ -41,11 +46,6 @@ infile.eachLine {
       exp.rel << rel
     } else if (it.trim().startsWith("name:")) {
       exp.name = it.trim().substring(6)
-      if (exp.name.contains(" unit")) {
-	exp.unit = false
-      } else {
-	exp.unit = true
-      }
     } else if (it.trim().startsWith("is_a:")) {
       exp.isa << it.substring(6,it.indexOf('!')).trim()
     }
