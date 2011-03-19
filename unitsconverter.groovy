@@ -55,7 +55,7 @@ infile.eachLine {
 def onturi = "http://purl.obolibrary.org/obo/"
 OWLOntologyManager man = OWLManager.createOWLOntologyManager();
 OWLDataFactory fac = man.getOWLDataFactory()
-OWLOntology ont = man.createOntology(IRI.create(onturi+"units.owl"))
+OWLOntology ont = man.createOntology(IRI.create(onturi+"uo.owl"))
 def unitof = fac.getOWLObjectProperty(IRI.create(onturi+"unit_of"))
 
 l.each {
@@ -98,10 +98,10 @@ l.each {
   }
 }
 
-File f = new File("units.owl")
+File f = new File("uo.owl")
 man.saveOntology(ont, IRI.create("file:"+f.getCanonicalFile()))
 
-f = new File("units-with-pato.owl")
+f = new File("uo-with-pato.owl")
 def imp = fac.getOWLImportsDeclaration(IRI.create("http://www.berkeleybop.org/ontologies/obo-all/quality/quality.owl2"))
 AddImport ai = new AddImport(ont, imp)
 man.applyChange(ai)
