@@ -6,6 +6,7 @@ subsetdef: unit_group_slim "unit group slim"
 subsetdef: unit_slim "unit slim"
 default-namespace: unit.ontology
 namespace-id-rule: * UO:$sequence(7,0,9999999)$
+import: http://purl.org/obo/obo-all/quality/quality.obo
 
 [Term]
 id: UO:0000000
@@ -19,7 +20,7 @@ name: length unit
 def: "A unit which is a standard measure of the distance between two points." [Wikipedia:Wikipedia "http://www.wikipedia.org/"]
 subset: unit_group_slim
 is_a: UO:0000000 ! unit
-relationship: unit_of PATO:0001708 ! perimeter
+relationship: unit_of PATO:0001708 ! 1-D extent
 created_by: george gkoutos
 
 [Term]
@@ -58,9 +59,9 @@ name: temperature unit
 alt_id: UO:0000126
 def: "A unit which is a standard measure of the average kinetic energy of the particles in a sample of matter." [Wikipedia:Wikipedia "http://www.wikipedia.org/"]
 subset: unit_group_slim
-relationship: unit_of PATO:0000146 ! temperature
 synonym: "temperature derived unit" EXACT []
 is_a: UO:0000000 ! unit
+relationship: unit_of PATO:0000146 ! temperature
 created_by: george gkoutos
 
 [Term]
@@ -435,8 +436,8 @@ id: UO:0000047
 name: area unit
 def: "A unit which is a standard measure of the amount of a 2-dimensional flat surface." [UOC:GVG]
 subset: unit_group_slim
-relationship: unit_of PATO:0001709 ! area
 is_a: UO:0000000 ! unit
+relationship: unit_of PATO:0001709 ! 2-D extent
 created_by: george gkoutos
 
 [Term]
@@ -462,8 +463,8 @@ id: UO:0000050
 name: angular acceleration unit
 def: "A unit which is a standard measure of the rate of change of angular velocity." [Wikipedia:Wikipedia "http://www.wikipedia.org/"]
 subset: unit_group_slim
-relationship: unit_of PATO:0001350 ! angular acceleration
 is_a: UO:0000000 ! unit
+relationship: unit_of PATO:0001350 ! angular acceleration
 created_by: george gkoutos
 
 [Term]
@@ -482,7 +483,7 @@ def: "A density unit which is a standard measure of the mass of a substance in a
 subset: unit_group_slim
 synonym: "mass per unit volume" EXACT []
 is_a: UO:0000182 ! density unit
-relationship: unit_of PATO:0001353 ! mass density
+relationship: unit_of PATO:0001353 ! volumetric density
 created_by: george gkoutos
 
 [Term]
@@ -490,8 +491,8 @@ id: UO:0000053
 name: luminance unit
 def: "A unit which is a standard measure of the luminous intensity impinging on a given area." [Wikipedia:Wikipedia "http://www.wikipedia.org/"]
 subset: unit_group_slim
-relationship: unit_of PATO:0001718 ! luminance
 is_a: UO:0000157 ! light unit
+relationship: unit_of PATO:0001718 ! luminance
 created_by: george gkoutos
 
 [Term]
@@ -518,8 +519,8 @@ id: UO:0000056
 name: molar volume unit
 def: "A unit which is a standard measure of the volume of a homogeneous substance containing 6.02 x 1023 atoms or molecules." [Wikipedia:Wikipedia "http://www.wikipedia.org/"]
 subset: unit_group_slim
-relationship: unit_of PATO:0001680 ! molar volume
 is_a: UO:0000095 ! volume unit
+relationship: unit_of PATO:0001680 ! molar volume
 created_by: george gkoutos
 
 [Term]
@@ -767,7 +768,7 @@ created_by: george gkoutos
 [Term]
 id: UO:0000084
 name: gram per cubic centimeter
-def: "A mass unit density which is equal to mass of an object in grams divided by the volume in cubic centimeters." [PATOC:UOC]
+def: "A mass unit density which is equal to mass of an object in grams divided by the volume in cubic centimeters." [UOC:GVG]
 subset: unit_slim
 synonym: "g/cm^[3]" EXACT []
 is_a: UO:0000052 ! mass density unit
@@ -870,8 +871,8 @@ id: UO:0000095
 name: volume unit
 def: "A unit which is a standard measure of the amount of space occupied by any substance, whether solid, liquid, or gas." [NIST:NIST "http://physics.nist.gov/cuu/Units/"]
 subset: unit_group_slim
-relationship: unit_of PATO:0001710 ! volume
 is_a: UO:0000000 ! unit
+relationship: unit_of PATO:0001710 ! 3-D extent
 created_by: george gkoutos
 
 [Term]
@@ -962,8 +963,8 @@ id: UO:0000105
 name: frequency unit
 def: "A unit which is a standard measure of the number of repetitive actions in a particular time." [NIST:NIST "http://physics.nist.gov/cuu/Units/"]
 subset: unit_group_slim
-relationship: unit_of PATO:0000044 ! frequency
 is_a: UO:0000000 ! unit
+relationship: unit_of PATO:0000044 ! frequency
 created_by: george gkoutos
 
 [Term]
@@ -1088,8 +1089,8 @@ id: UO:0000119
 name: catalytic activity unit
 def: "A unit which is a standard measure of the amount of the action of a catalyst." [NIST:NIST "http://physics.nist.gov/cuu/Units/"]
 subset: unit_group_slim
-relationship: unit_of PATO:0001414 ! catalytic activity
 is_a: UO:0000000 ! unit
+relationship: unit_of PATO:0001414 ! catalytic activity
 created_by: george gkoutos
 
 [Term]
@@ -1107,7 +1108,7 @@ name: angle unit
 def: "A unit which is a standard measure of the figure or space formed by the junction of two lines or planes." [Wikipedia:Wikipedia "http://www.wikipedia.org/"]
 subset: unit_group_slim
 is_a: UO:0000000 ! unit
-relationship: unit_of PATO:0000133 ! angular placement
+relationship: unit_of PATO:0000133 ! orientation
 created_by: george gkoutos
 
 [Term]
@@ -1644,7 +1645,7 @@ name: density unit
 def: "A unit which is a standard measure of the influence exerted by some mass." [Wikipedia:Wikipedia "http://www.wikipedia.org/"]
 subset: unit_group_slim
 is_a: UO:0000000 ! unit
-relationship: unit_of PATO:0001019 ! density
+relationship: unit_of PATO:0001019 ! mass density
 created_by: george gkoutos
 
 [Term]
@@ -2058,7 +2059,7 @@ created_by: george gkoutos
 [Term]
 id: UO:0000229
 name: volt-hour
-def: "A magnetic flux unit which is equal to 3600 Wb." [PATO:GVG]
+def: "A magnetic flux unit which is equal to 3600 Wb." [UOC:GVG]
 subset: unit_slim
 synonym: "Vh" EXACT []
 is_a: UO:0000225 ! magnetic flux unit
@@ -2067,7 +2068,7 @@ created_by: george gkoutos
 [Term]
 id: UO:0000230
 name: kilovolt-hour
-def: "A magnetic flux unit which is equal to one thousand volt-hours." [PATO:GVG]
+def: "A magnetic flux unit which is equal to one thousand volt-hours." [UOC:GVG]
 subset: unit_slim
 synonym: "kVh" EXACT []
 is_a: UO:0000225 ! magnetic flux unit
@@ -2341,7 +2342,7 @@ created_by: george gkoutos
 [Term]
 id: UO:0000261
 name: conduction unit
-def: "A unit which represents a standard measurement of the transmission of an entity through a medium." [PATOC:GVG]
+def: "A unit which represents a standard measurement of the transmission of an entity through a medium." [UOC:GVG]
 subset: unit_group_slim
 is_a: UO:0000000 ! unit
 created_by: george gkoutos
@@ -2352,7 +2353,7 @@ name: electrical conduction unit
 def: "A unit which represents a standard measurement of the movement of electrically charged particles through a transmission medium (electrical conductor)." [UOC:GVG]
 subset: unit_group_slim
 is_a: UO:0000261 ! conduction unit
-relationship: unit_of PATO:0001757 ! electrical conduction
+relationship: unit_of PATO:0001757 ! electrical conductivity
 created_by: george gkoutos
 
 [Term]
@@ -2435,11 +2436,11 @@ created_by: george gkoutos
 [Term]
 id: UO:0000271
 name: microliters per minute
-def: "A volumetric flow rate unit which is equal to one microliter volume through a given surface in one minute." [PATOC:GVG]
+def: "A volumetric flow rate unit which is equal to one microliter volume through a given surface in one minute." [UOC:GVG]
 subset: unit_slim
 synonym: "uL/min" EXACT []
 is_a: UO:0000270 ! volumetric flow rate unit
-relationship: unit_of PATO:0001574 ! flow
+relationship: unit_of PATO:0001574 ! flow rate
 created_by: george gkoutos
 
 [Term]
@@ -2452,6 +2453,33 @@ is_a: UO:0000109 ! pressure unit
 created_by: george gkoutos
 
 [Term]
+id: UO:0000273
+name: milligram per liter
+def: "A mass unit density which is equal to mass of an object in milligrams divided by the volume in liters." [UOC:GVG]
+synonym: "mg/L" EXACT []
+is_a: UO:0000052 ! mass density unit
+created_by: george
+creation_date: 2011-03-21T10:35:01Z
+
+[Term]
+id: UO:0000274
+name: microgram per milliliter
+def: "A mass unit density which is equal to mass of an object in micrograms divided by the volume in millliters." [UOC:GVG]
+synonym: "ug/ml" EXACT []
+is_a: UO:0000052 ! mass density unit
+created_by: George Gkoutos
+creation_date: 2011-03-21T10:40:21Z
+
+[Term]
+id: UO:0000275
+name: nanogram per milliliter
+def: "A mass unit density which is equal to mass of an object in nanograms divided by the volume in milliliters." [UOC:GVG]
+synonym: "ng/ml" EXACT []
+is_a: UO:0000052 ! mass density unit
+created_by: George Gkoutos
+creation_date: 2011-03-21T10:55:12Z
+
+[Term]
 id: UO:0000301
 name: microgram per liter
 def: "A mass unit density which is equal to mass of an object in micrograms divided by the volume in liters." [UOC:GVG]
@@ -2459,4 +2487,14 @@ subset: unit_slim
 synonym: "ug/L" EXACT []
 is_a: UO:0000052 ! mass density unit
 created_by: george gkoutos
+
+[Typedef]
+id: is_unit_of
+name: is_unit_of
+namespace: pato.ontology
+
+[Typedef]
+id: unit_of
+name: unit_of
+namespace: pato.ontology
 
