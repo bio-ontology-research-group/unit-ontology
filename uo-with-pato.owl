@@ -4886,6 +4886,36 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UO_0000276 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000276">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">amount per container</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000051"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A concentration unit which is a standard measure of the amount of a substance in a given container.&quot; [UOC:GVG]</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0000277 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000277">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ug/disk</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000276"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit which is equal to one microgram per disk, where a disk is some physical surface/container upon which the substance is deposited.&quot; [UOC:MD]</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0000278 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000278">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ug/disk</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000276"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit which is equal to one nanomole per disk, where a disk is some physical surface/container upon which the substance is deposited.&quot; [UOC:MD]</rdfs:comment>
+    </owl:Class>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
