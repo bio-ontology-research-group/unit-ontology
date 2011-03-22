@@ -1611,7 +1611,7 @@ subset: unit_slim
 synonym: "U/ml" EXACT []
 is_a: UO:0000177 ! unit per volume unit
 created_by: george gkoutos
-$$$
+
 [Term]
 id: UO:0000178
 name: milliunits per milliliter
