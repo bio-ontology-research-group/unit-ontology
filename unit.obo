@@ -567,6 +567,30 @@ is_a: UO:0000051 ! concentration unit
 created_by: george gkoutos
 
 [Term]
+id: UO:0000277
+name: ug/disk
+def: "A unit which is equal to one microgram per disk, where a disk is some physical surface/container upon which the substance is deposited." [UOC:MD]
+subset: unit_group_slim
+is_a: UO:0000276 ! amount per container
+created_by: george gkoutos
+
+[Term]
+id: UO:0000278
+name: ug/disk
+def: "A unit which is equal to one nanomole per disk, where a disk is some physical surface/container upon which the substance is deposited." [UOC:MD]
+subset: unit_group_slim
+is_a: UO:0000276 ! amount per container
+created_by: george gkoutos
+
+[Term]
+id: UO:0000276
+name: amount per container
+def: "A concentration unit which is a standard measure of the amount of a substance in a given container." [UOC:GVG]
+subset: unit_group_slim
+is_a: UO:0000051 ! concentration unit
+created_by: george gkoutos
+
+[Term]
 id: UO:0000062
 name: molar
 def: "A unit of concentration which expresses a concentration of 1 mole of solute per liter of solution (mol/L)." [UOC:GVG]
