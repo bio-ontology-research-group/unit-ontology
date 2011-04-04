@@ -3191,7 +3191,6 @@
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0000178">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">milliunits per milliliter</rdfs:label>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">unit per milliliter</rdfs:label>
         <owl:equivalentClass>
             <owl:Class>
@@ -3201,7 +3200,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000177"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit per milliliter unit which is equal to one thousandth of a unit of an agreed arbitrary amount per one milliliter.&quot; [UOC:GVG]</rdfs:comment>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit per milliliter unit which is equal to one unit of an agreed arbitrary amount per one milliliter.&quot; [Webmd:Webmd &quot;http://www.webmd.com/hw/health_guide_atoz/aa74537.asp&quot;]</rdfs:comment>
     </owl:NamedIndividual>
     
@@ -4916,6 +4914,24 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UO_0000279 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0000279">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">milliunits per milliliter</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000279"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000177"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit per milliliter unit which is equal to one thousandth of a unit of an agreed arbitrary amount per one milliliter.&quot; [UOC:GVG]</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -6064,9 +6080,7 @@
     <!-- http://purl.obolibrary.org/obo/UO_0000178 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000178">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">milliunits per milliliter</rdfs:label>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">unit per milliliter</rdfs:label>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit per milliliter unit which is equal to one thousandth of a unit of an agreed arbitrary amount per one milliliter.&quot; [UOC:GVG]</rdfs:comment>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit per milliliter unit which is equal to one unit of an agreed arbitrary amount per one milliliter.&quot; [Webmd:Webmd &quot;http://www.webmd.com/hw/health_guide_atoz/aa74537.asp&quot;]</rdfs:comment>
     </rdf:Description>
     
@@ -6689,6 +6703,15 @@
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000272">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">millimetres of mercury</rdfs:label>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit of pressure equal to the amount of fluid pressure one millimeter deep in mercury at zero degrees centigrade on Earth.&quot; [url:en.wiktionary.org/wiki/mmHg]</rdfs:comment>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0000279 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000279">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">milliunits per milliliter</rdfs:label>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit per milliliter unit which is equal to one thousandth of a unit of an agreed arbitrary amount per one milliliter.&quot; [UOC:GVG]</rdfs:comment>
     </rdf:Description>
 </rdf:RDF>
 
