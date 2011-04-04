@@ -1637,7 +1637,7 @@ is_a: UO:0000177 ! unit per volume unit
 created_by: george gkoutos
 
 [Term]
-id: UO:0000178
+id: UO:0000279
 name: milliunits per milliliter
 def: "A unit per milliliter unit which is equal to one thousandth of a unit of an agreed arbitrary amount per one milliliter." [UOC:GVG]
 subset: unit_slim
