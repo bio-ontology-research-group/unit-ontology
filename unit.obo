@@ -567,30 +567,6 @@ is_a: UO:0000051 ! concentration unit
 created_by: george gkoutos
 
 [Term]
-id: UO:0000277
-name: ug/disk
-def: "A unit which is equal to one microgram per disk, where a disk is some physical surface/container upon which the substance is deposited." [UOC:MD]
-subset: unit_group_slim
-is_a: UO:0000276 ! amount per container
-created_by: george gkoutos
-
-[Term]
-id: UO:0000278
-name: ug/disk
-def: "A unit which is equal to one nanomole per disk, where a disk is some physical surface/container upon which the substance is deposited." [UOC:MD]
-subset: unit_group_slim
-is_a: UO:0000276 ! amount per container
-created_by: george gkoutos
-
-[Term]
-id: UO:0000276
-name: amount per container
-def: "A concentration unit which is a standard measure of the amount of a substance in a given container." [UOC:GVG]
-subset: unit_group_slim
-is_a: UO:0000051 ! concentration unit
-created_by: george gkoutos
-
-[Term]
 id: UO:0000062
 name: molar
 def: "A unit of concentration which expresses a concentration of 1 mole of solute per liter of solution (mol/L)." [UOC:GVG]
@@ -1497,7 +1473,7 @@ created_by: george gkoutos
 [Term]
 id: UO:0000164
 name: mass volume percentage
-def: "A dimensionless concentration unit which denotes the mass of the substance in a mixture as a percentage of the volume of the entire mixture."  [UOC:GVG]
+def: "A dimensionless concentration unit which denotes the mass of the substance in a mixture as a percentage of the volume of the entire mixture." [UOC:GVG]
 subset: unit_slim
 synonym: "(w/v)" EXACT []
 synonym: "weight-volume percentage" EXACT []
@@ -1508,7 +1484,7 @@ created_by: george gkoutos
 [Term]
 id: UO:0000165
 name: volume percentage
-def: "A dimensionless concentration unit which denotes the volume of the solute in mL per 100 mL of the resulting solution."  [UOC:GVG]
+def: "A dimensionless concentration unit which denotes the volume of the solute in mL per 100 mL of the resulting solution." [UOC:GVG]
 subset: unit_slim
 synonym: "% (v/v)" EXACT []
 is_a: UO:0000187 ! percent
@@ -1526,7 +1502,7 @@ created_by: george gkoutos
 [Term]
 id: UO:0000167
 name: parts per hundred
-def: "A dimensionless concentration notation which denotes the amount of a given substance in a total amount of 100 regardless of the units of measure as long as they are the same."  [UOC:GVG]
+def: "A dimensionless concentration notation which denotes the amount of a given substance in a total amount of 100 regardless of the units of measure as long as they are the same." [UOC:GVG]
 subset: unit_slim
 synonym: "10^[-2]" EXACT []
 synonym: "pph" EXACT []
@@ -1536,7 +1512,7 @@ created_by: george gkoutos
 [Term]
 id: UO:0000168
 name: parts per thousand
-def: "A dimensionless concentration notation which denotes the amount of a given substance in a total amount of 1000 regardless of the units of measure as long as they are the same."  [UOC:GVG]
+def: "A dimensionless concentration notation which denotes the amount of a given substance in a total amount of 1000 regardless of the units of measure as long as they are the same." [UOC:GVG]
 subset: unit_slim
 synonym: "10^[-3]" EXACT []
 synonym: "ppth" EXACT []
@@ -1546,7 +1522,7 @@ created_by: george gkoutos
 [Term]
 id: UO:0000169
 name: parts per million
-def: "A dimensionless concentration notation which denotes the amount of a given substance in a total amount of 1,000,000 regardless of the units of measure used as long as they are the same or 1 part in 10^[6]."  [UOC:GVG]
+def: "A dimensionless concentration notation which denotes the amount of a given substance in a total amount of 1,000,000 regardless of the units of measure used as long as they are the same or 1 part in 10^[6]." [UOC:GVG]
 subset: unit_slim
 synonym: "10^[-6]" EXACT []
 synonym: "ppm" EXACT []
@@ -1556,7 +1532,7 @@ created_by: george gkoutos
 [Term]
 id: UO:0000170
 name: parts per billion
-def: "A dimensionless concentration notation which denotes the amount of a given substance in a total amount of 1,000,000,000 regardless of the units of measure as long as they are the same or 1 part in 10^[9]."  [UOC:GVG]
+def: "A dimensionless concentration notation which denotes the amount of a given substance in a total amount of 1,000,000,000 regardless of the units of measure as long as they are the same or 1 part in 10^[9]." [UOC:GVG]
 subset: unit_slim
 synonym: "10^[-9]" EXACT []
 synonym: "ppb" EXACT []
@@ -1566,7 +1542,7 @@ created_by: george gkoutos
 [Term]
 id: UO:0000171
 name: parts per trillion
-def: "A dimensionless concentration notation which denotes the amount of a given substance in a total amount of 1,000,000,000 regardless of the units of measure used as long as they are the same or 1 part in 10^[12]."  [UOC:GVG]
+def: "A dimensionless concentration notation which denotes the amount of a given substance in a total amount of 1,000,000,000 regardless of the units of measure used as long as they are the same or 1 part in 10^[12]." [UOC:GVG]
 subset: unit_slim
 synonym: "10^[-12]" EXACT []
 synonym: "ppt" EXACT []
@@ -1576,7 +1552,7 @@ created_by: george gkoutos
 [Term]
 id: UO:0000172
 name: parts per quadrillion
-def: "A dimensionless concentration notation which denotes the amount of a given substance in a total amount of 1,000,000,000,000 regardless of the units of measure used as long as they are the same or 1 part in 10^[15]."  [UOC:GVG]
+def: "A dimensionless concentration notation which denotes the amount of a given substance in a total amount of 1,000,000,000,000 regardless of the units of measure used as long as they are the same or 1 part in 10^[15]." [UOC:GVG]
 subset: unit_slim
 synonym: "10^[-15]" EXACT []
 synonym: "ppq" EXACT []
@@ -1633,15 +1609,6 @@ name: unit per milliliter
 def: "A unit per milliliter unit which is equal to one unit of an agreed arbitrary amount per one milliliter." [Webmd:Webmd "http://www.webmd.com/hw/health_guide_atoz/aa74537.asp"]
 subset: unit_slim
 synonym: "U/ml" EXACT []
-is_a: UO:0000177 ! unit per volume unit
-created_by: george gkoutos
-
-[Term]
-id: UO:0000279
-name: milliunits per milliliter
-def: "A unit per milliliter unit which is equal to one thousandth of a unit of an agreed arbitrary amount per one milliliter." [UOC:GVG]
-subset: unit_slim
-synonym: "mU/ml" EXACT []
 is_a: UO:0000177 ! unit per volume unit
 created_by: george gkoutos
 
@@ -2511,6 +2478,39 @@ synonym: "ng/ml" EXACT []
 is_a: UO:0000052 ! mass density unit
 created_by: George Gkoutos
 creation_date: 2011-03-21T10:55:12Z
+
+[Term]
+id: UO:0000276
+name: amount per container
+def: "A concentration unit which is a standard measure of the amount of a substance in a given container." [UOC:GVG]
+subset: unit_group_slim
+is_a: UO:0000051 ! concentration unit
+created_by: george gkoutos
+
+[Term]
+id: UO:0000277
+name: ug/disk
+def: "A unit which is equal to one microgram per disk, where a disk is some physical surface/container upon which the substance is deposited." [UOC:MD]
+subset: unit_group_slim
+is_a: UO:0000276 ! amount per container
+created_by: george gkoutos
+
+[Term]
+id: UO:0000278
+name: ug/disk
+def: "A unit which is equal to one nanomole per disk, where a disk is some physical surface/container upon which the substance is deposited." [UOC:MD]
+subset: unit_group_slim
+is_a: UO:0000276 ! amount per container
+created_by: george gkoutos
+
+[Term]
+id: UO:0000279
+name: milliunits per milliliter
+def: "A unit per milliliter unit which is equal to one thousandth of a unit of an agreed arbitrary amount per one milliliter." [UOC:GVG]
+subset: unit_slim
+synonym: "mU/ml" EXACT []
+is_a: UO:0000177 ! unit per volume unit
+created_by: george gkoutos
 
 [Term]
 id: UO:0000301
