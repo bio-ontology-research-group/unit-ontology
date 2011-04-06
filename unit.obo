@@ -1221,7 +1221,6 @@ id: UO:0000135
 name: rad
 def: "An absorbed dose unit which is equal to 0.01 gray (Gy)." [Wikipedia:Wikipedia "http://www.wikipedia.org/"]
 subset: unit_slim
-synonym: "rad" EXACT []
 is_a: UO:0000129 ! absorbed dose unit
 created_by: george gkoutos
 
