@@ -4953,7 +4953,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000280"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A rate unit which is equal one over one nanomolar per second.&quot; [UOC:GVG]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A rate unit which is equal to one over one nanomolar second.&quot; [UOC:GVG]</rdfs:comment>
     </owl:NamedIndividual>
     
 
@@ -4971,7 +4971,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000280"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A rate unit which is equal one over one molar per second.&quot; [UOC:GVG]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A rate unit which is equal to one over one molar second.&quot; [UOC:GVG]</rdfs:comment>
     </owl:NamedIndividual>
     
 
@@ -6764,7 +6764,7 @@
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000281">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">count per nanomolar per second</rdfs:label>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A rate unit which is equal one over one nanomolar per second.&quot; [UOC:GVG]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A rate unit which is equal to one over one nanomolar second.&quot; [UOC:GVG]</rdfs:comment>
     </rdf:Description>
     
 
@@ -6773,7 +6773,7 @@
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000282">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">count per molar per second</rdfs:label>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A rate unit which is equal one over one molar per second.&quot; [UOC:GVG]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A rate unit which is equal to one over one molar second.&quot; [UOC:GVG]</rdfs:comment>
     </rdf:Description>
 </rdf:RDF>
 
