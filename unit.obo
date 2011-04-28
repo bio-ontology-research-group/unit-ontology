@@ -973,6 +973,7 @@ name: hertz
 def: "A frequency unit which is equal to 1 complete cycle of a recurring phenomenon in 1 second." [NIST:NIST "http://physics.nist.gov/cuu/Units/"]
 subset: unit_slim
 synonym: "Hz" EXACT []
+synonym: "s^1" EXACT []
 is_a: UO:0000105 ! frequency unit
 created_by: george gkoutos
 
@@ -2509,6 +2510,32 @@ def: "A unit per milliliter unit which is equal to one thousandth of a unit of a
 subset: unit_slim
 synonym: "mU/ml" EXACT []
 is_a: UO:0000177 ! unit per volume unit
+created_by: george gkoutos
+
+[Term]
+id: UO:0000280
+name: rate unit
+def: "A unit which represents a standard measurement occurrence of a process per unit time." [UOC:GVG]
+subset: unit_group_slim
+is_a: UO:0000000 ! unit
+created_by: george gkoutos
+
+[Term]
+id: UO:0000281
+name: count per nanomolar per second
+def: "A rate unit which is equal one over one nanomolar per second." [UOC:GVG]
+subset: unit_slim
+synonym: "nM^-1 s^-1" EXACT []
+is_a: UO:0000280 ! rate unit
+created_by: george gkoutos
+
+[Term]
+id: UO:0000282
+name: count per molar per second
+def: "A rate unit which is equal one over one molar per second." [UOC:GVG]
+subset: unit_slim
+synonym: "M^-1 s^-1" EXACT []
+is_a: UO:0000280 ! rate unit
 created_by: george gkoutos
 
 [Term]
