@@ -2,10 +2,10 @@
 <rdf:RDF xmlns="http://purl.obolibrary.org/obo/uo3.owl#"
      xml:base="http://purl.obolibrary.org/obo/uo3.owl"
      xmlns:obo="http://purl.obolibrary.org/obo/"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/uo3.owl"/>
     
 
@@ -24,327 +24,11 @@
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
-    // Datatypes
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Object Properties
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/unit_of -->
-
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/unit_of"/>
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
     // Classes
     //
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/PATO_0000008 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000008"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/PATO_0000033 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000033"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/PATO_0000044 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000044"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/PATO_0000125 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000125"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/PATO_0000128 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000128"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/PATO_0000133 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000133"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/PATO_0000146 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000146"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/PATO_0000165 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000165"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/PATO_0000992 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000992"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/PATO_0001019 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001019"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/PATO_0001021 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001021"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/PATO_0001022 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001022"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/PATO_0001023 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001023"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/PATO_0001024 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001024"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/PATO_0001025 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001025"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/PATO_0001026 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001026"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/PATO_0001028 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001028"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/PATO_0001035 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001035"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/PATO_0001296 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001296"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/PATO_0001299 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001299"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/PATO_0001309 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001309"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/PATO_0001350 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001350"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/PATO_0001351 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001351"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/PATO_0001352 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001352"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/PATO_0001353 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001353"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/PATO_0001413 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001413"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/PATO_0001414 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001414"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/PATO_0001428 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001428"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/PATO_0001461 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001461"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/PATO_0001464 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001464"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/PATO_0001521 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001521"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/PATO_0001574 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001574"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/PATO_0001674 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001674"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/PATO_0001680 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001680"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/PATO_0001681 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001681"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/PATO_0001682 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001682"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/PATO_0001708 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001708"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/PATO_0001709 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001709"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/PATO_0001710 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001710"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/PATO_0001717 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001717"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/PATO_0001718 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001718"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/PATO_0001740 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001740"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/PATO_0001744 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001744"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/PATO_0001745 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001745"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/PATO_0001746 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001746"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/PATO_0001747 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001747"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/PATO_0001756 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001756"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/PATO_0001757 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001757"/>
     
 
 
@@ -3392,6 +3076,33 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UO_0000280 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000280">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000000"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit which represents a standard measurement occurrence of a process per unit time.&quot; [UOC:GVG]</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0000281 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000281">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000280"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A rate unit which is equal one over one nanomolar per second.&quot; [UOC:GVG]</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0000282 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000282">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000280"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A rate unit which is equal one over one molar per second.&quot; [UOC:GVG]</rdfs:comment>
+    </owl:Class>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -5173,9 +4884,27 @@
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000279"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit per milliliter unit which is equal to one thousandth of a unit of an agreed arbitrary amount per one milliliter.&quot; [UOC:GVG]</rdfs:comment>
     </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0000281 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0000281">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000281"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A rate unit which is equal one over one nanomolar per second.&quot; [UOC:GVG]</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0000282 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0000282">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000282"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A rate unit which is equal one over one molar per second.&quot; [UOC:GVG]</rdfs:comment>
+    </owl:NamedIndividual>
 </rdf:RDF>
 
 
 
-<!-- Generated by the OWL API (version 3.2.2.1502) http://owlapi.sourceforge.net -->
+<!-- Generated by the OWL API (version 3.2.0.1502) http://owlapi.sourceforge.net -->
 
