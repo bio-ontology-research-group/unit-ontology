@@ -2522,7 +2522,7 @@ created_by: george gkoutos
 
 [Term]
 id: UO:0000281
-name: count per nanomolar per second
+name: count per nanomolar second
 def: "A rate unit which is equal to one over one nanomolar second." [UOC:GVG]
 subset: unit_slim
 synonym: "nM^-1 s^-1" EXACT []
@@ -2531,7 +2531,7 @@ created_by: george gkoutos
 
 [Term]
 id: UO:0000282
-name: count per molar per second
+name: count per molar second
 def: "A rate unit which is equal to one over one molar second." [UOC:GVG]
 subset: unit_slim
 synonym: "M^-1 s^-1" EXACT []
