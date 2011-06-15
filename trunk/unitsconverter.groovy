@@ -4,7 +4,7 @@ import org.semanticweb.owlapi.apibinding.OWLManager
 import uk.ac.ebi.owlapi.extension.*
 
 def infile = new File(args[0])
-def patouri = "http://purl.obolibrary.org/obo/"
+def patouri = "http://purl.obolibrary.org/obo/pato.owl#"
 
 def l = []
 
@@ -130,7 +130,7 @@ f = new File("uo-without-units-as-classes.owl")
 man.saveOntology(ont4, IRI.create("file:"+f.getCanonicalFile()))
 
 f = new File("uo-with-pato.owl")
-def imp = fac.getOWLImportsDeclaration(IRI.create("http://www.berkeleybop.org/ontologies/obo-all/quality/quality.owl2"))
+def imp = fac.getOWLImportsDeclaration(IRI.create("http://purl.obolibrary.org/obo/pato.owl"))
 AddImport ai = new AddImport(ont, imp)
 man.applyChange(ai)
 man.saveOntology(ont, IRI.create("file:"+f.getCanonicalFile()))
