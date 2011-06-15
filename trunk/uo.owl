@@ -1,6 +1,7 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="http://purl.obolibrary.org/obo/uo.owl#"
      xml:base="http://purl.obolibrary.org/obo/uo.owl"
+     xmlns:pato="http://purl.obolibrary.org/obo/pato.owl#"
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
@@ -18,6 +19,34 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/unit_of -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/unit_of"/>
     
 
 
@@ -52,7 +81,7 @@
                 <owl:allValuesFrom>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0001708"/>
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/pato.owl#PATO_0001708"/>
                         </owl:unionOf>
                     </owl:Class>
                 </owl:allValuesFrom>
@@ -74,8 +103,8 @@
                 <owl:allValuesFrom>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000125"/>
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000128"/>
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/pato.owl#PATO_0000125"/>
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/pato.owl#PATO_0000128"/>
                         </owl:unionOf>
                     </owl:Class>
                 </owl:allValuesFrom>
@@ -97,8 +126,8 @@
                 <owl:allValuesFrom>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000165"/>
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0001309"/>
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/pato.owl#PATO_0000165"/>
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/pato.owl#PATO_0001309"/>
                         </owl:unionOf>
                     </owl:Class>
                 </owl:allValuesFrom>
@@ -130,7 +159,7 @@
                 <owl:allValuesFrom>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000146"/>
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/pato.owl#PATO_0000146"/>
                         </owl:unionOf>
                     </owl:Class>
                 </owl:allValuesFrom>
@@ -864,7 +893,7 @@
                 <owl:allValuesFrom>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0001709"/>
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/pato.owl#PATO_0001709"/>
                         </owl:unionOf>
                     </owl:Class>
                 </owl:allValuesFrom>
@@ -886,7 +915,7 @@
                 <owl:allValuesFrom>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0001028"/>
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/pato.owl#PATO_0001028"/>
                         </owl:unionOf>
                     </owl:Class>
                 </owl:allValuesFrom>
@@ -908,7 +937,7 @@
                 <owl:allValuesFrom>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0001413"/>
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/pato.owl#PATO_0001413"/>
                         </owl:unionOf>
                     </owl:Class>
                 </owl:allValuesFrom>
@@ -930,7 +959,7 @@
                 <owl:allValuesFrom>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0001350"/>
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/pato.owl#PATO_0001350"/>
                         </owl:unionOf>
                     </owl:Class>
                 </owl:allValuesFrom>
@@ -952,7 +981,7 @@
                 <owl:allValuesFrom>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000033"/>
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/pato.owl#PATO_0000033"/>
                         </owl:unionOf>
                     </owl:Class>
                 </owl:allValuesFrom>
@@ -974,7 +1003,7 @@
                 <owl:allValuesFrom>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0001353"/>
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/pato.owl#PATO_0001353"/>
                         </owl:unionOf>
                     </owl:Class>
                 </owl:allValuesFrom>
@@ -996,7 +1025,7 @@
                 <owl:allValuesFrom>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0001718"/>
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/pato.owl#PATO_0001718"/>
                         </owl:unionOf>
                     </owl:Class>
                 </owl:allValuesFrom>
@@ -1018,7 +1047,7 @@
                 <owl:allValuesFrom>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0001351"/>
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/pato.owl#PATO_0001351"/>
                         </owl:unionOf>
                     </owl:Class>
                 </owl:allValuesFrom>
@@ -1040,7 +1069,7 @@
                 <owl:allValuesFrom>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0001681"/>
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/pato.owl#PATO_0001681"/>
                         </owl:unionOf>
                     </owl:Class>
                 </owl:allValuesFrom>
@@ -1062,7 +1091,7 @@
                 <owl:allValuesFrom>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0001680"/>
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/pato.owl#PATO_0001680"/>
                         </owl:unionOf>
                     </owl:Class>
                 </owl:allValuesFrom>
@@ -1084,8 +1113,8 @@
                 <owl:allValuesFrom>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0001022"/>
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0001023"/>
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/pato.owl#PATO_0001022"/>
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/pato.owl#PATO_0001023"/>
                         </owl:unionOf>
                     </owl:Class>
                 </owl:allValuesFrom>
@@ -1127,7 +1156,7 @@
                 <owl:allValuesFrom>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000008"/>
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/pato.owl#PATO_0000008"/>
                         </owl:unionOf>
                     </owl:Class>
                 </owl:allValuesFrom>
@@ -1738,7 +1767,7 @@
                 <owl:allValuesFrom>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0001710"/>
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/pato.owl#PATO_0001710"/>
                         </owl:unionOf>
                     </owl:Class>
                 </owl:allValuesFrom>
@@ -1922,7 +1951,7 @@
                 <owl:allValuesFrom>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000044"/>
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/pato.owl#PATO_0000044"/>
                         </owl:unionOf>
                     </owl:Class>
                 </owl:allValuesFrom>
@@ -1962,7 +1991,7 @@
                 <owl:allValuesFrom>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0001035"/>
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/pato.owl#PATO_0001035"/>
                         </owl:unionOf>
                     </owl:Class>
                 </owl:allValuesFrom>
@@ -2002,7 +2031,7 @@
                 <owl:allValuesFrom>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0001025"/>
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/pato.owl#PATO_0001025"/>
                         </owl:unionOf>
                     </owl:Class>
                 </owl:allValuesFrom>
@@ -2042,8 +2071,8 @@
                 <owl:allValuesFrom>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0001021"/>
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0001026"/>
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/pato.owl#PATO_0001021"/>
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/pato.owl#PATO_0001026"/>
                         </owl:unionOf>
                     </owl:Class>
                 </owl:allValuesFrom>
@@ -2083,7 +2112,7 @@
                 <owl:allValuesFrom>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0001024"/>
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/pato.owl#PATO_0001024"/>
                         </owl:unionOf>
                     </owl:Class>
                 </owl:allValuesFrom>
@@ -2151,7 +2180,7 @@
                 <owl:allValuesFrom>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0001296"/>
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/pato.owl#PATO_0001296"/>
                         </owl:unionOf>
                     </owl:Class>
                 </owl:allValuesFrom>
@@ -2191,7 +2220,7 @@
                 <owl:allValuesFrom>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0001414"/>
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/pato.owl#PATO_0001414"/>
                         </owl:unionOf>
                     </owl:Class>
                 </owl:allValuesFrom>
@@ -2231,7 +2260,7 @@
                 <owl:allValuesFrom>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000133"/>
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/pato.owl#PATO_0000133"/>
                         </owl:unionOf>
                     </owl:Class>
                 </owl:allValuesFrom>
@@ -2319,7 +2348,7 @@
                 <owl:allValuesFrom>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0001740"/>
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/pato.owl#PATO_0001740"/>
                         </owl:unionOf>
                     </owl:Class>
                 </owl:allValuesFrom>
@@ -2341,7 +2370,7 @@
                 <owl:allValuesFrom>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0001745"/>
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/pato.owl#PATO_0001745"/>
                         </owl:unionOf>
                     </owl:Class>
                 </owl:allValuesFrom>
@@ -2363,7 +2392,7 @@
                 <owl:allValuesFrom>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0001746"/>
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/pato.owl#PATO_0001746"/>
                         </owl:unionOf>
                     </owl:Class>
                 </owl:allValuesFrom>
@@ -2385,7 +2414,7 @@
                 <owl:allValuesFrom>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0001744"/>
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/pato.owl#PATO_0001744"/>
                         </owl:unionOf>
                     </owl:Class>
                 </owl:allValuesFrom>
@@ -2859,7 +2888,7 @@
                 <owl:allValuesFrom>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0001717"/>
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/pato.owl#PATO_0001717"/>
                         </owl:unionOf>
                     </owl:Class>
                 </owl:allValuesFrom>
@@ -2899,7 +2928,7 @@
                 <owl:allValuesFrom>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0001299"/>
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/pato.owl#PATO_0001299"/>
                         </owl:unionOf>
                     </owl:Class>
                 </owl:allValuesFrom>
@@ -3268,7 +3297,7 @@
                 <owl:allValuesFrom>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0001019"/>
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/pato.owl#PATO_0001019"/>
                         </owl:unionOf>
                     </owl:Class>
                 </owl:allValuesFrom>
@@ -3290,7 +3319,7 @@
                 <owl:allValuesFrom>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0001352"/>
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/pato.owl#PATO_0001352"/>
                         </owl:unionOf>
                     </owl:Class>
                 </owl:allValuesFrom>
@@ -3513,7 +3542,7 @@
                 <owl:allValuesFrom>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0001428"/>
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/pato.owl#PATO_0001428"/>
                         </owl:unionOf>
                     </owl:Class>
                 </owl:allValuesFrom>
@@ -3617,7 +3646,7 @@
                 <owl:allValuesFrom>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0001674"/>
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/pato.owl#PATO_0001674"/>
                         </owl:unionOf>
                     </owl:Class>
                 </owl:allValuesFrom>
@@ -3867,7 +3896,7 @@
                 <owl:allValuesFrom>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0001464"/>
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/pato.owl#PATO_0001464"/>
                         </owl:unionOf>
                     </owl:Class>
                 </owl:allValuesFrom>
@@ -4007,7 +4036,7 @@
                 <owl:allValuesFrom>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0001682"/>
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/pato.owl#PATO_0001682"/>
                         </owl:unionOf>
                     </owl:Class>
                 </owl:allValuesFrom>
@@ -4475,7 +4504,7 @@
                 <owl:allValuesFrom>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0001461"/>
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/pato.owl#PATO_0001461"/>
                         </owl:unionOf>
                     </owl:Class>
                 </owl:allValuesFrom>
@@ -4533,7 +4562,7 @@
                 <owl:allValuesFrom>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000992"/>
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/pato.owl#PATO_0000992"/>
                         </owl:unionOf>
                     </owl:Class>
                 </owl:allValuesFrom>
@@ -4599,7 +4628,7 @@
                 <owl:allValuesFrom>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0001521"/>
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/pato.owl#PATO_0001521"/>
                         </owl:unionOf>
                     </owl:Class>
                 </owl:allValuesFrom>
@@ -4629,7 +4658,7 @@
                 <owl:allValuesFrom>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0001747"/>
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/pato.owl#PATO_0001747"/>
                         </owl:unionOf>
                     </owl:Class>
                 </owl:allValuesFrom>
@@ -4661,7 +4690,7 @@
                 <owl:allValuesFrom>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0001757"/>
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/pato.owl#PATO_0001757"/>
                         </owl:unionOf>
                     </owl:Class>
                 </owl:allValuesFrom>
@@ -4683,7 +4712,7 @@
                 <owl:allValuesFrom>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0001756"/>
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/pato.owl#PATO_0001756"/>
                         </owl:unionOf>
                     </owl:Class>
                 </owl:allValuesFrom>
@@ -4823,7 +4852,7 @@
                 <owl:allValuesFrom>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0001574"/>
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/pato.owl#PATO_0001574"/>
                         </owl:unionOf>
                     </owl:Class>
                 </owl:allValuesFrom>
@@ -4973,6 +5002,294 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000280"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A rate unit which is equal to one over one molar second.&quot; [UOC:GVG]</rdfs:comment>
     </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pato.owl#PATO_0000008 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pato.owl#PATO_0000008"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pato.owl#PATO_0000033 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pato.owl#PATO_0000033"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pato.owl#PATO_0000044 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pato.owl#PATO_0000044"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pato.owl#PATO_0000125 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pato.owl#PATO_0000125"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pato.owl#PATO_0000128 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pato.owl#PATO_0000128"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pato.owl#PATO_0000133 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pato.owl#PATO_0000133"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pato.owl#PATO_0000146 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pato.owl#PATO_0000146"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pato.owl#PATO_0000165 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pato.owl#PATO_0000165"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pato.owl#PATO_0000992 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pato.owl#PATO_0000992"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pato.owl#PATO_0001019 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pato.owl#PATO_0001019"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pato.owl#PATO_0001021 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pato.owl#PATO_0001021"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pato.owl#PATO_0001022 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pato.owl#PATO_0001022"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pato.owl#PATO_0001023 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pato.owl#PATO_0001023"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pato.owl#PATO_0001024 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pato.owl#PATO_0001024"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pato.owl#PATO_0001025 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pato.owl#PATO_0001025"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pato.owl#PATO_0001026 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pato.owl#PATO_0001026"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pato.owl#PATO_0001028 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pato.owl#PATO_0001028"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pato.owl#PATO_0001035 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pato.owl#PATO_0001035"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pato.owl#PATO_0001296 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pato.owl#PATO_0001296"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pato.owl#PATO_0001299 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pato.owl#PATO_0001299"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pato.owl#PATO_0001309 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pato.owl#PATO_0001309"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pato.owl#PATO_0001350 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pato.owl#PATO_0001350"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pato.owl#PATO_0001351 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pato.owl#PATO_0001351"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pato.owl#PATO_0001352 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pato.owl#PATO_0001352"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pato.owl#PATO_0001353 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pato.owl#PATO_0001353"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pato.owl#PATO_0001413 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pato.owl#PATO_0001413"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pato.owl#PATO_0001414 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pato.owl#PATO_0001414"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pato.owl#PATO_0001428 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pato.owl#PATO_0001428"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pato.owl#PATO_0001461 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pato.owl#PATO_0001461"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pato.owl#PATO_0001464 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pato.owl#PATO_0001464"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pato.owl#PATO_0001521 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pato.owl#PATO_0001521"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pato.owl#PATO_0001574 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pato.owl#PATO_0001574"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pato.owl#PATO_0001674 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pato.owl#PATO_0001674"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pato.owl#PATO_0001680 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pato.owl#PATO_0001680"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pato.owl#PATO_0001681 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pato.owl#PATO_0001681"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pato.owl#PATO_0001682 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pato.owl#PATO_0001682"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pato.owl#PATO_0001708 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pato.owl#PATO_0001708"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pato.owl#PATO_0001709 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pato.owl#PATO_0001709"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pato.owl#PATO_0001710 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pato.owl#PATO_0001710"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pato.owl#PATO_0001717 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pato.owl#PATO_0001717"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pato.owl#PATO_0001718 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pato.owl#PATO_0001718"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pato.owl#PATO_0001740 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pato.owl#PATO_0001740"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pato.owl#PATO_0001744 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pato.owl#PATO_0001744"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pato.owl#PATO_0001745 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pato.owl#PATO_0001745"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pato.owl#PATO_0001746 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pato.owl#PATO_0001746"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pato.owl#PATO_0001747 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pato.owl#PATO_0001747"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pato.owl#PATO_0001756 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pato.owl#PATO_0001756"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pato.owl#PATO_0001757 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pato.owl#PATO_0001757"/>
     
 
 
@@ -6779,5 +7096,5 @@
 
 
 
-<!-- Generated by the OWL API (version 3.2.0.1502) http://owlapi.sourceforge.net -->
+<!-- Generated by the OWL API (version 3.2.3.1806) http://owlapi.sourceforge.net -->
 
