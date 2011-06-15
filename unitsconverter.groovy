@@ -4,7 +4,8 @@ import org.semanticweb.owlapi.apibinding.OWLManager
 import uk.ac.ebi.owlapi.extension.*
 
 def infile = new File(args[0])
-def patouri = "http://purl.obolibrary.org/obo/pato.owl#"
+def patouri = "http://purl.obolibrary.org/obo/pato.owl"
+def patouri2 = "http://purl.obolibrary.org/obo/"
 
 def l = []
 
@@ -106,7 +107,7 @@ l.each {
     man.addAxiom(ont4,annoassert)
   }
   if (it.rel.size()>0) {
-    it.rel = it.rel.collect { fac.getOWLClass(IRI.create(patouri+it.replaceAll(":","_"))) }
+    it.rel = it.rel.collect { fac.getOWLClass(IRI.create(patouri2+it.replaceAll(":","_"))) }
     def se = new TreeSet()
     it.rel.each { se << it }
     def cl2 = fac.getOWLObjectUnionOf(se)
