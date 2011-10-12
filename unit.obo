@@ -9,6 +9,12 @@ namespace-id-rule: * UO:$sequence(7,0,9999999)$
 import: http://purl.obolibrary.org/obo/pato.obo
 
 [Term]
+id: UO:0000000		
+name: unit		
+def: "A unit of measurement is a standardized quantity of a physical quality." [Wikipedia:Wikipedia "http://www.wikipedia.org/"]		
+created_by: george gkoutos
+
+[Term]
 id: UO:0000001
 name: length unit
 def: "A unit which is a standard measure of the distance between two points." [Wikipedia:Wikipedia "http://www.wikipedia.org/"]
@@ -418,6 +424,12 @@ def: "A unit which is one of a particular measure to which all measures of that 
 subset: unit_group_slim
 is_a: UO:0000000 ! unit
 created_by: george gkoutos
+
+[Term]
+id: UO:0000046		
+name: derived unit		
+def: "A unit which is derived from base units." [Wikipedia:Wikipedia "http://www.wikipedia.org/"]		
+is_obsolete: true
 
 [Term]
 id: UO:0000047
@@ -2543,3 +2555,7 @@ synonym: "ug/L" EXACT []
 is_a: UO:0000052 ! mass density unit
 created_by: george gkoutos
 
+[Typedef]
+id: is_unit_of
+name: is_unit_of
+namespace: pato.ontology
