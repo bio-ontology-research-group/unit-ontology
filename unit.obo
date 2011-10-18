@@ -2559,3 +2559,8 @@ created_by: george gkoutos
 id: is_unit_of
 name: is_unit_of
 namespace: pato.ontology
+
+[Typedef]
+id: unit_of
+name: unit_of
+namespace: pato.ontology
