@@ -2547,6 +2547,15 @@ created_by: George Gkoutos
 creation_date: 2011-10-12T11:17:08Z
 
 [Term]
+id: UO:0000284
+name: count per nanomolar
+def: "A rate unit which is equal to one over one nanomolar." [UO:GVG]
+subset: unit_slim
+synonym: "nM^-1" EXACT []
+synonym: "1/nM" EXACT []
+is_a: UO:0000280 ! rate unit
+
+[Term]
 id: UO:0000301
 name: microgram per liter
 def: "A mass unit density which is equal to mass of an object in micrograms divided by the volume in liters." [UOC:GVG]
