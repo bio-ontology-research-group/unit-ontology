@@ -3121,6 +3121,15 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UO_0000285 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000285">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000280"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A rate unit which is equal to one over one molar.&quot; [UO:GVG]</rdfs:comment>
+    </owl:Class>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -4928,6 +4937,15 @@
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0000284">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000284"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A rate unit which is equal to one over one nanomolar.&quot; [UO:GVG]</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0000285 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0000285">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000285"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A rate unit which is equal to one over one molar.&quot; [UO:GVG]</rdfs:comment>
     </owl:NamedIndividual>
 </rdf:RDF>
 
