@@ -2556,6 +2556,16 @@ synonym: "1/nM" EXACT []
 is_a: UO:0000280 ! rate unit
 
 [Term]
+id: UO:0000285
+name: count per molar
+def: "A rate unit which is equal to one over one molar." [UO:GVG]
+subset: unit_slim
+synonym: "M^-1" EXACT []
+synonym: "1/M" EXACT []
+is_a: UO:0000280 ! rate unit
+
+
+[Term]
 id: UO:0000301
 name: microgram per liter
 def: "A mass unit density which is equal to mass of an object in micrograms divided by the volume in liters." [UOC:GVG]
