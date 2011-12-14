@@ -60,6 +60,7 @@ OWLOntology ont = man.createOntology(IRI.create(onturi+"uo.owl")) // full versio
 OWLOntology ont2 = man.createOntology(IRI.create(onturi+"uo2.owl")) // without instances
 OWLOntology ont3 = man.createOntology(IRI.create(onturi+"uo3.owl")) // without singleton defs
 OWLOntology ont4 = man.createOntology(IRI.create(onturi+"uo4.owl")) // without units as classes
+OWLOntology ont5 = man.createOntology(IRI.create(onturi+"uo5.owl")) // without PATO references
 def unitof = fac.getOWLObjectProperty(IRI.create(onturi+"unit_of"))
 
 l.each {
@@ -68,6 +69,7 @@ l.each {
   man.addAxiom(ont, fac.getOWLDeclarationAxiom(cl))
   man.addAxiom(ont2, fac.getOWLDeclarationAxiom(cl))
   man.addAxiom(ont3, fac.getOWLDeclarationAxiom(cl))
+  man.addAxiom(ont5, fac.getOWLDeclarationAxiom(cl))
   if (!it.unit) {
     man.addAxiom(ont4, fac.getOWLDeclarationAxiom(cl))
   }
@@ -88,6 +90,7 @@ l.each {
     man.addAxiom(ont, subc)
     man.addAxiom(ont2, subc)
     man.addAxiom(ont3, subc)
+    man.addAxiom(ont5, subc)
     def cls2 = onturi+(it.id.replaceAll(":","_"))
     def ind = fac.getOWLNamedIndividual(IRI.create(cls2))
     def equiv = fac.getOWLClassAssertionAxiom(cl2, ind)
@@ -98,6 +101,7 @@ l.each {
   def anno = fac.getOWLAnnotation(label, fac.getOWLTypedLiteral(it.name))
   def annoassert = fac.getOWLAnnotationAssertionAxiom(IRI.create(cls),anno)
   man.addAxiom(ont,annoassert)
+  man.addAxiom(ont5,annoassert)
   if (it.definition!=null) {
     anno = fac.getOWLAnnotation(definition, fac.getOWLTypedLiteral(it.definition))
     annoassert = fac.getOWLAnnotationAssertionAxiom(IRI.create(cls),anno)
@@ -105,6 +109,7 @@ l.each {
     man.addAxiom(ont2,annoassert)
     man.addAxiom(ont3,annoassert)
     man.addAxiom(ont4,annoassert)
+    man.addAxiom(ont5,annoassert)
   }
   if (it.rel.size()>0) {
     it.rel = it.rel.collect { fac.getOWLClass(IRI.create(patouri2+it.replaceAll(":","_"))) }
@@ -129,6 +134,8 @@ f = new File("uo-without-singleton-definitions.owl")
 man.saveOntology(ont3, IRI.create("file:"+f.getCanonicalFile()))
 f = new File("uo-without-units-as-classes.owl")
 man.saveOntology(ont4, IRI.create("file:"+f.getCanonicalFile()))
+f = new File("uo-without-pato-references.owl")
+man.saveOntology(ont5, IRI.create("file:"+f.getCanonicalFile()))
 
 f = new File("uo-with-pato.owl")
 def imp = fac.getOWLImportsDeclaration(IRI.create("http://purl.obolibrary.org/obo/pato.owl"))
