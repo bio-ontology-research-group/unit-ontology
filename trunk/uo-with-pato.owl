@@ -985,7 +985,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000003"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A time unit which is approximately equal to the length of time of one of cycle of the moon&#39;s phases which is science is taken to be equal to 30 days.&quot; [Wikipedia:Wikipedia &quot;http://www.wikipedia.org/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A time unit which is approximately equal to the length of time of one of cycle of the moon&#39;s phases which in science is taken to be equal to 30 days.&quot; [Wikipedia:Wikipedia &quot;http://www.wikipedia.org/&quot;]</rdfs:comment>
     </owl:NamedIndividual>
     
 
@@ -5598,7 +5598,7 @@
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000035">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">month</rdfs:label>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A time unit which is approximately equal to the length of time of one of cycle of the moon&#39;s phases which is science is taken to be equal to 30 days.&quot; [Wikipedia:Wikipedia &quot;http://www.wikipedia.org/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A time unit which is approximately equal to the length of time of one of cycle of the moon&#39;s phases which in science is taken to be equal to 30 days.&quot; [Wikipedia:Wikipedia &quot;http://www.wikipedia.org/&quot;]</rdfs:comment>
     </rdf:Description>
     
 
