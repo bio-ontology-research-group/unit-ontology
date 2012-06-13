@@ -32,6 +32,15 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UO_0000000 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000000">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">unit</rdfs:label>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit of measurement is a standardized quantity of a physical quality.&quot; [Wikipedia:Wikipedia]</rdfs:comment>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UO_0000001 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000001">
@@ -831,6 +840,14 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">base unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000000"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit which is one of a particular measure to which all measures of that type can be related.&quot; [NIST:NIST]</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0000046 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000046">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">prefix</rdfs:label>
     </owl:Class>
     
 
@@ -5004,6 +5021,214 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UO_0000286 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000286">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">yotta</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000046"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A prefix in the metric system denoting a factor of ten to the power of 24.&quot; [UO:GVG]</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0000287 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000287">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hecto</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000046"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A prefix in the metric system denoting a factor of one hundred.&quot; [UO:GVG]</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0000288 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000288">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">zetta</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000046"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A prefix in the metric system denoting a factor of ten to the power of 21.&quot; [UO:GVG]</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0000289 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000289">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">exa</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000046"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A prefix in the metric system denoting a factor of ten to the power of 18.&quot; [UO:GVG]</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0000290 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000290">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">peta</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000046"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A prefix in the metric system denoting a factor of ten to the power of 15.&quot; [UO:GVG]</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0000291 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000291">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tera</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000046"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A prefix in the metric system denoting a factor of ten to the power of 12.&quot; [UO:GVG]</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0000292 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000292">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">giga</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000046"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A prefix in the metric system denoting a factor of ten to the power of 9.&quot; [UO:GVG]</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0000293 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000293">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mega</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000046"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A prefix in the metric system denoting a factor of million.&quot; [UO:GVG]</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0000294 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000294">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kilo</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000046"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A prefix in the metric system denoting a factor of one thousand.&quot; [UO:GVG]</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0000295 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000295">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">deca</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000046"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A prefix in the metric system denoting a factor of ten.&quot; [UO:GVG]</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0000296 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000296">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">deci</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000046"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A prefix in the metric system denoting a factor of one tenth.&quot; [UO:GVG]</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0000297 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000297">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">milli</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000046"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A prefix in the metric system denoting a factor of one thousand.&quot; [UO:GVG]</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0000298 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000298">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">centi</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000046"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A prefix in the metric system denoting a factor of one hundred.&quot; [UO:GVG]</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0000299 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000299">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">micro</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000046"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A prefix in the metric system denoting a factor of 10 to the power of -6.&quot; [UO:GVG]</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0000300 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000300">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nano</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000046"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A prefix in the metric system denoting a factor of 10 to the power of -9.&quot; [UO:GVG]</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0000301 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0000301">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">microgram per liter</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000301"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000052"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A mass unit density which is equal to mass of an object in micrograms divided by the volume in liters.&quot; [UOC:GVG]</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0000302 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000302">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pico</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000046"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A prefix in the metric system denoting a factor of 10 to the power of -12.&quot; [GVG:UO]</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0000303 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000303">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">femto</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000046"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A prefix in the metric system denoting a factor of 10 to the power of -15.&quot; [UO:GVG]</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0000304 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000304">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">atto</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000046"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A prefix in the metric system denoting a factor of 10 to the power of -18.&quot; [UO:GVG]</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0000305 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000305">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">zepto</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000046"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A prefix in the metric system denoting a factor of 10 to the power of -21.&quot; [UO:GVG]</rdfs:comment>
+    </owl:Class>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -6820,6 +7045,15 @@
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000285">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">count per molar</rdfs:label>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A rate unit which is equal to one over one molar.&quot; [UO:GVG]</rdfs:comment>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0000301 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000301">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">microgram per liter</rdfs:label>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A mass unit density which is equal to mass of an object in micrograms divided by the volume in liters.&quot; [UOC:GVG]</rdfs:comment>
     </rdf:Description>
 </rdf:RDF>
 

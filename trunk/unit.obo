@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 13:06:2012 12:39
+date: 13:06:2012 13:53
 saved-by: gkoutos
 auto-generated-by: OBO-Edit 2.1.1-beta10
 subsetdef: abnormal_slim "Abnormal/normal slim"
@@ -7,6 +7,7 @@ subsetdef: absent_slim "Absent/present slim"
 subsetdef: attribute_slim "Attribute slim"
 subsetdef: cell_quality "cell_quality"
 subsetdef: disposition_slim "Disposition slim"
+subsetdef: prefix_slim "prefix slim"
 subsetdef: relational_slim "Relational slim: types of quality that require an additional entity in order to exist"
 subsetdef: scalar_slim "Scalar slim"
 subsetdef: unit_group_slim "unit group slim"
@@ -15,7 +16,15 @@ subsetdef: value_slim "Value slim"
 default-namespace: unit.ontology
 namespace-id-rule: * UO:$sequence(7,0,9999999)$
 remark: Filtered by Ancestor ID equals "UO:0000000"
+ontology: uo
 ontology: pato
+import: http://purl.obolibrary.org/obo/pato.obo
+
+[Term]
+id: UO:0000000
+name: unit
+def: "A unit of measurement is a standardized quantity of a physical quality." [Wikipedia:Wikipedia]
+created_by: george gkoutos
 
 [Term]
 id: UO:0000001
@@ -433,6 +442,12 @@ def: "A unit which is one of a particular measure to which all measures of that 
 subset: unit_group_slim
 is_a: UO:0000000 ! unit
 created_by: george gkoutos
+
+[Term]
+id: UO:0000046
+name: prefix
+created_by: gkoutos
+creation_date: 2012-06-13T13:09:05Z
 
 [Term]
 id: UO:0000047
@@ -2623,6 +2638,170 @@ synonym: "M^-1" EXACT []
 is_a: UO:0000280 ! rate unit
 
 [Term]
+id: UO:0000286
+name: yotta
+def: "A prefix in the metric system denoting a factor of ten to the power of 24." [UO:GVG]
+subset: prefix_slim
+synonym: "10^[24]" EXACT []
+synonym: "Y" EXACT []
+is_a: UO:0000046 ! prefix
+created_by: gkoutos
+creation_date: 2012-06-13T13:09:16Z
+
+[Term]
+id: UO:0000287
+name: hecto
+def: "A prefix in the metric system denoting a factor of one hundred." [UO:GVG]
+subset: prefix_slim
+synonym: "10^[2]" EXACT []
+synonym: "h" EXACT []
+is_a: UO:0000046 ! prefix
+created_by: gkoutos
+creation_date: 2012-06-13T13:30:59Z
+
+[Term]
+id: UO:0000288
+name: zetta
+def: "A prefix in the metric system denoting a factor of ten to the power of 21." [UO:GVG]
+subset: prefix_slim
+synonym: "10^[21]" EXACT []
+synonym: "Z" EXACT []
+is_a: UO:0000046 ! prefix
+created_by: gkoutos
+creation_date: 2012-06-13T13:32:19Z
+
+[Term]
+id: UO:0000289
+name: exa
+def: "A prefix in the metric system denoting a factor of ten to the power of 18." [UO:GVG]
+subset: prefix_slim
+synonym: "10^[18]" EXACT []
+synonym: "E" EXACT []
+is_a: UO:0000046 ! prefix
+created_by: gkoutos
+creation_date: 2012-06-13T13:33:26Z
+
+[Term]
+id: UO:0000290
+name: peta
+def: "A prefix in the metric system denoting a factor of ten to the power of 15." [UO:GVG]
+subset: prefix_slim
+synonym: "10^[15]" EXACT []
+synonym: "P" EXACT []
+is_a: UO:0000046 ! prefix
+created_by: gkoutos
+creation_date: 2012-06-13T13:34:04Z
+
+[Term]
+id: UO:0000291
+name: tera
+def: "A prefix in the metric system denoting a factor of ten to the power of 12." [UO:GVG]
+subset: prefix_slim
+synonym: "10^[12]" RELATED []
+synonym: "T" EXACT []
+is_a: UO:0000046 ! prefix
+created_by: gkoutos
+creation_date: 2012-06-13T13:34:51Z
+
+[Term]
+id: UO:0000292
+name: giga
+def: "A prefix in the metric system denoting a factor of ten to the power of 9." [UO:GVG]
+subset: prefix_slim
+synonym: "10^[9]" EXACT []
+synonym: "G" EXACT []
+is_a: UO:0000046 ! prefix
+created_by: gkoutos
+creation_date: 2012-06-13T13:35:28Z
+
+[Term]
+id: UO:0000293
+name: mega
+def: "A prefix in the metric system denoting a factor of million." [UO:GVG]
+subset: prefix_slim
+synonym: "10^[6]" EXACT []
+synonym: "M" EXACT []
+is_a: UO:0000046 ! prefix
+created_by: gkoutos
+creation_date: 2012-06-13T13:35:59Z
+
+[Term]
+id: UO:0000294
+name: kilo
+def: "A prefix in the metric system denoting a factor of one thousand." [UO:GVG]
+subset: prefix_slim
+synonym: "10^[3]" EXACT []
+synonym: "k" EXACT []
+is_a: UO:0000046 ! prefix
+created_by: gkoutos
+creation_date: 2012-06-13T13:36:58Z
+
+[Term]
+id: UO:0000295
+name: deca
+def: "A prefix in the metric system denoting a factor of ten." [UO:GVG]
+subset: unit_group_slim
+synonym: "10^[1]" EXACT []
+synonym: "da" EXACT []
+is_a: UO:0000046 ! prefix
+created_by: gkoutos
+creation_date: 2012-06-13T13:38:11Z
+
+[Term]
+id: UO:0000296
+name: deci
+def: "A prefix in the metric system denoting a factor of one tenth." [UO:GVG]
+subset: prefix_slim
+synonym: "10^[-1]" EXACT []
+synonym: "d" EXACT []
+is_a: UO:0000046 ! prefix
+created_by: gkoutos
+creation_date: 2012-06-13T13:43:00Z
+
+[Term]
+id: UO:0000297
+name: milli
+def: "A prefix in the metric system denoting a factor of one thousand." [UO:GVG]
+subset: prefix_slim
+synonym: "10^[-3]" EXACT []
+synonym: "m" EXACT []
+is_a: UO:0000046 ! prefix
+created_by: gkoutos
+creation_date: 2012-06-13T13:44:22Z
+
+[Term]
+id: UO:0000298
+name: centi
+def: "A prefix in the metric system denoting a factor of one hundred." [UO:GVG]
+subset: prefix_slim
+synonym: "10^[-2]" EXACT []
+synonym: "c" EXACT []
+is_a: UO:0000046 ! prefix
+created_by: gkoutos
+creation_date: 2012-06-13T13:45:30Z
+
+[Term]
+id: UO:0000299
+name: micro
+def: "A prefix in the metric system denoting a factor of 10 to the power of -6." [UO:GVG]
+subset: prefix_slim
+synonym: "10^[-6]" EXACT []
+is_a: UO:0000046 ! prefix
+created_by: gkoutos
+creation_date: 2012-06-13T13:46:34Z
+
+[Term]
+id: UO:0000300
+name: nano
+def: "A prefix in the metric system denoting a factor of 10 to the power of -9." [UO:GVG]
+subset: prefix_slim
+synonym: "10^[-9]" EXACT []
+synonym: "n" EXACT []
+is_a: UO:0000046 ! prefix
+created_by: gkoutos
+creation_date: 2012-06-13T13:47:23Z
+
+[Term]
 id: UO:0000301
 name: microgram per liter
 def: "A mass unit density which is equal to mass of an object in micrograms divided by the volume in liters." [UOC:GVG]
@@ -2631,4 +2810,59 @@ synonym: "microgram per litre" EXACT []
 synonym: "ug/L" EXACT []
 is_a: UO:0000052 ! mass density unit
 created_by: george gkoutos
+
+[Term]
+id: UO:0000302
+name: pico
+def: "A prefix in the metric system denoting a factor of 10 to the power of -12." [GVG:UO]
+subset: prefix_slim
+synonym: "10^[-12]" EXACT []
+synonym: "n" EXACT []
+is_a: UO:0000046 ! prefix
+created_by: gkoutos
+creation_date: 2012-06-13T13:48:04Z
+
+[Term]
+id: UO:0000303
+name: femto
+def: "A prefix in the metric system denoting a factor of 10 to the power of -15." [UO:GVG]
+subset: prefix_slim
+synonym: "10^[-15]" EXACT []
+synonym: "f" EXACT []
+is_a: UO:0000046 ! prefix
+created_by: gkoutos
+creation_date: 2012-06-13T13:48:57Z
+
+[Term]
+id: UO:0000304
+name: atto
+def: "A prefix in the metric system denoting a factor of 10 to the power of -18." [UO:GVG]
+subset: prefix_slim
+synonym: "10^[-18]" RELATED []
+synonym: "a" EXACT []
+is_a: UO:0000046 ! prefix
+created_by: gkoutos
+creation_date: 2012-06-13T13:50:09Z
+
+[Term]
+id: UO:0000305
+name: zepto
+def: "A prefix in the metric system denoting a factor of 10 to the power of -21." [UO:GVG]
+subset: prefix_slim
+synonym: "10^[-21]" RELATED []
+synonym: "z" EXACT []
+is_a: UO:0000046 ! prefix
+created_by: gkoutos
+creation_date: 2012-06-13T13:50:50Z
+
+[Term]
+id: UO:0000306
+name: yocto
+def: "A prefix in the metric system denoting a factor of 10 to the power of -24." [UO:GVG]
+subset: prefix_slim
+synonym: "10^[-24]" RELATED []
+synonym: "y" EXACT []
+is_a: UO:0000046 ! prefix
+created_by: gkoutos
+creation_date: 2012-06-13T13:51:39Z
 
