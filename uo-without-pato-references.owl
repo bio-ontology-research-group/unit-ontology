@@ -32,21 +32,12 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/UO_0000000 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000000">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">unit</rdfs:label>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit of measurement is a standardized quantity of a physical quality.&quot; [Wikipedia:Wikipedia &quot;http://www.wikipedia.org/&quot;]</rdfs:comment>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/UO_0000001 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000001">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">length unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000000"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit which is a standard measure of the distance between two points.&quot; [Wikipedia:Wikipedia &quot;http://www.wikipedia.org/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit which is a standard measure of the distance between two points.&quot; [Wikipedia:Wikipedia]</rdfs:comment>
     </owl:Class>
     
 
@@ -56,7 +47,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000002">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mass unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000000"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit which is a standard measure of the amount of matter/energy of a physical object.&quot; [Wikipedia:Wikipedia &quot;http://www.wikipedia.org/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit which is a standard measure of the amount of matter/energy of a physical object.&quot; [Wikipedia:Wikipedia]</rdfs:comment>
     </owl:Class>
     
 
@@ -66,7 +57,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000003">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">time unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000000"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit which is a standard measure of the dimension in which events occur in sequence.&quot; [Wikipedia:Wikipedia &quot;http://www.wikipedia.org/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit which is a standard measure of the dimension in which events occur in sequence.&quot; [Wikipedia:Wikipedia]</rdfs:comment>
     </owl:Class>
     
 
@@ -76,7 +67,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000004">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">electric current unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000000"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit which is a standard measure of the flow of electric charge.&quot; [Wikipedia:Wikipedia &quot;http://www.wikipedia.org/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit which is a standard measure of the flow of electric charge.&quot; [Wikipedia:Wikipedia]</rdfs:comment>
     </owl:Class>
     
 
@@ -86,7 +77,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000005">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">temperature unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000000"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit which is a standard measure of the average kinetic energy of the particles in a sample of matter.&quot; [Wikipedia:Wikipedia &quot;http://www.wikipedia.org/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit which is a standard measure of the average kinetic energy of the particles in a sample of matter.&quot; [Wikipedia:Wikipedia]</rdfs:comment>
     </owl:Class>
     
 
@@ -96,7 +87,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000006">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">substance unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000000"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit which is a standardised quantity of an element or compound with uniform composition.&quot; [Wikipedia:Wikipedia &quot;http://www.wikipedia.org/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit which is a standardised quantity of an element or compound with uniform composition.&quot; [Wikipedia:Wikipedia]</rdfs:comment>
     </owl:Class>
     
 
@@ -106,7 +97,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000007">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">luminous intensity unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000157"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit which is a standard measure of the wavelength-weighted power emitted by a light source in a particular direction.&quot; [Wikipedia:Wikipedia &quot;http://www.wikipedia.org/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit which is a standard measure of the wavelength-weighted power emitted by a light source in a particular direction.&quot; [Wikipedia:Wikipedia]</rdfs:comment>
     </owl:Class>
     
 
@@ -117,7 +108,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">meter</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000001"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000045"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A length unit which is equal to the length of the path traveled by light in vacuum during a time interval of 1/299 792 458 of a second.&quot; [NIST:NIST &quot;http://physics.nist.gov/cuu/Units/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A length unit which is equal to the length of the path traveled by light in vacuum during a time interval of 1/299 792 458 of a second.&quot; [BIPM:BIPM, NIST:NIST]</rdfs:comment>
     </owl:Class>
     
 
@@ -128,7 +119,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kilogram</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000002"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000045"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A mass unit which is equal to the mass of the International Prototype Kilogram kept by the BIPM at Svres, France.&quot; [NIST:NIST &quot;http://physics.nist.gov/cuu/Units/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A mass unit which is equal to the mass of the International Prototype Kilogram kept by the BIPM at Svres, France.&quot; [BIPM:BIPM, NIST:NIST]</rdfs:comment>
     </owl:Class>
     
 
@@ -139,7 +130,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">second</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000003"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000045"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A time unit which is equal to the duration of 9 192 631 770 periods of the radiation corresponding to the transition between the two hyperfine levels of the ground state of the caesium 133 atom.&quot; [NIST:NIST &quot;http://physics.nist.gov/cuu/Units/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A time unit which is equal to the duration of 9 192 631 770 periods of the radiation corresponding to the transition between the two hyperfine levels of the ground state of the caesium 133 atom.&quot; [BIPM:BIPM, NIST:NIST]</rdfs:comment>
     </owl:Class>
     
 
@@ -150,7 +141,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ampere</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000004"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000045"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An electric current unit which is equal to the constant current which, if maintained in two straight parallel conductors of infinite length, of negligible circular cross-section, and placed 1 m apart in vacuum, would produce between these conductors a force equal to 2 x 10^[-7] newton per meter of length.&quot; [NIST:NIST &quot;http://physics.nist.gov/cuu/Units/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An electric current unit which is equal to the constant current which, if maintained in two straight parallel conductors of infinite length, of negligible circular cross-section, and placed 1 m apart in vacuum, would produce between these conductors a force equal to 2 x 10^[-7] newton per meter of length.&quot; [BIPM:BIPM, NIST:NIST]</rdfs:comment>
     </owl:Class>
     
 
@@ -161,7 +152,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kelvin</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000005"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000045"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A thermodynamic temperature unit which is equal to the fraction 1/273.16 of the thermodynamic temperature of the triple point of water.&quot; [NIST:NIST &quot;http://physics.nist.gov/cuu/Units/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A thermodynamic temperature unit which is equal to the fraction 1/273.16 of the thermodynamic temperature of the triple point of water.&quot; [BIPM:BIPM, NIST:NIST]</rdfs:comment>
     </owl:Class>
     
 
@@ -172,7 +163,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mole</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000006"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000045"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A substance unit which is equal to the amount of substance of a molecular system which contains as many elementary entities as there are atoms in 0.012 kilogram of carbon 12.&quot; [NIST:NIST &quot;http://physics.nist.gov/cuu/Units/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A substance unit which is equal to the amount of substance of a molecular system which contains as many elementary entities as there are atoms in 0.012 kilogram of carbon 12.&quot; [BIPM:BIPM, NIST:NIST]</rdfs:comment>
     </owl:Class>
     
 
@@ -183,7 +174,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">candela</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000007"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000045"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A luminous intensity unit which equal to the luminous intensity, in a given direction, of a source that emits monochromatic radiation of frequency 540 x 1012 hertz and that has a radiant intensity in that direction of 1/683 watt per steradian.&quot; [NIST:NIST &quot;http://physics.nist.gov/cuu/Units/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A luminous intensity unit which equal to the luminous intensity, in a given direction, of a source that emits monochromatic radiation of frequency 540 x 1012 hertz and that has a radiant intensity in that direction of 1/683 watt per steradian.&quot; [BIPM:BIPM, NIST:NIST]</rdfs:comment>
     </owl:Class>
     
 
@@ -193,7 +184,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000015">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">centimeter</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000001"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A length unit which is equal to one hundredth of a meter or 10^[-2] m.&quot; [NIST:NIST &quot;http://physics.nist.gov/cuu/Units/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A length unit which is equal to one hundredth of a meter or 10^[-2] m.&quot; [NIST:NIST]</rdfs:comment>
     </owl:Class>
     
 
@@ -203,7 +194,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000016">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">millimeter</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000001"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A length unit which is equal to one thousandth of a meter or 10^[-3] m.&quot; [NIST:NIST &quot;http://physics.nist.gov/cuu/Units/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A length unit which is equal to one thousandth of a meter or 10^[-3] m.&quot; [NIST:NIST]</rdfs:comment>
     </owl:Class>
     
 
@@ -213,7 +204,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000017">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">micrometer</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000001"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A length unit which is equal to one millionth of a meter or 10^[-6] m.&quot; [NIST:NIST &quot;http://physics.nist.gov/cuu/Units/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A length unit which is equal to one millionth of a meter or 10^[-6] m.&quot; [NIST:NIST]</rdfs:comment>
     </owl:Class>
     
 
@@ -223,7 +214,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000018">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nanometer</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000001"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A length unit which is equal to one thousandth of one millionth of a meter or 10^[-9] m.&quot; [NIST:NIST &quot;http://physics.nist.gov/cuu/Units/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A length unit which is equal to one thousandth of one millionth of a meter or 10^[-9] m.&quot; [NIST:NIST]</rdfs:comment>
     </owl:Class>
     
 
@@ -233,7 +224,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000019">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">angstrom</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000001"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A length unit which is equal to 10 [-10] m.&quot; [NIST:NIST &quot;http://physics.nist.gov/cuu/Units/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A length unit which is equal to 10 [-10] m.&quot; [NIST:NIST]</rdfs:comment>
     </owl:Class>
     
 
@@ -243,7 +234,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000020">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">picometer</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000001"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A length unit which is equal to 10^[-12] m.&quot; [NIST:NIST &quot;http://physics.nist.gov/cuu/Units/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A length unit which is equal to 10^[-12] m.&quot; [NIST:NIST]</rdfs:comment>
     </owl:Class>
     
 
@@ -253,7 +244,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000021">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gram</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000002"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A mass unit which is equal to one thousandth of a kilogram or 10^[-3] kg.&quot; [NIST:NIST &quot;http://physics.nist.gov/cuu/Units/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A mass unit which is equal to one thousandth of a kilogram or 10^[-3] kg.&quot; [NIST:NIST]</rdfs:comment>
     </owl:Class>
     
 
@@ -303,7 +294,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000026">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">femtogram</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000002"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A mass unit which is equal to 10^[-15] g.&quot; [NIST:NIST &quot;http://physics.nist.gov/cuu/Units/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A mass unit which is equal to 10^[-15] g.&quot; [NIST:NIST]</rdfs:comment>
     </owl:Class>
     
 
@@ -311,9 +302,9 @@
     <!-- http://purl.obolibrary.org/obo/UO_0000027 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000027">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">degree celsius</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">degree Celsius</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000005"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A temperature unit which is equal to one Kelvin degree. However, they have their zeros at different points. The Centigrade scale has its zero at 273.15 K.&quot; [NIST:NIST &quot;http://physics.nist.gov/cuu/Units/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A temperature unit which is equal to one kelvin degree. However, they have their zeros at different points. The centigrade scale has its zero at 273.15 K.&quot; [NIST:NIST]</rdfs:comment>
     </owl:Class>
     
 
@@ -323,7 +314,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000028">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">millisecond</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000003"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A time unit which is equal to one thousandth of a second or 10^[-3] s.&quot; [NIST:NIST &quot;http://physics.nist.gov/cuu/Units/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A time unit which is equal to one thousandth of a second or 10^[-3] s.&quot; [NIST:NIST]</rdfs:comment>
     </owl:Class>
     
 
@@ -333,7 +324,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000029">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">microsecond</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000003"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A time unit which is equal to one millionth of a second or 10^[-6] s.&quot; [NIST:NIST &quot;http://physics.nist.gov/cuu/Units/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A time unit which is equal to one millionth of a second or 10^[-6] s.&quot; [NIST:NIST]</rdfs:comment>
     </owl:Class>
     
 
@@ -343,7 +334,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000030">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">picosecond</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000003"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A time unit which is equal to 10^[-12] s.&quot; [NIST:NIST &quot;http://physics.nist.gov/cuu/Units/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A time unit which is equal to 10^[-12] s.&quot; [NIST:NIST]</rdfs:comment>
     </owl:Class>
     
 
@@ -353,7 +344,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000031">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">minute</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000003"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A time unit which is equal to 60 seconds.&quot; [Wikipedia:Wikipedia &quot;http://www.wikipedia.org/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A time unit which is equal to 60 seconds.&quot; [Wikipedia:Wikipedia]</rdfs:comment>
     </owl:Class>
     
 
@@ -363,7 +354,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000032">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hour</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000003"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A time unit which is equal to 3600 seconds or 60 minutes.&quot; [Wikipedia:Wikipedia &quot;http://www.wikipedia.org/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A time unit which is equal to 3600 seconds or 60 minutes.&quot; [Wikipedia:Wikipedia]</rdfs:comment>
     </owl:Class>
     
 
@@ -373,7 +364,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000033">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">day</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000003"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A time unit which is equal to 24 hours.&quot; [Wikipedia:Wikipedia &quot;http://www.wikipedia.org/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A time unit which is equal to 24 hours.&quot; [Wikipedia:Wikipedia]</rdfs:comment>
     </owl:Class>
     
 
@@ -383,7 +374,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000034">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">week</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000003"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A time unit which is equal to 7 days.&quot; [Wikipedia:Wikipedia &quot;http://www.wikipedia.org/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A time unit which is equal to 7 days.&quot; [Wikipedia:Wikipedia]</rdfs:comment>
     </owl:Class>
     
 
@@ -393,7 +384,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000035">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">month</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000003"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A time unit which is approximately equal to the length of time of one of cycle of the moon&#39;s phases which in science is taken to be equal to 30 days.&quot; [Wikipedia:Wikipedia &quot;http://www.wikipedia.org/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A time unit which is approximately equal to the length of time of one of cycle of the moon&#39;s phases which in science is taken to be equal to 30 days.&quot; [Wikipedia:Wikipedia]</rdfs:comment>
     </owl:Class>
     
 
@@ -403,7 +394,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000036">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">year</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000003"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A time unit which is equal to 12 months which is science is taken to be equal to 365.25 days.&quot; [Wikipedia:Wikipedia &quot;http://www.wikipedia.org/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A time unit which is equal to 12 months which is science is taken to be equal to 365.25 days.&quot; [Wikipedia:Wikipedia]</rdfs:comment>
     </owl:Class>
     
 
@@ -433,7 +424,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000039">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">micromole</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000006"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A substance unit equal to a millionth of a mol or 10^[-6] mol.&quot; [NIST:NIST &quot;http://physics.nist.gov/cuu/Units/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A substance unit equal to a millionth of a mol or 10^[-6] mol.&quot; [NIST:NIST]</rdfs:comment>
     </owl:Class>
     
 
@@ -443,7 +434,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000040">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">millimole</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000006"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A substance unit equal to a thousandth of a mol or 10^[-3] mol.&quot; [NIST:NIST &quot;http://physics.nist.gov/cuu/Units/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A substance unit equal to a thousandth of a mol or 10^[-3] mol.&quot; [NIST:NIST]</rdfs:comment>
     </owl:Class>
     
 
@@ -453,7 +444,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000041">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nanomole</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000006"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A substance unit equal to one thousandth of one millionth of a mole or 10^[-9] mol.&quot; [NIST:NIST &quot;http://physics.nist.gov/cuu/Units/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A substance unit equal to one thousandth of one millionth of a mole or 10^[-9] mol.&quot; [NIST:NIST]</rdfs:comment>
     </owl:Class>
     
 
@@ -463,7 +454,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000042">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">picomole</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000006"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A substance unit equal to 10^[-12] mol.&quot; [NIST:NIST &quot;http://physics.nist.gov/cuu/Units/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A substance unit equal to 10^[-12] mol.&quot; [NIST:NIST]</rdfs:comment>
     </owl:Class>
     
 
@@ -473,7 +464,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000043">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">femtomole</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000006"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A substance unit equal to 10^[-15] mol.&quot; [NIST:NIST &quot;http://physics.nist.gov/cuu/Units/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A substance unit equal to 10^[-15] mol.&quot; [NIST:NIST]</rdfs:comment>
     </owl:Class>
     
 
@@ -483,7 +474,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000044">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">attomole</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000006"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A substance unit equal to 10^[-18] mol.&quot; [NIST:NIST &quot;http://physics.nist.gov/cuu/Units/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A substance unit equal to 10^[-18] mol.&quot; [NIST:NIST]</rdfs:comment>
     </owl:Class>
     
 
@@ -493,16 +484,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000045">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">base unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000000"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit which is one of a particular measure to which all measures of that type can be related.&quot; [NIST:NIST &quot;http://physics.nist.gov/cuu/Units/&quot;]</rdfs:comment>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/UO_0000046 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000046">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">derived unit</rdfs:label>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit which is derived from base units.&quot; [Wikipedia:Wikipedia &quot;http://www.wikipedia.org/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit which is one of a particular measure to which all measures of that type can be related.&quot; [NIST:NIST]</rdfs:comment>
     </owl:Class>
     
 
@@ -522,7 +504,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000048">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acceleration unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000000"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit which is a standard measure of the rate of change of velocity in either speed or direction.&quot; [Wikipedia:Wikipedia &quot;http://www.wikipedia.org/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit which is a standard measure of the rate of change of velocity in either speed or direction.&quot; [Wikipedia:Wikipedia]</rdfs:comment>
     </owl:Class>
     
 
@@ -532,7 +514,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000049">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">angular velocity unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000000"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit which is a standard measure of the rate of angular movement about an axis; the angle rotated in a given time.&quot; [Wikipedia:Wikipedia &quot;http://www.wikipedia.org/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit which is a standard measure of the rate of angular movement about an axis; the angle rotated in a given time.&quot; [Wikipedia:Wikipedia]</rdfs:comment>
     </owl:Class>
     
 
@@ -542,7 +524,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000050">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">angular acceleration unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000000"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit which is a standard measure of the rate of change of angular velocity.&quot; [Wikipedia:Wikipedia &quot;http://www.wikipedia.org/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit which is a standard measure of the rate of change of angular velocity.&quot; [Wikipedia:Wikipedia]</rdfs:comment>
     </owl:Class>
     
 
@@ -572,7 +554,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000053">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">luminance unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000157"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit which is a standard measure of the luminous intensity impinging on a given area.&quot; [Wikipedia:Wikipedia &quot;http://www.wikipedia.org/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit which is a standard measure of the luminous intensity impinging on a given area.&quot; [Wikipedia:Wikipedia]</rdfs:comment>
     </owl:Class>
     
 
@@ -582,7 +564,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000054">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">area density unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000182"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A density unit which is a standard measure of the mass exerting an influence on a given area.&quot; [Wikipedia:Wikipedia &quot;http://www.wikipedia.org/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A density unit which is a standard measure of the mass exerting an influence on a given area.&quot; [Wikipedia:Wikipedia]</rdfs:comment>
     </owl:Class>
     
 
@@ -592,7 +574,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000055">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">molar mass unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000002"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit which is a standard measure of the mass of a homogeneous substance containing 6.02 x 1023 atoms or molecules.&quot; [Wikipedia:Wikipedia &quot;http://www.wikipedia.org/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit which is a standard measure of the mass of a homogeneous substance containing 6.02 x 1023 atoms or molecules.&quot; [Wikipedia:Wikipedia]</rdfs:comment>
     </owl:Class>
     
 
@@ -602,7 +584,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000056">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">molar volume unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000095"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit which is a standard measure of the volume of a homogeneous substance containing 6.02 x 1023 atoms or molecules.&quot; [Wikipedia:Wikipedia &quot;http://www.wikipedia.org/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit which is a standard measure of the volume of a homogeneous substance containing 6.02 x 1023 atoms or molecules.&quot; [Wikipedia:Wikipedia]</rdfs:comment>
     </owl:Class>
     
 
@@ -612,7 +594,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000057">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">momentum unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000000"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit which is a standard measure of the quantity of motion measured by the product of mass and velocity.&quot; [Wikipedia:Wikipedia &quot;http://www.wikipedia.org/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit which is a standard measure of the quantity of motion measured by the product of mass and velocity.&quot; [Wikipedia:Wikipedia]</rdfs:comment>
     </owl:Class>
     
 
@@ -622,7 +604,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000058">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rotational frequency unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000105"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit which is a standard measure of the number of rotations in a given time.&quot; [NIST:NIST &quot;http://physics.nist.gov/cuu/Units/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit which is a standard measure of the number of rotations in a given time.&quot; [NIST:NIST]</rdfs:comment>
     </owl:Class>
     
 
@@ -632,7 +614,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000059">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">specific volume unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000095"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit which is a standard measure of the volume of a given mass of substance (the reciprocal of density).&quot; [Wikipedia:Wikipedia &quot;http://www.wikipedia.org/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit which is a standard measure of the volume of a given mass of substance (the reciprocal of density).&quot; [Wikipedia:Wikipedia]</rdfs:comment>
     </owl:Class>
     
 
@@ -642,7 +624,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000060">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">speed/velocity unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000000"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit which is a standard measure of the rate of movement. Speed is measured in the same physical units of measurement as velocity, but does not contain the element of direction that velocity has. Speed is thus the magnitude component of velocity.&quot; [Wikipedia:Wikipedia &quot;http://www.wikipedia.org/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit which is a standard measure of the rate of movement. Speed is measured in the same physical units of measurement as velocity, but does not contain the element of direction that velocity has. Speed is thus the magnitude component of velocity.&quot; [Wikipedia:Wikipedia]</rdfs:comment>
     </owl:Class>
     
 
@@ -692,7 +674,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000065">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nanomolar</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000061"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit of molarity which is equal to one thousandth of one millionth of a molar or 10^[-9] M.&quot; [UOC:GVG &quot;http://www.wikipedia.org/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit of molarity which is equal to one thousandth of one millionth of a molar or 10^[-9] M.&quot; [UOC:GVG]</rdfs:comment>
     </owl:Class>
     
 
@@ -782,7 +764,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000074">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">unit of normality</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000051"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit of concentration which highlights the chemical nature of salts.&quot; [Wikipedia:Wikipedia &quot;http://www.wikipedia.org/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit of concentration which highlights the chemical nature of salts.&quot; [Wikipedia:Wikipedia]</rdfs:comment>
     </owl:Class>
     
 
@@ -792,7 +774,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000075">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">normal</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000074"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit of concentration which is one gram equivalent of a solute per liter of solution. A gram equivalent weight or equivalent is a measure of the reactive capacity of a given molecule.&quot; [Wikipedia:Wikipedia &quot;http://www.wikipedia.org/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit of concentration which is one gram equivalent of a solute per liter of solution. A gram equivalent weight or equivalent is a measure of the reactive capacity of a given molecule.&quot; [Wikipedia:Wikipedia]</rdfs:comment>
     </owl:Class>
     
 
@@ -803,7 +785,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mole fraction</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000051"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000191"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A concentration unit which denotes the number of moles of solute as a proportion of the total number of moles in a solution.&quot; [Wikipedia:Wikipedia &quot;http://www.wikipedia.org/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A concentration unit which denotes the number of moles of solute as a proportion of the total number of moles in a solution.&quot; [Wikipedia:Wikipedia]</rdfs:comment>
     </owl:Class>
     
 
@@ -813,7 +795,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000077">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">meter per second per second</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000048"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An acceleration unit which is equal to the acceleration an object changing its velocity by 1meter/s over a time period that equals one second.&quot; [NIST:NIST &quot;http://physics.nist.gov/cuu/Units/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An acceleration unit which is equal to the acceleration an object changing its velocity by 1meter/s over a time period that equals one second.&quot; [NIST:NIST]</rdfs:comment>
     </owl:Class>
     
 
@@ -823,7 +805,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000078">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">radian per second per second</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000050"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An angular unit acceleration which is equal to the angular acceleration of an object changing its angular velocity by 1rad/s over a time period that equals one second.&quot; [NIST:NIST &quot;http://physics.nist.gov/cuu/Units/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An angular unit acceleration which is equal to the angular acceleration of an object changing its angular velocity by 1rad/s over a time period that equals one second.&quot; [NIST:NIST]</rdfs:comment>
     </owl:Class>
     
 
@@ -833,7 +815,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000079">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">radian per second</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000049"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An angular unit velocity which is equal to about 9.54930 rpm (revolutions per minute).&quot; [NIST:NIST &quot;http://physics.nist.gov/cuu/Units/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An angular unit velocity which is equal to about 9.54930 rpm (revolutions per minute).&quot; [NIST:NIST]</rdfs:comment>
     </owl:Class>
     
 
@@ -843,7 +825,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000080">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">square meter</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000047"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An area unit which is equal to an area enclosed by a square with sides each 1 meter long.&quot; [NIST:NIST &quot;http://physics.nist.gov/cuu/Units/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An area unit which is equal to an area enclosed by a square with sides each 1 meter long.&quot; [NIST:NIST]</rdfs:comment>
     </owl:Class>
     
 
@@ -853,7 +835,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000081">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">square centimeter</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000047"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An area unit which is equal to one thousand of square meter or 10^[-3] m^[2].&quot; [NIST:NIST &quot;http://physics.nist.gov/cuu/Units/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An area unit which is equal to one thousand of square meter or 10^[-3] m^[2].&quot; [NIST:NIST]</rdfs:comment>
     </owl:Class>
     
 
@@ -863,7 +845,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000082">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">square millimeter</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000047"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An area unit which is equal to one millionth of a square meter or 10^[-6] m^[2].&quot; [NIST:NIST &quot;http://physics.nist.gov/cuu/Units/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An area unit which is equal to one millionth of a square meter or 10^[-6] m^[2].&quot; [NIST:NIST]</rdfs:comment>
     </owl:Class>
     
 
@@ -893,7 +875,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000085">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">candela per square meter</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000053"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A luminance unit which is equal to a luminous intensity of one candela radiating from a surface whose area is one square meter.&quot; [NIST:NIST &quot;http://physics.nist.gov/cuu/Units/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A luminance unit which is equal to a luminous intensity of one candela radiating from a surface whose area is one square meter.&quot; [NIST:NIST]</rdfs:comment>
     </owl:Class>
     
 
@@ -903,7 +885,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000086">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kilogram per square meter</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000054"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An area density unit which is equal to the mass of an object in kilograms divided by the surface area in meters squared.&quot; [NIST:NIST &quot;http://physics.nist.gov/cuu/Units/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An area density unit which is equal to the mass of an object in kilograms divided by the surface area in meters squared.&quot; [NIST:NIST]</rdfs:comment>
     </owl:Class>
     
 
@@ -913,7 +895,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000087">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kilogram per mole</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000055"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A molar mass unit which is equal to one kilogram of mass of one mole of chemical element or chemical compound.&quot; [NIST:NIST &quot;http://physics.nist.gov/cuu/Units/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A molar mass unit which is equal to one kilogram of mass of one mole of chemical element or chemical compound.&quot; [NIST:NIST]</rdfs:comment>
     </owl:Class>
     
 
@@ -923,7 +905,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000088">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gram per mole</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000055"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A molar mass unit which is equal to one gram of mass of one mole of chemical element or chemical compound.&quot; [NIST:NIST &quot;http://physics.nist.gov/cuu/Units/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A molar mass unit which is equal to one gram of mass of one mole of chemical element or chemical compound.&quot; [NIST:NIST]</rdfs:comment>
     </owl:Class>
     
 
@@ -933,7 +915,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000089">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cubic meter per mole</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000056"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A molar volume unit which is equal to 1 cubic meter occupied by one mole of a substance in the form of a solid, liquid, or gas.&quot; [NIST:NIST &quot;http://physics.nist.gov/cuu/Units/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A molar volume unit which is equal to 1 cubic meter occupied by one mole of a substance in the form of a solid, liquid, or gas.&quot; [NIST:NIST]</rdfs:comment>
     </owl:Class>
     
 
@@ -943,7 +925,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000090">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cubic centimeter per mole</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000056"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A molar volume unit which is equal to 1 cubic centimeter occupied by one mole of a substance in the form of a solid, liquid, or gas.&quot; [NIST:NIST &quot;http://physics.nist.gov/cuu/Units/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A molar volume unit which is equal to 1 cubic centimeter occupied by one mole of a substance in the form of a solid, liquid, or gas.&quot; [NIST:NIST]</rdfs:comment>
     </owl:Class>
     
 
@@ -953,7 +935,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000091">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kilogram meter per second</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000057"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A momentum unit which is equal to the momentum of a one kilogram mass object with a speed of one meter per second.&quot; [NIST:NIST &quot;http://physics.nist.gov/cuu/Units/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A momentum unit which is equal to the momentum of a one kilogram mass object with a speed of one meter per second.&quot; [NIST:NIST]</rdfs:comment>
     </owl:Class>
     
 
@@ -963,7 +945,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000092">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">turns per second</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000058"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A rotational frequency unit which is equal to the number complete turn in a period of time that equals to 1 second.&quot; [NIST:NIST &quot;http://physics.nist.gov/cuu/Units/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A rotational frequency unit which is equal to the number complete turn in a period of time that equals to 1 second.&quot; [NIST:NIST]</rdfs:comment>
     </owl:Class>
     
 
@@ -973,7 +955,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000093">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cubic meter per kilogram</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000059"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A specific volume unit which is equal to one cubic meter volume occupied by one kilogram of a particular substance.&quot; [NIST:NIST &quot;http://physics.nist.gov/cuu/Units/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A specific volume unit which is equal to one cubic meter volume occupied by one kilogram of a particular substance.&quot; [NIST:NIST]</rdfs:comment>
     </owl:Class>
     
 
@@ -983,7 +965,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000094">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">meter per second</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000060"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A speed/velocity unit which is equal to the speed of an object traveling 1 meter distance in one second.&quot; [NIST:NIST &quot;http://physics.nist.gov/cuu/Units/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A speed/velocity unit which is equal to the speed of an object traveling 1 meter distance in one second.&quot; [NIST:NIST]</rdfs:comment>
     </owl:Class>
     
 
@@ -993,7 +975,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000095">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">volume unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000000"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit which is a standard measure of the amount of space occupied by any substance, whether solid, liquid, or gas.&quot; [NIST:NIST &quot;http://physics.nist.gov/cuu/Units/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit which is a standard measure of the amount of space occupied by any substance, whether solid, liquid, or gas.&quot; [NIST:NIST]</rdfs:comment>
     </owl:Class>
     
 
@@ -1003,7 +985,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000096">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cubic meter</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000095"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A volume unit which is equal to the volume of a cube with edges one meter in length. One cubic meter equals to 1000 liters.&quot; [NIST:NIST &quot;http://physics.nist.gov/cuu/Units/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A volume unit which is equal to the volume of a cube with edges one meter in length. One cubic meter equals to 1000 liters.&quot; [NIST:NIST]</rdfs:comment>
     </owl:Class>
     
 
@@ -1013,7 +995,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000097">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cubic centimeter</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000095"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A volume unit which is equal to one millionth of a cubic meter or 10^[-9] m^[3], or to 1 ml.&quot; [NIST:NIST &quot;http://physics.nist.gov/cuu/Units/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A volume unit which is equal to one millionth of a cubic meter or 10^[-9] m^[3], or to 1 ml.&quot; [NIST:NIST]</rdfs:comment>
     </owl:Class>
     
 
@@ -1023,7 +1005,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000098">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">milliliter</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000095"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A volume unit which is equal to one thousandth of a liter or 10^[-3] L, or to 1 cubic centimeter.&quot; [NIST:NIST &quot;http://physics.nist.gov/cuu/Units/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A volume unit which is equal to one thousandth of a liter or 10^[-3] L, or to 1 cubic centimeter.&quot; [NIST:NIST]</rdfs:comment>
     </owl:Class>
     
 
@@ -1033,7 +1015,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000099">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">liter</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000095"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A volume unit which is equal to one thousandth of a cubic meter or 10^[-3] m^[3], or to 1 decimeter.&quot; [NIST:NIST &quot;http://physics.nist.gov/cuu/Units/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A volume unit which is equal to one thousandth of a cubic meter or 10^[-3] m^[3], or to 1 decimeter.&quot; [NIST:NIST]</rdfs:comment>
     </owl:Class>
     
 
@@ -1043,7 +1025,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000100">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cubic decimeter</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000095"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A volume unit which is equal to one thousand of a cubic meter or 10^[-3] m^[3], or to 1 L.&quot; [NIST:NIST &quot;http://physics.nist.gov/cuu/Units/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A volume unit which is equal to one thousand of a cubic meter or 10^[-3] m^[3], or to 1 L.&quot; [NIST:NIST]</rdfs:comment>
     </owl:Class>
     
 
@@ -1053,7 +1035,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000101">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">microliter</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000095"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A volume unit which is equal to one millionth of a liter or 10^[-6] L.&quot; [NIST:NIST &quot;http://physics.nist.gov/cuu/Units/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A volume unit which is equal to one millionth of a liter or 10^[-6] L.&quot; [NIST:NIST]</rdfs:comment>
     </owl:Class>
     
 
@@ -1063,7 +1045,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000102">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nanoliter</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000095"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A volume unit which is equal to one thousandth of one millionth of a liter or 10^[-9] L.&quot; [NIST:NIST &quot;http://physics.nist.gov/cuu/Units/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A volume unit which is equal to one thousandth of one millionth of a liter or 10^[-9] L.&quot; [NIST:NIST]</rdfs:comment>
     </owl:Class>
     
 
@@ -1073,7 +1055,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000103">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">picoliter</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000095"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A volume unit which is equal to 10^[-12] L.&quot; [NIST:NIST &quot;http://physics.nist.gov/cuu/Units/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A volume unit which is equal to 10^[-12] L.&quot; [NIST:NIST]</rdfs:comment>
     </owl:Class>
     
 
@@ -1083,7 +1065,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000104">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">femtoliter</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000095"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A volume unit which is equal to 10^[-15] L.&quot; [NIST:NIST &quot;http://physics.nist.gov/cuu/Units/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A volume unit which is equal to 10^[-15] L.&quot; [NIST:NIST]</rdfs:comment>
     </owl:Class>
     
 
@@ -1093,7 +1075,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000105">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">frequency unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000000"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit which is a standard measure of the number of repetitive actions in a particular time.&quot; [NIST:NIST &quot;http://physics.nist.gov/cuu/Units/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit which is a standard measure of the number of repetitive actions in a particular time.&quot; [NIST:NIST]</rdfs:comment>
     </owl:Class>
     
 
@@ -1103,7 +1085,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000106">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hertz</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000105"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A frequency unit which is equal to 1 complete cycle of a recurring phenomenon in 1 second.&quot; [NIST:NIST &quot;http://physics.nist.gov/cuu/Units/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A frequency unit which is equal to 1 complete cycle of a recurring phenomenon in 1 second.&quot; [NIST:NIST]</rdfs:comment>
     </owl:Class>
     
 
@@ -1113,7 +1095,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000107">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">force unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000000"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit which is a standard measure of the force is applied when a mass is accelerated.&quot; [NIST:NIST &quot;http://physics.nist.gov/cuu/Units/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit which is a standard measure of the force is applied when a mass is accelerated.&quot; [NIST:NIST]</rdfs:comment>
     </owl:Class>
     
 
@@ -1123,7 +1105,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000108">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">newton</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000107"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A force unit which is equal to the force required to cause an acceleration of 1m/s2 of a mass of 1 Kg in the direction of the force.&quot; [NIST:NIST &quot;http://physics.nist.gov/cuu/Units/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A force unit which is equal to the force required to cause an acceleration of 1m/s2 of a mass of 1 Kg in the direction of the force.&quot; [NIST:NIST]</rdfs:comment>
     </owl:Class>
     
 
@@ -1133,7 +1115,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000109">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pressure unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000000"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit which is a standard measure of the force applied to a given area.&quot; [NIST:NIST &quot;http://physics.nist.gov/cuu/Units/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit which is a standard measure of the force applied to a given area.&quot; [NIST:NIST]</rdfs:comment>
     </owl:Class>
     
 
@@ -1143,7 +1125,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000110">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pascal</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000109"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A pressure unit which is equal to the pressure or stress on a surface caused by a force of 1 newton spread over a surface of 1 m^[2].&quot; [NIST:NIST &quot;http://physics.nist.gov/cuu/Units/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A pressure unit which is equal to the pressure or stress on a surface caused by a force of 1 newton spread over a surface of 1 m^[2].&quot; [NIST:NIST]</rdfs:comment>
     </owl:Class>
     
 
@@ -1153,7 +1135,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000111">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">energy unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000000"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit which is a standard measure of the work done by a certain force (gravitational, electric, magnetic, force of inertia, etc).&quot; [NIST:NIST &quot;http://physics.nist.gov/cuu/Units/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit which is a standard measure of the work done by a certain force (gravitational, electric, magnetic, force of inertia, etc).&quot; [NIST:NIST]</rdfs:comment>
     </owl:Class>
     
 
@@ -1163,7 +1145,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000112">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">joule</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000111"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An energy unit which is equal to the energy required when a force of 1 newton moves an object 1 meter in the direction of the force.&quot; [NIST:NIST &quot;http://physics.nist.gov/cuu/Units/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An energy unit which is equal to the energy required when a force of 1 newton moves an object 1 meter in the direction of the force.&quot; [NIST:NIST]</rdfs:comment>
     </owl:Class>
     
 
@@ -1173,7 +1155,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000113">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">power unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000000"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit which is a standard measure power or the rate of doing work.&quot; [NIST:NIST &quot;http://physics.nist.gov/cuu/Units/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit which is a standard measure power or the rate of doing work.&quot; [NIST:NIST]</rdfs:comment>
     </owl:Class>
     
 
@@ -1183,7 +1165,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000114">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">watt</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000113"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A power unit which is equal to the power used when work is done at the rate of 1 joule per second.&quot; [NIST:NIST &quot;http://physics.nist.gov/cuu/Units/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A power unit which is equal to the power used when work is done at the rate of 1 joule per second.&quot; [NIST:NIST]</rdfs:comment>
     </owl:Class>
     
 
@@ -1193,7 +1175,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000115">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">illuminance unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000157"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit which is a standard measure of the luminous flux incident on a unit area.&quot; [Wikipedia:Wikipedia &quot;http://www.wikipedia.org/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit which is a standard measure of the luminous flux incident on a unit area.&quot; [Wikipedia:Wikipedia]</rdfs:comment>
     </owl:Class>
     
 
@@ -1203,7 +1185,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000116">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lux</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000115"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An illuminance unit which is equal to the illuminance produced by 1 lumen evenly spread over an area 1 m^[2].&quot; [NIST:NIST &quot;http://physics.nist.gov/cuu/Units/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An illuminance unit which is equal to the illuminance produced by 1 lumen evenly spread over an area 1 m^[2].&quot; [NIST:NIST]</rdfs:comment>
     </owl:Class>
     
 
@@ -1213,7 +1195,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000117">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">luminous flux unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000157"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit which is a standard measure of the flow of radiant energy.&quot; [Wikipedia:Wikipedia &quot;http://www.wikipedia.org/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit which is a standard measure of the flow of radiant energy.&quot; [Wikipedia:Wikipedia]</rdfs:comment>
     </owl:Class>
     
 
@@ -1223,7 +1205,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000118">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lumen</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000117"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A luminous flux unit which is equal to the luminous flux emitted into 1 steradian by a point source of 1 candela.&quot; [NIST:NIST &quot;http://physics.nist.gov/cuu/Units/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A luminous flux unit which is equal to the luminous flux emitted into 1 steradian by a point source of 1 candela.&quot; [NIST:NIST]</rdfs:comment>
     </owl:Class>
     
 
@@ -1233,7 +1215,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000119">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">catalytic activity unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000000"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit which is a standard measure of the amount of the action of a catalyst.&quot; [NIST:NIST &quot;http://physics.nist.gov/cuu/Units/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit which is a standard measure of the amount of the action of a catalyst.&quot; [NIST:NIST]</rdfs:comment>
     </owl:Class>
     
 
@@ -1243,7 +1225,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000120">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">katal</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000119"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A catalytic unit activity which is equal to the activity of a catalyst in moles per second, such as the amount of an enzyme needed to transform one mole of substrate per second.&quot; [NIST:NIST &quot;http://physics.nist.gov/cuu/Units/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A catalytic unit activity which is equal to the activity of a catalyst in moles per second, such as the amount of an enzyme needed to transform one mole of substrate per second.&quot; [NIST:NIST]</rdfs:comment>
     </owl:Class>
     
 
@@ -1253,7 +1235,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000121">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">angle unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000000"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit which is a standard measure of the figure or space formed by the junction of two lines or planes.&quot; [Wikipedia:Wikipedia &quot;http://www.wikipedia.org/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit which is a standard measure of the figure or space formed by the junction of two lines or planes.&quot; [Wikipedia:Wikipedia]</rdfs:comment>
     </owl:Class>
     
 
@@ -1263,7 +1245,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000122">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plane angle unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000121"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit which is a standard measure of the angle formed by two straight lines in the same plane.&quot; [Wikipedia:Wikipedia &quot;http://www.wikipedia.org/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit which is a standard measure of the angle formed by two straight lines in the same plane.&quot; [Wikipedia:Wikipedia]</rdfs:comment>
     </owl:Class>
     
 
@@ -1273,7 +1255,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000123">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">radian</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000122"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A plane angle unit which is equal to the angle subtended at the center of a circle by an arc equal in length to the radius of the circle, approximately 57 degrees 17 minutes and 44.6 seconds.&quot; [NIST:NIST &quot;http://physics.nist.gov/cuu/Units/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A plane angle unit which is equal to the angle subtended at the center of a circle by an arc equal in length to the radius of the circle, approximately 57 degrees 17 minutes and 44.6 seconds.&quot; [NIST:NIST]</rdfs:comment>
     </owl:Class>
     
 
@@ -1283,7 +1265,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000124">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">solid angle unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000121"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit which is a standard measure of the angle formed by three or more planes intersecting at a common point.&quot; [Wikipedia:Wikipedia &quot;http://www.wikipedia.org/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit which is a standard measure of the angle formed by three or more planes intersecting at a common point.&quot; [Wikipedia:Wikipedia]</rdfs:comment>
     </owl:Class>
     
 
@@ -1293,7 +1275,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000125">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">steradian</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000124"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A solid angle unit which is equal to the solid angle subtended at the center of a sphere by an area on the surface of the sphere that is equal to the radius squared.&quot; [NIST:NIST &quot;http://physics.nist.gov/cuu/Units/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A solid angle unit which is equal to the solid angle subtended at the center of a sphere by an area on the surface of the sphere that is equal to the radius squared.&quot; [NIST:NIST]</rdfs:comment>
     </owl:Class>
     
 
@@ -1303,7 +1285,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000127">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">radiation unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000000"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit which is a standard measure of the amount of radiation emitted by a given radiation source as well as the amount of radiation absorbed or deposited in a specific material by a radiation source.&quot; [OCRBS:OCRBS &quot;http://www.orcbs.msu.edu/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit which is a standard measure of the amount of radiation emitted by a given radiation source as well as the amount of radiation absorbed or deposited in a specific material by a radiation source.&quot; [OCRBS:OCRBS]</rdfs:comment>
     </owl:Class>
     
 
@@ -1313,7 +1295,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000128">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">activity (of a radionuclide) unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000127"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit which is a standard measure of the transformation (disintegration) rate of a radioactive substance.&quot; [DEFRA:DEFRA &quot;http://www.defra.gov.uk/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit which is a standard measure of the transformation (disintegration) rate of a radioactive substance.&quot; [DEFRA:DEFRA]</rdfs:comment>
     </owl:Class>
     
 
@@ -1323,7 +1305,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000129">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">absorbed dose unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000127"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit which is a standard measure of the energy imparted by ionizing radiation to unit mass of matter such as tissue.&quot; [DEFRA:DEFRA &quot;http://www.defra.gov.uk/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit which is a standard measure of the energy imparted by ionizing radiation to unit mass of matter such as tissue.&quot; [DEFRA:DEFRA]</rdfs:comment>
     </owl:Class>
     
 
@@ -1333,7 +1315,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000130">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dose equivalent unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000127"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit which is a standard measure of the expression of dose in terms of its biological effect.&quot; [ORCBS:ORCBS &quot;http://www.orcbs.msu.edu/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit which is a standard measure of the expression of dose in terms of its biological effect.&quot; [ORCBS:ORCBS]</rdfs:comment>
     </owl:Class>
     
 
@@ -1343,7 +1325,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000131">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">exposure unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000127"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit which is a standard measure of the quantity that expresses the ability of radiation to ionize air and thereby create electric charges which can be collected and measured.&quot; [ORCBS:ORCBS &quot;http://www.orcbs.msu.edu/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit which is a standard measure of the quantity that expresses the ability of radiation to ionize air and thereby create electric charges which can be collected and measured.&quot; [ORCBS:ORCBS]</rdfs:comment>
     </owl:Class>
     
 
@@ -1353,7 +1335,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000132">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">becquerel</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000128"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An activity (of a radionuclide) unit which is equal to the activity of a quantity of radioactive material in which one nucleus decays per second or there is one atom disintegration per second (dps).&quot; [NIST:NIST &quot;http://physics.nist.gov/cuu/Units/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An activity (of a radionuclide) unit which is equal to the activity of a quantity of radioactive material in which one nucleus decays per second or there is one atom disintegration per second (dps).&quot; [NIST:NIST]</rdfs:comment>
     </owl:Class>
     
 
@@ -1363,7 +1345,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000133">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">curie</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000128"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An activity (of a radionuclide) unit which is equal to the activity of a quantity of radioactive material in which there are 3.7 x 10^[10] atom disintegration per second (dps).&quot; [ORCBS:ORCBS &quot;http://www.orcbs.msu.edu/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An activity (of a radionuclide) unit which is equal to the activity of a quantity of radioactive material in which there are 3.7 x 10^[10] atom disintegration per second (dps).&quot; [ORCBS:ORCBS]</rdfs:comment>
     </owl:Class>
     
 
@@ -1373,7 +1355,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000134">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gray</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000129"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An absorbed dose unit which is equal to the absorption of one joule of radiation energy by one kilogram of matter.&quot; [NIST:NIST &quot;http://physics.nist.gov/cuu/Units/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An absorbed dose unit which is equal to the absorption of one joule of radiation energy by one kilogram of matter.&quot; [NIST:NIST]</rdfs:comment>
     </owl:Class>
     
 
@@ -1383,7 +1365,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000135">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rad</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000129"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An absorbed dose unit which is equal to 0.01 gray (Gy).&quot; [Wikipedia:Wikipedia &quot;http://www.wikipedia.org/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An absorbed dose unit which is equal to 0.01 gray (Gy).&quot; [Wikipedia:Wikipedia]</rdfs:comment>
     </owl:Class>
     
 
@@ -1393,7 +1375,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000136">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">roentgen</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000131"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An exposure unit which is equal to the amount of radiation required to liberate positive and negative charges of one electrostatic unit of charge in 1 cm^[3] of air at standard temperature and pressure (STP). This corresponds to the generation of approximately 2.0810^[9] ion pairs.&quot; [Wikipedia:Wikipedia &quot;http://www.wikipedia.org/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An exposure unit which is equal to the amount of radiation required to liberate positive and negative charges of one electrostatic unit of charge in 1 cm^[3] of air at standard temperature and pressure (STP). This corresponds to the generation of approximately 2.0810^[9] ion pairs.&quot; [Wikipedia:Wikipedia]</rdfs:comment>
     </owl:Class>
     
 
@@ -1403,7 +1385,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000137">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sievert</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000130"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A dose equivalent unit which is equal to the absorption of one joule of radiation energy by one kilogram of matter.&quot; [NIST:NIST &quot;http://physics.nist.gov/cuu/Units/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A dose equivalent unit which is equal to the absorption of one joule of radiation energy by one kilogram of matter.&quot; [NIST:NIST]</rdfs:comment>
     </owl:Class>
     
 
@@ -1413,7 +1395,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000138">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">millisievert</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000130"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A dose equivalent unit which is equal to one thousandth of a sievert or 10^[-3] Sv.&quot; [NIST:NIST &quot;http://physics.nist.gov/cuu/Units/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A dose equivalent unit which is equal to one thousandth of a sievert or 10^[-3] Sv.&quot; [NIST:NIST]</rdfs:comment>
     </owl:Class>
     
 
@@ -1423,7 +1405,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000139">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">microsievert</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000130"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A dose equivalent unit which is equal to one millionth of a sievert or 10^[-6] Sv.&quot; [NIST:NIST &quot;http://physics.nist.gov/cuu/Units/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A dose equivalent unit which is equal to one millionth of a sievert or 10^[-6] Sv.&quot; [NIST:NIST]</rdfs:comment>
     </owl:Class>
     
 
@@ -1433,7 +1415,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000140">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Roentgen equivalent man</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000130"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A dose equivalent unit which when multiplied by hundred is equal to one sievert or 1 Sv. 1 Sv is equal to 100 rem.&quot; [Wikipedia:Wikipedia &quot;http://www.wikipedia.org/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A dose equivalent unit which when multiplied by hundred is equal to one sievert or 1 Sv. 1 Sv is equal to 100 rem.&quot; [Wikipedia:Wikipedia]</rdfs:comment>
     </owl:Class>
     
 
@@ -1443,7 +1425,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000141">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">microgray</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000129"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An absorbed dose unit which is equal to one millionth of a gray or 10^[-6] Gy.&quot; [NIST:NIST &quot;http://physics.nist.gov/cuu/Units/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An absorbed dose unit which is equal to one millionth of a gray or 10^[-6] Gy.&quot; [NIST:NIST]</rdfs:comment>
     </owl:Class>
     
 
@@ -1453,7 +1435,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000142">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">milligray</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000129"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An absorbed dose unit which is equal to one thousandth of a gray or 10^[-3] Gy.&quot; [NIST:NIST &quot;http://physics.nist.gov/cuu/Units/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An absorbed dose unit which is equal to one thousandth of a gray or 10^[-3] Gy.&quot; [NIST:NIST]</rdfs:comment>
     </owl:Class>
     
 
@@ -1463,7 +1445,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000143">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nanogray</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000129"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An absorbed dose unit which is equal to one thousandth of a millionth of a gray or 10^[-9] Gy.&quot; [NIST:NIST &quot;http://physics.nist.gov/cuu/Units/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An absorbed dose unit which is equal to one thousandth of a millionth of a gray or 10^[-9] Gy.&quot; [NIST:NIST]</rdfs:comment>
     </owl:Class>
     
 
@@ -1473,7 +1455,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000144">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nanosievert</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000130"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A dose equivalent unit which is equal to one thousandth of a millionth of a sievert or 10^[-9] Sv.&quot; [NIST:NIST &quot;http://physics.nist.gov/cuu/Units/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A dose equivalent unit which is equal to one thousandth of a millionth of a sievert or 10^[-9] Sv.&quot; [NIST:NIST]</rdfs:comment>
     </owl:Class>
     
 
@@ -1483,7 +1465,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000145">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">millicurie</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000128"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An activity (of a radionuclide) unit which is equal to one thousandth of a curie or 10^[-3] Ci.&quot; [ORCBS:ORCBS &quot;http://www.orcbs.msu.edu/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An activity (of a radionuclide) unit which is equal to one thousandth of a curie or 10^[-3] Ci.&quot; [ORCBS:ORCBS]</rdfs:comment>
     </owl:Class>
     
 
@@ -1493,7 +1475,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000146">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">microcurie</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000128"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An activity (of a radionuclide) unit which is equal to one millionth of a curie or 10^[-6] Ci.&quot; [ORCBS:ORCBS &quot;http://www.orcbs.msu.edu/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An activity (of a radionuclide) unit which is equal to one millionth of a curie or 10^[-6] Ci.&quot; [ORCBS:ORCBS]</rdfs:comment>
     </owl:Class>
     
 
@@ -1503,7 +1485,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000147">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disintegrations per minute</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000128"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An activity (of a radionuclide) unit which is equal to the activity of a quantity of radioactive material in which one nucleus decays per minute or there is one atom disintegration per minute.&quot; [ORCBS:ORCBS &quot;http://www.orcbs.msu.edu/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An activity (of a radionuclide) unit which is equal to the activity of a quantity of radioactive material in which one nucleus decays per minute or there is one atom disintegration per minute.&quot; [ORCBS:ORCBS]</rdfs:comment>
     </owl:Class>
     
 
@@ -1513,7 +1495,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000148">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">counts per minute</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000128"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An activity (of a radionuclide) unit which is equal to the number of light emissions produced by ionizing radiation in one minute.&quot; [ORCBS:ORCBS &quot;http://www.orcbs.msu.edu/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An activity (of a radionuclide) unit which is equal to the number of light emissions produced by ionizing radiation in one minute.&quot; [ORCBS:ORCBS]</rdfs:comment>
     </owl:Class>
     
 
@@ -1523,7 +1505,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000150">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nanosecond</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000003"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A time unit which is equal to one thousandth of one millionth of a second or 10^[-9] s.&quot; [NIST:NIST &quot;http://physics.nist.gov/cuu/Units/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A time unit which is equal to one thousandth of one millionth of a second or 10^[-9] s.&quot; [NIST:NIST]</rdfs:comment>
     </owl:Class>
     
 
@@ -1533,7 +1515,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000151">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">century</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000003"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A time unit which is equal to 100 years.&quot; [Wikipedia:Wikipedia &quot;http://www.wikipedia.org/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A time unit which is equal to 100 years.&quot; [Wikipedia:Wikipedia]</rdfs:comment>
     </owl:Class>
     
 
@@ -1543,7 +1525,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000152">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">half life</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000003"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A time unit which represents the period over which the activity or concentration of a specified chemical or element falls to half its original activity or concentration.&quot; [MGED:MGED &quot;http://mged.sourceforge.net/ontologies/MGEDontology.php&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A time unit which represents the period over which the activity or concentration of a specified chemical or element falls to half its original activity or concentration.&quot; [MGED:MGED]</rdfs:comment>
     </owl:Class>
     
 
@@ -1553,7 +1535,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000153">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">foot candle</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000115"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An illuminance unit which is equal to the illuminance produced by 1 lumen evenly spread over an area 1 foot^[2]. One footcandle is equal to 10.76 lux.&quot; [Wikipedia:Wikipedia &quot;http://www.wikipedia.org/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An illuminance unit which is equal to the illuminance produced by 1 lumen evenly spread over an area 1 foot^[2]. One footcandle is equal to 10.76 lux.&quot; [Wikipedia:Wikipedia]</rdfs:comment>
     </owl:Class>
     
 
@@ -1563,7 +1545,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000154">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">irradiance unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000157"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit which is a standard measure of the power of electromagnetic radiation at a surface, per unit area.&quot; [Wikipedia:Wikipedia &quot;http://www.wikipedia.org/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit which is a standard measure of the power of electromagnetic radiation at a surface, per unit area.&quot; [Wikipedia:Wikipedia]</rdfs:comment>
     </owl:Class>
     
 
@@ -1573,7 +1555,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000155">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">watt per square meter</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000154"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An irradiance unit which is equal to 1 watt of radiant power incident per one square meter surface area.&quot; [NIST:NIST &quot;http://physics.nist.gov/cuu/Units/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An irradiance unit which is equal to 1 watt of radiant power incident per one square meter surface area.&quot; [NIST:NIST]</rdfs:comment>
     </owl:Class>
     
 
@@ -1583,7 +1565,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000156">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">einstein per square meter per second</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000154"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An irradiance unit which is equal to one einstein per square meter per second. One einstein is one mole of photons, regardless of their frequency. Therefore, the number of photons in an einstein is Avogadro&#39;s number.&quot; [Wikipedia:Wikipedia &quot;http://www.wikipedia.org/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An irradiance unit which is equal to one einstein per square meter per second. One einstein is one mole of photons, regardless of their frequency. Therefore, the number of photons in an einstein is Avogadro&#39;s number.&quot; [Wikipedia:Wikipedia]</rdfs:comment>
     </owl:Class>
     
 
@@ -1593,7 +1575,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000157">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">light unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000000"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit which is a standard measure of the intensity of light.&quot; [NIST:NIST &quot;http://physics.nist.gov/cuu/Units/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit which is a standard measure of the intensity of light.&quot; [NIST:NIST]</rdfs:comment>
     </owl:Class>
     
 
@@ -1603,7 +1585,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000158">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">watt per steradian per square meter</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000161"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A radiance unit which is equal to one watt of radiant power incident per steradian solid angle per one square meter projected area of the source, as viewed from the given direction.&quot; [NIST:NIST &quot;http://physics.nist.gov/cuu/Units/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A radiance unit which is equal to one watt of radiant power incident per steradian solid angle per one square meter projected area of the source, as viewed from the given direction.&quot; [NIST:NIST]</rdfs:comment>
     </owl:Class>
     
 
@@ -1613,7 +1595,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000159">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">radiant intensity unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000157"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit which is a standard measure of the intensity of electromagnetic radiation.&quot; [Wikipedia:Wikipedia &quot;http://www.wikipedia.org/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit which is a standard measure of the intensity of electromagnetic radiation.&quot; [Wikipedia:Wikipedia]</rdfs:comment>
     </owl:Class>
     
 
@@ -1623,7 +1605,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000160">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">microeinstein per square meter per second</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000154"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An irradiance unit which is equal to one microeinstein per square meter per second or 10^[-6] microeinstein/sm^[2].&quot; [Wikipedia:Wikipedia &quot;http://www.wikipedia.org/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An irradiance unit which is equal to one microeinstein per square meter per second or 10^[-6] microeinstein/sm^[2].&quot; [Wikipedia:Wikipedia]</rdfs:comment>
     </owl:Class>
     
 
@@ -1633,7 +1615,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000161">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">radiance unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000157"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit which is a standard measure of the power of electromagnetic radiation through space or through a material medium in the form of electromagnetic waves.&quot; [Wikipedia:Wikipedia &quot;http://www.wikipedia.org/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit which is a standard measure of the power of electromagnetic radiation through space or through a material medium in the form of electromagnetic waves.&quot; [Wikipedia:Wikipedia]</rdfs:comment>
     </owl:Class>
     
 
@@ -1643,7 +1625,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000162">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">watt per steradian</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000159"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A radiant intensity unit which is equal to one kilogram meter squared per second cubed per steradian.&quot; [NIST:NIST &quot;http://physics.nist.gov/cuu/Units/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A radiant intensity unit which is equal to one kilogram meter squared per second cubed per steradian.&quot; [NIST:NIST]</rdfs:comment>
     </owl:Class>
     
 
@@ -1654,7 +1636,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mass percentage</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000051"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000187"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A dimensionless concentration unit which denotes the mass of a substance in a mixture as a percentage of the mass of the entire mixture.&quot; [Wikipedia:Wikipedia &quot;http://www.wikipedia.org/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A dimensionless concentration unit which denotes the mass of a substance in a mixture as a percentage of the mass of the entire mixture.&quot; [Wikipedia:Wikipedia]</rdfs:comment>
     </owl:Class>
     
 
@@ -1686,7 +1668,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000166">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">parts per notation unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000186"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A dimensionless concentration notation which describes the amount of one substance in another. It is the ratio of the amount of the substance of interest to the amount of that substance plus the amount of the substance.&quot; [Wikipedia:Wikipedia &quot;http://www.wikipedia.org/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A dimensionless concentration notation which describes the amount of one substance in another. It is the ratio of the amount of the substance of interest to the amount of that substance plus the amount of the substance.&quot; [Wikipedia:Wikipedia]</rdfs:comment>
     </owl:Class>
     
 
@@ -1796,7 +1778,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000177">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">unit per volume unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000051"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A concentration unit which is a standard measure of the number of units, as an agreed arbitrary amount, of a given substance per a specific volume of solution.&quot; [Webmd:Webmd &quot;http://www.webmd.com/hw/health_guide_atoz/aa74537.asp&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A concentration unit which is a standard measure of the number of units, as an agreed arbitrary amount, of a given substance per a specific volume of solution.&quot; [Webmd:Webmd]</rdfs:comment>
     </owl:Class>
     
 
@@ -1806,7 +1788,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000178">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">unit per milliliter</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000177"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit per milliliter unit which is equal to one unit of an agreed arbitrary amount per one milliliter.&quot; [Webmd:Webmd &quot;http://www.webmd.com/hw/health_guide_atoz/aa74537.asp&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit per milliliter unit which is equal to one unit of an agreed arbitrary amount per one milliliter.&quot; [Webmd:Webmd]</rdfs:comment>
     </owl:Class>
     
 
@@ -1826,7 +1808,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000180">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mass per unit volume</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000051"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A concentration unit which is a standard measure of the mass of a substance in a given volume (density).&quot; [Wikipedia:Wikipedia &quot;http://www.wikipedia.org/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A concentration unit which is a standard measure of the mass of a substance in a given volume (density).&quot; [Wikipedia:Wikipedia]</rdfs:comment>
     </owl:Class>
     
 
@@ -1836,7 +1818,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000181">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">enzyme unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000119"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A catalytic unit activity which is equal to the amount of the enzyme that catalyzes the conversion of 1 micro mole of substrate per minute.&quot; [Wikipedia:Wikipedia &quot;http://www.wikipedia.org/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A catalytic unit activity which is equal to the amount of the enzyme that catalyzes the conversion of 1 micro mole of substrate per minute.&quot; [Wikipedia:Wikipedia]</rdfs:comment>
     </owl:Class>
     
 
@@ -1846,7 +1828,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000182">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">density unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000000"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit which is a standard measure of the influence exerted by some mass.&quot; [Wikipedia:Wikipedia &quot;http://www.wikipedia.org/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit which is a standard measure of the influence exerted by some mass.&quot; [Wikipedia:Wikipedia]</rdfs:comment>
     </owl:Class>
     
 
@@ -1856,7 +1838,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000183">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">linear density unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000182"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A density unit which is a standard measure of the mass exerting an influence on a one-dimensional object.&quot; [Wikipedia:Wikipedia &quot;http://www.wikipedia.org/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A density unit which is a standard measure of the mass exerting an influence on a one-dimensional object.&quot; [Wikipedia:Wikipedia]</rdfs:comment>
     </owl:Class>
     
 
@@ -1866,7 +1848,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000184">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kilogram per meter</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000183"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An area density unit which is equal to the mass of an object in kilograms divided by one meter.&quot; [NIST:NIST &quot;http://physics.nist.gov/cuu/Units/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An area density unit which is equal to the mass of an object in kilograms divided by one meter.&quot; [NIST:NIST]</rdfs:comment>
     </owl:Class>
     
 
@@ -1876,7 +1858,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000185">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">degree</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000122"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A plane angle unit which is equal to 1/360 of a full rotation or 1.7453310^[-2] rad.&quot; [Wikipedia:Wikipedia &quot;http://www.wikipedia.org/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A plane angle unit which is equal to 1/360 of a full rotation or 1.7453310^[-2] rad.&quot; [Wikipedia:Wikipedia]</rdfs:comment>
     </owl:Class>
     
 
@@ -1886,7 +1868,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000186">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dimensionless unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000000"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit which is a standard measure of physical quantity consisting of only a numerical number without any units.&quot; [Wikipedia:Wikipedia &quot;http://www.wikipedia.org/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit which is a standard measure of physical quantity consisting of only a numerical number without any units.&quot; [Wikipedia:Wikipedia]</rdfs:comment>
     </owl:Class>
     
 
@@ -1896,7 +1878,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000187">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">percent</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000190"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A dimensionless ratio unit which denotes numbers as fractions of 100.&quot; [Wikipedia:Wikipedia &quot;http://www.wikipedia.org/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A dimensionless ratio unit which denotes numbers as fractions of 100.&quot; [Wikipedia:Wikipedia]</rdfs:comment>
     </owl:Class>
     
 
@@ -1906,7 +1888,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000188">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pi</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000186"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A dimensionless unit which denoted an irrational real number, approximately equal to 3.14159 which is the ratio of a circle&#39;s circumference to its diameter in Euclidean geometry.&quot; [Wikipedia:Wikipedia &quot;http://www.wikipedia.org/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A dimensionless unit which denoted an irrational real number, approximately equal to 3.14159 which is the ratio of a circle&#39;s circumference to its diameter in Euclidean geometry.&quot; [Wikipedia:Wikipedia]</rdfs:comment>
     </owl:Class>
     
 
@@ -1916,7 +1898,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000189">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">count unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000186"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A dimensionless unit which denotes a simple count of things.&quot; [MGED:MGED &quot;http://mged.sourceforge.net/ontologies/MGEDontology.php&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A dimensionless unit which denotes a simple count of things.&quot; [MGED:MGED]</rdfs:comment>
     </owl:Class>
     
 
@@ -1926,7 +1908,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000190">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ratio</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000186"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A dimensionless unit which denotes an amount or magnitude of one quantity relative to another.&quot; [Wikipedia:Wikipedia &quot;http://www.wikipedia.org/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A dimensionless unit which denotes an amount or magnitude of one quantity relative to another.&quot; [Wikipedia:Wikipedia]</rdfs:comment>
     </owl:Class>
     
 
@@ -1936,7 +1918,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000191">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fraction</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000190"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A dimensionless ratio unit which relates the part (the numerator) to the whole (the denominator).&quot; [Wikipedia:Wikipedia &quot;http://www.wikipedia.org/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A dimensionless ratio unit which relates the part (the numerator) to the whole (the denominator).&quot; [Wikipedia:Wikipedia]</rdfs:comment>
     </owl:Class>
     
 
@@ -1946,7 +1928,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000192">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">molecule count</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000189"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A dimensionless count unit which denotes the number of molecules.&quot; [MGED:MGED &quot;http://mged.sourceforge.net/ontologies/MGEDontology.php&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A dimensionless count unit which denotes the number of molecules.&quot; [MGED:MGED]</rdfs:comment>
     </owl:Class>
     
 
@@ -1956,7 +1938,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000193">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">purity percentage</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000187"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A dimensionless percent unit which denotes the homogeneity of a biomaterial.&quot; [MGED:MGED &quot;http://mged.sourceforge.net/ontologies/MGEDontology.php&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A dimensionless percent unit which denotes the homogeneity of a biomaterial.&quot; [MGED:MGED]</rdfs:comment>
     </owl:Class>
     
 
@@ -1966,7 +1948,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000194">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">confluence percentage</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000187"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A dimensionless percent unit which denotes the density of an attached or monolayer culture (e.g., cell culture).&quot; [MGED:MGED &quot;http://mged.sourceforge.net/ontologies/MGEDontology.php&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A dimensionless percent unit which denotes the density of an attached or monolayer culture (e.g., cell culture).&quot; [MGED:MGED]</rdfs:comment>
     </owl:Class>
     
 
@@ -1974,9 +1956,9 @@
     <!-- http://purl.obolibrary.org/obo/UO_0000195 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000195">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">degree fahrenheit</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">degree Fahrenheit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000005"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A temperature unit which is equal to 5/9ths of a kelvin. Negative 40 degrees Fahrenheit is equal to negative 40 degrees Celsius.&quot; [Wikipedia:Wikipedia &quot;http://www.wikipedia.org/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A temperature unit which is equal to 5/9ths of a kelvin. Negative 40 degrees Fahrenheit is equal to negative 40 degrees Celsius.&quot; [Wikipedia:Wikipedia]</rdfs:comment>
     </owl:Class>
     
 
@@ -1987,7 +1969,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pH</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000051"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000186"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A dimensionless concentration notation which denotes the acidity of a solution in terms of activity of hydrogen ions (H+).&quot; [Wikipedia:Wikipedia &quot;http://www.wikipedia.org/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A dimensionless concentration notation which denotes the acidity of a solution in terms of activity of hydrogen ions (H+).&quot; [Wikipedia:Wikipedia]</rdfs:comment>
     </owl:Class>
     
 
@@ -1997,7 +1979,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000197">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">liter per kilogram</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000059"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A specific volume unit which is equal to one liter volume occupied by one kilogram of a particular substance.&quot; [NIST:NIST &quot;http://physics.nist.gov/cuu/Units/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A specific volume unit which is equal to one liter volume occupied by one kilogram of a particular substance.&quot; [NIST:NIST]</rdfs:comment>
     </owl:Class>
     
 
@@ -2007,7 +1989,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000198">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">milliliter per kilogram</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000059"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A specific volume unit which is equal to a thousandth of a liter per kilogram or 10^[-3] l/kg.&quot; [NIST:NIST &quot;http://physics.nist.gov/cuu/Units/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A specific volume unit which is equal to a thousandth of a liter per kilogram or 10^[-3] l/kg.&quot; [NIST:NIST]</rdfs:comment>
     </owl:Class>
     
 
@@ -2017,7 +1999,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000199">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">microliter per kilogram</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000059"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A specific volume unit which is equal to one millionth of a liter per kilogram or 10^[-6] l/kg.&quot; [NIST:NIST &quot;http://physics.nist.gov/cuu/Units/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A specific volume unit which is equal to one millionth of a liter per kilogram or 10^[-6] l/kg.&quot; [NIST:NIST]</rdfs:comment>
     </owl:Class>
     
 
@@ -2027,7 +2009,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000200">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell concentration unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000051"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A concentration unit which denotes the average cell number in a given volume.&quot; [Bioedonline:Bioedonline &quot;http://www.bioedonline.org/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A concentration unit which denotes the average cell number in a given volume.&quot; [Bioedonline:Bioedonline]</rdfs:comment>
     </owl:Class>
     
 
@@ -2037,7 +2019,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000201">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cells per milliliter</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000200"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit of cell concentration which is equal to one cell in a volume of 1 milliliter.&quot; [Bioedonline:Bioedonline &quot;http://www.bioedonline.org/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit of cell concentration which is equal to one cell in a volume of 1 milliliter.&quot; [Bioedonline:Bioedonline]</rdfs:comment>
     </owl:Class>
     
 
@@ -2057,7 +2039,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000203">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">katal per cubic meter</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000202"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A catalytic (activity) concentration unit which is equal to 1 katal activity of a catalyst in a given volume of one cubic meter.&quot; [NIST:NIST &quot;http://physics.nist.gov/cuu/Units/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A catalytic (activity) concentration unit which is equal to 1 katal activity of a catalyst in a given volume of one cubic meter.&quot; [NIST:NIST]</rdfs:comment>
     </owl:Class>
     
 
@@ -2067,7 +2049,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000204">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">katal per liter</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000202"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A catalytic (activity) concentration unit which is equal to 1 katal activity of a catalyst in a given volume of one thousandth of a cubic meter.&quot; [NIST:NIST &quot;http://physics.nist.gov/cuu/Units/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A catalytic (activity) concentration unit which is equal to 1 katal activity of a catalyst in a given volume of one thousandth of a cubic meter.&quot; [NIST:NIST]</rdfs:comment>
     </owl:Class>
     
 
@@ -2077,7 +2059,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000205">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">volume per unit volume</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000051"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A dimensionless concentration unit which denotes the given volume of the solute in the total volume of the resulting solution.&quot; [NIST:NIST &quot;http://physics.nist.gov/cuu/Units/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A dimensionless concentration unit which denotes the given volume of the solute in the total volume of the resulting solution.&quot; [NIST:NIST]</rdfs:comment>
     </owl:Class>
     
 
@@ -2087,7 +2069,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000206">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">milliliter per cubic meter</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000205"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A volume per unit volume unit which is equal to one millionth of a liter of solute in one cubic meter of solution.&quot; [NIST:NIST &quot;http://physics.nist.gov/cuu/Units/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A volume per unit volume unit which is equal to one millionth of a liter of solute in one cubic meter of solution.&quot; [NIST:NIST]</rdfs:comment>
     </owl:Class>
     
 
@@ -2097,7 +2079,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000207">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">milliliter per liter</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000205"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A volume per unit volume unit which is equal to one millionth of a liter of solute in one liter of solution.&quot; [NIST:NIST &quot;http://physics.nist.gov/cuu/Units/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A volume per unit volume unit which is equal to one millionth of a liter of solute in one liter of solution.&quot; [NIST:NIST]</rdfs:comment>
     </owl:Class>
     
 
@@ -2117,7 +2099,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000209">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">deciliter</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000095"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A volume unit which is equal to one tenth of a liter or 10^[-1] L.&quot; [NIST:NIST &quot;http://physics.nist.gov/cuu/Units/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A volume unit which is equal to one tenth of a liter or 10^[-1] L.&quot; [NIST:NIST]</rdfs:comment>
     </owl:Class>
     
 
@@ -2127,7 +2109,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000210">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">colony forming unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000189"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A dimensionless count unit which a measure of viable bacterial numbers.&quot; [Wikipedia:Wikipedia &quot;http://www.wikipedia.org/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A dimensionless count unit which a measure of viable bacterial numbers.&quot; [Wikipedia:Wikipedia]</rdfs:comment>
     </owl:Class>
     
 
@@ -2137,7 +2119,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000211">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plaque forming unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000189"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A dimensionless count unit which a measure of plague forming units in a given volume.&quot; [Wikipedia:Wikipedia &quot;http://www.wikipedia.org/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A dimensionless count unit which a measure of plague forming units in a given volume.&quot; [Wikipedia:Wikipedia]</rdfs:comment>
     </owl:Class>
     
 
@@ -2147,7 +2129,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000212">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">colony forming unit per volume</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000051"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A concentration unit which a measure of viable bacterial numbers in a given volume.&quot; [Wikipedia:Wikipedia &quot;http://www.wikipedia.org/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A concentration unit which a measure of viable bacterial numbers in a given volume.&quot; [Wikipedia:Wikipedia]</rdfs:comment>
     </owl:Class>
     
 
@@ -2157,7 +2139,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000213">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">colony forming unit per milliliter</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000212"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A colony forming unit which a measure of viable bacterial numbers in one milliliter.&quot; [Wikipedia:Wikipedia &quot;http://www.wikipedia.org/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A colony forming unit which a measure of viable bacterial numbers in one milliliter.&quot; [Wikipedia:Wikipedia]</rdfs:comment>
     </owl:Class>
     
 
@@ -2187,7 +2169,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000216">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disintegrations per second</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000128"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An activity (of a radionuclide) unit which is equal to the activity of a quantity of radioactive material in which one nucleus decays per second or there is one atom disintegration per second.&quot; [ORCBS:ORCBS &quot;http://www.orcbs.msu.edu/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An activity (of a radionuclide) unit which is equal to the activity of a quantity of radioactive material in which one nucleus decays per second or there is one atom disintegration per second.&quot; [ORCBS:ORCBS]</rdfs:comment>
     </owl:Class>
     
 
@@ -2197,7 +2179,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000217">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">electric potential difference unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000000"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit which is a standard measure of the work done per unit charge as a charge is moved between two points in an electric field.&quot; [Wikipedia:Wikipedia &quot;http://www.wikipedia.org/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit which is a standard measure of the work done per unit charge as a charge is moved between two points in an electric field.&quot; [Wikipedia:Wikipedia]</rdfs:comment>
     </owl:Class>
     
 
@@ -2207,7 +2189,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000218">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">volt</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000217"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An electric potential difference unit which is equal to the work per unit charge. One volt is the potential difference required to move one coulomb of charge between two points in a circuit while using one joule of energy.&quot; [Wikipedia:Wikipedia &quot;http://www.wikipedia.org/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An electric potential difference unit which is equal to the work per unit charge. One volt is the potential difference required to move one coulomb of charge between two points in a circuit while using one joule of energy.&quot; [Wikipedia:Wikipedia]</rdfs:comment>
     </owl:Class>
     
 
@@ -2217,7 +2199,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000219">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">electric charge</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000000"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit which is a standard measure of the quantity of unbalanced electricity in a body (either positive or negative) and construed as an excess or deficiency of electrons.&quot; [WordNet:WordNet &quot;http://wordnet.princeton.edu/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit which is a standard measure of the quantity of unbalanced electricity in a body (either positive or negative) and construed as an excess or deficiency of electrons.&quot; [WordNet:WordNet]</rdfs:comment>
     </owl:Class>
     
 
@@ -2227,7 +2209,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000220">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">coulomb</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000219"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An electrical charge unit which is equal to the amount of charge transferred by a current of 1 ampere in 1 second.&quot; [WordNet:WordNet &quot;http://wordnet.princeton.edu/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An electrical charge unit which is equal to the amount of charge transferred by a current of 1 ampere in 1 second.&quot; [WordNet:WordNet]</rdfs:comment>
     </owl:Class>
     
 
@@ -2237,7 +2219,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000221">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dalton</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000002"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An independently to the base SI units defined mass unit which is equal to one twelfth of the mass of an unbound atom of the carbon-12 nuclide, at rest and in its ground state.&quot; [Wikipedia:Wikipedia &quot;http://www.wikipedia.org/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An independently to the base SI units defined mass unit which is equal to one twelfth of the mass of an unbound atom of the carbon-12 nuclide, at rest and in its ground state.&quot; [Wikipedia:Wikipedia]</rdfs:comment>
     </owl:Class>
     
 
@@ -2247,7 +2229,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000222">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kilodalton</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000002"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A mass unit which is equal to one thousand daltons.&quot; [Wikipedia:Wikipedia &quot;http://www.wikipedia.org/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A mass unit which is equal to one thousand daltons.&quot; [Wikipedia:Wikipedia]</rdfs:comment>
     </owl:Class>
     
 
@@ -2257,7 +2239,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000223">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">watt-hour</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000111"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An energy unit which is equal to the amount of electrical energy equivalent to a one-watt load drawing power for one hour.&quot; [Wikipedia:Wikipedia &quot;http://www.wikipedia.org/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An energy unit which is equal to the amount of electrical energy equivalent to a one-watt load drawing power for one hour.&quot; [Wikipedia:Wikipedia]</rdfs:comment>
     </owl:Class>
     
 
@@ -2267,7 +2249,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000224">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kilowatt-hour</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000111"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An energy unit which is equal to 1,000 watt-hours.&quot; [Wikipedia:Wikipedia &quot;http://www.wikipedia.org/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An energy unit which is equal to 1,000 watt-hours.&quot; [Wikipedia:Wikipedia]</rdfs:comment>
     </owl:Class>
     
 
@@ -2277,7 +2259,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000225">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">magnetic flux unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000000"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit which is a standard measure of quantity of magnetism, taking account of the strength and the extent of a magnetic field.&quot; [Wikipedia:Wikipedia &quot;http://www.wikipedia.org/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit which is a standard measure of quantity of magnetism, taking account of the strength and the extent of a magnetic field.&quot; [Wikipedia:Wikipedia]</rdfs:comment>
     </owl:Class>
     
 
@@ -2287,7 +2269,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000226">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">weber</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000225"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A magnetic flux unit which is equal to the amount of flux that when linked with a single turn of wire for an interval of one second will induce an electromotive force of one volt.&quot; [ScienceLobby:ScienceLobby &quot;www.sciencelobby.com/dictionary/w.html&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A magnetic flux unit which is equal to the amount of flux that when linked with a single turn of wire for an interval of one second will induce an electromotive force of one volt.&quot; [ScienceLobby:ScienceLobby]</rdfs:comment>
     </owl:Class>
     
 
@@ -2297,7 +2279,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000227">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">magnetic flux density unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000000"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit which is a standard measure of the strength of a magnetic field.&quot; [allnet:allnet &quot;www.all.net/books/standards/remnants/glo.html&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit which is a standard measure of the strength of a magnetic field.&quot; [allnet:allnet]</rdfs:comment>
     </owl:Class>
     
 
@@ -2307,7 +2289,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000228">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tesla</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000227"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A magnetic flux density unit which is equal to one weber per square meter.&quot; [WordNet:WordNet &quot;http://wordnet.princeton.edu/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A magnetic flux density unit which is equal to one weber per square meter.&quot; [WordNet:WordNet]</rdfs:comment>
     </owl:Class>
     
 
@@ -2337,7 +2319,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000231">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">information unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000000"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit which is a standard measure of the amount of information.&quot; [Wikipedia:Wikipedia &quot;http://www.wikipedia.org/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit which is a standard measure of the amount of information.&quot; [Wikipedia:Wikipedia]</rdfs:comment>
     </owl:Class>
     
 
@@ -2347,7 +2329,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000232">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000231"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An information unit which refers to a digit in the binary numeral system, which consists of base 2 digits (ie there are only 2 possible values: 0 or 1).&quot; [Wikipedia:Wikipedia &quot;http://www.wikipedia.org/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An information unit which refers to a digit in the binary numeral system, which consists of base 2 digits (ie there are only 2 possible values: 0 or 1).&quot; [Wikipedia:Wikipedia]</rdfs:comment>
     </owl:Class>
     
 
@@ -2357,7 +2339,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000233">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">byte</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000231"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An information unit which is equal to 8 bits.&quot; [Wikipedia:Wikipedia &quot;http://www.wikipedia.org/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An information unit which is equal to 8 bits.&quot; [Wikipedia:Wikipedia]</rdfs:comment>
     </owl:Class>
     
 
@@ -2367,7 +2349,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000234">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kilobyte</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000231"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An information unit which is equal to 1000 bytes.&quot; [Wikipedia:Wikipedia &quot;http://www.wikipedia.org/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An information unit which is equal to 1000 bytes.&quot; [Wikipedia:Wikipedia]</rdfs:comment>
     </owl:Class>
     
 
@@ -2377,7 +2359,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000235">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">megabyte</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000231"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An information unit which is equal to 1000 kB.&quot; [Wikipedia:Wikipedia &quot;http://www.wikipedia.org/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An information unit which is equal to 1000 kB.&quot; [Wikipedia:Wikipedia]</rdfs:comment>
     </owl:Class>
     
 
@@ -2387,7 +2369,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000236">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">image resolution unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000231"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An information unit which is a standard measure of the detail an image holds.&quot; [Wikipedia:Wikipedia &quot;http://www.wikipedia.org/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An information unit which is a standard measure of the detail an image holds.&quot; [Wikipedia:Wikipedia]</rdfs:comment>
     </owl:Class>
     
 
@@ -2397,7 +2379,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000237">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chroma sampling unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000236"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An image resolution unit which is a standard measure of the amount of spatial detail in an image.&quot; [Wikipedia:Wikipedia &quot;http://www.wikipedia.org/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An image resolution unit which is a standard measure of the amount of spatial detail in an image.&quot; [Wikipedia:Wikipedia]</rdfs:comment>
     </owl:Class>
     
 
@@ -2407,7 +2389,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000238">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dynamic range unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000236"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An image resolution unit which is a standard measure of the amount of contrast available in a pixel.&quot; [Wikipedia:Wikipedia &quot;http://www.wikipedia.org/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An image resolution unit which is a standard measure of the amount of contrast available in a pixel.&quot; [Wikipedia:Wikipedia]</rdfs:comment>
     </owl:Class>
     
 
@@ -2417,7 +2399,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000239">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">spatial resolution unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000236"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An image resolution unit which is a standard measure of the way luminance and chrominance may be sampled at different levels.&quot; [Wikipedia:Wikipedia &quot;http://www.wikipedia.org/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An image resolution unit which is a standard measure of the way luminance and chrominance may be sampled at different levels.&quot; [Wikipedia:Wikipedia]</rdfs:comment>
     </owl:Class>
     
 
@@ -2427,7 +2409,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000240">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dots per inch</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000239"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A spatial resolution unit which is a standard measure of the printing resolution, in particular the number of individual dots of ink a printer or toner can produce within a linear one-inch space.&quot; [Wikipedia:Wikipedia &quot;http://www.wikipedia.org/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A spatial resolution unit which is a standard measure of the printing resolution, in particular the number of individual dots of ink a printer or toner can produce within a linear one-inch space.&quot; [Wikipedia:Wikipedia]</rdfs:comment>
     </owl:Class>
     
 
@@ -2437,7 +2419,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000241">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">micron pixel</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000239"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A spatial resolution unit which is equal to a pixel size of one micrometer.&quot; [Wikipedia:Wikipedia &quot;http://www.wikipedia.org/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A spatial resolution unit which is equal to a pixel size of one micrometer.&quot; [Wikipedia:Wikipedia]</rdfs:comment>
     </owl:Class>
     
 
@@ -2447,7 +2429,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000242">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pixels per inch</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000239"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A spatial resolution unit which is a standard measure of the resolution of a computer display, related to the size of the display in inches and the total number of pixels in the horizontal and vertical directions.&quot; [Wikipedia:Wikipedia &quot;http://www.wikipedia.org/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A spatial resolution unit which is a standard measure of the resolution of a computer display, related to the size of the display in inches and the total number of pixels in the horizontal and vertical directions.&quot; [Wikipedia:Wikipedia]</rdfs:comment>
     </owl:Class>
     
 
@@ -2457,7 +2439,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000243">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pixels per millimeter</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000239"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A spatial resolution unit which is a standard measure of the number of pixels in one millimeter length or width of a digital image divided by the physical length or width of a printed image.&quot; [Wikipedia:Wikipedia &quot;http://www.wikipedia.org/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A spatial resolution unit which is a standard measure of the number of pixels in one millimeter length or width of a digital image divided by the physical length or width of a printed image.&quot; [Wikipedia:Wikipedia]</rdfs:comment>
     </owl:Class>
     
 
@@ -2477,7 +2459,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000245">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kibibyte</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000231"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An information unit which is equal to 1024 B.&quot; [NIST:NIST &quot;http://physics.nist.gov/cuu/Units/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An information unit which is equal to 1024 B.&quot; [NIST:NIST]</rdfs:comment>
     </owl:Class>
     
 
@@ -2487,7 +2469,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000246">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mebibyte</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000231"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An information unit which is equal to 1024 KiB.&quot; [NIST:NIST &quot;http://physics.nist.gov/cuu/Units/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An information unit which is equal to 1024 KiB.&quot; [NIST:NIST]</rdfs:comment>
     </owl:Class>
     
 
@@ -2557,7 +2539,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000253">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">surface tension unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000000"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit which is a standard measure of the ability of a liguid to attraction of molecules at its surface as a result of unbalanced molecular cohesive forces.&quot; [NIST:NIST &quot;http://physics.nist.gov/cuu/Units/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit which is a standard measure of the ability of a liguid to attraction of molecules at its surface as a result of unbalanced molecular cohesive forces.&quot; [NIST:NIST]</rdfs:comment>
     </owl:Class>
     
 
@@ -2567,7 +2549,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000254">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">newton per meter</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000253"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A surface tension unit which is equal to one newton per meter.&quot; [NIST:NIST &quot;http://physics.nist.gov/cuu/Units/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A surface tension unit which is equal to one newton per meter.&quot; [NIST:NIST]</rdfs:comment>
     </owl:Class>
     
 
@@ -2577,7 +2559,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000255">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dyne per cm</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000253"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A surface tension unit which is equal to one dyne per centimeter.&quot; [Wikipedia:Wikipedia &quot;http://www.wikipedia.org&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A surface tension unit which is equal to one dyne per centimeter.&quot; [Wikipedia:Wikipedia]</rdfs:comment>
     </owl:Class>
     
 
@@ -2597,7 +2579,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000257">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pascal second</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000256"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A viscosity unit which is equal to one pascale per second.&quot; [NIST:NIST &quot;http://physics.nist.gov/cuu/Units/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A viscosity unit which is equal to one pascale per second.&quot; [NIST:NIST]</rdfs:comment>
     </owl:Class>
     
 
@@ -2607,7 +2589,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000258">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">poise</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000256"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A viscosity unit which is equal to one dyne second per square centimeter.&quot; [Wikipedia:Wikipedia &quot;http://www.wikipedia.org&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A viscosity unit which is equal to one dyne second per square centimeter.&quot; [Wikipedia:Wikipedia]</rdfs:comment>
     </owl:Class>
     
 
@@ -2617,7 +2599,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000259">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">decibel</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000190"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An ratio unit which is an indicator of sound power per unit area.&quot; [techtarget:techtarget &quot;http://searchsmb.techtarget.com/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A ratio unit which is an indicator of sound power per unit area.&quot; [techtarget:techtarget]</rdfs:comment>
     </owl:Class>
     
 
@@ -2627,7 +2609,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000260">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">effective dose unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000127"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit which is a standard measure of the estimate of the stochastic effect that a non-uniform radiation dose has on a human.&quot; [Wikipedia:Wikipedia &quot;http://www.wikipedia.org&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit which is a standard measure of the estimate of the stochastic effect that a non-uniform radiation dose has on a human.&quot; [Wikipedia:Wikipedia]</rdfs:comment>
     </owl:Class>
     
 
@@ -2657,7 +2639,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000263">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">heat conduction unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000261"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit which represents a standard measurement of the spontaneous transfer of thermal energy through matter, from a region of higher temperature to a region of lower temperature.&quot; [Wikipedia:Wikipedia &quot;http://www.wikipedia.org/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit which represents a standard measurement of the spontaneous transfer of thermal energy through matter, from a region of higher temperature to a region of lower temperature.&quot; [Wikipedia:Wikipedia]</rdfs:comment>
     </owl:Class>
     
 
@@ -2667,7 +2649,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000264">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">siemens</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000262"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An electrical conduction unit which is equal to A/V.&quot; [NIST:NIST &quot;http://physics.nist.gov/cuu/Units/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An electrical conduction unit which is equal to A/V.&quot; [NIST:NIST]</rdfs:comment>
     </owl:Class>
     
 
@@ -2677,7 +2659,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000265">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">watt per meter kelvin</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000263"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An heat conduction unit which is equal to one watt divided by meter kelvin.&quot; [NIST:NIST &quot;http://physics.nist.gov/cuu/Units/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An heat conduction unit which is equal to one watt divided by meter kelvin.&quot; [NIST:NIST]</rdfs:comment>
     </owl:Class>
     
 
@@ -2687,7 +2669,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000266">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">electronvolt</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000111"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A non-SI unit of energy (eV) defined as the energy acquired by a single unbound electron when it passes through an electrostatic potential difference of one volt. An electronvolt is equal to 1.602 176 53(14) x 10^-19 J.&quot; [Wikipedia:Wikipedia &quot;http://www.wikipedia.org/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A non-SI unit of energy (eV) defined as the energy acquired by a single unbound electron when it passes through an electrostatic potential difference of one volt. An electronvolt is equal to 1.602 176 53(14) x 10^-19 J.&quot; [Wikipedia:Wikipedia]</rdfs:comment>
     </owl:Class>
     
 
@@ -2717,7 +2699,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000269">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">absorbance unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000186"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A dimensionless logarithmic unit assigned to a measure of absorbance of light through a partially absorbing substance, defined as -log10(I/I_0) where I = transmitted light and I_0 = incident light.&quot; [Wikipedia:http\://en.wikipedia.org/wiki/Absorbance &quot;http://en.wikipedia.org/wiki/Absorbance&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A dimensionless logarithmic unit assigned to a measure of absorbance of light through a partially absorbing substance, defined as -log10(I/I_0) where I = transmitted light and I_0 = incident light.&quot; [Wikipedia:http\://en.wikipedia.org/wiki/Absorbance]</rdfs:comment>
     </owl:Class>
     
 
@@ -2727,7 +2709,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000270">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">volumetric flow rate unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000000"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit which is a standard measure of the volume of fluid which passes through a given surface per unit time .&quot; [Wikipedia:Wikipedia &quot;http://www.wikipedia.org/&quot;]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit which is a standard measure of the volume of fluid which passes through a given surface per unit time .&quot; [Wikipedia:Wikipedia]</rdfs:comment>
     </owl:Class>
     
 
