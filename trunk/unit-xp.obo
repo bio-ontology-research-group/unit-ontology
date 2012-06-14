@@ -1,0 +1,519 @@
+[Term]
+id: UO:0000009
+intersection_of: UO:1000021 ! gram
+intersection_of: has_prefix UO:0000294 ! kilo
+
+[Term]
+id: UO:1000021
+name: gram based unit
+is_a: UO:0000002
+
+[Term]
+id: UO:0000021
+name: gram
+is_a: UO:1000021
+
+[Term]
+id: UO:0000015
+intersection_of: UO:1000008 ! meter
+intersection_of: has_prefix UO:0000298 ! centi
+
+[Term]
+id: UO:1000008
+name: meter based unit
+is_a: UO:0000001
+is_a: UO:0000045
+
+[Term]
+id: UO:0000008
+name: meter
+is_a: UO:1000008
+
+[Term]
+id: UO:0000016
+intersection_of: UO:1000008 ! meter
+intersection_of: has_prefix UO:0000297 ! milli
+
+[Term]
+id: UO:0000017
+intersection_of: UO:1000008 ! meter
+intersection_of: has_prefix UO:0000299 ! micro
+
+[Term]
+id: UO:0000018
+intersection_of: UO:1000008 ! meter
+intersection_of: has_prefix UO:0000300 ! nano
+
+[Term]
+id: UO:0000020
+intersection_of: UO:1000008 ! meter
+intersection_of: has_prefix UO:0000302 ! pico
+
+[Term]
+id: UO:0000022
+intersection_of: UO:1000021 ! gram
+intersection_of: has_prefix UO:0000297 ! milli
+
+[Term]
+id: UO:0000023
+intersection_of: UO:1000021 ! gram
+intersection_of: has_prefix UO:0000299 ! micro
+
+[Term]
+id: UO:0000024
+intersection_of: UO:1000021 ! gram
+intersection_of: has_prefix UO:0000300 ! nano
+
+[Term]
+id: UO:0000025
+intersection_of: UO:1000021 ! gram
+intersection_of: has_prefix UO:0000302 ! pico
+
+[Term]
+id: UO:0000026
+intersection_of: UO:1000021 ! gram
+intersection_of: has_prefix UO:0000303 ! femto
+
+[Term]
+id: UO:0000028
+intersection_of: UO:1000010 ! second
+intersection_of: has_prefix UO:0000297 ! milli
+
+[Term]
+id: UO:1000010
+name: second based unit
+is_a: UO:0000003
+is_a: UO:0000045
+
+[Term]
+id: UO:0000010
+name: second
+is_a: UO:1000010
+
+[Term]
+id: UO:0000029
+intersection_of: UO:1000010 ! second
+intersection_of: has_prefix UO:0000299 ! micro
+
+[Term]
+id: UO:0000030
+intersection_of: UO:1000010 ! second
+intersection_of: has_prefix UO:0000302 ! pico
+
+[Term]
+id: UO:0000037
+intersection_of: UO:1000011 ! ampere
+intersection_of: has_prefix UO:0000297 ! milli
+
+[Term]
+id: UO:1000011
+name: ampere based unit
+is_a: UO:0000004
+is_a: UO:0000045
+
+[Term]
+id: UO:0000011
+name: ampere
+is_a: UO:1000011
+
+[Term]
+id: UO:0000038
+intersection_of: UO:1000011 ! ampere
+intersection_of: has_prefix UO:0000299 ! micro
+
+[Term]
+id: UO:0000039
+intersection_of: UO:1000013 ! mole
+intersection_of: has_prefix UO:0000299 ! micro
+
+[Term]
+id: UO:1000013
+name: mole based unit
+is_a: UO:0000006
+is_a: UO:0000045
+
+[Term]
+id: UO:0000013
+name: mole
+is_a: UO:1000013
+
+[Term]
+id: UO:0000040
+intersection_of: UO:1000013 ! mole
+intersection_of: has_prefix UO:0000297 ! milli
+
+[Term]
+id: UO:0000041
+intersection_of: UO:1000013 ! mole
+intersection_of: has_prefix UO:0000300 ! nano
+
+[Term]
+id: UO:0000042
+intersection_of: UO:1000013 ! mole
+intersection_of: has_prefix UO:0000302 ! pico
+
+[Term]
+id: UO:0000043
+intersection_of: UO:1000013 ! mole
+intersection_of: has_prefix UO:0000303 ! femto
+
+[Term]
+id: UO:0000044
+intersection_of: UO:1000013 ! mole
+intersection_of: has_prefix UO:0000304 ! atto
+
+[Term]
+id: UO:0000063
+intersection_of: UO:1000062 ! molar
+intersection_of: has_prefix UO:0000297 ! milli
+
+[Term]
+id: UO:1000062
+name: molar based unit
+is_a: UO:0000061
+
+[Term]
+id: UO:0000062
+name: molar
+is_a: UO:1000062
+
+[Term]
+id: UO:0000064
+intersection_of: UO:1000062 ! molar
+intersection_of: has_prefix UO:0000299 ! micro
+
+[Term]
+id: UO:0000065
+intersection_of: UO:1000062 ! molar
+intersection_of: has_prefix UO:0000300 ! nano
+
+[Term]
+id: UO:0000066
+intersection_of: UO:1000062 ! molar
+intersection_of: has_prefix UO:0000302 ! pico
+
+[Term]
+id: UO:0000069
+intersection_of: UO:1000068 ! molal
+intersection_of: has_prefix UO:0000297 ! milli
+
+[Term]
+id: UO:1000068
+name: molal based unit
+is_a: UO:0000067
+
+[Term]
+id: UO:0000068
+name: molal
+is_a: UO:1000068
+
+[Term]
+id: UO:0000070
+intersection_of: UO:1000068 ! molal
+intersection_of: has_prefix UO:0000299 ! micro
+
+[Term]
+id: UO:0000071
+intersection_of: UO:1000068 ! molal
+intersection_of: has_prefix UO:0000300 ! nano
+
+[Term]
+id: UO:0000072
+intersection_of: UO:1000068 ! molal
+intersection_of: has_prefix UO:0000302 ! pico
+
+[Term]
+id: UO:0000073
+intersection_of: UO:1000062 ! molar
+intersection_of: has_prefix UO:0000303 ! femto
+
+[Term]
+id: UO:0000087
+intersection_of: UO:1000088 ! gram per mole
+intersection_of: has_prefix UO:0000294 ! kilo
+
+[Term]
+id: UO:1000088
+name: gram per mole based unit
+is_a: UO:0000055
+
+[Term]
+id: UO:0000088
+name: gram per mole
+is_a: UO:1000088
+
+[Term]
+id: UO:0000098
+intersection_of: UO:1000099 ! liter
+intersection_of: has_prefix UO:0000297 ! milli
+
+[Term]
+id: UO:1000099
+name: liter based unit
+is_a: UO:0000095
+
+[Term]
+id: UO:0000099
+name: liter
+is_a: UO:1000099
+
+[Term]
+id: UO:0000101
+intersection_of: UO:1000099 ! liter
+intersection_of: has_prefix UO:0000299 ! micro
+
+[Term]
+id: UO:0000102
+intersection_of: UO:1000099 ! liter
+intersection_of: has_prefix UO:0000300 ! nano
+
+[Term]
+id: UO:0000103
+intersection_of: UO:1000099 ! liter
+intersection_of: has_prefix UO:0000302 ! pico
+
+[Term]
+id: UO:0000104
+intersection_of: UO:1000099 ! liter
+intersection_of: has_prefix UO:0000303 ! femto
+
+[Term]
+id: UO:0000138
+intersection_of: UO:1000137 ! sievert
+intersection_of: has_prefix UO:0000297 ! milli
+
+[Term]
+id: UO:1000137
+name: sievert based unit
+is_a: UO:0000130
+
+[Term]
+id: UO:0000137
+name: sievert
+is_a: UO:1000137
+
+[Term]
+id: UO:0000139
+intersection_of: UO:1000137 ! sievert
+intersection_of: has_prefix UO:0000299 ! micro
+
+[Term]
+id: UO:0000141
+intersection_of: UO:1000134 ! gray
+intersection_of: has_prefix UO:0000299 ! micro
+
+[Term]
+id: UO:1000134
+name: gray based unit
+is_a: UO:0000129
+
+[Term]
+id: UO:0000134
+name: gray
+is_a: UO:1000134
+
+[Term]
+id: UO:0000142
+intersection_of: UO:1000134 ! gray
+intersection_of: has_prefix UO:0000297 ! milli
+
+[Term]
+id: UO:0000143
+intersection_of: UO:1000134 ! gray
+intersection_of: has_prefix UO:0000300 ! nano
+
+[Term]
+id: UO:0000144
+intersection_of: UO:1000137 ! sievert
+intersection_of: has_prefix UO:0000300 ! nano
+
+[Term]
+id: UO:0000145
+intersection_of: UO:1000133 ! curie
+intersection_of: has_prefix UO:0000297 ! milli
+
+[Term]
+id: UO:1000133
+name: curie based unit
+is_a: UO:0000128
+
+[Term]
+id: UO:0000133
+name: curie
+is_a: UO:1000133
+
+[Term]
+id: UO:0000146
+intersection_of: UO:1000133 ! curie
+intersection_of: has_prefix UO:0000299 ! micro
+
+[Term]
+id: UO:0000150
+intersection_of: UO:1000010 ! second
+intersection_of: has_prefix UO:0000300 ! nano
+
+[Term]
+id: UO:0000160
+intersection_of: UO:1000156 ! einstein per square meter per second
+intersection_of: has_prefix UO:0000299 ! micro
+
+[Term]
+id: UO:1000156
+name: einstein per square meter per second based unit
+is_a: UO:0000154
+
+[Term]
+id: UO:0000156
+name: einstein per square meter per second
+is_a: UO:1000156
+
+[Term]
+id: UO:0000174
+intersection_of: UO:1000175 ! gram per liter
+intersection_of: has_prefix UO:0000294 ! kilo
+
+[Term]
+id: UO:1000175
+name: gram per liter based unit
+is_a: UO:0000052
+
+[Term]
+id: UO:0000175
+name: gram per liter
+is_a: UO:1000175
+
+[Term]
+id: UO:0000176
+intersection_of: UO:1000175 ! gram per liter
+intersection_of: has_prefix UO:0000297 ! milli
+
+[Term]
+id: UO:0000198
+intersection_of: UO:1000197 ! liter per kilogram
+intersection_of: has_prefix UO:0000297 ! milli
+
+[Term]
+id: UO:1000197
+name: liter per kilogram based unit
+is_a: UO:0000059
+
+[Term]
+id: UO:0000197
+name: liter per kilogram
+is_a: UO:1000197
+
+[Term]
+id: UO:0000199
+intersection_of: UO:1000197 ! liter per kilogram
+intersection_of: has_prefix UO:0000299 ! micro
+
+[Term]
+id: UO:0000209
+intersection_of: UO:1000099 ! liter
+intersection_of: has_prefix UO:0000296 ! deci
+
+[Term]
+id: UO:0000222
+intersection_of: UO:1000221 ! dalton
+intersection_of: has_prefix UO:0000294 ! kilo
+
+[Term]
+id: UO:1000221
+name: dalton based unit
+is_a: UO:0000002
+
+[Term]
+id: UO:0000221
+name: dalton
+is_a: UO:1000221
+
+[Term]
+id: UO:0000224
+intersection_of: UO:1000223 ! watt-hour
+intersection_of: has_prefix UO:0000294 ! kilo
+
+[Term]
+id: UO:1000223
+name: watt-hour based unit
+is_a: UO:0000111
+
+[Term]
+id: UO:0000223
+name: watt-hour
+is_a: UO:1000223
+
+[Term]
+id: UO:0000230
+intersection_of: UO:1000229 ! volt-hour
+intersection_of: has_prefix UO:0000294 ! kilo
+
+[Term]
+id: UO:1000229
+name: volt-hour based unit
+is_a: UO:0000225
+
+[Term]
+id: UO:0000229
+name: volt-hour
+is_a: UO:1000229
+
+[Term]
+id: UO:0000234
+intersection_of: UO:1000233 ! byte
+intersection_of: has_prefix UO:0000294 ! kilo
+
+[Term]
+id: UO:1000233
+name: byte based unit
+is_a: UO:0000231
+
+[Term]
+id: UO:0000233
+name: byte
+is_a: UO:1000233
+
+[Term]
+id: UO:0000235
+intersection_of: UO:1000233 ! byte
+intersection_of: has_prefix UO:0000293 ! mega
+
+[Term]
+id: UO:0000247
+intersection_of: UO:1000218 ! volt
+intersection_of: has_prefix UO:0000297 ! milli
+
+[Term]
+id: UO:1000218
+name: volt based unit
+is_a: UO:0000217
+
+[Term]
+id: UO:0000218
+name: volt
+is_a: UO:1000218
+
+[Term]
+id: UO:0000249
+intersection_of: UO:1000218 ! volt
+intersection_of: has_prefix UO:0000299 ! micro
+
+[Term]
+id: UO:0000250
+intersection_of: UO:1000218 ! volt
+intersection_of: has_prefix UO:0000300 ! nano
+
+[Term]
+id: UO:0000251
+intersection_of: UO:1000218 ! volt
+intersection_of: has_prefix UO:0000302 ! pico
+
+[Term]
+id: UO:0000252
+intersection_of: UO:1000218 ! volt
+intersection_of: has_prefix UO:0000293 ! mega
+
+[Term]
+id: UO:0000301
+intersection_of: UO:1000175 ! gram per liter
+intersection_of: has_prefix UO:0000299 ! micro
+
