@@ -29,6 +29,7 @@ infile.eachLine {
       exp.isa = []
       exp.rel = []
       exp.unit = false
+      exp.prefix = false
     } else if (it.trim().size()==0) {
       term = false
     } else if (it.trim().startsWith("id:")) {
@@ -39,6 +40,8 @@ infile.eachLine {
       exp.unit = false
     } else if (it.trim().startsWith("subset: unit_slim")) {
       exp.unit = true
+    } else if (it.trim().startsWith("subset: prefix_slim")) {
+      exp.prefix = true
     } else if (it.trim().startsWith("relationship: unit_of")) {
       def rel = it.substring(22).trim()
       if (rel.indexOf('!')>-1) {
@@ -53,6 +56,13 @@ infile.eachLine {
   }
 }
 
+def prefixmap = [:]
+l.each { ex ->
+  if (ex.prefix) {
+    prefixmap[ex.name] = ex.id
+  }
+}
+
 def onturi = "http://purl.obolibrary.org/obo/"
 OWLOntologyManager man = OWLManager.createOWLOntologyManager();
 OWLDataFactory fac = man.getOWLDataFactory()
@@ -62,8 +72,14 @@ OWLOntology ont3 = man.createOntology(IRI.create(onturi+"uo3.owl")) // without s
 OWLOntology ont4 = man.createOntology(IRI.create(onturi+"uo4.owl")) // without units as classes
 OWLOntology ont5 = man.createOntology(IRI.create(onturi+"uo5.owl")) // without PATO references
 def unitof = fac.getOWLObjectProperty(IRI.create(onturi+"unit_of"))
+def hasprefix = fac.getOWLObjectProperty(IRI.create(onturi+"has_prefix"))
 
+PrintWriter oboout = new PrintWriter(new BufferedWriter(new FileWriter(new File("unit-xp.obo"))))
+
+def prefixdone = new TreeSet()
 l.each {
+  def ex = it
+
   def cls = onturi+(it.id.replaceAll(":","_"))
   def cl = fac.getOWLClass(IRI.create(cls))
   man.addAxiom(ont, fac.getOWLDeclarationAxiom(cl))
@@ -72,6 +88,87 @@ l.each {
   man.addAxiom(ont5, fac.getOWLDeclarationAxiom(cl))
   if (!it.unit) {
     man.addAxiom(ont4, fac.getOWLDeclarationAxiom(cl))
+  }
+
+  def setprefix = false
+  def prefixid = null
+  def baseid = null
+  if (ex.unit) {
+    prefixmap.keySet().each { prefix ->
+      if (ex.name.startsWith(prefix)) {
+	def basename = ex.name.replaceAll(prefix,"").trim()
+	l.each { ex2 ->
+	  if (ex2.unit && ex2.name.trim() == basename) {
+	    def baseunit = ex2.id.replaceAll(":0", ":1")
+	    def unprefixedunit = ex2.id
+	    oboout.println("[Term]")
+	    oboout.println("id: "+ex.id)
+	    oboout.println("intersection_of: "+baseunit+" ! "+ex2.name)
+	    oboout.println("intersection_of: has_prefix "+prefixmap[prefix]+" ! "+prefix)
+	    oboout.println("")
+	    if (! (baseunit in prefixdone)) {
+	      prefixdone.add(baseunit)
+	      oboout.println("[Term]")
+	      oboout.println("id: "+baseunit)
+	      oboout.println("name: "+basename+" based unit")
+	      ex2.isa.each { 
+		oboout.println("is_a: "+it)
+	      }
+	      def cl0 = fac.getOWLClass(IRI.create(onturi+(baseunit.replaceAll(":","_"))))
+	      man.addAxiom(ont, fac.getOWLDeclarationAxiom(cl0))
+	      man.addAxiom(ont2, fac.getOWLDeclarationAxiom(cl0))
+	      man.addAxiom(ont3, fac.getOWLDeclarationAxiom(cl0))
+	      man.addAxiom(ont5, fac.getOWLDeclarationAxiom(cl0))
+	      def label = fac.getRDFSLabel()
+	      def definition = fac.getRDFSComment()
+	      def anno = fac.getOWLAnnotation(label, fac.getOWLTypedLiteral(basename+" based unit"))
+	      def annoassert = fac.getOWLAnnotationAssertionAxiom(IRI.create(onturi+(baseunit.replaceAll(":","_"))),anno)
+	      man.addAxiom(ont,annoassert)
+	      man.addAxiom(ont2,annoassert)
+	      man.addAxiom(ont3,annoassert)
+	      man.addAxiom(ont5,annoassert)
+	      ex2.isa.each {
+		def cl1 = fac.getOWLClass(IRI.create(onturi+it.replaceAll(":","_")))
+		def subcax = fac.getOWLSubClassOfAxiom(cl0,cl1)
+		man.addAxiom(ont, subcax)
+		man.addAxiom(ont2, subcax)
+		man.addAxiom(ont3, subcax)
+		man.addAxiom(ont5, subcax)
+	      }
+	      def origcl = fac.getOWLClass(IRI.create(onturi+(ex2.id.replaceAll(":","_"))))
+	      def subcax = fac.getOWLSubClassOfAxiom(origcl,cl0)
+	      man.addAxiom(ont, subcax)
+	      man.addAxiom(ont2, subcax)
+	      man.addAxiom(ont3, subcax)
+	      man.addAxiom(ont5, subcax)
+	      
+	      oboout.println("")
+	      oboout.println("[Term]")
+	      oboout.println("id: "+ex2.id)
+	      oboout.println("name: "+ex2.name)
+	      oboout.println("is_a: "+baseunit)
+	      oboout.println("")
+	    }
+	    setprefix = true
+	    prefixid = prefixmap[prefix]
+	    baseid = baseunit
+	  }
+	}
+      }
+    }
+  }
+
+  if (setprefix) {
+    def baseclass = fac.getOWLClass(IRI.create(onturi+(baseid.replaceAll(":","_"))))
+    def prefixclass = fac.getOWLClass(IRI.create(onturi+(prefixid.replaceAll(":","_"))))
+    def unitax = fac.getOWLEquivalentClassesAxiom(cl, fac.getOWLObjectIntersectionOf(
+						    baseclass, fac.getOWLObjectSomeValuesFrom(
+						      hasprefix, prefixclass)))
+    man.addAxiom(ont, unitax)
+    man.addAxiom(ont2, unitax)
+    man.addAxiom(ont3, unitax)
+    man.addAxiom(ont5, unitax)
+						  
   }
   if (it.unit) {
     //    def cls2 = onturi+"i"+it.id
@@ -143,3 +240,5 @@ AddImport ai = new AddImport(ont, imp)
 man.applyChange(ai)
 man.saveOntology(ont, IRI.create("file:"+f.getCanonicalFile()))
 
+oboout.flush()
+oboout.close()
