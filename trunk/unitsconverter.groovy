@@ -155,35 +155,43 @@ l.each {
 	  }
 	}
       } else { // does not start with a prefix: still create the grouping classes
-	def basename = ex.name.trim()
-	def baseunit = ex.id.replaceAll(":0", ":1")
-	def cl0 = fac.getOWLClass(IRI.create(onturi+(baseunit.replaceAll(":","_"))))
-	man.addAxiom(ont, fac.getOWLDeclarationAxiom(cl0))
-	man.addAxiom(ont2, fac.getOWLDeclarationAxiom(cl0))
-	man.addAxiom(ont3, fac.getOWLDeclarationAxiom(cl0))
-	man.addAxiom(ont5, fac.getOWLDeclarationAxiom(cl0))
-	def label = fac.getRDFSLabel()
-	def definition = fac.getRDFSComment()
-	def anno = fac.getOWLAnnotation(label, fac.getOWLTypedLiteral(basename+" based unit"))
-	def annoassert = fac.getOWLAnnotationAssertionAxiom(IRI.create(onturi+(baseunit.replaceAll(":","_"))),anno)
-	man.addAxiom(ont,annoassert)
-	man.addAxiom(ont2,annoassert)
-	man.addAxiom(ont3,annoassert)
-	man.addAxiom(ont5,annoassert)
-	ex.isa.each {
-	  def cl1 = fac.getOWLClass(IRI.create(onturi+it.replaceAll(":","_")))
-	  def subcax = fac.getOWLSubClassOfAxiom(cl0,cl1)
+	def withprefix = false
+	prefixmap.keySet().each { p ->
+	  if (ex.name.startsWith(p)) {
+	    withprefix=true
+	  }
+	}
+	if (!withprefix)  {
+	  def basename = ex.name.trim()
+	  def baseunit = ex.id.replaceAll(":0", ":1")
+	  def cl0 = fac.getOWLClass(IRI.create(onturi+(baseunit.replaceAll(":","_"))))
+	  man.addAxiom(ont, fac.getOWLDeclarationAxiom(cl0))
+	  man.addAxiom(ont2, fac.getOWLDeclarationAxiom(cl0))
+	  man.addAxiom(ont3, fac.getOWLDeclarationAxiom(cl0))
+	  man.addAxiom(ont5, fac.getOWLDeclarationAxiom(cl0))
+	  def label = fac.getRDFSLabel()
+	  def definition = fac.getRDFSComment()
+	  def anno = fac.getOWLAnnotation(label, fac.getOWLTypedLiteral(basename+" based unit"))
+	  def annoassert = fac.getOWLAnnotationAssertionAxiom(IRI.create(onturi+(baseunit.replaceAll(":","_"))),anno)
+	  man.addAxiom(ont,annoassert)
+	  man.addAxiom(ont2,annoassert)
+	  man.addAxiom(ont3,annoassert)
+	  man.addAxiom(ont5,annoassert)
+	  ex.isa.each {
+	    def cl1 = fac.getOWLClass(IRI.create(onturi+it.replaceAll(":","_")))
+	    def subcax = fac.getOWLSubClassOfAxiom(cl0,cl1)
+	    man.addAxiom(ont, subcax)
+	    man.addAxiom(ont2, subcax)
+	    man.addAxiom(ont3, subcax)
+	    man.addAxiom(ont5, subcax)
+	  }
+	  def origcl = fac.getOWLClass(IRI.create(onturi+(ex.id.replaceAll(":","_"))))
+	  def subcax = fac.getOWLSubClassOfAxiom(origcl,cl0)
 	  man.addAxiom(ont, subcax)
 	  man.addAxiom(ont2, subcax)
 	  man.addAxiom(ont3, subcax)
 	  man.addAxiom(ont5, subcax)
 	}
-	def origcl = fac.getOWLClass(IRI.create(onturi+(ex.id.replaceAll(":","_"))))
-	def subcax = fac.getOWLSubClassOfAxiom(origcl,cl0)
-	man.addAxiom(ont, subcax)
-	man.addAxiom(ont2, subcax)
-	man.addAxiom(ont3, subcax)
-	man.addAxiom(ont5, subcax)
       }
     }
   }
