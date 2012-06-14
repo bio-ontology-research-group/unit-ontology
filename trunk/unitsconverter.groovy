@@ -178,6 +178,12 @@ l.each {
 	  man.addAxiom(ont3, subcax)
 	  man.addAxiom(ont5, subcax)
 	}
+	def origcl = fac.getOWLClass(IRI.create(onturi+(ex.id.replaceAll(":","_"))))
+	def subcax = fac.getOWLSubClassOfAxiom(origcl,cl0)
+	man.addAxiom(ont, subcax)
+	man.addAxiom(ont2, subcax)
+	man.addAxiom(ont3, subcax)
+	man.addAxiom(ont5, subcax)
       }
     }
   }
