@@ -530,7 +530,6 @@
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000002"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000045"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_1000009"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A mass unit which is equal to the mass of the International Prototype Kilogram kept by the BIPM at Svres, France.&quot; [BIPM:BIPM, NIST:NIST]</rdfs:comment>
     </owl:NamedIndividual>
     
@@ -643,6 +642,13 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">centimeter</rdfs:label>
         <owl:equivalentClass>
             <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000015"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_1000008"/>
                     <owl:Restriction>
@@ -652,15 +658,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:oneOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000015"/>
-                </owl:oneOf>
-            </owl:Class>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000001"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_1000015"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A length unit which is equal to one hundredth of a meter or 10^[-2] m.&quot; [NIST:NIST]</rdfs:comment>
     </owl:NamedIndividual>
     
@@ -690,7 +688,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000001"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_1000016"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A length unit which is equal to one thousandth of a meter or 10^[-3] m.&quot; [NIST:NIST]</rdfs:comment>
     </owl:NamedIndividual>
     
@@ -720,7 +717,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000001"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_1000017"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A length unit which is equal to one millionth of a meter or 10^[-6] m.&quot; [NIST:NIST]</rdfs:comment>
     </owl:NamedIndividual>
     
@@ -733,13 +729,6 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nanometer</rdfs:label>
         <owl:equivalentClass>
             <owl:Class>
-                <owl:oneOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000018"/>
-                </owl:oneOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <owl:equivalentClass>
-            <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_1000008"/>
                     <owl:Restriction>
@@ -749,8 +738,14 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000018"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000001"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_1000018"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A length unit which is equal to one thousandth of one millionth of a meter or 10^[-9] m.&quot; [NIST:NIST]</rdfs:comment>
     </owl:NamedIndividual>
     
@@ -799,7 +794,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000001"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_1000020"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A length unit which is equal to 10^[-12] m.&quot; [NIST:NIST]</rdfs:comment>
     </owl:NamedIndividual>
     
@@ -831,13 +825,6 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">milligram</rdfs:label>
         <owl:equivalentClass>
             <owl:Class>
-                <owl:oneOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000022"/>
-                </owl:oneOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <owl:equivalentClass>
-            <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_1000021"/>
                     <owl:Restriction>
@@ -847,8 +834,14 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000022"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000002"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_1000022"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A mass unit which is equal to one thousandth of a gram or 10^[-3] g.&quot; [UOC:GVG]</rdfs:comment>
     </owl:NamedIndividual>
     
@@ -878,7 +871,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000002"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_1000023"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A mass unit which is equal to one millionth of a gram or 10^[-6] g.&quot; [UOC:GVG]</rdfs:comment>
     </owl:NamedIndividual>
     
@@ -908,7 +900,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000002"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_1000024"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A mass unit which is equal to one thousandth of one millionth of a gram or 10^[-9] g.&quot; [UOC:GVG]</rdfs:comment>
     </owl:NamedIndividual>
     
@@ -938,7 +929,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000002"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_1000025"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A mass unit which is equal to 10^[-12] g.&quot; [UOC:GVG]</rdfs:comment>
     </owl:NamedIndividual>
     
@@ -968,7 +958,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000002"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_1000026"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A mass unit which is equal to 10^[-15] g.&quot; [NIST:NIST]</rdfs:comment>
     </owl:NamedIndividual>
     
@@ -1017,7 +1006,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000003"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_1000028"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A time unit which is equal to one thousandth of a second or 10^[-3] s.&quot; [NIST:NIST]</rdfs:comment>
     </owl:NamedIndividual>
     
@@ -1030,13 +1018,6 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">microsecond</rdfs:label>
         <owl:equivalentClass>
             <owl:Class>
-                <owl:oneOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000029"/>
-                </owl:oneOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <owl:equivalentClass>
-            <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_1000010"/>
                     <owl:Restriction>
@@ -1046,8 +1027,14 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000029"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000003"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_1000029"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A time unit which is equal to one millionth of a second or 10^[-6] s.&quot; [NIST:NIST]</rdfs:comment>
     </owl:NamedIndividual>
     
@@ -1077,7 +1064,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000003"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_1000030"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A time unit which is equal to 10^[-12] s.&quot; [NIST:NIST]</rdfs:comment>
     </owl:NamedIndividual>
     
@@ -1204,6 +1190,13 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">milliampere</rdfs:label>
         <owl:equivalentClass>
             <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000037"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_1000011"/>
                     <owl:Restriction>
@@ -1213,15 +1206,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:oneOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000037"/>
-                </owl:oneOf>
-            </owl:Class>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000004"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_1000037"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An electric current unit current which is equal to one thousandth of an ampere or 10^[-3] A.&quot; [UOC:GVG]</rdfs:comment>
     </owl:NamedIndividual>
     
@@ -1234,13 +1219,6 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">microampere</rdfs:label>
         <owl:equivalentClass>
             <owl:Class>
-                <owl:oneOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000038"/>
-                </owl:oneOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <owl:equivalentClass>
-            <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_1000011"/>
                     <owl:Restriction>
@@ -1250,8 +1228,14 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000038"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000004"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_1000038"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An electric current unit current which is equal to one millionth of an ampere or 10^[-6] A.&quot; [UOC:GVG]</rdfs:comment>
     </owl:NamedIndividual>
     
@@ -1264,13 +1248,6 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">micromole</rdfs:label>
         <owl:equivalentClass>
             <owl:Class>
-                <owl:oneOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000039"/>
-                </owl:oneOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <owl:equivalentClass>
-            <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_1000013"/>
                     <owl:Restriction>
@@ -1280,8 +1257,14 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000039"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000006"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_1000039"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A substance unit equal to a millionth of a mol or 10^[-6] mol.&quot; [NIST:NIST]</rdfs:comment>
     </owl:NamedIndividual>
     
@@ -1311,7 +1294,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000006"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_1000040"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A substance unit equal to a thousandth of a mol or 10^[-3] mol.&quot; [NIST:NIST]</rdfs:comment>
     </owl:NamedIndividual>
     
@@ -1324,6 +1306,13 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nanomole</rdfs:label>
         <owl:equivalentClass>
             <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000041"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_1000013"/>
                     <owl:Restriction>
@@ -1333,15 +1322,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:oneOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000041"/>
-                </owl:oneOf>
-            </owl:Class>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000006"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_1000041"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A substance unit equal to one thousandth of one millionth of a mole or 10^[-9] mol.&quot; [NIST:NIST]</rdfs:comment>
     </owl:NamedIndividual>
     
@@ -1354,13 +1335,6 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">picomole</rdfs:label>
         <owl:equivalentClass>
             <owl:Class>
-                <owl:oneOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000042"/>
-                </owl:oneOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <owl:equivalentClass>
-            <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_1000013"/>
                     <owl:Restriction>
@@ -1370,8 +1344,14 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000042"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000006"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_1000042"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A substance unit equal to 10^[-12] mol.&quot; [NIST:NIST]</rdfs:comment>
     </owl:NamedIndividual>
     
@@ -1384,13 +1364,6 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">femtomole</rdfs:label>
         <owl:equivalentClass>
             <owl:Class>
-                <owl:oneOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000043"/>
-                </owl:oneOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <owl:equivalentClass>
-            <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_1000013"/>
                     <owl:Restriction>
@@ -1400,8 +1373,14 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000043"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000006"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_1000043"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A substance unit equal to 10^[-15] mol.&quot; [NIST:NIST]</rdfs:comment>
     </owl:NamedIndividual>
     
@@ -1431,7 +1410,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000006"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_1000044"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A substance unit equal to 10^[-18] mol.&quot; [NIST:NIST]</rdfs:comment>
     </owl:NamedIndividual>
     
@@ -1793,7 +1771,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000061"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_1000063"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit of molarity which is equal to one thousandth of a molar or 10^[-3] M.&quot; [UOC:GVG]</rdfs:comment>
     </owl:NamedIndividual>
     
@@ -1806,13 +1783,6 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">micromolar</rdfs:label>
         <owl:equivalentClass>
             <owl:Class>
-                <owl:oneOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000064"/>
-                </owl:oneOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <owl:equivalentClass>
-            <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_1000062"/>
                     <owl:Restriction>
@@ -1822,8 +1792,14 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000064"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000061"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_1000064"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit of molarity which is equal to one millionth of a molar or 10^[-6] M.&quot; [UOC:GVG]</rdfs:comment>
     </owl:NamedIndividual>
     
@@ -1836,6 +1812,13 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nanomolar</rdfs:label>
         <owl:equivalentClass>
             <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000065"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_1000062"/>
                     <owl:Restriction>
@@ -1845,15 +1828,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:oneOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000065"/>
-                </owl:oneOf>
-            </owl:Class>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000061"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_1000065"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit of molarity which is equal to one thousandth of one millionth of a molar or 10^[-9] M.&quot; [UOC:GVG]</rdfs:comment>
     </owl:NamedIndividual>
     
@@ -1883,7 +1858,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000061"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_1000066"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit of molarity which is equal to 10^[-12] M.&quot; [UOC:GVG]</rdfs:comment>
     </owl:NamedIndividual>
     
@@ -1925,13 +1899,6 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">millimolal</rdfs:label>
         <owl:equivalentClass>
             <owl:Class>
-                <owl:oneOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000069"/>
-                </owl:oneOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <owl:equivalentClass>
-            <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_1000068"/>
                     <owl:Restriction>
@@ -1941,8 +1908,14 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000069"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000067"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_1000069"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A molality unit which is equal to one thousandth of a molal or 10^[-3] m.&quot; [UOC:GVG]</rdfs:comment>
     </owl:NamedIndividual>
     
@@ -1955,6 +1928,13 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">micromolal</rdfs:label>
         <owl:equivalentClass>
             <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000070"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_1000068"/>
                     <owl:Restriction>
@@ -1964,15 +1944,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:oneOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000070"/>
-                </owl:oneOf>
-            </owl:Class>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000067"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_1000070"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A molality unit which is equal to one millionth of a molal or 10^[-6] m.&quot; [UOC:GVG]</rdfs:comment>
     </owl:NamedIndividual>
     
@@ -1985,13 +1957,6 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nanomolal</rdfs:label>
         <owl:equivalentClass>
             <owl:Class>
-                <owl:oneOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000071"/>
-                </owl:oneOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <owl:equivalentClass>
-            <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_1000068"/>
                     <owl:Restriction>
@@ -2001,8 +1966,14 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000071"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000067"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_1000071"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A molality unit which is equal to one thousandth of one millionth of a molal or 10^[-9] m.&quot; [UOC:GVG]</rdfs:comment>
     </owl:NamedIndividual>
     
@@ -2032,7 +2003,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000067"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_1000072"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A molality unit which is equal to 10^[-12] m.&quot; [UOC:GVG]</rdfs:comment>
     </owl:NamedIndividual>
     
@@ -2045,13 +2015,6 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">femtomolar</rdfs:label>
         <owl:equivalentClass>
             <owl:Class>
-                <owl:oneOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000073"/>
-                </owl:oneOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <owl:equivalentClass>
-            <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_1000062"/>
                     <owl:Restriction>
@@ -2061,8 +2024,14 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000073"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000061"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_1000073"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit of molarity which is equal to 10^[-15] M.&quot; [UOC:GVG]</rdfs:comment>
     </owl:NamedIndividual>
     
@@ -2244,7 +2213,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000052"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_1000083"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A mass unit density which is equal to mass of an object in kilograms divided by the volume in cubic meters.&quot; [UOC:GVG]</rdfs:comment>
     </owl:NamedIndividual>
     
@@ -2301,7 +2269,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000054"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_1000086"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An area density unit which is equal to the mass of an object in kilograms divided by the surface area in meters squared.&quot; [NIST:NIST]</rdfs:comment>
     </owl:NamedIndividual>
     
@@ -2314,6 +2281,13 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kilogram per mole</rdfs:label>
         <owl:equivalentClass>
             <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000087"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_1000088"/>
                     <owl:Restriction>
@@ -2323,15 +2297,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:oneOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000087"/>
-                </owl:oneOf>
-            </owl:Class>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000055"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_1000087"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A molar mass unit which is equal to one kilogram of mass of one mole of chemical element or chemical compound.&quot; [NIST:NIST]</rdfs:comment>
     </owl:NamedIndividual>
     
@@ -2407,7 +2373,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000057"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_1000091"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A momentum unit which is equal to the momentum of a one kilogram mass object with a speed of one meter per second.&quot; [NIST:NIST]</rdfs:comment>
     </owl:NamedIndividual>
     
@@ -2554,7 +2519,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000095"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_1000098"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A volume unit which is equal to one thousandth of a liter or 10^[-3] L, or to 1 cubic centimeter.&quot; [NIST:NIST]</rdfs:comment>
     </owl:NamedIndividual>
     
@@ -2622,7 +2586,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000095"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_1000101"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A volume unit which is equal to one millionth of a liter or 10^[-6] L.&quot; [NIST:NIST]</rdfs:comment>
     </owl:NamedIndividual>
     
@@ -2635,13 +2598,6 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nanoliter</rdfs:label>
         <owl:equivalentClass>
             <owl:Class>
-                <owl:oneOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000102"/>
-                </owl:oneOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <owl:equivalentClass>
-            <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_1000099"/>
                     <owl:Restriction>
@@ -2651,8 +2607,14 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000102"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000095"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_1000102"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A volume unit which is equal to one thousandth of one millionth of a liter or 10^[-9] L.&quot; [NIST:NIST]</rdfs:comment>
     </owl:NamedIndividual>
     
@@ -2665,6 +2627,13 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">picoliter</rdfs:label>
         <owl:equivalentClass>
             <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000103"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_1000099"/>
                     <owl:Restriction>
@@ -2674,15 +2643,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:oneOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000103"/>
-                </owl:oneOf>
-            </owl:Class>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000095"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_1000103"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A volume unit which is equal to 10^[-12] L.&quot; [NIST:NIST]</rdfs:comment>
     </owl:NamedIndividual>
     
@@ -2712,7 +2673,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000095"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_1000104"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A volume unit which is equal to 10^[-15] L.&quot; [NIST:NIST]</rdfs:comment>
     </owl:NamedIndividual>
     
@@ -3351,7 +3311,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000130"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_1000138"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A dose equivalent unit which is equal to one thousandth of a sievert or 10^[-3] Sv.&quot; [NIST:NIST]</rdfs:comment>
     </owl:NamedIndividual>
     
@@ -3364,13 +3323,6 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">microsievert</rdfs:label>
         <owl:equivalentClass>
             <owl:Class>
-                <owl:oneOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000139"/>
-                </owl:oneOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <owl:equivalentClass>
-            <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_1000137"/>
                     <owl:Restriction>
@@ -3380,8 +3332,14 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000139"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000130"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_1000139"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A dose equivalent unit which is equal to one millionth of a sievert or 10^[-6] Sv.&quot; [NIST:NIST]</rdfs:comment>
     </owl:NamedIndividual>
     
@@ -3430,7 +3388,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000129"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_1000141"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An absorbed dose unit which is equal to one millionth of a gray or 10^[-6] Gy.&quot; [NIST:NIST]</rdfs:comment>
     </owl:NamedIndividual>
     
@@ -3460,7 +3417,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000129"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_1000142"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An absorbed dose unit which is equal to one thousandth of a gray or 10^[-3] Gy.&quot; [NIST:NIST]</rdfs:comment>
     </owl:NamedIndividual>
     
@@ -3473,6 +3429,13 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nanogray</rdfs:label>
         <owl:equivalentClass>
             <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000143"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_1000134"/>
                     <owl:Restriction>
@@ -3482,15 +3445,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:oneOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000143"/>
-                </owl:oneOf>
-            </owl:Class>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000129"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_1000143"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An absorbed dose unit which is equal to one thousandth of a millionth of a gray or 10^[-9] Gy.&quot; [NIST:NIST]</rdfs:comment>
     </owl:NamedIndividual>
     
@@ -3520,7 +3475,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000130"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_1000144"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A dose equivalent unit which is equal to one thousandth of a millionth of a sievert or 10^[-9] Sv.&quot; [NIST:NIST]</rdfs:comment>
     </owl:NamedIndividual>
     
@@ -3550,7 +3504,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000128"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_1000145"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An activity (of a radionuclide) unit which is equal to one thousandth of a curie or 10^[-3] Ci.&quot; [ORCBS:ORCBS]</rdfs:comment>
     </owl:NamedIndividual>
     
@@ -3580,7 +3533,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000128"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_1000146"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An activity (of a radionuclide) unit which is equal to one millionth of a curie or 10^[-6] Ci.&quot; [ORCBS:ORCBS]</rdfs:comment>
     </owl:NamedIndividual>
     
@@ -3648,7 +3600,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000003"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_1000150"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A time unit which is equal to one thousandth of one millionth of a second or 10^[-9] s.&quot; [NIST:NIST]</rdfs:comment>
     </owl:NamedIndividual>
     
@@ -3834,7 +3785,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000154"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_1000160"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An irradiance unit which is equal to one microeinstein per square meter per second or 10^[-6] microeinstein/sm^[2].&quot; [Wikipedia:Wikipedia]</rdfs:comment>
     </owl:NamedIndividual>
     
@@ -4091,13 +4041,6 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kilogram per liter</rdfs:label>
         <owl:equivalentClass>
             <owl:Class>
-                <owl:oneOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000174"/>
-                </owl:oneOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <owl:equivalentClass>
-            <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_1000175"/>
                     <owl:Restriction>
@@ -4107,8 +4050,14 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000174"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000052"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_1000174"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A mass unit density which is equal to mass of an object in kilograms divided by the volume in liters.&quot; [UOC:GVG]</rdfs:comment>
     </owl:NamedIndividual>
     
@@ -4157,7 +4106,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000052"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_1000176"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A mass unit density which is equal to mass of an object in milligrams divided by the volume in milliliters.&quot; [UOC:GVG]</rdfs:comment>
     </owl:NamedIndividual>
     
@@ -4306,7 +4254,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000183"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_1000184"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An area density unit which is equal to the mass of an object in kilograms divided by one meter.&quot; [NIST:NIST]</rdfs:comment>
     </owl:NamedIndividual>
     
@@ -4569,7 +4516,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000059"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_1000198"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A specific volume unit which is equal to a thousandth of a liter per kilogram or 10^[-3] l/kg.&quot; [NIST:NIST]</rdfs:comment>
     </owl:NamedIndividual>
     
@@ -4582,6 +4528,13 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">microliter per kilogram</rdfs:label>
         <owl:equivalentClass>
             <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000199"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_1000197"/>
                     <owl:Restriction>
@@ -4591,15 +4544,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:oneOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000199"/>
-                </owl:oneOf>
-            </owl:Class>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000059"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_1000199"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A specific volume unit which is equal to one millionth of a liter per kilogram or 10^[-6] l/kg.&quot; [NIST:NIST]</rdfs:comment>
     </owl:NamedIndividual>
     
@@ -4717,7 +4662,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000205"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_1000206"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A volume per unit volume unit which is equal to one millionth of a liter of solute in one cubic meter of solution.&quot; [NIST:NIST]</rdfs:comment>
     </owl:NamedIndividual>
     
@@ -4736,7 +4680,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000205"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_1000207"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A volume per unit volume unit which is equal to one millionth of a liter of solute in one liter of solution.&quot; [NIST:NIST]</rdfs:comment>
     </owl:NamedIndividual>
     
@@ -4785,7 +4728,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000095"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_1000209"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A volume unit which is equal to one tenth of a liter or 10^[-1] L.&quot; [NIST:NIST]</rdfs:comment>
     </owl:NamedIndividual>
     
@@ -5002,13 +4944,6 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kilodalton</rdfs:label>
         <owl:equivalentClass>
             <owl:Class>
-                <owl:oneOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000222"/>
-                </owl:oneOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <owl:equivalentClass>
-            <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_1000221"/>
                     <owl:Restriction>
@@ -5018,8 +4953,14 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000222"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000002"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_1000222"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A mass unit which is equal to one thousand daltons.&quot; [Wikipedia:Wikipedia]</rdfs:comment>
     </owl:NamedIndividual>
     
@@ -5068,7 +5009,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000111"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_1000224"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An energy unit which is equal to 1,000 watt-hours.&quot; [Wikipedia:Wikipedia]</rdfs:comment>
     </owl:NamedIndividual>
     
@@ -5187,7 +5127,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000225"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_1000230"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A magnetic flux unit which is equal to one thousand volt-hours.&quot; [UOC:GVG]</rdfs:comment>
     </owl:NamedIndividual>
     
@@ -5265,7 +5204,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000231"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_1000234"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An information unit which is equal to 1000 bytes.&quot; [Wikipedia:Wikipedia]</rdfs:comment>
     </owl:NamedIndividual>
     
@@ -5295,7 +5233,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000231"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_1000235"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An information unit which is equal to 1000 kB.&quot; [Wikipedia:Wikipedia]</rdfs:comment>
     </owl:NamedIndividual>
     
@@ -5391,7 +5328,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000239"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_1000241"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A spatial resolution unit which is equal to a pixel size of one micrometer.&quot; [Wikipedia:Wikipedia]</rdfs:comment>
     </owl:NamedIndividual>
     
@@ -5499,13 +5435,6 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">millivolt</rdfs:label>
         <owl:equivalentClass>
             <owl:Class>
-                <owl:oneOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000247"/>
-                </owl:oneOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <owl:equivalentClass>
-            <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_1000218"/>
                     <owl:Restriction>
@@ -5515,8 +5444,14 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000247"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000217"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_1000247"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An electric potential difference unit which is equal to one thousandth of a volt or 10^[-3] V.&quot; [UOC:GVG]</rdfs:comment>
     </owl:NamedIndividual>
     
@@ -5556,7 +5491,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000217"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_1000249"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An electric potential difference unit which is equal to one millionth of a volt or 10^[-6] V.&quot; [UOC:GVG]</rdfs:comment>
     </owl:NamedIndividual>
     
@@ -5586,7 +5520,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000217"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_1000250"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An electric potential difference unit which is equal to one billionth of a volt or 10^[-12] V.&quot; [UOC:GVG]</rdfs:comment>
     </owl:NamedIndividual>
     
@@ -5599,6 +5532,13 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">picovolt</rdfs:label>
         <owl:equivalentClass>
             <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000251"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_1000218"/>
                     <owl:Restriction>
@@ -5608,15 +5548,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:oneOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000251"/>
-                </owl:oneOf>
-            </owl:Class>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000217"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_1000251"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An electric potential difference unit which is equal to one trillionth of a volt or 10^[-12] V.&quot; [UOC:GVG]</rdfs:comment>
     </owl:NamedIndividual>
     
@@ -5646,7 +5578,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000217"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_1000252"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An electric potential difference unit which is equal to one million volts or 10^[6] V.&quot; [UOC:GVG]</rdfs:comment>
     </owl:NamedIndividual>
     
@@ -5785,7 +5716,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000190"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_1000259"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/unit_of"/>
@@ -6016,7 +5946,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000270"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_1000271"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/unit_of"/>
@@ -6047,7 +5976,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000109"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_1000272"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit of pressure equal to the amount of fluid pressure one millimeter deep in mercury at zero degrees centigrade on Earth.&quot; [url:en.wiktionary.org/wiki/mmHg]</rdfs:comment>
     </owl:NamedIndividual>
     
@@ -6126,7 +6054,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000177"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_1000279"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit per milliliter unit which is equal to one thousandth of a unit of an agreed arbitrary amount per one milliliter.&quot; [UOC:GVG]</rdfs:comment>
     </owl:NamedIndividual>
     
@@ -6402,7 +6329,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000052"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_1000301"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A mass unit density which is equal to mass of an object in micrograms divided by the volume in liters.&quot; [UOC:GVG]</rdfs:comment>
     </owl:NamedIndividual>
     
@@ -6458,16 +6384,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/UO_1000009 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000009">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kilogram based unit</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000002"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000045"/>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/UO_1000010 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000010">
@@ -6518,55 +6434,10 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/UO_1000015 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000015">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">centimeter based unit</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000001"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/UO_1000016 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000016">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">millimeter based unit</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000001"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/UO_1000017 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000017">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">micrometer based unit</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000001"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/UO_1000018 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000018">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nanometer based unit</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000001"/>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/UO_1000019 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000019">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">angstrom based unit</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000001"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/UO_1000020 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000020">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">picometer based unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000001"/>
     </owl:Class>
     
@@ -6581,83 +6452,11 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/UO_1000022 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000022">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">milligram based unit</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000002"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/UO_1000023 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000023">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">microgram based unit</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000002"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/UO_1000024 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000024">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nanogram based unit</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000002"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/UO_1000025 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000025">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">picogram based unit</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000002"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/UO_1000026 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000026">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">femtogram based unit</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000002"/>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/UO_1000027 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000027">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">degree Celsius based unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000005"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/UO_1000028 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000028">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">millisecond based unit</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000003"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/UO_1000029 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000029">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">microsecond based unit</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000003"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/UO_1000030 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000030">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">picosecond based unit</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000003"/>
     </owl:Class>
     
 
@@ -6716,118 +6515,10 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/UO_1000037 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000037">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">milliampere based unit</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000004"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/UO_1000038 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000038">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">microampere based unit</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000004"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/UO_1000039 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000039">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">micromole based unit</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000006"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/UO_1000040 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000040">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">millimole based unit</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000006"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/UO_1000041 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000041">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nanomole based unit</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000006"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/UO_1000042 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000042">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">picomole based unit</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000006"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/UO_1000043 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000043">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">femtomole based unit</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000006"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/UO_1000044 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000044">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">attomole based unit</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000006"/>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/UO_1000062 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000062">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">molar based unit</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000061"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/UO_1000063 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000063">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">millimolar based unit</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000061"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/UO_1000064 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000064">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">micromolar based unit</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000061"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/UO_1000065 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000065">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nanomolar based unit</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000061"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/UO_1000066 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000066">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">picomolar based unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000061"/>
     </owl:Class>
     
@@ -6838,51 +6529,6 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000068">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">molal based unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000067"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/UO_1000069 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000069">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">millimolal based unit</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000067"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/UO_1000070 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000070">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">micromolal based unit</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000067"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/UO_1000071 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000071">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nanomolal based unit</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000067"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/UO_1000072 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000072">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">picomolal based unit</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000067"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/UO_1000073 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000073">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">femtomolar based unit</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000061"/>
     </owl:Class>
     
 
@@ -6960,15 +6606,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/UO_1000083 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000083">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kilogram per cubic meter based unit</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000052"/>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/UO_1000084 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000084">
@@ -6983,24 +6620,6 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000085">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">candela per square meter based unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000053"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/UO_1000086 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000086">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kilogram per square meter based unit</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000054"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/UO_1000087 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000087">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kilogram per mole based unit</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000055"/>
     </owl:Class>
     
 
@@ -7028,15 +6647,6 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000090">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cubic centimeter per mole based unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000056"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/UO_1000091 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000091">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kilogram meter per second based unit</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000057"/>
     </owl:Class>
     
 
@@ -7086,15 +6696,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/UO_1000098 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000098">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">milliliter based unit</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000095"/>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/UO_1000099 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000099">
@@ -7108,42 +6709,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000100">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cubic decimeter based unit</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000095"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/UO_1000101 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000101">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">microliter based unit</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000095"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/UO_1000102 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000102">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nanoliter based unit</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000095"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/UO_1000103 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000103">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">picoliter based unit</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000095"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/UO_1000104 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000104">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">femtoliter based unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000095"/>
     </owl:Class>
     
@@ -7293,83 +6858,11 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/UO_1000138 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000138">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">millisievert based unit</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000130"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/UO_1000139 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000139">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">microsievert based unit</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000130"/>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/UO_1000140 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000140">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Roentgen equivalent man based unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000130"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/UO_1000141 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000141">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">microgray based unit</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000129"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/UO_1000142 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000142">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">milligray based unit</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000129"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/UO_1000143 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000143">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nanogray based unit</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000129"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/UO_1000144 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000144">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nanosievert based unit</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000130"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/UO_1000145 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000145">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">millicurie based unit</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000128"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/UO_1000146 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000146">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">microcurie based unit</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000128"/>
     </owl:Class>
     
 
@@ -7388,15 +6881,6 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000148">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">counts per minute based unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000128"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/UO_1000150 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000150">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nanosecond based unit</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000003"/>
     </owl:Class>
     
 
@@ -7451,15 +6935,6 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000158">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">watt per steradian per square meter based unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000161"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/UO_1000160 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000160">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">microeinstein per square meter per second based unit</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000154"/>
     </owl:Class>
     
 
@@ -7566,28 +7041,10 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/UO_1000174 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000174">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kilogram per liter based unit</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000052"/>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/UO_1000175 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000175">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gram per liter based unit</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000052"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/UO_1000176 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000176">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">milligram per milliliter based unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000052"/>
     </owl:Class>
     
@@ -7625,15 +7082,6 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000181">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">enzyme unit based unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000119"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/UO_1000184 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000184">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kilogram per meter based unit</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000183"/>
     </owl:Class>
     
 
@@ -7729,24 +7177,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/UO_1000198 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000198">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">milliliter per kilogram based unit</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000059"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/UO_1000199 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000199">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">microliter per kilogram based unit</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000059"/>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/UO_1000201 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000201">
@@ -7774,38 +7204,11 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/UO_1000206 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000206">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">milliliter per cubic meter based unit</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000205"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/UO_1000207 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000207">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">milliliter per liter based unit</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000205"/>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/UO_1000208 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000208">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gram per deciliter based unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000052"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/UO_1000209 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000209">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">deciliter based unit</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000095"/>
     </owl:Class>
     
 
@@ -7882,28 +7285,10 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/UO_1000222 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000222">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kilodalton based unit</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000002"/>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/UO_1000223 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000223">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">watt-hour based unit</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000111"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/UO_1000224 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000224">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kilowatt-hour based unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000111"/>
     </owl:Class>
     
@@ -7936,15 +7321,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/UO_1000230 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000230">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kilovolt-hour based unit</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000225"/>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/UO_1000232 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000232">
@@ -7958,24 +7334,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000233">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">byte based unit</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000231"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/UO_1000234 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000234">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kilobyte based unit</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000231"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/UO_1000235 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000235">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">megabyte based unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000231"/>
     </owl:Class>
     
@@ -8003,15 +7361,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000240">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dots per inch based unit</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000239"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/UO_1000241 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000241">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">micron pixel based unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000239"/>
     </owl:Class>
     
@@ -8062,51 +7411,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/UO_1000247 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000247">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">millivolt based unit</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000217"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/UO_1000249 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000249">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">microvolt based unit</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000217"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/UO_1000250 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000250">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nanovolt based unit</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000217"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/UO_1000251 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000251">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">picovolt based unit</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000217"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/UO_1000252 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000252">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">megavolt based unit</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000217"/>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/UO_1000254 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000254">
@@ -8139,15 +7443,6 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000258">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">poise based unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000256"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/UO_1000259 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000259">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">decibel based unit</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000190"/>
     </owl:Class>
     
 
@@ -8206,33 +7501,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/UO_1000271 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000271">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">microliters per minute based unit</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000270"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/UO_1000272 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000272">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">millimetres of mercury based unit</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000109"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/UO_1000279 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000279">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">milliunits per milliliter based unit</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000177"/>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/UO_1000281 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000281">
@@ -8265,15 +7533,6 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000285">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">count per molar based unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000280"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/UO_1000301 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000301">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">microgram per liter based unit</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000052"/>
     </owl:Class>
     
 
