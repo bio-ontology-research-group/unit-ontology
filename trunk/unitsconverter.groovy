@@ -182,12 +182,14 @@ l.each {
 	  man.addAxiom(ont3,annoassert)
 	  man.addAxiom(ont5,annoassert)
 	  ex.isa.each {
-	    def cl1 = fac.getOWLClass(IRI.create(onturi+it.replaceAll(":","_")))
-	    def subcax = fac.getOWLSubClassOfAxiom(cl0,cl1)
-	    man.addAxiom(ont, subcax)
-	    man.addAxiom(ont2, subcax)
-	    man.addAxiom(ont3, subcax)
-	    man.addAxiom(ont5, subcax)
+	    if (it.indexOf("0000045")==-1) {
+	      def cl1 = fac.getOWLClass(IRI.create(onturi+it.replaceAll(":","_")))
+	      def subcax = fac.getOWLSubClassOfAxiom(cl0,cl1)
+	      man.addAxiom(ont, subcax)
+	      man.addAxiom(ont2, subcax)
+	      man.addAxiom(ont3, subcax)
+	      man.addAxiom(ont5, subcax)
+	    }
 	  }
 	  def origcl = fac.getOWLClass(IRI.create(onturi+(ex.id.replaceAll(":","_"))))
 	  def subcax = fac.getOWLSubClassOfAxiom(origcl,cl0)
