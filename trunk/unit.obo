@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 13:06:2012 13:53
+date: 15:06:2012 13:23
 saved-by: gkoutos
 auto-generated-by: OBO-Edit 2.1.1-beta10
 subsetdef: abnormal_slim "Abnormal/normal slim"
@@ -17,7 +17,6 @@ default-namespace: unit.ontology
 namespace-id-rule: * UO:$sequence(7,0,9999999)$
 remark: Filtered by Ancestor ID equals "UO:0000000"
 ontology: uo
-ontology: pato
 import: http://purl.obolibrary.org/obo/pato.obo
 
 [Term]
@@ -1737,7 +1736,7 @@ created_by: george gkoutos
 id: UO:0000187
 name: percent
 def: "A dimensionless ratio unit which denotes numbers as fractions of 100." [Wikipedia:Wikipedia]
-subset: unit_slim
+subset: unit_group_slim
 synonym: "%" EXACT []
 is_a: UO:0000190 ! ratio
 created_by: george gkoutos
@@ -1771,7 +1770,7 @@ created_by: george gkoutos
 id: UO:0000191
 name: fraction
 def: "A dimensionless ratio unit which relates the part (the numerator) to the whole (the denominator)." [Wikipedia:Wikipedia]
-subset: unit_slim
+subset: unit_group_slim
 is_a: UO:0000190 ! ratio
 created_by: george gkoutos
 
@@ -2289,6 +2288,7 @@ created_by: george gkoutos
 id: UO:0000248
 name: kilovolt
 def: "An electric potential difference unit which is equal to one thousand volts or 10^[3] V." [UOC:GVG]
+subset: unit_slim
 synonym: "kV" EXACT []
 is_a: UO:0000217 ! electric potential difference unit
 created_by: george gkoutos
@@ -2525,6 +2525,7 @@ created_by: george gkoutos
 id: UO:0000273
 name: milligram per liter
 def: "A mass unit density which is equal to mass of an object in milligrams divided by the volume in liters." [UOC:GVG]
+subset: unit_slim
 synonym: "mg/L" EXACT []
 synonym: "milligram per litre" EXACT []
 is_a: UO:0000052 ! mass density unit
@@ -2535,6 +2536,7 @@ creation_date: 2011-03-21T10:35:01Z
 id: UO:0000274
 name: microgram per milliliter
 def: "A mass unit density which is equal to mass of an object in micrograms divided by the volume in millliters." [UOC:GVG]
+subset: unit_slim
 synonym: "microgram per millilitre" RELATED []
 synonym: "ug/ml" EXACT []
 is_a: UO:0000052 ! mass density unit
@@ -2545,6 +2547,7 @@ creation_date: 2011-03-21T10:40:21Z
 id: UO:0000275
 name: nanogram per milliliter
 def: "A mass unit density which is equal to mass of an object in nanograms divided by the volume in milliliters." [UOC:GVG]
+subset: unit_slim
 synonym: "nanogram per millilitre" EXACT []
 synonym: "ng/ml" EXACT []
 is_a: UO:0000052 ! mass density unit
@@ -2615,6 +2618,7 @@ created_by: george gkoutos
 id: UO:0000283
 name: kilogram per hectare
 def: "An area density unit which is equal to the mass of an object in kilograms divided by the surface area in hectares.." [UO:GVG]
+subset: unit_slim
 is_a: UO:0000054 ! area density unit
 created_by: George Gkoutos
 creation_date: 2011-10-12T11:17:08Z
