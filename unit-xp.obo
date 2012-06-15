@@ -22,7 +22,6 @@ intersection_of: has_prefix UO:0000298 ! centi
 id: UO:1000008
 name: meter based unit
 is_a: UO:0000001
-is_a: UO:0000045
 
 [Term]
 id: UO:0000008
@@ -83,7 +82,6 @@ intersection_of: has_prefix UO:0000297 ! milli
 id: UO:1000010
 name: second based unit
 is_a: UO:0000003
-is_a: UO:0000045
 
 [Term]
 id: UO:0000010
@@ -109,7 +107,6 @@ intersection_of: has_prefix UO:0000297 ! milli
 id: UO:1000011
 name: ampere based unit
 is_a: UO:0000004
-is_a: UO:0000045
 
 [Term]
 id: UO:0000011
@@ -130,7 +127,6 @@ intersection_of: has_prefix UO:0000299 ! micro
 id: UO:1000013
 name: mole based unit
 is_a: UO:0000006
-is_a: UO:0000045
 
 [Term]
 id: UO:0000013

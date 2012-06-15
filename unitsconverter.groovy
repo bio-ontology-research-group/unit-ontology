@@ -111,8 +111,10 @@ l.each {
 	      oboout.println("[Term]")
 	      oboout.println("id: "+baseunit)
 	      oboout.println("name: "+basename+" based unit")
-	      ex2.isa.each { 
-		oboout.println("is_a: "+it)
+	      ex2.isa.each {
+		if (it != "UO:0000045") {
+		  oboout.println("is_a: "+it)
+		}
 	      }
 	      def cl0 = fac.getOWLClass(IRI.create(onturi+(baseunit.replaceAll(":","_"))))
 	      man.addAxiom(ont, fac.getOWLDeclarationAxiom(cl0))
@@ -128,12 +130,14 @@ l.each {
 	      man.addAxiom(ont3,annoassert)
 	      man.addAxiom(ont5,annoassert)
 	      ex2.isa.each {
-		def cl1 = fac.getOWLClass(IRI.create(onturi+it.replaceAll(":","_")))
-		def subcax = fac.getOWLSubClassOfAxiom(cl0,cl1)
-		man.addAxiom(ont, subcax)
-		man.addAxiom(ont2, subcax)
-		man.addAxiom(ont3, subcax)
-		man.addAxiom(ont5, subcax)
+		if (it != "UO:0000045") {
+		  def cl1 = fac.getOWLClass(IRI.create(onturi+it.replaceAll(":","_")))
+		  def subcax = fac.getOWLSubClassOfAxiom(cl0,cl1)
+		  man.addAxiom(ont, subcax)
+		  man.addAxiom(ont2, subcax)
+		  man.addAxiom(ont3, subcax)
+		  man.addAxiom(ont5, subcax)
+		}
 	      }
 	      def origcl = fac.getOWLClass(IRI.create(onturi+(ex2.id.replaceAll(":","_"))))
 	      def subcax = fac.getOWLSubClassOfAxiom(origcl,cl0)
