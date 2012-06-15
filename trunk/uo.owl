@@ -510,6 +510,13 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kilogram</rdfs:label>
         <owl:equivalentClass>
             <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000009"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_1000021"/>
                     <owl:Restriction>
@@ -517,13 +524,6 @@
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UO_0000294"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:oneOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000009"/>
-                </owl:oneOf>
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000002"/>
@@ -640,13 +640,6 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">centimeter</rdfs:label>
         <owl:equivalentClass>
             <owl:Class>
-                <owl:oneOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000015"/>
-                </owl:oneOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <owl:equivalentClass>
-            <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_1000008"/>
                     <owl:Restriction>
@@ -654,6 +647,13 @@
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UO_0000298"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000015"/>
+                </owl:oneOf>
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000001"/>
@@ -669,6 +669,13 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">millimeter</rdfs:label>
         <owl:equivalentClass>
             <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000016"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_1000008"/>
                     <owl:Restriction>
@@ -676,13 +683,6 @@
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UO_0000297"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:oneOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000016"/>
-                </owl:oneOf>
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000001"/>
@@ -727,13 +727,6 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nanometer</rdfs:label>
         <owl:equivalentClass>
             <owl:Class>
-                <owl:oneOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000018"/>
-                </owl:oneOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <owl:equivalentClass>
-            <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_1000008"/>
                     <owl:Restriction>
@@ -741,6 +734,13 @@
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UO_0000300"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000018"/>
+                </owl:oneOf>
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000001"/>
@@ -910,13 +910,6 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">picogram</rdfs:label>
         <owl:equivalentClass>
             <owl:Class>
-                <owl:oneOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000025"/>
-                </owl:oneOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <owl:equivalentClass>
-            <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_1000021"/>
                     <owl:Restriction>
@@ -924,6 +917,13 @@
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UO_0000302"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000025"/>
+                </owl:oneOf>
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000002"/>
@@ -939,13 +939,6 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">femtogram</rdfs:label>
         <owl:equivalentClass>
             <owl:Class>
-                <owl:oneOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000026"/>
-                </owl:oneOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <owl:equivalentClass>
-            <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_1000021"/>
                     <owl:Restriction>
@@ -953,6 +946,13 @@
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UO_0000303"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000026"/>
+                </owl:oneOf>
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000002"/>
@@ -1016,13 +1016,6 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">microsecond</rdfs:label>
         <owl:equivalentClass>
             <owl:Class>
-                <owl:oneOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000029"/>
-                </owl:oneOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <owl:equivalentClass>
-            <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_1000010"/>
                     <owl:Restriction>
@@ -1030,6 +1023,13 @@
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UO_0000299"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000029"/>
+                </owl:oneOf>
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000003"/>
@@ -1188,13 +1188,6 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">milliampere</rdfs:label>
         <owl:equivalentClass>
             <owl:Class>
-                <owl:oneOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000037"/>
-                </owl:oneOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <owl:equivalentClass>
-            <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_1000011"/>
                     <owl:Restriction>
@@ -1202,6 +1195,13 @@
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UO_0000297"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000037"/>
+                </owl:oneOf>
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000004"/>
@@ -1333,13 +1333,6 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">picomole</rdfs:label>
         <owl:equivalentClass>
             <owl:Class>
-                <owl:oneOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000042"/>
-                </owl:oneOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <owl:equivalentClass>
-            <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_1000013"/>
                     <owl:Restriction>
@@ -1347,6 +1340,13 @@
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UO_0000302"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000042"/>
+                </owl:oneOf>
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000006"/>
@@ -1362,13 +1362,6 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">femtomole</rdfs:label>
         <owl:equivalentClass>
             <owl:Class>
-                <owl:oneOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000043"/>
-                </owl:oneOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <owl:equivalentClass>
-            <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_1000013"/>
                     <owl:Restriction>
@@ -1376,6 +1369,13 @@
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UO_0000303"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000043"/>
+                </owl:oneOf>
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000006"/>
@@ -1391,6 +1391,13 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">attomole</rdfs:label>
         <owl:equivalentClass>
             <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000044"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_1000013"/>
                     <owl:Restriction>
@@ -1398,13 +1405,6 @@
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UO_0000304"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:oneOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000044"/>
-                </owl:oneOf>
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000006"/>
@@ -1752,13 +1752,6 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">millimolar</rdfs:label>
         <owl:equivalentClass>
             <owl:Class>
-                <owl:oneOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000063"/>
-                </owl:oneOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <owl:equivalentClass>
-            <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_1000062"/>
                     <owl:Restriction>
@@ -1766,6 +1759,13 @@
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UO_0000297"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000063"/>
+                </owl:oneOf>
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000061"/>
@@ -1781,13 +1781,6 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">micromolar</rdfs:label>
         <owl:equivalentClass>
             <owl:Class>
-                <owl:oneOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000064"/>
-                </owl:oneOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <owl:equivalentClass>
-            <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_1000062"/>
                     <owl:Restriction>
@@ -1795,6 +1788,13 @@
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UO_0000299"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000064"/>
+                </owl:oneOf>
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000061"/>
@@ -1810,13 +1810,6 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nanomolar</rdfs:label>
         <owl:equivalentClass>
             <owl:Class>
-                <owl:oneOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000065"/>
-                </owl:oneOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <owl:equivalentClass>
-            <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_1000062"/>
                     <owl:Restriction>
@@ -1824,6 +1817,13 @@
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UO_0000300"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000065"/>
+                </owl:oneOf>
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000061"/>
@@ -1839,13 +1839,6 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">picomolar</rdfs:label>
         <owl:equivalentClass>
             <owl:Class>
-                <owl:oneOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000066"/>
-                </owl:oneOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <owl:equivalentClass>
-            <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_1000062"/>
                     <owl:Restriction>
@@ -1853,6 +1846,13 @@
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UO_0000302"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000066"/>
+                </owl:oneOf>
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000061"/>
@@ -1926,6 +1926,13 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">micromolal</rdfs:label>
         <owl:equivalentClass>
             <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000070"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_1000068"/>
                     <owl:Restriction>
@@ -1933,13 +1940,6 @@
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UO_0000299"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:oneOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000070"/>
-                </owl:oneOf>
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000067"/>
@@ -1984,13 +1984,6 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">picomolal</rdfs:label>
         <owl:equivalentClass>
             <owl:Class>
-                <owl:oneOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000072"/>
-                </owl:oneOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <owl:equivalentClass>
-            <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_1000068"/>
                     <owl:Restriction>
@@ -1998,6 +1991,13 @@
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UO_0000302"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000072"/>
+                </owl:oneOf>
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000067"/>
@@ -2625,13 +2625,6 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">picoliter</rdfs:label>
         <owl:equivalentClass>
             <owl:Class>
-                <owl:oneOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000103"/>
-                </owl:oneOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <owl:equivalentClass>
-            <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_1000099"/>
                     <owl:Restriction>
@@ -2639,6 +2632,13 @@
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UO_0000302"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000103"/>
+                </owl:oneOf>
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000095"/>
@@ -2654,6 +2654,13 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">femtoliter</rdfs:label>
         <owl:equivalentClass>
             <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000104"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_1000099"/>
                     <owl:Restriction>
@@ -2661,13 +2668,6 @@
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UO_0000303"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:oneOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000104"/>
-                </owl:oneOf>
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000095"/>
@@ -3581,13 +3581,6 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nanosecond</rdfs:label>
         <owl:equivalentClass>
             <owl:Class>
-                <owl:oneOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000150"/>
-                </owl:oneOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <owl:equivalentClass>
-            <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_1000010"/>
                     <owl:Restriction>
@@ -3595,6 +3588,13 @@
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UO_0000300"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000150"/>
+                </owl:oneOf>
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000003"/>
@@ -3766,13 +3766,6 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">microeinstein per square meter per second</rdfs:label>
         <owl:equivalentClass>
             <owl:Class>
-                <owl:oneOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000160"/>
-                </owl:oneOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <owl:equivalentClass>
-            <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_1000156"/>
                     <owl:Restriction>
@@ -3780,6 +3773,13 @@
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UO_0000299"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000160"/>
+                </owl:oneOf>
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000154"/>
@@ -4087,6 +4087,13 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">milligram per milliliter</rdfs:label>
         <owl:equivalentClass>
             <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000176"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_1000175"/>
                     <owl:Restriction>
@@ -4094,13 +4101,6 @@
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UO_0000297"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:oneOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000176"/>
-                </owl:oneOf>
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000052"/>
@@ -4497,13 +4497,6 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">milliliter per kilogram</rdfs:label>
         <owl:equivalentClass>
             <owl:Class>
-                <owl:oneOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000198"/>
-                </owl:oneOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <owl:equivalentClass>
-            <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_1000197"/>
                     <owl:Restriction>
@@ -4511,6 +4504,13 @@
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UO_0000297"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000198"/>
+                </owl:oneOf>
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000059"/>
@@ -4942,13 +4942,6 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kilodalton</rdfs:label>
         <owl:equivalentClass>
             <owl:Class>
-                <owl:oneOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000222"/>
-                </owl:oneOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <owl:equivalentClass>
-            <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_1000221"/>
                     <owl:Restriction>
@@ -4956,6 +4949,13 @@
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UO_0000294"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000222"/>
+                </owl:oneOf>
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000002"/>
@@ -5501,13 +5501,6 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nanovolt</rdfs:label>
         <owl:equivalentClass>
             <owl:Class>
-                <owl:oneOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000250"/>
-                </owl:oneOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <owl:equivalentClass>
-            <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_1000218"/>
                     <owl:Restriction>
@@ -5515,6 +5508,13 @@
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UO_0000300"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000250"/>
+                </owl:oneOf>
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000217"/>
@@ -5559,13 +5559,6 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">megavolt</rdfs:label>
         <owl:equivalentClass>
             <owl:Class>
-                <owl:oneOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000252"/>
-                </owl:oneOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <owl:equivalentClass>
-            <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_1000218"/>
                     <owl:Restriction>
@@ -5573,6 +5566,13 @@
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UO_0000293"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000252"/>
+                </owl:oneOf>
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000217"/>
