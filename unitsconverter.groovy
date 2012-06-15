@@ -112,7 +112,7 @@ l.each {
 	      oboout.println("id: "+baseunit)
 	      oboout.println("name: "+basename+" based unit")
 	      ex2.isa.each {
-		if (it != "UO:0000045") {
+		if (it.indexOf("0000045")==-1) {
 		  oboout.println("is_a: "+it)
 		}
 	      }
@@ -130,7 +130,7 @@ l.each {
 	      man.addAxiom(ont3,annoassert)
 	      man.addAxiom(ont5,annoassert)
 	      ex2.isa.each {
-		if (it != "UO:0000045") {
+		if (it.indexOf("0000045")==-1) {
 		  def cl1 = fac.getOWLClass(IRI.create(onturi+it.replaceAll(":","_")))
 		  def subcax = fac.getOWLSubClassOfAxiom(cl0,cl1)
 		  man.addAxiom(ont, subcax)
