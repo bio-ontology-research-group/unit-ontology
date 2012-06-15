@@ -489,6 +489,11 @@ name: volt
 is_a: UO:1000218
 
 [Term]
+id: UO:0000248
+intersection_of: UO:1000218 ! volt
+intersection_of: has_prefix UO:0000294 ! kilo
+
+[Term]
 id: UO:0000249
 intersection_of: UO:1000218 ! volt
 intersection_of: has_prefix UO:0000299 ! micro
@@ -507,6 +512,31 @@ intersection_of: has_prefix UO:0000302 ! pico
 id: UO:0000252
 intersection_of: UO:1000218 ! volt
 intersection_of: has_prefix UO:0000293 ! mega
+
+[Term]
+id: UO:0000273
+intersection_of: UO:1000175 ! gram per liter
+intersection_of: has_prefix UO:0000297 ! milli
+
+[Term]
+id: UO:0000274
+intersection_of: UO:1000173 ! gram per milliliter
+intersection_of: has_prefix UO:0000299 ! micro
+
+[Term]
+id: UO:1000173
+name: gram per milliliter based unit
+is_a: UO:0000052
+
+[Term]
+id: UO:0000173
+name: gram per milliliter
+is_a: UO:1000173
+
+[Term]
+id: UO:0000275
+intersection_of: UO:1000173 ! gram per milliliter
+intersection_of: has_prefix UO:0000300 ! nano
 
 [Term]
 id: UO:0000301

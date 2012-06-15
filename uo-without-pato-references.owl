@@ -24,34 +24,6 @@
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
-    // Datatypes
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Object Properties
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/has_prefix -->
-
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/has_prefix"/>
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
     // Classes
     //
     ///////////////////////////////////////////////////////////////////////////////////////
@@ -2541,7 +2513,6 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000187">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">percent</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000190"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_1000187"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A dimensionless ratio unit which denotes numbers as fractions of 100.&quot; [Wikipedia:Wikipedia]</rdfs:comment>
     </owl:Class>
     
@@ -2583,7 +2554,6 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000191">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fraction</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000190"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_1000191"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A dimensionless ratio unit which relates the part (the numerator) to the whole (the denominator).&quot; [Wikipedia:Wikipedia]</rdfs:comment>
     </owl:Class>
     
@@ -3285,6 +3255,17 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000248">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kilovolt</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_1000218"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/has_prefix"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UO_0000294"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000217"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An electric potential difference unit which is equal to one thousand volts or 10^[3] V.&quot; [UOC:GVG]</rdfs:comment>
     </owl:Class>
@@ -3589,6 +3570,17 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000273">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">milligram per liter</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_1000175"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/has_prefix"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UO_0000297"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000052"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A mass unit density which is equal to mass of an object in milligrams divided by the volume in liters.&quot; [UOC:GVG]</rdfs:comment>
     </owl:Class>
@@ -3599,6 +3591,17 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000274">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">microgram per milliliter</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_1000173"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/has_prefix"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UO_0000299"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000052"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A mass unit density which is equal to mass of an object in micrograms divided by the volume in millliters.&quot; [UOC:GVG]</rdfs:comment>
     </owl:Class>
@@ -3609,6 +3612,17 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000275">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nanogram per milliliter</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_1000173"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/has_prefix"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UO_0000300"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000052"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A mass unit density which is equal to mass of an object in nanograms divided by the volume in milliliters.&quot; [UOC:GVG]</rdfs:comment>
     </owl:Class>
@@ -4645,29 +4659,11 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/UO_1000187 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000187">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">percent based unit</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000190"/>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/UO_1000188 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000188">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pi based unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000186"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/UO_1000191 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000191">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fraction based unit</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000190"/>
     </owl:Class>
     
 
@@ -5088,5 +5084,5 @@
 
 
 
-<!-- Generated by the OWL API (version 1.3.4.992) http://owlapi.sourceforge.net -->
+<!-- Generated by the OWL API (version 3.2.0.1502) http://owlapi.sourceforge.net -->
 
