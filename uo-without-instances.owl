@@ -4456,7 +4456,6 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000008">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">meter based unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000001"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000045"/>
     </owl:Class>
     
 
@@ -4466,7 +4465,6 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000010">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">second based unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000003"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000045"/>
     </owl:Class>
     
 
@@ -4476,7 +4474,6 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000011">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ampere based unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000004"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000045"/>
     </owl:Class>
     
 
@@ -4486,7 +4483,6 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000012">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kelvin based unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000005"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000045"/>
     </owl:Class>
     
 
@@ -4496,7 +4492,6 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000013">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mole based unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000006"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000045"/>
     </owl:Class>
     
 
@@ -4506,7 +4501,6 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000014">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">candela based unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000007"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000045"/>
     </owl:Class>
     
 
