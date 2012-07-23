@@ -45,7 +45,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000001">
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/unit_of"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/is_unit_of"/>
                 <owl:allValuesFrom>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
@@ -65,7 +65,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000002">
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/unit_of"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/is_unit_of"/>
                 <owl:allValuesFrom>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
@@ -86,7 +86,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000003">
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/unit_of"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/is_unit_of"/>
                 <owl:allValuesFrom>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
@@ -115,7 +115,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000005">
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/unit_of"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/is_unit_of"/>
                 <owl:allValuesFrom>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
@@ -165,7 +165,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000047">
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/unit_of"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/is_unit_of"/>
                 <owl:allValuesFrom>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
@@ -185,7 +185,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000048">
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/unit_of"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/is_unit_of"/>
                 <owl:allValuesFrom>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
@@ -205,7 +205,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000049">
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/unit_of"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/is_unit_of"/>
                 <owl:allValuesFrom>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
@@ -225,7 +225,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000050">
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/unit_of"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/is_unit_of"/>
                 <owl:allValuesFrom>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
@@ -245,7 +245,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000051">
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/unit_of"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/is_unit_of"/>
                 <owl:allValuesFrom>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
@@ -265,7 +265,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000052">
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/unit_of"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/is_unit_of"/>
                 <owl:allValuesFrom>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
@@ -285,7 +285,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000053">
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/unit_of"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/is_unit_of"/>
                 <owl:allValuesFrom>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
@@ -305,7 +305,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000054">
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/unit_of"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/is_unit_of"/>
                 <owl:allValuesFrom>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
@@ -325,7 +325,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000055">
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/unit_of"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/is_unit_of"/>
                 <owl:allValuesFrom>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
@@ -345,7 +345,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000056">
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/unit_of"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/is_unit_of"/>
                 <owl:allValuesFrom>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
@@ -365,7 +365,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000057">
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/unit_of"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/is_unit_of"/>
                 <owl:allValuesFrom>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
@@ -402,7 +402,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000060">
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/unit_of"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/is_unit_of"/>
                 <owl:allValuesFrom>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
@@ -446,7 +446,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000095">
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/unit_of"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/is_unit_of"/>
                 <owl:allValuesFrom>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
@@ -466,7 +466,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000105">
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/unit_of"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/is_unit_of"/>
                 <owl:allValuesFrom>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
@@ -486,7 +486,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000107">
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/unit_of"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/is_unit_of"/>
                 <owl:allValuesFrom>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
@@ -506,7 +506,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000109">
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/unit_of"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/is_unit_of"/>
                 <owl:allValuesFrom>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
@@ -526,7 +526,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000111">
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/unit_of"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/is_unit_of"/>
                 <owl:allValuesFrom>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
@@ -547,7 +547,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000113">
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/unit_of"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/is_unit_of"/>
                 <owl:allValuesFrom>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
@@ -575,7 +575,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000117">
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/unit_of"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/is_unit_of"/>
                 <owl:allValuesFrom>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
@@ -595,7 +595,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000119">
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/unit_of"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/is_unit_of"/>
                 <owl:allValuesFrom>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
@@ -615,7 +615,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000121">
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/unit_of"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/is_unit_of"/>
                 <owl:allValuesFrom>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
@@ -659,7 +659,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000128">
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/unit_of"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/is_unit_of"/>
                 <owl:allValuesFrom>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
@@ -679,7 +679,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000129">
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/unit_of"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/is_unit_of"/>
                 <owl:allValuesFrom>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
@@ -699,7 +699,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000130">
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/unit_of"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/is_unit_of"/>
                 <owl:allValuesFrom>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
@@ -719,7 +719,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000131">
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/unit_of"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/is_unit_of"/>
                 <owl:allValuesFrom>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
@@ -755,7 +755,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000159">
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/unit_of"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/is_unit_of"/>
                 <owl:allValuesFrom>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
@@ -775,7 +775,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000161">
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/unit_of"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/is_unit_of"/>
                 <owl:allValuesFrom>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
@@ -811,7 +811,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000182">
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/unit_of"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/is_unit_of"/>
                 <owl:allValuesFrom>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
@@ -831,7 +831,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000183">
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/unit_of"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/is_unit_of"/>
                 <owl:allValuesFrom>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
@@ -891,7 +891,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000196">
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/unit_of"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/is_unit_of"/>
                 <owl:allValuesFrom>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
@@ -919,7 +919,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000202">
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/unit_of"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/is_unit_of"/>
                 <owl:allValuesFrom>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
@@ -963,7 +963,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000217">
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/unit_of"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/is_unit_of"/>
                 <owl:allValuesFrom>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
@@ -991,7 +991,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000225">
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/unit_of"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/is_unit_of"/>
                 <owl:allValuesFrom>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
@@ -1043,7 +1043,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000253">
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/unit_of"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/is_unit_of"/>
                 <owl:allValuesFrom>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
@@ -1063,7 +1063,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000256">
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/unit_of"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/is_unit_of"/>
                 <owl:allValuesFrom>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
@@ -1083,7 +1083,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000259">
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/unit_of"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/is_unit_of"/>
                 <owl:allValuesFrom>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
@@ -1103,7 +1103,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000260">
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/unit_of"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/is_unit_of"/>
                 <owl:allValuesFrom>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
@@ -1131,7 +1131,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000262">
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/unit_of"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/is_unit_of"/>
                 <owl:allValuesFrom>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
@@ -1151,7 +1151,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000263">
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/unit_of"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/is_unit_of"/>
                 <owl:allValuesFrom>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
@@ -1187,7 +1187,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000271">
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/unit_of"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/is_unit_of"/>
                 <owl:allValuesFrom>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
