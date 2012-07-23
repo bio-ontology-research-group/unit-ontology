@@ -42,8 +42,8 @@ infile.eachLine {
       exp.unit = true
     } else if (it.trim().startsWith("subset: prefix_slim")) {
       exp.prefix = true
-    } else if (it.trim().startsWith("relationship: unit_of")) {
-      def rel = it.substring(22).trim()
+    } else if (it.trim().startsWith("relationship: is_unit_of")) {
+      def rel = it.substring(25).trim()
       if (rel.indexOf('!')>-1) {
 	rel = rel.substring(0,rel.indexOf('!')).trim()
       }
@@ -71,7 +71,7 @@ OWLOntology ont2 = man.createOntology(IRI.create(onturi+"uo2.owl")) // without i
 OWLOntology ont3 = man.createOntology(IRI.create(onturi+"uo3.owl")) // without singleton defs
 OWLOntology ont4 = man.createOntology(IRI.create(onturi+"uo4.owl")) // without units as classes
 OWLOntology ont5 = man.createOntology(IRI.create(onturi+"uo5.owl")) // without PATO references
-def unitof = fac.getOWLObjectProperty(IRI.create(onturi+"unit_of"))
+def unitof = fac.getOWLObjectProperty(IRI.create(onturi+"is_unit_of"))
 def hasprefix = fac.getOWLObjectProperty(IRI.create(onturi+"has_prefix"))
 
 PrintWriter oboout = new PrintWriter(new BufferedWriter(new FileWriter(new File("unit-xp.obo"))))
