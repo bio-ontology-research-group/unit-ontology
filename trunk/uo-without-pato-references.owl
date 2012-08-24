@@ -3944,6 +3944,89 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UO_0000306 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000306">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">yocto</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000046"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A prefix in the metric system denoting a factor of 10 to the power of -24.&quot; [UO:GVG]</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0000307 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000307">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dose unit</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000051"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A concentration unit which is a standard measure of the amount of a toxic or pharmaceutical substance administered to a recipient subject, expressed in terms of the size of the subject.&quot; [UO:PC]</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0000308 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000308">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">milligram per kilogram</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000307"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A dose unit which is equal to 1 milligram of a toxic or pharmaceutical substance per kilogram body weight of the recipient subject.&quot; [UO:PC]</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0000309 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000309">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">milligram per square meter</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000307"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A dose unit which is equal to 1 milligram of a toxic or pharmaceutical substance per square meter of surface area of the recipient subject.&quot; [UO:PC]</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0000310 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000310">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dosage unit</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000307"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_1000310"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A concentration unit which is a standard measure of the amount of a toxic or pharmaceutical substance administered over time to a recipient subject, expressed in terms of the size of the subject.&quot; [UO:PC]</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0000311 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000311">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">milligram per kilogram per day</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000307"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A dosage unit which is equal to 1 milligram per day of a toxic or pharmaceutical substance per kilogram body weight of the recipient subject.&quot; [UO:PC]</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0000312 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000312">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">relative light unit</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000157"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_1000312"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A derived unit which is a measure of relative light intensity, as typically measured by a luminometer, spectrophotometer, or fluorimeter in biological research applications.&quot; [UO:PC]</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0000313 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000313">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">relative luminescence intensity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000312"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_1000313"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A relative light unit which is a measure of relative luminescence.&quot; [UO:PC]</rdfs:comment>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UO_1000008 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000008">
@@ -5079,6 +5162,33 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000285">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">count per molar based unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000280"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_1000310 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000310">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dosage unit based unit</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000307"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_1000312 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000312">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">relative light unit based unit</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000157"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_1000313 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000313">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">relative luminescence intensity based unit</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000312"/>
     </owl:Class>
 </rdf:RDF>
 

@@ -1386,6 +1386,30 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UO_0000306 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000306">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A prefix in the metric system denoting a factor of 10 to the power of -24.&quot; [UO:GVG]</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0000307 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000307">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A concentration unit which is a standard measure of the amount of a toxic or pharmaceutical substance administered to a recipient subject, expressed in terms of the size of the subject.&quot; [UO:PC]</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0000312 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000312">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A derived unit which is a measure of relative light intensity, as typically measured by a luminometer, spectrophotometer, or fluorimeter in biological research applications.&quot; [UO:PC]</rdfs:comment>
+    </rdf:Description>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -4123,6 +4147,78 @@
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0000305">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000046"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A prefix in the metric system denoting a factor of 10 to the power of -21.&quot; [UO:GVG]</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0000306 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0000306">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000046"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A prefix in the metric system denoting a factor of 10 to the power of -24.&quot; [UO:GVG]</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0000307 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0000307">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000051"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A concentration unit which is a standard measure of the amount of a toxic or pharmaceutical substance administered to a recipient subject, expressed in terms of the size of the subject.&quot; [UO:PC]</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0000308 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0000308">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000307"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A dose unit which is equal to 1 milligram of a toxic or pharmaceutical substance per kilogram body weight of the recipient subject.&quot; [UO:PC]</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0000309 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0000309">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000307"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A dose unit which is equal to 1 milligram of a toxic or pharmaceutical substance per square meter of surface area of the recipient subject.&quot; [UO:PC]</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0000310 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0000310">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000307"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A concentration unit which is a standard measure of the amount of a toxic or pharmaceutical substance administered over time to a recipient subject, expressed in terms of the size of the subject.&quot; [UO:PC]</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0000311 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0000311">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000307"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A dosage unit which is equal to 1 milligram per day of a toxic or pharmaceutical substance per kilogram body weight of the recipient subject.&quot; [UO:PC]</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0000312 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0000312">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000157"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A derived unit which is a measure of relative light intensity, as typically measured by a luminometer, spectrophotometer, or fluorimeter in biological research applications.&quot; [UO:PC]</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0000313 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0000313">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000312"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A relative light unit which is a measure of relative luminescence.&quot; [UO:PC]</rdfs:comment>
     </owl:NamedIndividual>
 </rdf:RDF>
 
