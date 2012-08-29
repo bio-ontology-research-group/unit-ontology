@@ -55,6 +55,7 @@ infile.eachLine {
     }
   }
 }
+if (exp!=null) { l << exp }
 
 def prefixmap = [:]
 l.each { ex ->
@@ -221,9 +222,10 @@ l.each {
     def oneof = fac.getOWLObjectOneOf(ind)
     def equiv = fac.getOWLEquivalentClassesAxiom(cl,oneof)
     man.addAxiom(ont, equiv)
-    equiv = fac.getOWLClassAssertionAxiom(cl, ind)
+    equiv = fac.getOWLClassAssertionAxiom(cl, ind)  
     man.addAxiom(ont3, equiv)
-  }
+    man.addAxiom(ont5, equiv)
+}
   it.isa.each { sup ->
     sup = sup.replaceAll(":","_")
     def cl2 = fac.getOWLClass(IRI.create(onturi+sup))
@@ -263,7 +265,6 @@ l.each {
     man.addAxiom(ont2, subc)
     man.addAxiom(ont3, subc)
     man.addAxiom(ont4, subc)
-
   }
 }
 
