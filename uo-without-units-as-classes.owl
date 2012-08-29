@@ -1402,6 +1402,14 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UO_0000310 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000310">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A concentration unit which is a standard measure of the amount of a toxic or pharmaceutical substance administered over time to a recipient subject, expressed in terms of the size of the subject.&quot; [UO:PC]</rdfs:comment>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UO_0000312 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000312">
@@ -4190,7 +4198,7 @@
     <!-- http://purl.obolibrary.org/obo/UO_0000310 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0000310">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000307"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000051"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A concentration unit which is a standard measure of the amount of a toxic or pharmaceutical substance administered over time to a recipient subject, expressed in terms of the size of the subject.&quot; [UO:PC]</rdfs:comment>
     </owl:NamedIndividual>
     
@@ -4199,7 +4207,7 @@
     <!-- http://purl.obolibrary.org/obo/UO_0000311 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0000311">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000307"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000310"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A dosage unit which is equal to 1 milligram per day of a toxic or pharmaceutical substance per kilogram body weight of the recipient subject.&quot; [UO:PC]</rdfs:comment>
     </owl:NamedIndividual>
     
@@ -4218,7 +4226,7 @@
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0000313">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000312"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A relative light unit which is a measure of relative luminescence.&quot; [UO:PC]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A relative light unit which is a measure of relative luminescence intensity.&quot; [UO:PC]</rdfs:comment>
     </owl:NamedIndividual>
 </rdf:RDF>
 
