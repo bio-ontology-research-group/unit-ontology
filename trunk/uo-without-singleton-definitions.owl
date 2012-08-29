@@ -4210,7 +4210,7 @@
     <!-- http://purl.obolibrary.org/obo/UO_0000310 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000310">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000307"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000051"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_1000310"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A concentration unit which is a standard measure of the amount of a toxic or pharmaceutical substance administered over time to a recipient subject, expressed in terms of the size of the subject.&quot; [UO:PC]</rdfs:comment>
     </owl:Class>
@@ -4220,7 +4220,7 @@
     <!-- http://purl.obolibrary.org/obo/UO_0000311 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000311">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000307"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000310"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A dosage unit which is equal to 1 milligram per day of a toxic or pharmaceutical substance per kilogram body weight of the recipient subject.&quot; [UO:PC]</rdfs:comment>
     </owl:Class>
     
@@ -4241,7 +4241,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000313">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000312"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_1000313"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A relative light unit which is a measure of relative luminescence.&quot; [UO:PC]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A relative light unit which is a measure of relative luminescence intensity.&quot; [UO:PC]</rdfs:comment>
     </owl:Class>
     
 
@@ -5389,7 +5389,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000310">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dosage unit based unit</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000307"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000051"/>
     </owl:Class>
     
 
@@ -5406,7 +5406,7 @@
     <!-- http://purl.obolibrary.org/obo/UO_1000313 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000313">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">relative luminescence intensity based unit</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">relative luminescence unit based unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000312"/>
     </owl:Class>
     
@@ -7317,7 +7317,7 @@
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0000313">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000313"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A relative light unit which is a measure of relative luminescence.&quot; [UO:PC]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A relative light unit which is a measure of relative luminescence intensity.&quot; [UO:PC]</rdfs:comment>
     </owl:NamedIndividual>
 </rdf:RDF>
 

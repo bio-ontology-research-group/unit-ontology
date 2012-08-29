@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 24:08:2012 17:15
+date: 29:08:2012 13:24
 saved-by: gkoutos
 auto-generated-by: OBO-Edit 2.3
 subsetdef: abnormal_slim "Abnormal/normal slim"
@@ -17,6 +17,7 @@ default-namespace: quality
 namespace-id-rule: * UO:$sequence(7,0,9999999)$
 remark: Filtered by Ancestor ID equals "UO:0000000"
 ontology: uo
+ontology: pato
 ontology: pato
 ontology: pato
 
@@ -3212,7 +3213,7 @@ name: dosage unit
 namespace: unit.ontology
 def: "A concentration unit which is a standard measure of the amount of a toxic or pharmaceutical substance administered over time to a recipient subject, expressed in terms of the size of the subject." [UO:PC]
 subset: unit_slim
-is_a: UO:0000307 ! dose unit
+is_a: UO:0000051 ! concentration unit
 created_by: gkoutos
 creation_date: 2012-08-24T16:52:42Z
 
@@ -3222,7 +3223,7 @@ name: milligram per kilogram per day
 namespace: unit.ontology
 def: "A dosage unit which is equal to 1 milligram per day of a toxic or pharmaceutical substance per kilogram body weight of the recipient subject." [UO:PC]
 subset: unit_slim
-is_a: UO:0000307 ! dose unit
+is_a: UO:0000310 ! dosage unit
 created_by: gkoutos
 creation_date: 2012-08-24T17:13:36Z
 
@@ -3238,9 +3239,9 @@ creation_date: 2012-08-24T17:14:17Z
 
 [Term]
 id: UO:0000313
-name: relative luminescence intensity
+name: relative luminescence unit
 namespace: unit.ontology
-def: "A relative light unit which is a measure of relative luminescence." [UO:PC]
+def: "A relative light unit which is a measure of relative luminescence intensity." [UO:PC]
 subset: unit_slim
 is_a: UO:0000312 ! relative light unit
 created_by: gkoutos
