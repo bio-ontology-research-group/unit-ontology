@@ -13,13 +13,10 @@ subsetdef: scalar_slim "Scalar slim"
 subsetdef: unit_group_slim "unit group slim"
 subsetdef: unit_slim "unit slim"
 subsetdef: value_slim "Value slim"
-default-namespace: quality
+default-namespace: UO
 namespace-id-rule: * UO:$sequence(7,0,9999999)$
 remark: Filtered by Ancestor ID equals "UO:0000000"
 ontology: uo
-ontology: pato
-ontology: pato
-ontology: pato
 
 [Term]
 id: UO:0000000
