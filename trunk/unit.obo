@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 29:08:2012 13:24
+date: 07:02:2013 12:22
 saved-by: gkoutos
 auto-generated-by: OBO-Edit 2.3
 subsetdef: abnormal_slim "Abnormal/normal slim"
@@ -7,16 +7,18 @@ subsetdef: absent_slim "Absent/present slim"
 subsetdef: attribute_slim "Attribute slim"
 subsetdef: cell_quality "cell_quality"
 subsetdef: disposition_slim "Disposition slim"
+subsetdef: mpath_slim "Pathology slim"
 subsetdef: prefix_slim "prefix slim"
 subsetdef: relational_slim "Relational slim: types of quality that require an additional entity in order to exist"
 subsetdef: scalar_slim "Scalar slim"
 subsetdef: unit_group_slim "unit group slim"
 subsetdef: unit_slim "unit slim"
 subsetdef: value_slim "Value slim"
-default-namespace: UO
-namespace-id-rule: * UO:$sequence(7,0,9999999)$
+default-namespace: quality
+namespace-id-rule: * PATO:$sequence(7,1,9999999)$ 
 remark: Filtered by Ancestor ID equals "UO:0000000"
 ontology: uo
+ontology: pato
 
 [Term]
 id: UO:0000000
@@ -2266,6 +2268,7 @@ name: dalton
 namespace: unit.ontology
 def: "An independently to the base SI units defined mass unit which is equal to one twelfth of the mass of an unbound atom of the carbon-12 nuclide, at rest and in its ground state." [Wikipedia:Wikipedia]
 subset: unit_slim
+synonym: "amu" EXACT []
 synonym: "Da" EXACT []
 synonym: "u" EXACT []
 synonym: "unified atomic mass unit" EXACT []
