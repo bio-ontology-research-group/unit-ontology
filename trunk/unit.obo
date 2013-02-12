@@ -18,7 +18,6 @@ default-namespace: quality
 namespace-id-rule: * PATO:$sequence(7,1,9999999)$ 
 remark: Filtered by Ancestor ID equals "UO:0000000"
 ontology: uo
-ontology: pato
 
 [Term]
 id: UO:0000000
