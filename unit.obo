@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 07:02:2013 12:22
+date: 12:03:2013 15:30
 saved-by: gkoutos
 auto-generated-by: OBO-Edit 2.3
 subsetdef: abnormal_slim "Abnormal/normal slim"
@@ -15,9 +15,10 @@ subsetdef: unit_group_slim "unit group slim"
 subsetdef: unit_slim "unit slim"
 subsetdef: value_slim "Value slim"
 default-namespace: quality
-namespace-id-rule: * PATO:$sequence(7,1,9999999)$ 
+namespace-id-rule: * UO:$sequence(7,0,9999999)$
 remark: Filtered by Ancestor ID equals "UO:0000000"
 ontology: uo
+ontology: pato
 
 [Term]
 id: UO:0000000
@@ -3255,4 +3256,81 @@ subset: unit_slim
 is_a: UO:0000312 ! relative light unit
 created_by: gkoutos
 creation_date: 2012-08-24T17:15:13Z
+
+[Term]
+id: UO:0000315
+name: turbidity unit
+namespace: unit.ontology
+def: "A unit used to indicate the clarity of water or other solutions or suspensions, as measured by the ability of the solution or suspension to scatter light of a defined wavelength range." [UO:PC]
+is_a: UO:0000000 ! unit
+created_by: gkoutos
+creation_date: 2013-03-12T12:20:13Z
+
+[Term]
+id: UO:0000316
+name: cells per microliter
+namespace: unit.ontology
+def: "A unit of cell concentration which is equal to one cell in a volume of 1 microliter." [UO:GVG]
+synonym: "cells per microlitre" EXACT []
+synonym: "cells per ul" EXACT []
+is_a: UO:0000200 ! cell concentration unit
+created_by: gkoutos
+creation_date: 2013-03-12T12:34:17Z
+
+[Term]
+id: UO:0000317
+name: cells per well
+namespace: unit.ontology
+def: "A unit of cell concentration which is equal to 1 cell in a well or discrete container of arbitrary volume." [UO:PC]
+is_a: UO:0000200 ! cell concentration unit
+created_by: gkoutos
+creation_date: 2013-03-12T12:46:20Z
+
+[Term]
+id: UO:0000318
+name: formazin nephelometric unit
+namespace: unit.ontology
+def: "1000 formazin turbidity units (FNU) on the empirical formazin turbidity scale represents reflectance of insol. reaction products of 0.0725 g hydrazine sulfate with 0.7250 g hexamethylenetetramine diluted to 1 L." [AOAC:192]
+synonym: "FNU" EXACT []
+is_a: UO:0000315 ! turbidity unit
+created_by: gkoutos
+creation_date: 2013-03-12T12:48:46Z
+
+[Term]
+id: UO:0000319
+name: radioactivity concentration
+namespace: unit.ontology
+def: "A concentration unit which is a standard measure of the amount of radioactivity in a given volume." [UO:GVG]
+is_a: UO:0000051 ! concentration unit
+created_by: gkoutos
+creation_date: 2013-03-12T14:40:36Z
+
+[Term]
+id: UO:0000320
+name: curie per liter
+namespace: unit.ontology
+def: "A unit of radioactivity concentration which is equal to one curie in a volume of 1 liter." [UO:GVG]
+synonym: "curie per litre" EXACT []
+is_a: UO:0000319 ! radioactivity concentration
+created_by: gkoutos
+creation_date: 2013-03-12T14:44:56Z
+
+[Term]
+id: UO:0000321
+name: microcurie per milliliter
+namespace: unit.ontology
+def: "A unit of radioactivity concentration which is equal to one micro curie in a volume of 1 liter." [UO:GVG]
+synonym: "microcurie per millilitre" EXACT []
+is_a: UO:0000319 ! radioactivity concentration
+created_by: gkoutos
+creation_date: 2013-03-12T15:26:04Z
+
+[Term]
+id: UO:0000322
+name: fold dilution
+namespace: unit.ontology
+def: "A unit that is the ratio of concentration of two solutions of interest, typically with one solution derived from the other by the addition of solvent." [UO:PC]
+is_a: UO:0000186 ! dimensionless unit
+created_by: gkoutos
+creation_date: 2013-03-12T15:29:30Z
 
