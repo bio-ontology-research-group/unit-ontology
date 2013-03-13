@@ -4256,6 +4256,78 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UO_0000315 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000315">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000000"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit used to indicate the clarity of water or other solutions or suspensions, as measured by the ability of the solution or suspension to scatter light of a defined wavelength range.&quot; [UO:PC]</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0000316 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000316">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000200"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit of cell concentration which is equal to one cell in a volume of 1 microliter.&quot; [UO:GVG]</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0000317 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000317">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000200"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit of cell concentration which is equal to 1 cell in a well or discrete container of arbitrary volume.&quot; [UO:PC]</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0000318 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000318">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000315"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;1000 formazin turbidity units (FNU) on the empirical formazin turbidity scale represents reflectance of insol. reaction products of 0.0725 g hydrazine sulfate with 0.7250 g hexamethylenetetramine diluted to 1 L.&quot; [AOAC:192]</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0000319 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000319">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000051"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A concentration unit which is a standard measure of the amount of radioactivity in a given volume.&quot; [UO:GVG]</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0000320 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000320">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000319"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit of radioactivity concentration which is equal to one curie in a volume of 1 liter.&quot; [UO:GVG]</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0000321 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000321">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000319"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit of radioactivity concentration which is equal to one micro curie in a volume of 1 liter.&quot; [UO:GVG]</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0000322 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000322">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000186"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit that is the ratio of concentration of two solutions of interest, typically with one solution derived from the other by the addition of solvent.&quot; [UO:PC]</rdfs:comment>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UO_1000008 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000008">
