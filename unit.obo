@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 12:03:2013 15:30
+date: 18:04:2013 11:43
 saved-by: gkoutos
 auto-generated-by: OBO-Edit 2.3
 subsetdef: abnormal_slim "Abnormal/normal slim"
@@ -18,6 +18,7 @@ default-namespace: quality
 namespace-id-rule: * UO:$sequence(7,0,9999999)$
 remark: Filtered by Ancestor ID equals "UO:0000000"
 ontology: uo
+ontology: pato
 ontology: pato
 
 [Term]
@@ -3333,4 +3334,13 @@ def: "A unit that is the ratio of concentration of two solutions of interest, ty
 is_a: UO:0000186 ! dimensionless unit
 created_by: gkoutos
 creation_date: 2013-03-12T15:29:30Z
+
+[Term]
+id: UO:0000323
+name: ton per hectare
+namespace: unit.ontology
+def: "An area density unit which is equal to the mass of an object in tons divided by the surface area in hectares." [UO:GVG]
+is_a: UO:0000054 ! area density unit
+created_by: gkoutos
+creation_date: 2013-04-18T11:42:40Z
 
