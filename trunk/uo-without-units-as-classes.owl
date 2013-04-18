@@ -1482,6 +1482,14 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UO_0000323 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000323">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An area density unit which is equal to the mass of an object in tons divided by the surface area in hectares.&quot; [UO:GVG]</rdfs:comment>
+    </owl:Class>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -4372,6 +4380,15 @@
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0000322">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000186"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit that is the ratio of concentration of two solutions of interest, typically with one solution derived from the other by the addition of solvent.&quot; [UO:PC]</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0000323 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0000323">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000054"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An area density unit which is equal to the mass of an object in tons divided by the surface area in hectares.&quot; [UO:GVG]</rdfs:comment>
     </owl:NamedIndividual>
 </rdf:RDF>
 
