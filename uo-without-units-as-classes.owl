@@ -1490,6 +1490,14 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UO_0000324 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000324">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An area unit which is equal to an area enclosed by a square with sides each 1 angstrom long.&quot; [UOC:GVG]</rdfs:comment>
+    </owl:Class>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -4389,6 +4397,15 @@
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0000323">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000054"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An area density unit which is equal to the mass of an object in tons divided by the surface area in hectares.&quot; [UO:GVG]</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0000324 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0000324">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000047"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An area unit which is equal to an area enclosed by a square with sides each 1 angstrom long.&quot; [UOC:GVG]</rdfs:comment>
     </owl:NamedIndividual>
 </rdf:RDF>
 
