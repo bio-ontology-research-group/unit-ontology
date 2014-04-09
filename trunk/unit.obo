@@ -1,7 +1,7 @@
 format-version: 1.2
-date: 27:06:2013 17:08
+date: 09:04:2014 13:37
 saved-by: gkoutos
-auto-generated-by: OBO-Edit 2.3
+auto-generated-by: OBO-Edit 2.1-beta19
 subsetdef: abnormal_slim "Abnormal/normal slim"
 subsetdef: absent_slim "Absent/present slim"
 subsetdef: attribute_slim "Attribute slim"
@@ -18,6 +18,9 @@ default-namespace: quality
 namespace-id-rule: * UO:$sequence(7,0,9999999)$
 remark: Filtered by Ancestor ID equals "UO:0000000"
 ontology: uo
+ontology: pato
+ontology: pato
+ontology: pato
 ontology: pato
 ontology: pato
 ontology: pato
@@ -496,7 +499,7 @@ id: UO:0000046
 name: prefix
 namespace: unit.ontology
 created_by: gkoutos
-creation_date: 2012-06-13T13:09:05Z
+creation_date: 2012-06-13T01:09:05Z
 
 [Term]
 id: UO:0000047
@@ -2939,7 +2942,7 @@ synonym: "10^[24]" EXACT []
 synonym: "Y" EXACT []
 is_a: UO:0000046 ! prefix
 created_by: gkoutos
-creation_date: 2012-06-13T13:09:16Z
+creation_date: 2012-06-13T01:09:16Z
 
 [Term]
 id: UO:0000287
@@ -2951,7 +2954,7 @@ synonym: "10^[2]" EXACT []
 synonym: "h" EXACT []
 is_a: UO:0000046 ! prefix
 created_by: gkoutos
-creation_date: 2012-06-13T13:30:59Z
+creation_date: 2012-06-13T01:30:59Z
 
 [Term]
 id: UO:0000288
@@ -2963,7 +2966,7 @@ synonym: "10^[21]" EXACT []
 synonym: "Z" EXACT []
 is_a: UO:0000046 ! prefix
 created_by: gkoutos
-creation_date: 2012-06-13T13:32:19Z
+creation_date: 2012-06-13T01:32:19Z
 
 [Term]
 id: UO:0000289
@@ -2975,7 +2978,7 @@ synonym: "10^[18]" EXACT []
 synonym: "E" EXACT []
 is_a: UO:0000046 ! prefix
 created_by: gkoutos
-creation_date: 2012-06-13T13:33:26Z
+creation_date: 2012-06-13T01:33:26Z
 
 [Term]
 id: UO:0000290
@@ -2987,7 +2990,7 @@ synonym: "10^[15]" EXACT []
 synonym: "P" EXACT []
 is_a: UO:0000046 ! prefix
 created_by: gkoutos
-creation_date: 2012-06-13T13:34:04Z
+creation_date: 2012-06-13T01:34:04Z
 
 [Term]
 id: UO:0000291
@@ -2999,7 +3002,7 @@ synonym: "10^[12]" RELATED []
 synonym: "T" EXACT []
 is_a: UO:0000046 ! prefix
 created_by: gkoutos
-creation_date: 2012-06-13T13:34:51Z
+creation_date: 2012-06-13T01:34:51Z
 
 [Term]
 id: UO:0000292
@@ -3011,7 +3014,7 @@ synonym: "10^[9]" EXACT []
 synonym: "G" EXACT []
 is_a: UO:0000046 ! prefix
 created_by: gkoutos
-creation_date: 2012-06-13T13:35:28Z
+creation_date: 2012-06-13T01:35:28Z
 
 [Term]
 id: UO:0000293
@@ -3023,7 +3026,7 @@ synonym: "10^[6]" EXACT []
 synonym: "M" EXACT []
 is_a: UO:0000046 ! prefix
 created_by: gkoutos
-creation_date: 2012-06-13T13:35:59Z
+creation_date: 2012-06-13T01:35:59Z
 
 [Term]
 id: UO:0000294
@@ -3035,7 +3038,7 @@ synonym: "10^[3]" EXACT []
 synonym: "k" EXACT []
 is_a: UO:0000046 ! prefix
 created_by: gkoutos
-creation_date: 2012-06-13T13:36:58Z
+creation_date: 2012-06-13T01:36:58Z
 
 [Term]
 id: UO:0000295
@@ -3047,7 +3050,7 @@ synonym: "10^[1]" EXACT []
 synonym: "da" EXACT []
 is_a: UO:0000046 ! prefix
 created_by: gkoutos
-creation_date: 2012-06-13T13:38:11Z
+creation_date: 2012-06-13T01:38:11Z
 
 [Term]
 id: UO:0000296
@@ -3059,7 +3062,7 @@ synonym: "10^[-1]" EXACT []
 synonym: "d" EXACT []
 is_a: UO:0000046 ! prefix
 created_by: gkoutos
-creation_date: 2012-06-13T13:43:00Z
+creation_date: 2012-06-13T01:43:00Z
 
 [Term]
 id: UO:0000297
@@ -3071,7 +3074,7 @@ synonym: "10^[-3]" EXACT []
 synonym: "m" EXACT []
 is_a: UO:0000046 ! prefix
 created_by: gkoutos
-creation_date: 2012-06-13T13:44:22Z
+creation_date: 2012-06-13T01:44:22Z
 
 [Term]
 id: UO:0000298
@@ -3083,7 +3086,7 @@ synonym: "10^[-2]" EXACT []
 synonym: "c" EXACT []
 is_a: UO:0000046 ! prefix
 created_by: gkoutos
-creation_date: 2012-06-13T13:45:30Z
+creation_date: 2012-06-13T01:45:30Z
 
 [Term]
 id: UO:0000299
@@ -3094,7 +3097,7 @@ subset: prefix_slim
 synonym: "10^[-6]" EXACT []
 is_a: UO:0000046 ! prefix
 created_by: gkoutos
-creation_date: 2012-06-13T13:46:34Z
+creation_date: 2012-06-13T01:46:34Z
 
 [Term]
 id: UO:0000300
@@ -3106,7 +3109,7 @@ synonym: "10^[-9]" EXACT []
 synonym: "n" EXACT []
 is_a: UO:0000046 ! prefix
 created_by: gkoutos
-creation_date: 2012-06-13T13:47:23Z
+creation_date: 2012-06-13T01:47:23Z
 
 [Term]
 id: UO:0000301
@@ -3129,7 +3132,7 @@ synonym: "10^[-12]" EXACT []
 synonym: "n" EXACT []
 is_a: UO:0000046 ! prefix
 created_by: gkoutos
-creation_date: 2012-06-13T13:48:04Z
+creation_date: 2012-06-13T01:48:04Z
 
 [Term]
 id: UO:0000303
@@ -3141,7 +3144,7 @@ synonym: "10^[-15]" EXACT []
 synonym: "f" EXACT []
 is_a: UO:0000046 ! prefix
 created_by: gkoutos
-creation_date: 2012-06-13T13:48:57Z
+creation_date: 2012-06-13T01:48:57Z
 
 [Term]
 id: UO:0000304
@@ -3153,7 +3156,7 @@ synonym: "10^[-18]" RELATED []
 synonym: "a" EXACT []
 is_a: UO:0000046 ! prefix
 created_by: gkoutos
-creation_date: 2012-06-13T13:50:09Z
+creation_date: 2012-06-13T01:50:09Z
 
 [Term]
 id: UO:0000305
@@ -3165,7 +3168,7 @@ synonym: "10^[-21]" RELATED []
 synonym: "z" EXACT []
 is_a: UO:0000046 ! prefix
 created_by: gkoutos
-creation_date: 2012-06-13T13:50:50Z
+creation_date: 2012-06-13T01:50:50Z
 
 [Term]
 id: UO:0000306
@@ -3177,7 +3180,7 @@ synonym: "10^[-24]" RELATED []
 synonym: "y" EXACT []
 is_a: UO:0000046 ! prefix
 created_by: gkoutos
-creation_date: 2012-06-13T13:51:39Z
+creation_date: 2012-06-13T01:51:39Z
 
 [Term]
 id: UO:0000307
@@ -3187,7 +3190,7 @@ def: "A concentration unit which is a standard measure of the amount of a toxic 
 subset: unit_group_slim
 is_a: UO:0000051 ! concentration unit
 created_by: gkoutos
-creation_date: 2012-08-24T16:49:51Z
+creation_date: 2012-08-24T04:49:51Z
 
 [Term]
 id: UO:0000308
@@ -3197,7 +3200,7 @@ def: "A dose unit which is equal to 1 milligram of a toxic or pharmaceutical sub
 subset: unit_slim
 is_a: UO:0000307 ! dose unit
 created_by: gkoutos
-creation_date: 2012-08-24T16:51:55Z
+creation_date: 2012-08-24T04:51:55Z
 
 [Term]
 id: UO:0000309
@@ -3207,7 +3210,7 @@ def: "A dose unit which is equal to 1 milligram of a toxic or pharmaceutical sub
 subset: unit_slim
 is_a: UO:0000307 ! dose unit
 created_by: gkoutos
-creation_date: 2012-08-24T16:52:24Z
+creation_date: 2012-08-24T04:52:24Z
 
 [Term]
 id: UO:0000310
@@ -3217,7 +3220,7 @@ def: "A concentration unit which is a standard measure of the amount of a toxic 
 subset: unit_slim
 is_a: UO:0000051 ! concentration unit
 created_by: gkoutos
-creation_date: 2012-08-24T16:52:42Z
+creation_date: 2012-08-24T04:52:42Z
 
 [Term]
 id: UO:0000311
@@ -3227,7 +3230,7 @@ def: "A dosage unit which is equal to 1 milligram per day of a toxic or pharmace
 subset: unit_slim
 is_a: UO:0000310 ! dosage unit
 created_by: gkoutos
-creation_date: 2012-08-24T17:13:36Z
+creation_date: 2012-08-24T05:13:36Z
 
 [Term]
 id: UO:0000312
@@ -3237,7 +3240,7 @@ def: "A derived unit which is a measure of relative light intensity, as typicall
 subset: unit_slim
 is_a: UO:0000157 ! light unit
 created_by: gkoutos
-creation_date: 2012-08-24T17:14:17Z
+creation_date: 2012-08-24T05:14:17Z
 
 [Term]
 id: UO:0000313
@@ -3247,7 +3250,7 @@ def: "A relative light unit which is a measure of relative luminescence intensit
 subset: unit_slim
 is_a: UO:0000312 ! relative light unit
 created_by: gkoutos
-creation_date: 2012-08-24T17:14:46Z
+creation_date: 2012-08-24T05:14:46Z
 
 [Term]
 id: UO:0000314
@@ -3257,7 +3260,7 @@ def: "A relative light unit which is a measure of relative fluorescence intensit
 subset: unit_slim
 is_a: UO:0000312 ! relative light unit
 created_by: gkoutos
-creation_date: 2012-08-24T17:15:13Z
+creation_date: 2012-08-24T05:15:13Z
 
 [Term]
 id: UO:0000315
@@ -3305,7 +3308,7 @@ namespace: unit.ontology
 def: "A concentration unit which is a standard measure of the amount of radioactivity in a given volume." [UO:GVG]
 is_a: UO:0000051 ! concentration unit
 created_by: gkoutos
-creation_date: 2013-03-12T14:40:36Z
+creation_date: 2013-03-12T02:40:36Z
 
 [Term]
 id: UO:0000320
@@ -3315,7 +3318,7 @@ def: "A unit of radioactivity concentration which is equal to one curie in a vol
 synonym: "curie per litre" EXACT []
 is_a: UO:0000319 ! radioactivity concentration
 created_by: gkoutos
-creation_date: 2013-03-12T14:44:56Z
+creation_date: 2013-03-12T02:44:56Z
 
 [Term]
 id: UO:0000321
@@ -3325,7 +3328,7 @@ def: "A unit of radioactivity concentration which is equal to one micro curie in
 synonym: "microcurie per millilitre" EXACT []
 is_a: UO:0000319 ! radioactivity concentration
 created_by: gkoutos
-creation_date: 2013-03-12T15:26:04Z
+creation_date: 2013-03-12T03:26:04Z
 
 [Term]
 id: UO:0000322
@@ -3334,7 +3337,7 @@ namespace: unit.ontology
 def: "A unit that is the ratio of concentration of two solutions of interest, typically with one solution derived from the other by the addition of solvent." [UO:PC]
 is_a: UO:0000186 ! dimensionless unit
 created_by: gkoutos
-creation_date: 2013-03-12T15:29:30Z
+creation_date: 2013-03-12T03:29:30Z
 
 [Term]
 id: UO:0000323
@@ -3353,5 +3356,90 @@ def: "An area unit which is equal to an area enclosed by a square with sides eac
 synonym: "A^[2]" RELATED []
 is_a: UO:0000047 ! area unit
 created_by: gkoutos
-creation_date: 2013-06-27T17:06:40Z
+creation_date: 2013-06-27T05:06:40Z
+
+[Term]
+id: UO:0000325
+name: megaHertz
+namespace: unit.ontology
+def: "A frequency unit which is equal to one million hertz or 10^[6] V." [UOC:GVG]
+subset: unit_slim
+synonym: "mH" RELATED []
+is_a: UO:0000106 ! hertz
+created_by: gkoutos
+creation_date: 2013-12-06T12:17:48Z
+
+[Term]
+id: UO:0000326
+name: centiMorgan
+namespace: unit.ontology
+def: "A unit used to express distances on a genetic map. In genetic mapping, distances between markers are determined by measuring the rate of meoitic recombination between them, which increases proportionately with the distance separating them. A cM is defined as the length of an interval in which there is a 1% probability of recombination. On the average, 1 cM is roughly equivalent to 1 megabase (Mb) of DNA, although this can vary widely due to hot and cold spots of recombination." [NCBI:http\://www.ncbi.nlm.nih.gov/SCIENCE96/Glossary.html]
+subset: unit_slim
+synonym: "cM" EXACT []
+is_a: UO:0000001 ! length unit
+created_by: gkoutos
+creation_date: 2013-12-06T12:25:17Z
+
+[Term]
+id: UO:0000327
+name: centiRay
+namespace: unit.ontology
+def: "A unit of genetic map distance defined corresponding to an interval in which there is a 1% probability of X-irradiation induced breakage. To be completely specified, the unit must be qualified by the radiation in dosage in rads (e.g. cR8000), because this determines the actual breakage probability." [NCBI:http\://www.ncbi.nlm.nih.gov/SCIENCE96/Glossary.html]
+subset: unit_slim
+synonym: "cR" EXACT []
+is_a: UO:0000001 ! length unit
+created_by: gkoutos
+creation_date: 2013-12-06T12:26:29Z
+
+[Term]
+id: UO:0000328
+name: kilobasepair
+namespace: unit.ontology
+def: "A unit equal to one thousand base pairs." [UOC:GVG]
+synonym: "kbp" EXACT []
+is_a: UO:0000244 ! base pair
+created_by: gkoutos
+creation_date: 2013-12-11T09:39:31Z
+
+[Term]
+id: UO:0000329
+name: megabasepair
+namespace: unit.ontology
+def: "A unit equal to one million base pairs" [UOC:GVG]
+subset: unit_slim
+synonym: "Mb" EXACT []
+is_a: UO:0000244 ! base pair
+created_by: gkoutos
+creation_date: 2013-12-11T09:44:29Z
+
+[Term]
+id: UO:0000330
+name: gigabasepair
+namespace: unit.ontology
+def: "A unit equal to one billion base pairs." [UOC:GVG]
+subset: unit_slim
+synonym: "Gb" EXACT []
+is_a: UO:0000244 ! base pair
+created_by: gkoutos
+creation_date: 2013-12-11T09:44:52Z
+
+[Term]
+id: UO:0000331
+name: gigabyte
+namespace: unit.ontology
+def: "An information unit which is equal to 1000000000 bytes." [UO:GVG]
+synonym: "GB" EXACT []
+is_a: UO:0000231 ! information unit
+created_by: gkoutos
+creation_date: 2014-04-09T01:33:44Z
+
+[Term]
+id: UO:0000332
+name: terabyte
+namespace: unit.ontology
+def: "An information unit which is equal to 1000 gigabytes." [UO:GVG]
+synonym: "TB" EXACT []
+is_a: UO:0000231 ! information unit
+created_by: gkoutos
+creation_date: 2014-04-09T01:35:23Z
 
