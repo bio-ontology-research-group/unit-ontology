@@ -481,6 +481,14 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UO_0000106 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000106">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A frequency unit which is equal to 1 complete cycle of a recurring phenomenon in 1 second.&quot; [NIST:NIST]</rdfs:comment>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UO_0000107 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000107">
@@ -1038,6 +1046,14 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UO_0000244 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000244">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A count unit which contains one nucleotide.&quot; [UO:GVG]</rdfs:comment>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UO_0000253 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000253">
@@ -1494,6 +1510,30 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000324">
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An area unit which is equal to an area enclosed by a square with sides each 1 angstrom long.&quot; [UOC:GVG]</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0000328 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000328">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit equal to one thousand base pairs.&quot; [UOC:GVG]</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0000331 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000331">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An information unit which is equal to 1000000000 bytes.&quot; [UO:GVG]</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0000332 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000332">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An information unit which is equal to 1000 gigabytes.&quot; [UO:GVG]</rdfs:comment>
     </owl:Class>
     
 
@@ -4406,6 +4446,78 @@
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0000324">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000047"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An area unit which is equal to an area enclosed by a square with sides each 1 angstrom long.&quot; [UOC:GVG]</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0000325 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0000325">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000106"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A frequency unit which is equal to one million hertz or 10^[6] V.&quot; [UOC:GVG]</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0000326 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0000326">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000001"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit used to express distances on a genetic map. In genetic mapping, distances between markers are determined by measuring the rate of meoitic recombination between them, which increases proportionately with the distance separating them. A cM is defined as the length of an interval in which there is a 1% probability of recombination. On the average, 1 cM is roughly equivalent to 1 megabase (Mb) of DNA, although this can vary widely due to hot and cold spots of recombination.&quot; [NCBI:http\://www.ncbi.nlm.nih.gov/SCIENCE96/Glossary.html]</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0000327 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0000327">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000001"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit of genetic map distance defined corresponding to an interval in which there is a 1% probability of X-irradiation induced breakage. To be completely specified, the unit must be qualified by the radiation in dosage in rads (e.g. cR8000), because this determines the actual breakage probability.&quot; [NCBI:http\://www.ncbi.nlm.nih.gov/SCIENCE96/Glossary.html]</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0000328 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0000328">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000244"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit equal to one thousand base pairs.&quot; [UOC:GVG]</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0000329 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0000329">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000244"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit equal to one million base pairs&quot; [UOC:GVG]</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0000330 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0000330">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000244"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit equal to one billion base pairs.&quot; [UOC:GVG]</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0000331 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0000331">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000231"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An information unit which is equal to 1000000000 bytes.&quot; [UO:GVG]</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0000332 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0000332">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000231"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An information unit which is equal to 1000 gigabytes.&quot; [UO:GVG]</rdfs:comment>
     </owl:NamedIndividual>
 </rdf:RDF>
 
