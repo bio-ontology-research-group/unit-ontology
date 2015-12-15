@@ -234,7 +234,7 @@ name: angstrom
 namespace: unit.ontology
 def: "A length unit which is equal to 10 [-10] m." [NIST:NIST]
 subset: unit_slim
-synonym: "A" EXACT []
+synonym: "Å" EXACT []
 is_a: UO:0000001 ! length unit
 created_by: george gkoutos
 
