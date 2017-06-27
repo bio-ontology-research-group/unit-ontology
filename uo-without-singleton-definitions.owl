@@ -1329,7 +1329,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000081">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000047"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_1000081"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An area unit which is equal to one thousand of square meter or 10^[-3] m^[2].&quot; [NIST:NIST]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An area unit which is equal to one ten-thousandth of a square meter or 10^[-4] m^[2].&quot; [NIST:NIST]</rdfs:comment>
     </owl:Class>
     
 
