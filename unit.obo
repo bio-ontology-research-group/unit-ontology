@@ -2722,6 +2722,16 @@ is_a: UO:0000262 ! electrical conduction unit
 created_by: george gkoutos
 
 [Term]
+id: UO:0010002
+name: millisiemens
+namespace: unit.ontology
+def: "An electrical conduction unit which is equal to one thousandth of a siemen or 10^[-3] siemens." [NIST:NIST]
+synonym: "mS" RELATED []
+subset: unit_slim
+is_a: UO:0000262 ! electrical conduction unit
+created_by: Luke Slater
+
+[Term]
 id: UO:0000265
 name: watt per meter kelvin
 namespace: unit.ontology

@@ -514,6 +514,21 @@ intersection_of: UO:1000218 ! volt
 intersection_of: has_prefix UO:0000293 ! mega
 
 [Term]
+id: UO:0010002
+intersection_of: UO:1000264 ! siemens
+intersection_of: has_prefix UO:0000297 ! milli
+
+[Term]
+id: UO:1000264
+name: siemens based unit
+is_a: UO:0000262
+
+[Term]
+id: UO:0000264
+name: siemens
+is_a: UO:1000264
+
+[Term]
 id: UO:0000273
 intersection_of: UO:1000175 ! gram per liter
 intersection_of: has_prefix UO:0000297 ! milli

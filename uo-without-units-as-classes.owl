@@ -4503,6 +4503,15 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UO_0010002 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0010002">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000262"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An electrical conduction unit which is equal to one thousandth of a siemen or 10^[-3] siemens.&quot; [NIST:NIST]</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
