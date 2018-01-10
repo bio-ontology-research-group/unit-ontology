@@ -1,3 +1,5 @@
+@Grab(group='net.sourceforge.owlapi', module='owlapi-distribution', version='3.5.7')
+
 import org.semanticweb.owlapi.io.* 
 import org.semanticweb.owlapi.model.*
 import org.semanticweb.owlapi.apibinding.OWLManager
