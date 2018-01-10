@@ -4494,6 +4494,15 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UO_0010001 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0010001">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000047"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An area unit which is equal to an area enclosed by a square with sides each 1 micrometer long.&quot; [NIST:NIST]</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //

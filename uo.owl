@@ -6351,6 +6351,23 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UO_0010001 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0010001">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0010001"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000047"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_1010001"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UO_1000008 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000008">
@@ -7522,6 +7539,15 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000314">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">relative fluorescence unit based unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000312"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_1010001 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1010001">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">square micrometer based unit</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000047"/>
     </owl:Class>
     
 
@@ -8839,6 +8865,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UO_0010001 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0010001"/>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -9714,6 +9746,10 @@
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000330">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gigabasepair</rdfs:label>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit equal to one billion base pairs.&quot; [UOC:GVG]</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0010001">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">square micrometer</rdfs:label>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An area unit which is equal to an area enclosed by a square with sides each 1 micrometer long.&quot; [NIST:NIST]</rdfs:comment>
     </rdf:Description>
 </rdf:RDF>
 

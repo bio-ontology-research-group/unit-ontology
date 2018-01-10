@@ -845,6 +845,16 @@ is_a: UO:0000047 ! area unit
 created_by: george gkoutos
 
 [Term]
+id: UO:0010001
+name: square micrometer
+namespace: unit.ontology
+def: "An area unit which is equal to an area enclosed by a square with sides each 1 micrometer long." [NIST:NIST]
+subset: unit_slim
+synonym: "square micrometre" RELATED []
+is_a: UO:0000047 ! area unit
+created_by: Luke Slater
+
+[Term]
 id: UO:0000081
 name: square centimeter
 namespace: unit.ontology
