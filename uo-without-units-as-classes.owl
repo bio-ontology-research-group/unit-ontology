@@ -4567,6 +4567,15 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UO_0010008 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0010008">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000060"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A speed/velocity unit which is equal to the speed of an object traveling 1 kilometer distance in one hour.&quot; [NIST:NIST]</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //

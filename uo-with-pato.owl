@@ -6465,6 +6465,22 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UO_0010008 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0010008">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0010008"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000060"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UO_1000008 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000008">
@@ -8992,6 +9008,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UO_0010008 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0010008"/>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -9887,6 +9909,10 @@
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0010005">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">millimeters per day</rdfs:label>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A speed/velocity unit which is equal to the speed of an object traveling 1 millimeter distance in one day.&quot; [UOB:LKSR]</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0010008">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kilometer per hour</rdfs:label>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A speed/velocity unit which is equal to the speed of an object traveling 1 kilometer distance in one hour.&quot; [NIST:NIST]</rdfs:comment>
     </rdf:Description>
 </rdf:RDF>
 

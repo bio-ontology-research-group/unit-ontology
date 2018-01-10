@@ -1008,6 +1008,17 @@ is_a: UO:0000060 ! speed/velocity unit
 created_by: george gkoutos
 
 [Term]
+id: UO:0010008
+name: kilometer per hour
+namespace: unit.ontology
+def: "A speed/velocity unit which is equal to the speed of an object traveling 1 kilometer distance in one hour." [NIST:NIST]
+subset: unit_slim
+synonym: "km/h" EXACT []
+synonym: "kilometre per hour" EXACT []
+is_a: UO:0000060 ! speed/velocity unit
+created_by: Luke Slater
+
+[Term]
 id: UO:0010005
 name: millimeters per day 
 namespace: unit.ontology
