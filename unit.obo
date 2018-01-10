@@ -2737,6 +2737,15 @@ relationship: is_unit_of PATO:0001757 ! electrical conductivity
 created_by: george gkoutos
 
 [Term]
+id: UO:0010007
+name: volt-second per square centimeter
+def: "An electrical mobility unit which is equal to one volt second per square centimeter." [UOB:LKSR]
+is_a: UO:0000262 ! electrical conduction unit
+synonym: "volt-second per square centimetre" EXACT []
+synonym: "Vs/cm^2" EXACT []
+created_by: Luke Slater
+
+[Term]
 id: UO:0000263
 name: heat conduction unit
 namespace: unit.ontology

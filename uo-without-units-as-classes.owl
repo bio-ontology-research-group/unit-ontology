@@ -1635,6 +1635,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UO_0010007 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0010007"/>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -4553,6 +4559,14 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UO_0010007 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0010007">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000262"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -4920,6 +4934,9 @@
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0010006">
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A dimensionless ratio unit which, given a pair of quantities a and b, for which b is a multiple of a, denotes b by giving the multiplier (coefficient) c for a to result in b.&quot; [UOB:LKSR]</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0010007">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An electrical mobility unit which is equal to one volt second per square centimeter.&quot; [UOB:LKSR]</rdfs:comment>
     </rdf:Description>
 </rdf:RDF>
 
