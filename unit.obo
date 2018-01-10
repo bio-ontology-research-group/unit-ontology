@@ -129,6 +129,19 @@ is_a: UO:0000045 ! base unit
 created_by: george gkoutos
 
 [Term]
+id: UO:0010009
+name: milli
+namespace: unit.ontology
+def: "A mass unit which is equal to 1/12 the mass of 12C" [Wikipedia:Wikipedia]
+subset: unit_slim
+synonym: "millidalton" EXACT []
+synonym: "mDa" EXACT []
+synonym: "mmu" EXACT []
+synonym: "milli unified atomic mass unit" EXACT []
+is_a: UO:0000002 ! mass unit
+created_by: Luke Slater
+
+[Term]
 id: UO:0000010
 name: second
 namespace: unit.ontology

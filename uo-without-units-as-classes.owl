@@ -4576,6 +4576,15 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UO_0010009 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0010009">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000002"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A mass unit which is equal to 1/12 the mass of 12C&quot; [Wikipedia:Wikipedia]</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //

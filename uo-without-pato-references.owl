@@ -3869,6 +3869,14 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UO_0010009 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0010009">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000002"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UO_1000008 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000008">
@@ -6848,6 +6856,14 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UO_0010009 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0010009">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0010009"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -7747,6 +7763,10 @@
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0010008">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kilometer per hour</rdfs:label>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A speed/velocity unit which is equal to the speed of an object traveling 1 kilometer distance in one hour.&quot; [NIST:NIST]</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0010009">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">milli</rdfs:label>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A mass unit which is equal to 1/12 the mass of 12C&quot; [Wikipedia:Wikipedia]</rdfs:comment>
     </rdf:Description>
 </rdf:RDF>
 
