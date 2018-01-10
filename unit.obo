@@ -1982,6 +1982,15 @@ is_a: UO:0000186 ! dimensionless unit
 created_by: george gkoutos
 
 [Term]
+id: UO:0010006
+name: ratio
+namespace: unit.ontology
+def: "A dimensionless ratio unit which, given a pair of quantities a and b, for which b is a multiple of a, denotes b by giving the multiplier (coefficient) c for a to result in b." [UOB:LKSR]
+subset: unit_group_slim
+is_a: UO:0000190 ! ratio
+created_by: Luke Slater
+
+[Term]
 id: UO:0000191
 name: fraction
 namespace: unit.ontology
