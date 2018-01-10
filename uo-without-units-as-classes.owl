@@ -4512,6 +4512,24 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UO_0010003 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0010003">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000067"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A specific concentration unit which is equal to 1 micromole in a given volume of one thousandth of a cubic meter.&quot; [NIST:NIST]</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0010004 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0010004">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000067"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A specific concentration unit which is equal to 1 micromole of a given substance per kilogram of solvent.&quot; [UOB:LKSR]</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //

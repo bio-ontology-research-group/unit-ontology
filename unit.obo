@@ -2116,6 +2116,24 @@ is_a: UO:0000202 ! catalytic (activity) concentration unit
 created_by: george gkoutos
 
 [Term]
+id: UO:0010003
+name: micromole per litre
+namespace: unit.ontology
+def: "A specific concentration unit which is equal to 1 micromole in a given volume of one thousandth of a cubic meter." [NIST:NIST]
+subset: unit_slim
+is_a: UO:0000067 ! unit of molality
+created_by: Luke Slater
+
+[Term]
+id: UO:0010004
+name: micromole per kilogram
+namespace: unit.ontology
+def: "A specific concentration unit which is equal to 1 micromole of a given substance per kilogram of solvent." [UOB:LKSR]
+subset: unit_slim
+is_a: UO:0000067 ! unit of molality
+created_by: Luke Slater
+
+[Term]
 id: UO:0000205
 name: volume per unit volume
 namespace: unit.ontology

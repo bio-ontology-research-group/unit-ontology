@@ -4528,6 +4528,22 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UO_0010003 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0010003">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000067"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0010004 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0010004">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000067"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UO_1000008 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000008">
@@ -7475,6 +7491,22 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UO_0010003 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0010003">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0010003"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0010004 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0010004">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0010004"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -8139,6 +8171,12 @@
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0010002">
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An electrical conduction unit which is equal to one thousandth of a siemen or 10^[-3] siemens.&quot; [NIST:NIST]</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0010003">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A specific concentration unit which is equal to 1 micromole in a given volume of one thousandth of a cubic meter.&quot; [NIST:NIST]</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0010004">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A specific concentration unit which is equal to 1 micromole of a given substance per kilogram of solvent.&quot; [UOB:LKSR]</rdfs:comment>
     </rdf:Description>
 </rdf:RDF>
 
