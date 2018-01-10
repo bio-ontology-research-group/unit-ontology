@@ -4648,7 +4648,7 @@
     <!-- http://purl.obolibrary.org/obo/UO_0000325 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000325">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000106"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000105"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A frequency unit which is equal to one million hertz or 10^[6] V.&quot; [UOC:GVG]</rdfs:comment>
     </owl:Class>
     

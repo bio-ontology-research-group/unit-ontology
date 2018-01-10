@@ -3722,7 +3722,7 @@
     <!-- http://purl.obolibrary.org/obo/UO_0000325 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000325">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000106"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000105"/>
     </owl:Class>
     
 

@@ -3365,7 +3365,7 @@ namespace: unit.ontology
 def: "A frequency unit which is equal to one million hertz or 10^[6] V." [UOC:GVG]
 subset: unit_slim
 synonym: "mH" RELATED []
-is_a: UO:0000106 ! hertz
+is_a: UO:0000105 ! frequency unit
 created_by: gkoutos
 creation_date: 2013-12-06T12:17:48Z
 

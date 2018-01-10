@@ -6254,7 +6254,7 @@
                 </owl:oneOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000106"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000105"/>
     </owl:NamedIndividual>
     
 

@@ -738,12 +738,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/UO_0000106 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000106"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/UO_0000107 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000107">
@@ -2567,6 +2561,7 @@
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0000106">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000105"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A frequency unit which is equal to 1 complete cycle of a recurring phenomenon in 1 second.&quot; [NIST:NIST]</rdfs:comment>
     </owl:NamedIndividual>
     
 
@@ -4433,7 +4428,7 @@
     <!-- http://purl.obolibrary.org/obo/UO_0000325 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0000325">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000106"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000105"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A frequency unit which is equal to one million hertz or 10^[6] V.&quot; [UOC:GVG]</rdfs:comment>
     </owl:NamedIndividual>
     
@@ -4587,9 +4582,6 @@
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000105">
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit which is a standard measure of the number of repetitive actions in a particular time.&quot; [NIST:NIST]</rdfs:comment>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000106">
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A frequency unit which is equal to 1 complete cycle of a recurring phenomenon in 1 second.&quot; [NIST:NIST]</rdfs:comment>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000107">
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit which is a standard measure of the force is applied when a mass is accelerated.&quot; [NIST:NIST]</rdfs:comment>
