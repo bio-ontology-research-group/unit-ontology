@@ -6443,6 +6443,16 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UO_0010006 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0010006">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ratio</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000190"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A dimensionless ratio unit which, given a pair of quantities a and b, for which b is a multiple of a, denotes b by giving the multiplier (coefficient) c for a to result in b.&quot; [UOB:LKSR]</rdfs:comment>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UO_1000008 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000008">
