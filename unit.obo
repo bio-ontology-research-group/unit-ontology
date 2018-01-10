@@ -858,6 +858,16 @@ is_a: UO:0000047 ! area unit
 created_by: george gkoutos
 
 [Term]
+id: UO:0010010
+name: hectare
+namespace: unit.ontology
+def: "An area unit which is equal to an area of 10,000 square meters. Equivalent to 2.471 acres." [Wikipedia:Wikipedia]
+subset: unit_slim
+synonym: "HA" EXACT []
+is_a: UO:0000047 ! area unit
+created_by: Luke Slater
+
+[Term]
 id: UO:0010001
 name: square micrometer
 namespace: unit.ontology
@@ -2996,7 +3006,7 @@ created_by: george gkoutos
 id: UO:0000283
 name: kilogram per hectare
 namespace: unit.ontology
-def: "An area density unit which is equal to the mass of an object in kilograms divided by the surface area in hectares.." [UO:GVG]
+def: "An area density unit which is equal to the mass of an object in kilograms divided by the surface area in hectares." [UO:GVG]
 subset: unit_slim
 is_a: UO:0000054 ! area density unit
 created_by: George Gkoutos
