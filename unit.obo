@@ -1008,6 +1008,16 @@ is_a: UO:0000060 ! speed/velocity unit
 created_by: george gkoutos
 
 [Term]
+id: UO:0010005
+name: millimeters per day 
+namespace: unit.ontology
+def: "A speed/velocity unit which is equal to the speed of an object traveling 1 millimeter distance in one day." [UOB:LKSR]
+subset: unit_slim
+synonym: "mm/day" EXACT []
+is_a: UO:0000060 ! speed/velocity unit
+created_by: Luke Slater
+
+[Term]
 id: UO:0000095
 name: volume unit
 namespace: unit.ontology

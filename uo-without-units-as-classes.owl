@@ -4530,6 +4530,15 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UO_0010005 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0010005">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000060"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A speed/velocity unit which is equal to the speed of an object traveling 1 millimeter distance in one day.&quot; [UOB:LKSR]</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //

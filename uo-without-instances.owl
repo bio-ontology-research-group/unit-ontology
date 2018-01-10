@@ -4765,6 +4765,15 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UO_0010005 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0010005">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000060"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A speed/velocity unit which is equal to the speed of an object traveling 1 millimeter distance in one day.&quot; [UOB:LKSR]</rdfs:comment>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UO_1000008 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000008">

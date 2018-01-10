@@ -4544,6 +4544,14 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UO_0010005 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0010005">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000060"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UO_1000008 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000008">
@@ -7507,6 +7515,14 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UO_0010005 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0010005">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0010005"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -8177,6 +8193,9 @@
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0010004">
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A specific concentration unit which is equal to 1 micromole of a given substance per kilogram of solvent.&quot; [UOB:LKSR]</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0010005">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A speed/velocity unit which is equal to the speed of an object traveling 1 millimeter distance in one day.&quot; [UOB:LKSR]</rdfs:comment>
     </rdf:Description>
 </rdf:RDF>
 
