@@ -4742,6 +4742,51 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UO_0010026 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0010026">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000095"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An imperial volume unit which is equivalent to 28.413,0625 millilitres.&quot; [Wikipedia:Wikipedia]</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0010027 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0010027">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000095"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An imperial volume unit which is equivalent to 142.065,3125 millilitres.&quot; [Wikipedia:Wikipedia]</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0010028 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0010028">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000095"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An imperial volume unit which is equivalent to 568.261,25 millilitres.&quot; [Wikipedia:Wikipedia]</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0010029 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0010029">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000095"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An imperial volume unit which is equivalent to 1,136.5225 millilitres, or two pints.&quot; [Wikipedia:Wikipedia]</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0010030 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0010030">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000095"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An imperial volume unit which is equivalent to 4,546.09 millilitres, or 8 pints.&quot; [Wikipedia:Wikipedia]</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //

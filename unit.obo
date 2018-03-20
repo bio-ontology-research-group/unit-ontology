@@ -1249,6 +1249,56 @@ is_a: UO:0000095 ! volume unit
 created_by: george gkoutos
 
 [Term]
+id: UO:0010026
+name: fluid ounce
+namespace: unit.ontology
+def: "An imperial volume unit which is equivalent to 28.413,0625 millilitres." [Wikipedia:Wikipedia]
+synonym: "fl oz" EXACT []
+subset: unit_slim
+is_a: UO:0000095 ! volume unit
+created_by: Luke Slater
+
+[Term]
+id: UO:0010027
+name: gill
+namespace: unit.ontology
+def: "An imperial volume unit which is equivalent to 142.065,3125 millilitres." [Wikipedia:Wikipedia]
+synonym: "gi" EXACT []
+subset: unit_slim
+is_a: UO:0000095 ! volume unit
+created_by: Luke Slater
+
+[Term]
+id: UO:0010028
+name: pint
+namespace: unit.ontology
+def: "An imperial volume unit which is equivalent to 568.261,25 millilitres." [Wikipedia:Wikipedia]
+synonym: "pt" EXACT []
+subset: unit_slim
+is_a: UO:0000095 ! volume unit
+created_by: Luke Slater
+
+[Term]
+id: UO:0010029
+name: quart
+namespace: unit.ontology
+def: "An imperial volume unit which is equivalent to 1,136.5225 millilitres, or two pints." [Wikipedia:Wikipedia]
+synonym: "qt" EXACT []
+subset: unit_slim
+is_a: UO:0000095 ! volume unit
+created_by: Luke Slater
+
+[Term]
+id: UO:0010030
+name: gallon
+namespace: unit.ontology
+def: "An imperial volume unit which is equivalent to 4,546.09 millilitres, or 8 pints." [Wikipedia:Wikipedia]
+synonym: "gal" EXACT []
+subset: unit_slim
+is_a: UO:0000095 ! volume unit
+created_by: Luke Slater
+
+[Term]
 id: UO:0000099
 name: liter
 namespace: unit.ontology

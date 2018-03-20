@@ -4978,6 +4978,56 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UO_0010026 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0010026">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000095"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_1010026"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An imperial volume unit which is equivalent to 28.413,0625 millilitres.&quot; [Wikipedia:Wikipedia]</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0010027 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0010027">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000095"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_1010027"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An imperial volume unit which is equivalent to 142.065,3125 millilitres.&quot; [Wikipedia:Wikipedia]</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0010028 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0010028">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000095"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_1010028"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An imperial volume unit which is equivalent to 568.261,25 millilitres.&quot; [Wikipedia:Wikipedia]</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0010029 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0010029">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000095"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_1010029"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An imperial volume unit which is equivalent to 1,136.5225 millilitres, or two pints.&quot; [Wikipedia:Wikipedia]</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0010030 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0010030">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000095"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_1010030"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An imperial volume unit which is equivalent to 4,546.09 millilitres, or 8 pints.&quot; [Wikipedia:Wikipedia]</rdfs:comment>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UO_1000008 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000008">
@@ -6302,6 +6352,51 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1010025">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acre based unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000047"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_1010026 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1010026">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fluid ounce based unit</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000095"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_1010027 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1010027">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gill based unit</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000095"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_1010028 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1010028">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pint based unit</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000095"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_1010029 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1010029">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">quart based unit</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000095"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_1010030 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1010030">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gallon based unit</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000095"/>
     </owl:Class>
 </rdf:RDF>
 
