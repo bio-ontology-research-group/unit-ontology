@@ -413,7 +413,7 @@ created_by: george gkoutos
 id: UO:0000036
 name: year
 namespace: unit.ontology
-def: "A time unit which is equal to 12 months which is science is taken to be equal to 365.25 days." [Wikipedia:Wikipedia]
+def: "A time unit which is equal to 12 months which in science is taken to be equal to 365.25 days." [Wikipedia:Wikipedia]
 subset: unit_slim
 is_a: UO:0000003 ! time unit
 created_by: george gkoutos

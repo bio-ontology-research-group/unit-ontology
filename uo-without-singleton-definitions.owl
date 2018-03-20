@@ -4586,6 +4586,15 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UO_0010010 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0010010">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000047"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_1010010"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UO_1000008 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000008">
@@ -5765,6 +5774,15 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1010001">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">square micrometer based unit</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000047"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_1010010 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1010010">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hectare based unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000047"/>
     </owl:Class>
     
@@ -7573,6 +7591,14 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UO_0010010 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0010010">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0010010"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -7666,7 +7692,7 @@
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A time unit which is approximately equal to the length of time of one of cycle of the moon&apos;s phases which in science is taken to be equal to 30 days.&quot; [Wikipedia:Wikipedia]</rdfs:comment>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000036">
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A time unit which is equal to 12 months which is science is taken to be equal to 365.25 days.&quot; [Wikipedia:Wikipedia]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A time unit which is equal to 12 months which in science is taken to be equal to 365.25 days.&quot; [Wikipedia:Wikipedia]</rdfs:comment>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000037">
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An electric current unit current which is equal to one thousandth of an ampere or 10^[-3] A.&quot; [UOC:GVG]</rdfs:comment>
@@ -8185,7 +8211,7 @@
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A rate unit which is equal to one over one molar second.&quot; [UOC:GVG]</rdfs:comment>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000283">
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An area density unit which is equal to the mass of an object in kilograms divided by the surface area in hectares..&quot; [UO:GVG]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An area density unit which is equal to the mass of an object in kilograms divided by the surface area in hectares.&quot; [UO:GVG]</rdfs:comment>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000284">
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A rate unit which is equal to one over one nanomolar.&quot; [UO:GVG]</rdfs:comment>
@@ -8252,6 +8278,9 @@
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0010009">
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A mass unit which is equal to 1/12 the mass of 12C&quot; [Wikipedia:Wikipedia]</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0010010">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An area unit which is equal to an area of 10,000 square meters. Equivalent to 2.471 acres.&quot; [Wikipedia:Wikipedia]</rdfs:comment>
     </rdf:Description>
 </rdf:RDF>
 
