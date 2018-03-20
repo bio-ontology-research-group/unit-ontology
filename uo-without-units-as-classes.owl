@@ -1641,6 +1641,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UO_0010019 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0010019"/>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -4594,6 +4600,121 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UO_0010011 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0010011">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000001"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000045"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A length unit which is equal to 0.0254 metres.&quot; [Wikipedia:Wikpiedia]</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0010012 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0010012">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000001"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000045"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A length unit which is equal to 0.0254 millimetres.&quot; [Wikipedia:Wikpiedia]</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0010013 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0010013">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000001"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000045"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A length unit which is equal to 0.3048 metres, or 12 inches.&quot; [Wikipedia:Wikpiedia]</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0010014 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0010014">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000001"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000045"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A length unit which is equal to 0.9144 metres, or 3 feet.&quot; [Wikipedia:Wikpiedia]</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0010015 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0010015">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000001"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000045"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A length unit which is equal to 20.1168 metres, 66 feet, or 22 yards.&quot; [Wikipedia:Wikpiedia]</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0010016 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0010016">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000001"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000045"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A length unit which is equal to 20,116.8 metres, 660 feet, or 10 chains.&quot; [Wikipedia:Wikpiedia]</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0010017 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0010017">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000001"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000045"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A length unit which is equal to 1,609.344 metres, or 8 furlongs.&quot; [Wikipedia:Wikpiedia]</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0010018 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0010018">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000001"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000045"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A length unit which is equal to 3 miles, or 4,828.032 metres&quot; [Wikipedia:Wikpiedia]</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0010019 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0010019">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000001"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0010020 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0010020">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0010019"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A maritime length unit which is equal to 6.08 feet, or 1.853184 metres&quot; [Wikipedia:Wikpiedia]</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0010021 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0010021">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0010019"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A maritime length unit which is equal to 608 feet, 100 fathoms, or 185.3184 metres&quot; [Wikipedia:Wikpiedia]</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0010022 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0010022">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0010019"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A maritime length unit which is equal to 6,080 feet, 10 cables, or 1,853.184 metres&quot; [Wikipedia:Wikpiedia]</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -4964,6 +5085,9 @@
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0010007">
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An electrical mobility unit which is equal to one volt second per square centimeter.&quot; [UOB:LKSR]</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0010019">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A maritime length unit is one used primarily at sea.&quot; [Wikipedia:Wikpiedia]</rdfs:comment>
     </rdf:Description>
 </rdf:RDF>
 

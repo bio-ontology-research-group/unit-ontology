@@ -118,6 +118,132 @@ is_a: UO:0000045 ! base unit
 created_by: george gkoutos
 
 [Term]
+id: UO:0010011
+name: inch
+namespace: unit.ontology
+synonym: "in" EXACT []
+def: "A length unit which is equal to 0.0254 metres." [Wikipedia:Wikpiedia]
+subset: unit_slim
+is_a: UO:0000001 ! length unit
+is_a: UO:0000045 ! base unit
+created_by: Luke Slater
+
+[Term]
+id: UO:0010012
+name: thou
+namespace: unit.ontology
+def: "A length unit which is equal to 0.0254 millimetres." [Wikipedia:Wikpiedia]
+synonym: "mil" EXACT []
+synonym: "th" EXACT []
+subset: unit_slim
+is_a: UO:0000001 ! length unit
+is_a: UO:0000045 ! base unit
+created_by: Luke Slater
+
+[Term]
+id: UO:0010013
+name: foot
+namespace: unit.ontology
+def: "A length unit which is equal to 0.3048 metres, or 12 inches." [Wikipedia:Wikpiedia]
+synonym: "ft" EXACT []
+subset: unit_slim
+is_a: UO:0000001 ! length unit
+is_a: UO:0000045 ! base unit
+created_by: Luke Slater
+
+[Term]
+id: UO:0010014
+name: yard
+namespace: unit.ontology
+def: "A length unit which is equal to 0.9144 metres, or 3 feet." [Wikipedia:Wikpiedia]
+synonym: "yd" EXACT []
+subset: unit_slim
+is_a: UO:0000001 ! length unit
+is_a: UO:0000045 ! base unit
+created_by: Luke Slater
+
+[Term]
+id: UO:0010015
+name: chain
+namespace: unit.ontology
+def: "A length unit which is equal to 20.1168 metres, 66 feet, or 22 yards." [Wikipedia:Wikpiedia]
+synonym: "ch" EXACT []
+subset: unit_slim
+is_a: UO:0000001 ! length unit
+is_a: UO:0000045 ! base unit
+created_by: Luke Slater
+
+[Term]
+id: UO:0010016
+name: furlong
+namespace: unit.ontology
+def: "A length unit which is equal to 20,116.8 metres, 660 feet, or 10 chains." [Wikipedia:Wikpiedia]
+synonym: "fur" EXACT []
+subset: unit_slim
+is_a: UO:0000001 ! length unit
+is_a: UO:0000045 ! base unit
+created_by: Luke Slater
+
+[Term]
+id: UO:0010017
+name: mile
+namespace: unit.ontology
+def: "A length unit which is equal to 1,609.344 metres, or 8 furlongs." [Wikipedia:Wikpiedia]
+synonym: "mi" EXACT []
+subset: unit_slim
+is_a: UO:0000001 ! length unit
+is_a: UO:0000045 ! base unit
+created_by: Luke Slater
+
+[Term]
+id: UO:0010018
+name: league
+namespace: unit.ontology
+def: "A length unit which is equal to 3 miles, or 4,828.032 metres" [Wikipedia:Wikpiedia]
+synonym: "lea" EXACT []
+subset: unit_slim
+is_a: UO:0000001 ! length unit
+is_a: UO:0000045 ! base unit
+created_by: Luke Slater
+
+[Term]
+id: UO:0010019
+name: maritime length unit
+namespace: unit.ontology
+def: "A maritime length unit is one used primarily at sea." [Wikipedia:Wikpiedia]
+subset: unit_slim
+is_a: UO:0000001 ! length unit
+created_by: Luke Slater
+
+[Term]
+id: UO:0010020
+name: fathom
+namespace: unit.ontology
+def: "A maritime length unit which is equal to 6.08 feet, or 1.853184 metres" [Wikipedia:Wikpiedia]
+synonym: "ftm" EXACT []
+subset: unit_slim
+is_a: UO:0010019 ! maritime length unit
+created_by: Luke Slater
+
+[Term]
+id: UO:0010021
+name: cable
+namespace: unit.ontology
+def: "A maritime length unit which is equal to 608 feet, 100 fathoms, or 185.3184 metres" [Wikipedia:Wikpiedia]
+subset: unit_slim
+is_a: UO:0010019 ! maritime length unit
+created_by: Luke Slater
+
+[Term]
+id: UO:0010022
+name: nautical mile
+namespace: unit.ontology
+def: "A maritime length unit which is equal to 6,080 feet, 10 cables, or 1,853.184 metres" [Wikipedia:Wikpiedia]
+subset: unit_slim
+is_a: UO:0010019 ! maritime length unit
+created_by: Luke Slater
+
+[Term]
 id: UO:0000009
 name: kilogram
 namespace: unit.ontology
