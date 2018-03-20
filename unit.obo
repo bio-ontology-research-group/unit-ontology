@@ -255,6 +255,87 @@ is_a: UO:0000045 ! base unit
 created_by: george gkoutos
 
 [Term]
+id: UO:0010031
+name: grain
+namespace: unit.ontology
+def: "An imperial mass unit which is equivalent to 64.798,91 milligrams." [Wikipedia:Wikipedia]
+synonym: "gr" EXACT []
+subset: unit_slim
+is_a: UO:0000002 ! mass unit
+created_by: Luke Slater
+
+[Term]
+id: UO:0010032
+name: drachm
+namespace: unit.ontology
+def: "An imperial mass unit which is equivalent to 1.771,845,195,3125 grams, or 1/256 of 1 pound." [Wikipedia:Wikipedia]
+synonym: "dr" EXACT []
+subset: unit_slim
+is_a: UO:0000002 ! mass unit
+created_by: Luke Slater
+
+[Term]
+id: UO:0010033
+name: ounce
+namespace: unit.ontology
+def: "An imperial mass unit which is equivalent to 28.349,523,125 grams, or 1/16 of 1 pound." [Wikipedia:Wikipedia]
+synonym: "oz" EXACT []
+subset: unit_slim
+is_a: UO:0000002 ! mass unit
+created_by: Luke Slater
+
+[Term]
+id: UO:0010034
+name: pound
+namespace: unit.ontology
+def: "An imperial mass unit which is equivalent to 453.592,37 grams." [Wikipedia:Wikipedia]
+synonym: "lb" EXACT []
+subset: unit_slim
+is_a: UO:0000002 ! mass unit
+created_by: Luke Slater
+
+[Term]
+id: UO:0010035
+name: stone
+namespace: unit.ontology
+def: "An imperial mass unit which is equivalent to 6,350.293,18 grams, or 14 pounds." [Wikipedia:Wikipedia]
+synonym: "st" EXACT []
+subset: unit_slim
+is_a: UO:0000002 ! mass unit
+created_by: Luke Slater
+
+[Term]
+id: UO:0010036
+name: quarter
+namespace: unit.ontology
+def: "An imperial mass unit which is equivalent to 12.700,586,36 kilograms, or 28 pounds." [Wikipedia:Wikipedia]
+synonym: "qr" EXACT []
+synonym: "qtr" EXACT []
+subset: unit_slim
+is_a: UO:0000002 ! mass unit
+created_by: Luke Slater
+
+[Term]
+id: UO:0010037
+name: hundredweight
+namespace: unit.ontology
+def: "An imperial mass unit which is equivalent to 50.802,345,44 kilograms, 112 pounds, or 8 stone." [Wikipedia:Wikipedia]
+synonym: "cwt" EXACT []
+subset: unit_slim
+is_a: UO:0000002 ! mass unit
+created_by: Luke Slater
+
+[Term]
+id: UO:0010038
+name: ton
+namespace: unit.ontology
+def: "An imperial mass unit which is equivalent to 1,016.046,9088 kilograms, or 2,240 pounds." [Wikipedia:Wikipedia]
+synonym: "t" EXACT []
+subset: unit_slim
+is_a: UO:0000002 ! mass unit
+created_by: Luke Slater
+
+[Term]
 id: UO:0010009
 name: milli
 namespace: unit.ontology
@@ -1436,6 +1517,15 @@ is_a: UO:0000000 ! unit
 relationship: is_unit_of PATO:0001021 ! energy
 relationship: is_unit_of PATO:0001026 ! work
 created_by: george gkoutos
+
+[Term]
+id: UO:0010039
+name: slug
+namespace: unit.ontology
+def: "An imperial gravitational unit which is equivalent to a mass that accelerates by 1ft/s² when a force of one pound (lbf) is exerted on it." [Wikipedia:Wikipedia]
+subset: unit_slim
+is_a: UO:0000111 ! energy unit
+created_by: Luke Slater
 
 [Term]
 id: UO:0000112

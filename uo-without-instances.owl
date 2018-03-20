@@ -5028,6 +5028,96 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UO_0010031 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0010031">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000002"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_1010031"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An imperial mass unit which is equivalent to 64.798,91 milligrams.&quot; [Wikipedia:Wikipedia]</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0010032 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0010032">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000002"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_1010032"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An imperial mass unit which is equivalent to 1.771,845,195,3125 grams, or 1/256 of 1 pound.&quot; [Wikipedia:Wikipedia]</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0010033 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0010033">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000002"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_1010033"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An imperial mass unit which is equivalent to 28.349,523,125 grams, or 1/16 of 1 pound.&quot; [Wikipedia:Wikipedia]</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0010034 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0010034">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000002"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_1010034"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An imperial mass unit which is equivalent to 453.592,37 grams.&quot; [Wikipedia:Wikipedia]</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0010035 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0010035">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000002"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_1010035"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An imperial mass unit which is equivalent to 6,350.293,18 grams, or 14 pounds.&quot; [Wikipedia:Wikipedia]</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0010036 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0010036">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000002"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_1010036"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An imperial mass unit which is equivalent to 12.700,586,36 kilograms, or 28 pounds.&quot; [Wikipedia:Wikipedia]</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0010037 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0010037">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000002"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_1010037"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An imperial mass unit which is equivalent to 50.802,345,44 kilograms, 112 pounds, or 8 stone.&quot; [Wikipedia:Wikipedia]</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0010038 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0010038">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000002"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_1010038"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An imperial mass unit which is equivalent to 1,016.046,9088 kilograms, or 2,240 pounds.&quot; [Wikipedia:Wikipedia]</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0010039 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0010039">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000111"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_1010039"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An imperial gravitational unit which is equivalent to a mass that accelerates by 1ft/s² when a force of one pound (lbf) is exerted on it.&quot; [Wikipedia:Wikipedia]</rdfs:comment>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UO_1000008 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000008">
@@ -6397,6 +6487,87 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1010030">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gallon based unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000095"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_1010031 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1010031">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">grain based unit</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000002"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_1010032 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1010032">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">drachm based unit</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000002"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_1010033 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1010033">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ounce based unit</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000002"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_1010034 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1010034">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pound based unit</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000002"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_1010035 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1010035">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stone based unit</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000002"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_1010036 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1010036">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">quarter based unit</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000002"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_1010037 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1010037">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hundredweight based unit</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000002"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_1010038 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1010038">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ton based unit</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000002"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_1010039 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1010039">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">slug based unit</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000111"/>
     </owl:Class>
 </rdf:RDF>
 
