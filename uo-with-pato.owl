@@ -6726,6 +6726,57 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UO_0010023 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0010023">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0010023"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000047"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_1010023"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0010024 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0010024">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0010024"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000047"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_1010024"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0010025 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0010025">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0010025"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000047"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_1010025"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UO_1000008 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000008">
@@ -8023,6 +8074,33 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1010022">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nautical mile based unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0010019"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_1010023 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1010023">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">perch based unit</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000047"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_1010024 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1010024">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rood based unit</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000047"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_1010025 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1010025">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acre based unit</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000047"/>
     </owl:Class>
     
 
@@ -9460,6 +9538,24 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UO_0010023 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0010023"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0010024 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0010024"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0010025 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0010025"/>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -10415,6 +10511,18 @@
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0010022">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nautical mile</rdfs:label>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A maritime length unit which is equal to 6,080 feet, 10 cables, or 1,853.184 metres&quot; [Wikipedia:Wikpiedia]</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0010023">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">perch</rdfs:label>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An area unit which is equal to an area of 25.292,852,64 square meters, or 1 square rod.&quot; [Wikipedia:Wikipedia]</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0010024">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rood</rdfs:label>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An area unit which is equivalent to 1 furlong x 1 rod. This is equal to an area of 1,011.714,1056 square meters, or 40 square rods.&quot; [Wikipedia:Wikipedia]</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0010025">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acre</rdfs:label>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An area unit which is equivalent to 1 furlong x 1 chain. This is equal to an area of 4,046.856,4224 square meters, or 43,500 square feet.&quot; [Wikipedia:Wikipedia]</rdfs:comment>
     </rdf:Description>
 </rdf:RDF>
 

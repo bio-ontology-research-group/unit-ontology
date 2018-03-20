@@ -994,6 +994,33 @@ is_a: UO:0000047 ! area unit
 created_by: Luke Slater
 
 [Term]
+id: UO:0010023
+name: perch
+namespace: unit.ontology
+def: "An area unit which is equal to an area of 25.292,852,64 square meters, or 1 square rod." [Wikipedia:Wikipedia]
+subset: unit_slim
+is_a: UO:0000047 ! area unit
+created_by: Luke Slater
+
+[Term]
+id: UO:0010024
+name: rood
+namespace: unit.ontology
+def: "An area unit which is equivalent to 1 furlong x 1 rod. This is equal to an area of 1,011.714,1056 square meters, or 40 square rods." [Wikipedia:Wikipedia]
+subset: unit_slim
+is_a: UO:0000047 ! area unit
+created_by: Luke Slater
+
+[Term]
+id: UO:0010025
+name: acre
+namespace: unit.ontology
+def: "An area unit which is equivalent to 1 furlong x 1 chain. This is equal to an area of 4,046.856,4224 square meters, or 43,500 square feet." [Wikipedia:Wikipedia]
+subset: unit_slim
+is_a: UO:0000047 ! area unit
+created_by: Luke Slater
+
+[Term]
 id: UO:0010001
 name: square micrometer
 namespace: unit.ontology

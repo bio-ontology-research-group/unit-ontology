@@ -4715,6 +4715,33 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UO_0010023 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0010023">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000047"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An area unit which is equal to an area of 25.292,852,64 square meters, or 1 square rod.&quot; [Wikipedia:Wikipedia]</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0010024 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0010024">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000047"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An area unit which is equivalent to 1 furlong x 1 rod. This is equal to an area of 1,011.714,1056 square meters, or 40 square rods.&quot; [Wikipedia:Wikipedia]</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0010025 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0010025">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000047"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An area unit which is equivalent to 1 furlong x 1 chain. This is equal to an area of 4,046.856,4224 square meters, or 43,500 square feet.&quot; [Wikipedia:Wikipedia]</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
