@@ -1647,6 +1647,48 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UO_0010041 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0010041"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0010042 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0010042"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0010043 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0010043"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0010044 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0010044"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0010045 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0010045"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0010046 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0010046"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0010047 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0010047"/>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -4868,6 +4910,71 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UO_0010040 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0010040">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000095"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A metric teaspoon is a unit of measurement of volume widely used in cooking recipes and pharmaceutic prescriptions. It equals a 5mL volume.&quot; [Wikipedia:https://en.wikipedia.org/wiki/Teaspoon]</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0010041 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0010041">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000095"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0010042 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0010042">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000095"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0010043 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0010043">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000095"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0010044 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0010044">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000095"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0010045 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0010045">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000095"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0010046 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0010046">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000095"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0010047 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0010047">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000095"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -5241,6 +5348,27 @@
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0010019">
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A maritime length unit is one used primarily at sea.&quot; [Wikipedia:Wikpiedia]</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0010041">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A United States customary units teaspoon is a unit of measurement of volume widely used in cooking recipes and pharmaceutic prescriptions in America. It equals a 4.93 mL volume.&quot; [Wikipedia:https://en.wikipedia.org/wiki/United_States_customary_units#Cooking_measures]</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0010042">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A metric tablespoon is a unit of measurement of volume widely used in cooking recipes and pharmaceutic prescriptions. It equals a 15mL volume.&quot; [Wikipedia:https://en.wikipedia.org/wiki/Tablespoon]</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0010043">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An Australian metric tablespoon is a unit of measurement of volume used in Australia for cooking recipes and pharmaceutic prescriptions. It equals a 20mL volume.&quot; [Wikipedia:https://en.wikipedia.org/wiki/Tablespoon]</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0010044">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A United States customary units tablespoon is a unit of measurement of volume widely used in cooking recipes and pharmaceutic prescriptions in America. It equals a 14.79 mL volume.&quot; [Wikipedia:https://en.wikipedia.org/wiki/United_States_customary_units#Cooking_measures]</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0010045">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A metric cup is a unit of measurement of volume widely used in cooking recipes and pharmaceutic prescriptions. It equals a 250mL volume.&quot; [Wikipedia:https://en.wikipedia.org/wiki/Cooking_weights_and_measures]</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0010046">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A United States customary units cup is a unit of measurement of volume widely used in cooking recipes and pharmaceutic prescriptions in America. It equals a 236.59 mL volume.&quot; [Wikipedia:https://en.wikipedia.org/wiki/United_States_customary_units#Cooking_measures]</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0010047">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A United States FDA cup is a unit of measurement of volume used by the US Federal Department of Agriculture as a nutritional serving measure. It equals a 240 mL volume.&quot; [Wikipedia:https://en.wikipedia.org/wiki/United_States_customary_units#Cooking_measures]</rdfs:comment>
     </rdf:Description>
 </rdf:RDF>
 
