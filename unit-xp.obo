@@ -224,6 +224,21 @@ intersection_of: UO:1000062 ! molar
 intersection_of: has_prefix UO:0000303 ! femto
 
 [Term]
+id: UO:0000086
+intersection_of: UO:1010049 ! gram per square meter
+intersection_of: has_prefix UO:0000294 ! kilo
+
+[Term]
+id: UO:1010049
+name: gram per square meter based unit
+is_a: UO:0000054
+
+[Term]
+id: UO:0010049
+name: gram per square meter
+is_a: UO:1010049
+
+[Term]
 id: UO:0000087
 intersection_of: UO:1000088 ! gram per mole
 intersection_of: has_prefix UO:0000294 ! kilo
@@ -556,5 +571,15 @@ intersection_of: has_prefix UO:0000300 ! nano
 [Term]
 id: UO:0000301
 intersection_of: UO:1000175 ! gram per liter
+intersection_of: has_prefix UO:0000299 ! micro
+
+[Term]
+id: UO:0000309
+intersection_of: UO:1010049 ! gram per square meter
+intersection_of: has_prefix UO:0000297 ! milli
+
+[Term]
+id: UO:0010048
+intersection_of: UO:1000013 ! mole
 intersection_of: has_prefix UO:0000299 ! micro
 

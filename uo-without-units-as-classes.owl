@@ -4975,6 +4975,24 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UO_0010048 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0010048">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000006"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A substance unit which is equal to one millionth of a mole.&quot; [UOB:LTS]</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0010049 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0010049">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000054"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An area density unit which is equal to the mass of an object in grams divided by the surface area in meters squared.&quot; [NIST:NIST]</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
