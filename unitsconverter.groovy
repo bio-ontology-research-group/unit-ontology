@@ -30,6 +30,7 @@ infile.eachLine {
       exp = new Expando()
       exp.isa = []
       exp.rel = []
+      exp.syn = []
       exp.unit = false
       exp.prefix = false
     } else if (it.trim().size()==0) {
@@ -54,6 +55,11 @@ infile.eachLine {
       exp.name = it.trim().substring(6)
     } else if (it.trim().startsWith("is_a:")) {
       exp.isa << it.substring(6,it.indexOf('!')).trim()
+    } else if (it.trim().startsWith("synonym:")) {
+      exp.syn << [
+        (it.trim() =~ /"(.*)"/)[0][1],
+        it.trim().tokenize(' ')[2]
+      ]
     }
   }
 }
@@ -76,6 +82,10 @@ OWLOntology ont4 = man.createOntology(IRI.create(onturi+"uo4.owl")) // without u
 OWLOntology ont5 = man.createOntology(IRI.create(onturi+"uo5.owl")) // without PATO references
 def unitof = fac.getOWLObjectProperty(IRI.create(onturi+"is_unit_of"))
 def hasprefix = fac.getOWLObjectProperty(IRI.create(onturi+"has_prefix"))
+
+def exactSynProp = fac.getOWLAnnotationProperty(IRI.create("oboInOwl:hasExactSynonym"))
+def narrowSynProp = fac.getOWLAnnotationProperty(IRI.create("oboInOwl:hasNarrowSynonym"))
+def relatedSynProp = fac.getOWLAnnotationProperty(IRI.create("oboInOwl:hasRelatedSynonym"))
 
 PrintWriter oboout = new PrintWriter(new BufferedWriter(new FileWriter(new File("unit-xp.obo"))))
 
@@ -124,6 +134,7 @@ l.each {
 	      man.addAxiom(ont2, fac.getOWLDeclarationAxiom(cl0))
 	      man.addAxiom(ont3, fac.getOWLDeclarationAxiom(cl0))
 	      man.addAxiom(ont5, fac.getOWLDeclarationAxiom(cl0))
+
 	      def label = fac.getRDFSLabel()
 	      def definition = fac.getRDFSComment()
 	      def anno = fac.getOWLAnnotation(label, fac.getOWLTypedLiteral(basename+" based unit"))
@@ -241,12 +252,35 @@ l.each {
     def equiv = fac.getOWLClassAssertionAxiom(cl2, ind)
     man.addAxiom(ont4, equiv)
   }
+
+  // add the label
+  // TODO why do only some of hte entries get this, wtf?
   def label = fac.getRDFSLabel()
   def definition = fac.getRDFSComment()
   def anno = fac.getOWLAnnotation(label, fac.getOWLTypedLiteral(it.name))
   def annoassert = fac.getOWLAnnotationAssertionAxiom(IRI.create(cls),anno)
   man.addAxiom(ont,annoassert)
   man.addAxiom(ont5,annoassert)
+
+  // add synonyms
+  it.syn.each { s ->
+    def aProp
+    switch(s[1]) {
+      case 'RELATED':
+        aProp = relatedSynProp; break;
+      case 'NARROW':
+        aProp = narrowSynProp; break;
+      case 'EXACT': default: 
+        aProp = exactSynProp
+    }
+
+    def sAnn = fac.getOWLAnnotation(aProp, fac.getOWLTypedLiteral(s[0]))
+    def sAnnAss = fac.getOWLAnnotationAssertionAxiom(IRI.create(cls), sAnn)
+    man.addAxiom(ont, sAnnAss)
+    man.addAxiom(ont5, sAnnAss)
+  }
+
+  // Add the definition...
   if (it.definition!=null) {
     anno = fac.getOWLAnnotation(definition, fac.getOWLTypedLiteral(it.definition))
     annoassert = fac.getOWLAnnotationAssertionAxiom(IRI.create(cls),anno)
