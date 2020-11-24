@@ -1497,6 +1497,17 @@ is_a: UO:0000000 ! unit
 relationship: is_unit_of PATO:0001025 ! pressure
 created_by: george gkoutos
 
+
+[Term]
+id: UO:0010052
+name: pounds per square inch
+namespace: unit.ontology
+def: "A pressure unit which is equal to 6894.757 pascal." [Wikipedia:Wikipedia]
+synonym: "psi" EXACT []
+synonym: "lbf/in^[2]" EXACT []
+is_a: UO:0000109 ! pressure unit
+created_by: Luke Slater
+
 [Term]
 id: UO:0000110
 name: pascal

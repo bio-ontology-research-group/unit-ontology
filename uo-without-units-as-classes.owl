@@ -1689,6 +1689,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UO_0010052 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0010052"/>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -5011,6 +5017,14 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UO_0010052 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0010052">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000109"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -5405,6 +5419,9 @@
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0010047">
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A United States FDA cup is a unit of measurement of volume used by the US Federal Department of Agriculture as a nutritional serving measure. It equals a 240 mL volume.&quot; [Wikipedia:https://en.wikipedia.org/wiki/United_States_customary_units#Cooking_measures]</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0010052">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A pressure unit which is equal to 6894.757 pascal.&quot; [Wikipedia:Wikipedia]</rdfs:comment>
     </rdf:Description>
 </rdf:RDF>
 

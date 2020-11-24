@@ -7288,6 +7288,18 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UO_0010052 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0010052">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pounds per square inch</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000109"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A pressure unit which is equal to 6894.757 pascal.&quot; [Wikipedia:Wikipedia]</rdfs:comment>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lbf/in^[2]</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">psi</oboInOwl:hasExactSynonym>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UO_1000008 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000008">
