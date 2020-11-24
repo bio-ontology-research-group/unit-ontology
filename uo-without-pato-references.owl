@@ -4402,6 +4402,14 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UO_0010053 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0010053">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000052"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UO_1000008 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000008">
@@ -7966,6 +7974,14 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UO_0010053 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0010053">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0010053"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -9338,6 +9354,11 @@
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">food calorie</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kcal</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kilocalorie</oboInOwl:hasExactSynonym>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0010053">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">micrograms per wheaton bottle</rdfs:label>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit of mass concentration defined as the number of micrograms of a substance per 250 ml Wheaton bottle.&quot; [UOB:LTS]</rdfs:comment>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">micrograms per bottle</oboInOwl:hasExactSynonym>
     </rdf:Description>
 </rdf:RDF>
 

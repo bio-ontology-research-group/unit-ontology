@@ -5012,6 +5012,14 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UO_0010053 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0010053">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000052"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UO_1000008 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000008">
@@ -8576,6 +8584,14 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UO_0010053 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0010053">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0010053"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -9360,6 +9376,9 @@
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0010051">
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit of energy widely used in nutrition, equivalent to the amount of heat needed to cause one kilogram of water to rise in temperature by one degree Celsius.&quot; [Wikipedia:Wikipedia]</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0010053">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit of mass concentration defined as the number of micrograms of a substance per 250 ml Wheaton bottle.&quot; [UOB:LTS]</rdfs:comment>
     </rdf:Description>
 </rdf:RDF>
 

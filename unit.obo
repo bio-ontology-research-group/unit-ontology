@@ -3329,6 +3329,17 @@ created_by: Luke Slater
 creation_date: 2020-10-24T17:54:12Z
 
 [Term]
+id: UO:0010053
+name: micrograms per wheaton bottle
+namespace: unit.ontology
+def: "A unit of mass concentration defined as the number of micrograms of a substance per 250 ml Wheaton bottle." [UOB:LTS]
+subset: unit_slim
+is_a: UO:0000052 ! mass density unit
+synonym: "micrograms per bottle" RELATED []
+created_by: Luke Slater
+creation_date: 2020-10-24T18:09:12Z
+
+[Term]
 id: UO:0000276
 name: amount per container
 namespace: unit.ontology
