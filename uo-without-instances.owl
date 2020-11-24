@@ -5252,6 +5252,16 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UO_0010051 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0010051">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000111"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_1010051"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit of energy widely used in nutrition, equivalent to the amount of heat needed to cause one kilogram of water to rise in temperature by one degree Celsius.&quot; [Wikipedia:Wikipedia]</rdfs:comment>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UO_1000008 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000008">
@@ -6720,6 +6730,15 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1010049">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gram per square meter based unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000054"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_1010051 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1010051">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">large calorie based unit</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000111"/>
     </owl:Class>
 </rdf:RDF>
 

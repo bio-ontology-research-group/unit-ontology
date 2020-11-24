@@ -1599,6 +1599,22 @@ is_a: UO:0000111 ! energy unit
 created_by: george gkoutos
 
 [Term]
+id: UO:0010051
+name: large calorie
+namespace: unit.ontology
+def: "A unit of energy widely used in nutrition, equivalent to the amount of heat needed to cause one kilogram of water to rise in temperature by one degree Celsius." [Wikipedia:Wikipedia]
+subset: unit_slim
+synonym: "food calorie" EXACT []
+synonym: "kilocalorie" EXACT []
+synonym: "big calorie" EXACT []
+synonym: "cal" EXACT []
+synonym: "calorie" EXACT []
+synonym: "kcal" EXACT []
+is_a: UO:0000111 ! energy unit
+created_by: Luke Slater
+creation_date: 2020-10-24T18:01:12Z
+
+[Term]
 id: UO:0000113
 name: power unit
 namespace: unit.ontology
