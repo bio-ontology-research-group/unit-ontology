@@ -76,6 +76,15 @@ is_a: UO:0000000 ! unit
 created_by: george gkoutos
 
 [Term]
+id: UO:0010054
+name: picoampere
+namespace: unit.ontology
+def: "An electric current unit current which is equal to one trillionth of an ampere or 10^[-12] A." [UOB:LTS]
+subset: unit_slim
+synonym: "pA" EXACT []
+is_a: UO:0000004 ! electric current unit
+
+[Term]
 id: UO:0000005
 name: temperature unit
 namespace: unit.ontology

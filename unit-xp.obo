@@ -1,4 +1,19 @@
 [Term]
+id: UO:0010054
+intersection_of: UO:1000011 ! ampere
+intersection_of: has_prefix UO:0000302 ! pico
+
+[Term]
+id: UO:1000011
+name: ampere based unit
+is_a: UO:0000004
+
+[Term]
+id: UO:0000011
+name: ampere
+is_a: UO:1000011
+
+[Term]
 id: UO:0000009
 intersection_of: UO:1000021 ! gram
 intersection_of: has_prefix UO:0000294 ! kilo
@@ -102,16 +117,6 @@ intersection_of: has_prefix UO:0000302 ! pico
 id: UO:0000037
 intersection_of: UO:1000011 ! ampere
 intersection_of: has_prefix UO:0000297 ! milli
-
-[Term]
-id: UO:1000011
-name: ampere based unit
-is_a: UO:0000004
-
-[Term]
-id: UO:0000011
-name: ampere
-is_a: UO:1000011
 
 [Term]
 id: UO:0000038

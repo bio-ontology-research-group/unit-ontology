@@ -5034,6 +5034,15 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UO_0010054 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0010054">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000004"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An electric current unit current which is equal to one trillionth of an ampere or 10^[-12] A.&quot; [UOB:LTS]</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
