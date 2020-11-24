@@ -4373,6 +4373,14 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UO_0010050 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0010050">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000052"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UO_1000008 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000008">
@@ -7912,6 +7920,14 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UO_0010050 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0010050">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0010050"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -9268,6 +9284,12 @@
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An area density unit which is equal to the mass of an object in grams divided by the surface area in meters squared.&quot; [NIST:NIST]</rdfs:comment>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">g/m^[2]</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gram per square metre</oboInOwl:hasExactSynonym>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0010050">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nanogram per microliter</rdfs:label>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A mass unit density which is equal to mass of an object in nanograms divided by the volume in microliters.&quot; [UOB:LTS]</rdfs:comment>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nanogram per microlitre</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ng/ul</oboInOwl:hasExactSynonym>
     </rdf:Description>
 </rdf:RDF>
 

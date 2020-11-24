@@ -3290,6 +3290,18 @@ created_by: George Gkoutos
 creation_date: 2011-03-21T10:55:12Z
 
 [Term]
+id: UO:0010050
+name: nanogram per microliter 
+namespace: unit.ontology
+def: "A mass unit density which is equal to mass of an object in nanograms divided by the volume in microliters." [UOB:LTS]
+subset: unit_slim
+synonym: "nanogram per microlitre" EXACT []
+synonym: "ng/ul" EXACT []
+is_a: UO:0000052 ! mass density unit
+created_by: Luke Slater
+creation_date: 2020-10-24T17:54:12Z
+
+[Term]
 id: UO:0000276
 name: amount per container
 namespace: unit.ontology

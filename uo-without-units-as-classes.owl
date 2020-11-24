@@ -4993,6 +4993,15 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UO_0010050 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0010050">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000052"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A mass unit density which is equal to mass of an object in nanograms divided by the volume in microliters.&quot; [UOB:LTS]</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
