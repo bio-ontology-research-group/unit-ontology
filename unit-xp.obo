@@ -329,6 +329,31 @@ name: gray
 is_a: UO:1000134
 
 [Term]
+id: UO:0010055
+intersection_of: UO:1000134 ! gray
+intersection_of: has_prefix UO:0000298 ! centi
+
+[Term]
+id: UO:0010061
+intersection_of: UO:1010060 ! gray per minute
+intersection_of: has_prefix UO:0000298 ! centi
+
+[Term]
+id: UO:1010060
+name: gray per minute based unit
+is_a: UO:0000129
+
+[Term]
+id: UO:0010060
+name: gray per minute
+is_a: UO:1010060
+
+[Term]
+id: UO:0010062
+intersection_of: UO:1010060 ! gray per minute
+intersection_of: has_prefix UO:0000297 ! milli
+
+[Term]
 id: UO:0000142
 intersection_of: UO:1000134 ! gray
 intersection_of: has_prefix UO:0000297 ! milli
@@ -549,6 +574,21 @@ name: siemens
 is_a: UO:1000264
 
 [Term]
+id: UO:0010056
+intersection_of: UO:1000266 ! electronvolt
+intersection_of: has_prefix UO:0000292 ! giga
+
+[Term]
+id: UO:1000266
+name: electronvolt based unit
+is_a: UO:0000111
+
+[Term]
+id: UO:0000266
+name: electronvolt
+is_a: UO:1000266
+
+[Term]
 id: UO:0000273
 intersection_of: UO:1000175 ! gram per liter
 intersection_of: has_prefix UO:0000297 ! milli
@@ -582,6 +622,26 @@ intersection_of: has_prefix UO:0000299 ! micro
 id: UO:0000309
 intersection_of: UO:1010049 ! gram per square meter
 intersection_of: has_prefix UO:0000297 ! milli
+
+[Term]
+id: UO:0000329
+intersection_of: UO:1000244 ! base pair
+intersection_of: has_prefix UO:0000293 ! mega
+
+[Term]
+id: UO:1000244
+name: base pair based unit
+is_a: UO:0000189
+
+[Term]
+id: UO:0000244
+name: base pair
+is_a: UO:1000244
+
+[Term]
+id: UO:0000330
+intersection_of: UO:1000244 ! base pair
+intersection_of: has_prefix UO:0000292 ! giga
 
 [Term]
 id: UO:0010048
