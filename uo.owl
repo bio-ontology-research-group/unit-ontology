@@ -7404,6 +7404,97 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UO_01200006 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_01200006">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000060"/>
+        <dc:creator rdf:resource="https://orcid.org/0000-0001-6284-4821"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-12-15T16:07:13Z</dc:date>
+        <rdfs:comment xml:lang="en">A speed/velocity unit which is equal to the speed of an object traveling 1-foot distance in one second.</rdfs:comment>
+        <rdfs:label xml:lang="en">feet per second</rdfs:label>
+        <oboInOwl:hasExactSynonym xml:lang="en">ft/s</oboInOwl:hasExactSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_01200007 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_01200007">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000054"/>
+        <dc:creator rdf:resource="https://orcid.org/0000-0001-6284-4821"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-12-15T16:23:40Z</dc:date>
+        <rdfs:comment xml:lang="en">An area density unit which is equal to the mass of an object in grams divided by the surface area in feet squared.</rdfs:comment>
+        <rdfs:label xml:lang="en">gram per square feet</rdfs:label>
+        <oboInOwl:hasExactSynonym xml:lang="en">g/ft^[2]</oboInOwl:hasExactSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_01200008 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_01200008">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000054"/>
+        <dc:creator rdf:resource="https://orcid.org/0000-0001-6284-4821"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-12-15T16:25:53Z</dc:date>
+        <rdfs:comment xml:lang="en">An area density unit which is equal to the mass of an object in grams divided by the surface area in hectare.</rdfs:comment>
+        <rdfs:comment xml:lang="en">g/ha</rdfs:comment>
+        <rdfs:label xml:lang="en">gram per hectare</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_01200009 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_01200009">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000205"/>
+        <dc:creator rdf:resource="https://orcid.org/0000-0001-6284-4821"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-12-15T16:30:05Z</dc:date>
+        <rdfs:comment xml:lang="en">A volume density unit which is equal to the volume of an object in liters divided by the surface area in acres.</rdfs:comment>
+        <rdfs:label xml:lang="en">liter per acre</rdfs:label>
+        <oboInOwl:hasExactSynonym xml:lang="en">l/ac</oboInOwl:hasExactSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_01200010 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_01200010">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000205"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-2627-0696"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-12-15T16:31:56Z</dc:date>
+        <rdfs:comment xml:lang="en">A volume density unit which is equal to the volume of an object in liters divided by the surface area in hectare.</rdfs:comment>
+        <rdfs:label xml:lang="en">liter per hectare</rdfs:label>
+        <oboInOwl:hasExactSynonym xml:lang="en">l/ha</oboInOwl:hasExactSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_01200011 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_01200011">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000205"/>
+        <dc:creator rdf:resource="https://orcid.org/0000-0001-6284-4821"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-12-15T16:33:11Z</dc:date>
+        <rdfs:comment xml:lang="en">A volume density unit which is equal to the volume of an object in liters divided by the surface area in feet squared.</rdfs:comment>
+        <rdfs:label xml:lang="en">liter per square foot</rdfs:label>
+        <oboInOwl:hasExactSynonym xml:lang="en">l/ft^2</oboInOwl:hasExactSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_01200012 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_01200012">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000205"/>
+        <dc:creator rdf:resource="https://orcid.org/0000-0001-6284-4821"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-12-15T16:34:56Z</dc:date>
+        <rdfs:comment xml:lang="en">A volume density unit which is equal to the volume of an object in liters divided by the surface area in meters squared.</rdfs:comment>
+        <rdfs:label xml:lang="en">liter per square meter</rdfs:label>
+        <oboInOwl:hasExactSynonym rdf:resource="l/m^2"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UO_1000008 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000008">
