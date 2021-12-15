@@ -7612,6 +7612,47 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UO_01200022 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_01200022">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000047"/>
+        <dc:creator rdf:resource="https://orcid.org/0000-0001-6284-4821"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-12-15T17:27:19Z</dc:date>
+        <rdfs:comment xml:lang="en">An area unit which is equal to an area enclosed by a square with sides each 1 foot.</rdfs:comment>
+        <rdfs:label xml:lang="en">square foot</rdfs:label>
+        <oboInOwl:hasExactSynonym rdf:resource="sf"/>
+        <oboInOwl:hasExactSynonym rdf:resource="ft^2"/>
+        <oboInOwl:hasExactSynonym rdf:resource="sq. ft"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_01200023 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_01200023">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000256"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-2627-0696"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-12-15T17:32:33Z</dc:date>
+        <rdfs:comment xml:lang="en">The ratio of the dynamic viscosity (μ) over the density of the fluid (ρ), which is noted as (length)^2/time. https://en.wikipedia.org/wiki/Viscosity#Kinematic_viscosity</rdfs:comment>
+        <rdfs:label xml:lang="en">kinematic viscosity</rdfs:label>
+        <oboInOwl:hasExactSynonym rdf:resource="momentum diffusivity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_01200024 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_01200024">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_01200023"/>
+        <dc:creator rdf:resource="https://orcid.org/0000-0001-6284-4821"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-12-15T17:36:30Z</dc:date>
+        <rdfs:comment xml:lang="en">Unit of kinematic viscosity, specific relative angular momentum and thermal diffusivity.</rdfs:comment>
+        <rdfs:label xml:lang="en">square meter per second</rdfs:label>
+        <oboInOwl:hasExactSynonym rdf:resource="m^2/s"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UO_1000008 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000008">
