@@ -7653,6 +7653,19 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UO_01200025 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_01200025">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000054"/>
+        <dc:creator rdf:resource="https://orcid.org/0000-0001-6284-4821"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-12-15T17:55:38Z</dc:date>
+        <rdfs:comment xml:lang="en">An area density unit which is equal to the cubic length of an object divided by the surface area in hectares.</rdfs:comment>
+        <rdfs:label xml:lang="en">cubic meters per hectare</rdfs:label>
+        <oboInOwl:hasExactSynonym xml:lang="en">m^3/ha</oboInOwl:hasExactSynonym>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UO_1000008 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000008">
