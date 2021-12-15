@@ -11763,6 +11763,7 @@
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000283">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kilogram per hectare</rdfs:label>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An area density unit which is equal to the mass of an object in kilograms divided by the surface area in hectares.&quot; [UO:GVG]</rdfs:comment>
+        <oboInOwl:hasExactSynonym>kg/ha</oboInOwl:hasExactSynonym>    
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000284">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">count per nanomolar</rdfs:label>
