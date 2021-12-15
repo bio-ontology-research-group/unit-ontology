@@ -7325,6 +7325,85 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UO_01200002 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_01200002">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_1000013"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/has_prefix"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UO_0000298"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000006"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_1000013"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-2627-0696"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-12-15T15:39:14Z</dc:date>
+        <rdfs:comment xml:lang="en">A substance unit equal to a hundredth of a mol or 10^[-2] mol.</rdfs:comment>
+        <rdfs:label xml:lang="en">centimole</rdfs:label>
+        <oboInOwl:hasExactSynonym xml:lang="en">cmol</oboInOwl:hasExactSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_01200003 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_01200003">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000006"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_01200002"/>
+        <dc:creator rdf:resource="https://orcid.org/0000-0001-6284-4821"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-12-15T15:51:48Z</dc:date>
+        <rdfs:comment xml:lang="en">Unit of the cation-exchange capacity.</rdfs:comment>
+        <rdfs:label xml:lang="en">centimole charge per kilogram</rdfs:label>
+        <oboInOwl:hasExactSynonym xml:lang="en">cmolc/kg</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">me/100g</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">meq/100g</oboInOwl:hasExactSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_01200004 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_01200004">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_1000264"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/has_prefix"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UO_0000296"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000262"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-2627-0696"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-12-15T15:57:12Z</dc:date>
+        <rdfs:comment xml:lang="en">An electrical conduction unit which is equal to one tenth of a siemen or 10^[-1] siemens.</rdfs:comment>
+        <rdfs:label xml:lang="en">decisiemens</rdfs:label>
+        <oboInOwl:hasExactSynonym xml:lang="en">dS</oboInOwl:hasExactSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_01200005 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_01200005">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000262"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_01200004"/>
+        <dc:creator rdf:resource="https://orcid.org/0000-0001-6284-4821"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-12-15T15:57:19Z</dc:date>
+        <rdfs:comment xml:lang="en">A commonly used unit to measure soil and water salinity. https://ucanr.edu/sites/Salinity/Salinity_Management/Salinity_Basics/Salinity_measurement_and_unit_conversions/</rdfs:comment>
+        <rdfs:label xml:lang="en">decisiemens per metre</rdfs:label>
+        <oboInOwl:hasExactSynonym xml:lang="en">dS/m</oboInOwl:hasExactSynonym>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UO_1000008 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000008">
