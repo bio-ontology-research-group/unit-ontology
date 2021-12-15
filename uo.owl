@@ -7666,6 +7666,18 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UO_01200026 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_01200026">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000189"/>
+        <dc:creator rdf:resource="https://orcid.org/ 0000-0002-6305-2479"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-12-15T18:34:29Z</dc:date>
+        <rdfs:comment xml:lang="en">A dimensionless count unit in a given area of square meters.</rdfs:comment>
+        <rdfs:label xml:lang="en">count per square meter</rdfs:label>
+    </owl:Class>
+
+
+
     <!-- http://purl.obolibrary.org/obo/UO_1000008 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000008">
