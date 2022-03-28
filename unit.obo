@@ -1914,7 +1914,7 @@ created_by: george gkoutos
 id: UO:0010055
 name: centigray
 namespace: unit.ontology
-def: "An absorbed dose unit which is equal to 0.01 gray (Gy)"
+def: "An absorbed dose unit which is equal to 0.01 gray (Gy)" [NIST:NIST]
 subset: unit_slim
 synonym: "cGy" EXACT []
 is_a: UO:0000129 ! absorbed dose unit
@@ -1924,7 +1924,7 @@ created_by: Luke Slater
 id: UO:0010060
 name: gray per minute
 namespace: unit.ontology
-def: "A derived absorbed dose unit which is equal to one gray absorbed per minute."
+def: "A derived absorbed dose unit which is equal to one gray absorbed per minute." [NIST:NIST]
 subset: unit_slim
 synonym: "Gy/min" EXACT []
 is_a: UO:0000129 ! absorbed dose unit
@@ -1934,7 +1934,7 @@ created_by: Luke Slater
 id: UO:0010061
 name: centigray per minute
 namespace: unit.ontology
-def: "A derived absorbed dose unit which is equal to one centigray absorbed per minute."
+def: "A derived absorbed dose unit which is equal to one centigray absorbed per minute." [NIST:NIST]
 subset: unit_slim
 synonym: "cGy/min" EXACT []
 is_a: UO:0000129 ! absorbed dose unit
@@ -1944,7 +1944,7 @@ created_by: Luke Slater
 id: UO:0010062
 name: milligray per minute
 namespace: unit.ontology
-def: "A derived absorbed dose unit which is equal to one milligray absorbed per minute."
+def: "A derived absorbed dose unit which is equal to one milligray absorbed per minute." [NIST:NIST]
 subset: unit_slim
 synonym: "mGy/min" EXACT []
 is_a: UO:0000129 ! absorbed dose unit
@@ -1955,7 +1955,7 @@ created_by: Luke Slater
 id: UO:0010063
 name: milligray per day
 namespace: unit.ontology
-def: "A derived absorbed dose unit which is equal to one milligray absorbed per day."
+def: "A derived absorbed dose unit which is equal to one milligray absorbed per day." [NIST:NIST]
 subset: unit_slim
 synonym: "mGy/min" EXACT []
 is_a: UO:0000129 ! absorbed dose unit
