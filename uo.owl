@@ -11814,6 +11814,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">megaHertz</rdfs:label>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A frequency unit which is equal to one million hertz or 10^[6] V.&quot; [UOC:GVG]</rdfs:comment>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mH</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MHz</oboInOwl:hasRelatedSynonym>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000326">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">centiMorgan</rdfs:label>
