@@ -5,7 +5,8 @@
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:oboInOwl="oboInOwl:"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:dc="http://purl.org/dc/elements/1.1/">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/uo.owl"/>
     
 
