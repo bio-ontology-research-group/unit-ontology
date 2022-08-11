@@ -7554,7 +7554,19 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000129"/>
     </owl:NamedIndividual>
     
+    <!-- http://purl.obolibrary.org/obo/UO_0010064 -->
 
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0010064">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0010064"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000054"/>
+    </owl:NamedIndividual>
 
 
     <!-- http://purl.obolibrary.org/obo/UO_01200000 -->
@@ -11056,6 +11068,10 @@
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0010063"/>
     
 
+    <!-- http://purl.obolibrary.org/obo/UO_0010064 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0010064"/>
+
 
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
@@ -12489,6 +12505,11 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">milligray per day</rdfs:label>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A derived absorbed dose unit which is equal to one milligray absorbed per day.&quot;</rdfs:comment>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mGy/min</oboInOwl:hasExactSynonym>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0010064">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">microgram per square centimeter</rdfs:label>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A metric unit of areal density equal to approximately 2.94935E-4 ounce per square yard. Also used as a dose calculation unit.&quot;</rdfs:comment>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mcg/cm2</oboInOwl:hasExactSynonym>
     </rdf:Description>
 </rdf:RDF>
 
