@@ -5047,7 +5047,7 @@
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0010055">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000129"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An absorbed dose unit which is equal to 0.01 gray (Gy)&quot;</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An absorbed dose unit which is equal to 0.01 gray (Gy)&quot; [NIST:NIST]</rdfs:comment>
     </owl:NamedIndividual>
     
 
@@ -5056,7 +5056,7 @@
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0010056">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000111"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit of energy that is equal to one thousand million electronvolts.&quot;</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit of energy that is equal to one thousand million electronvolts.&quot; []</rdfs:comment>
     </owl:NamedIndividual>
     
 
@@ -5065,7 +5065,7 @@
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0010057">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000111"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Derived unit which is equal to the total kinetic energy of an atomic nucleus in GeV divided by the number of nucleons in the nucleus&quot;</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Derived unit which is equal to the total kinetic energy of an atomic nucleus in GeV divided by the number of nucleons in the nucleus&quot; []</rdfs:comment>
     </owl:NamedIndividual>
     
 
@@ -5074,7 +5074,7 @@
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0010058">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000111"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Derived unit which is equal to the total kinetic energy of an atomic nucleus in MeV divided by the number of nucleons in the nucleus&quot;</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Derived unit which is equal to the total kinetic energy of an atomic nucleus in MeV divided by the number of nucleons in the nucleus&quot; []</rdfs:comment>
     </owl:NamedIndividual>
     
 
@@ -5083,7 +5083,7 @@
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0010059">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000111"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A derived unit equal to the energy deposited by ionizing radiation per micron of path length in matter&quot;</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A derived unit equal to the energy deposited by ionizing radiation per micron of path length in matter&quot; []</rdfs:comment>
     </owl:NamedIndividual>
     
 
@@ -5092,7 +5092,7 @@
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0010060">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000129"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A derived absorbed dose unit which is equal to one gray absorbed per minute.&quot;</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A derived absorbed dose unit which is equal to one gray absorbed per minute.&quot; [NIST:NIST]</rdfs:comment>
     </owl:NamedIndividual>
     
 
@@ -5101,7 +5101,7 @@
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0010061">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000129"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A derived absorbed dose unit which is equal to one centigray absorbed per minute.&quot;</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A derived absorbed dose unit which is equal to one centigray absorbed per minute.&quot; [NIST:NIST]</rdfs:comment>
     </owl:NamedIndividual>
     
 
@@ -5110,7 +5110,7 @@
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0010062">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000129"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A derived absorbed dose unit which is equal to one milligray absorbed per minute.&quot;</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A derived absorbed dose unit which is equal to one milligray absorbed per minute.&quot; [NIST:NIST]</rdfs:comment>
     </owl:NamedIndividual>
     
 
@@ -5119,7 +5119,25 @@
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0010063">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000129"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A derived absorbed dose unit which is equal to one milligray absorbed per day.&quot;</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A derived absorbed dose unit which is equal to one milligray absorbed per day.&quot; [NIST:NIST]</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0010064 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0010064">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000129"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A derived absorbed dose unit which is equal to one milligray absorbed per hour.&quot; [NIST:NIST]</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0010065 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0010065">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000129"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A derived absorbed dose unit which is equal to one milligray absorbed per second.&quot; [NIST:NIST]</rdfs:comment>
     </owl:NamedIndividual>
     
 
