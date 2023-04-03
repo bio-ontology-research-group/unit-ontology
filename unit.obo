@@ -2713,7 +2713,7 @@ created_by: george gkoutos
 id: UO:0000211
 name: plaque forming unit
 namespace: unit.ontology
-def: "A dimensionless count unit which a measure of plague forming units in a given volume." [Wikipedia:Wikipedia]
+def: "A dimensionless count unit which a measure of plaque forming units in a given volume." [Wikipedia:Wikipedia]
 subset: unit_slim
 synonym: "pfu" EXACT []
 is_a: UO:0000189 ! count unit
@@ -2743,7 +2743,7 @@ created_by: george gkoutos
 id: UO:0000214
 name: plaque forming unit per volume
 namespace: unit.ontology
-def: "A concentration unit which a measure of plague forming units in a given volume." [UOC:GVG]
+def: "A concentration unit which a measure of plaque forming units in a given volume." [UOC:GVG]
 subset: unit_group_slim
 is_a: UO:0000051 ! concentration unit
 created_by: george gkoutos
@@ -2752,7 +2752,7 @@ created_by: george gkoutos
 id: UO:0000215
 name: plaque forming unit per milliliter
 namespace: unit.ontology
-def: "A concentration unit which a measure of plague forming units in one milliliter." [UOC:GVG]
+def: "A concentration unit which a measure of plaque forming units in one milliliter." [UOC:GVG]
 subset: unit_slim
 synonym: "pfu/ml" EXACT []
 synonym: "plaque forming unit per millilitre" EXACT []
