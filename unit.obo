@@ -4077,7 +4077,7 @@ name: micromole
 namespace: unit.ontology
 def: "A substance unit which is equal to one millionth of a mole." [UOB:LTS]
 subset: unit_slim
-synonym: "mmol" EXACT []
+synonym: "µmol" EXACT []
 is_a: UO:0000006 ! substance unit
 created_by: Luke Slater
 
