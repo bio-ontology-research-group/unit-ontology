@@ -83,9 +83,9 @@ OWLOntology ont5 = man.createOntology(IRI.create(onturi+"uo5.owl")) // without P
 def unitof = fac.getOWLObjectProperty(IRI.create(onturi+"is_unit_of"))
 def hasprefix = fac.getOWLObjectProperty(IRI.create(onturi+"has_prefix"))
 
-def exactSynProp = fac.getOWLAnnotationProperty(IRI.create("oboInOwl:hasExactSynonym"))
-def narrowSynProp = fac.getOWLAnnotationProperty(IRI.create("oboInOwl:hasNarrowSynonym"))
-def relatedSynProp = fac.getOWLAnnotationProperty(IRI.create("oboInOwl:hasRelatedSynonym"))
+def exactSynProp = fac.getOWLAnnotationProperty(IRI.create("http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"))
+def narrowSynProp = fac.getOWLAnnotationProperty(IRI.create("http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"))
+def relatedSynProp = fac.getOWLAnnotationProperty(IRI.create("http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"))
 
 PrintWriter oboout = new PrintWriter(new BufferedWriter(new FileWriter(new File("unit-xp.obo"))))
 
