@@ -5,9 +5,16 @@ ci:
 - github_actions
   #components: null
   #contact: null
-  #contributors: null
+contributors:
+  - https://orcid.org/0000-0001-9227-0670
+  - https://orcid.org/0000-0002-5111-7263
+  - https://orcid.org/0000-0002-2061-091X
+  - https://orcid.org/0000-0001-8149-5890
 create_obo_metadata: true
-  #creators: null
+creators:
+  - https://orcid.org/0000-0001-8149-5890
+  - https://orcid.org/0000-0002-2061-091X
+  - https://orcid.org/0000-0001-9227-0670
 custom_makefile_header: '
 
   # ----------------------------------------
@@ -15,8 +22,7 @@ custom_makefile_header: '
   # More information: https://github.com/INCATools/ontology-development-kit/
 
   '
-description: None
-  #documentation: null
+description: "An ontology of units of measurements."
 dosdp_tools_options: --obo-prefixes=true
 edit_format: owl
 ensure_valid_rdfxml: false
@@ -24,6 +30,7 @@ exclude_tautologies: structural
 export_formats:
 - owl
 - obo
+- json
 export_project_yaml: false
 git_main_branch: main
 git_user: ''
@@ -69,8 +76,9 @@ import_group:
   slme_individuals: include
   use_base_merging: false
 import_pattern_ontology: false
-license: https://creativecommons.org/licenses/unspecified
-namespaces: null
+license: https://creativecommons.org/licenses/by/2.0/
+namespaces:
+  - http://purl.obolibrary.org/obo/UO_
 obo_format_options: ''
 owltools_memory: ''
 pattern_pipelines_group: null

@@ -54,7 +54,7 @@ OTHER_SRC =
 ONTOLOGYTERMS =             $(TMPDIR)/ontologyterms.txt
 EDIT_PREPROCESSED =         $(TMPDIR)/$(ONT)-preprocess.owl
 
-FORMATS = $(sort  owl obo owl)
+FORMATS = $(sort  owl obo json owl)
 FORMATS_INCL_TSV = $(sort $(FORMATS) tsv)
 RELEASE_ARTEFACTS = $(sort $(ONT)-full $(ONT)-base )
 
@@ -191,10 +191,10 @@ endif
 # ----------------------------------------
 
 $(REPORTDIR)/$(SRC)-obo-report.tsv: $(SRCMERGED) | $(REPORTDIR)
-	$(ROBOT) report -i $< $(REPORT_LABEL) $(REPORT_PROFILE_OPTS) --fail-on $(REPORT_FAIL_ON) --base-iri $(URIBASE)/UNIT-ONTOLOGY_ --base-iri $(URIBASE)/unit-ontology --print 5 -o $@
+	$(ROBOT) report -i $< $(REPORT_LABEL) $(REPORT_PROFILE_OPTS) --fail-on $(REPORT_FAIL_ON) --base-iri http://purl.obolibrary.org/obo/UO_ --print 5 -o $@
 
 $(REPORTDIR)/%-obo-report.tsv: % | $(REPORTDIR)
-	$(ROBOT) report -i $< $(REPORT_LABEL) $(REPORT_PROFILE_OPTS) --fail-on $(REPORT_FAIL_ON) --base-iri $(URIBASE)/UNIT-ONTOLOGY_ --base-iri $(URIBASE)/unit-ontology --print 5 -o $@
+	$(ROBOT) report -i $< $(REPORT_LABEL) $(REPORT_PROFILE_OPTS) --fail-on $(REPORT_FAIL_ON) --base-iri http://purl.obolibrary.org/obo/UO_ --print 5 -o $@
 
 # ----------------------------------------
 # Release assets
@@ -372,6 +372,10 @@ $(SUBSETDIR)/%.owl: $(ONT).owl | $(SUBSETDIR)
 $(SUBSETDIR)/%.obo: $(SUBSETDIR)/%.owl
 	$(ROBOT) convert --input $< --check false -f obo $(OBO_FORMAT_OPTIONS) -o $@.tmp.obo && grep -v ^owl-axioms $@.tmp.obo > $@ && rm $@.tmp.obo
 
+$(SUBSETDIR)/%.json: $(SUBSETDIR)/%.owl
+	$(ROBOT) convert --input $< --check false -f json -o $@.tmp.json &&\
+	mv $@.tmp.json $@
+
 
 # ---------------------------------------------
 # Sparql queries: Table exports / Query Reports
@@ -393,8 +397,16 @@ endif
 
 $(ONT)-full.obo: $(ONT)-full.owl
 	$(ROBOT) convert --input $< --check false -f obo $(OBO_FORMAT_OPTIONS) -o $@.tmp.obo && grep -v ^owl-axioms $@.tmp.obo > $@ && rm $@.tmp.obo
+$(ONT)-full.json: $(ONT)-full.owl
+	$(ROBOT) annotate --input $< --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) \
+		convert --check false -f json -o $@.tmp.json &&\
+		mv $@.tmp.json $@
 $(ONT)-base.obo: $(ONT)-base.owl
 	$(ROBOT) convert --input $< --check false -f obo $(OBO_FORMAT_OPTIONS) -o $@.tmp.obo && grep -v ^owl-axioms $@.tmp.obo > $@ && rm $@.tmp.obo
+$(ONT)-base.json: $(ONT)-base.owl
+	$(ROBOT) annotate --input $< --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) \
+		convert --check false -f json -o $@.tmp.json &&\
+		mv $@.tmp.json $@
 # ----------------------------------------
 # Release artefacts: main release artefacts
 # ----------------------------------------
@@ -405,6 +417,10 @@ $(ONT).owl: $(ONT)-full.owl
 
 $(ONT).obo: $(ONT).owl
 	$(ROBOT) convert --input $< --check false -f obo $(OBO_FORMAT_OPTIONS) -o $@.tmp.obo && grep -v ^owl-axioms $@.tmp.obo > $@ && rm $@.tmp.obo
+$(ONT).json: $(ONT).owl
+	$(ROBOT) annotate --input $< --ontology-iri $(URIBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) \
+		convert --check false -f json -o $@.tmp.json &&\
+		mv $@.tmp.json $@
 # -----------------------------------------------------
 # Release artefacts: variants (base, full, simple, etc)
 # -----------------------------------------------------
