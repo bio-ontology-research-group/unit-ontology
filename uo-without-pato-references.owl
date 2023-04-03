@@ -4585,6 +4585,63 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UO_0010066 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0010066">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_1000008"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/has_prefix"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UO_0000294"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0010067 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0010067">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_1000208"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/has_prefix"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UO_0000297"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000052"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0010068 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0010068">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_1000208"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/has_prefix"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UO_0000299"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000052"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UO_1000008 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000008">
@@ -8262,6 +8319,30 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UO_0010066 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0010066">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0010066"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0010067 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0010067">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0010067"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0010068 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0010068">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0010068"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -9701,6 +9782,24 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">milligray per second</rdfs:label>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A derived absorbed dose unit which is equal to one milligray absorbed per second.&quot; [NIST:NIST]</rdfs:comment>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mGy/s</oboInOwl:hasExactSynonym>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0010066">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kilometer</rdfs:label>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A length unit which is equal to one thousand meters.&quot; [UOB:LKSR]</rdfs:comment>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kilometre</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">km</oboInOwl:hasExactSynonym>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0010067">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">milligram per deciliter</rdfs:label>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A mass unit density which is equal to mass of an object in milligrams divided by the volume in deciliters.&quot; [UOB:LKSR]</rdfs:comment>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mg/dl</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">milligram per decilitre</oboInOwl:hasExactSynonym>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0010068">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">microgram per deciliter</rdfs:label>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A mass unit density which is equal to mass of an object in micrograms divided by the volume in deciliters.&quot; [UOB:LKSR]</rdfs:comment>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">microgram per decilitre</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ug/dl</oboInOwl:hasExactSynonym>
     </rdf:Description>
 </rdf:RDF>
 

@@ -44,6 +44,11 @@ name: meter
 is_a: UO:1000008
 
 [Term]
+id: UO:0010066
+intersection_of: UO:1000008 ! meter
+intersection_of: has_prefix UO:0000294 ! kilo
+
+[Term]
 id: UO:0000016
 intersection_of: UO:1000008 ! meter
 intersection_of: has_prefix UO:0000297 ! milli
@@ -429,6 +434,21 @@ intersection_of: UO:1000175 ! gram per liter
 intersection_of: has_prefix UO:0000297 ! milli
 
 [Term]
+id: UO:0010067
+intersection_of: UO:1000208 ! gram per deciliter
+intersection_of: has_prefix UO:0000297 ! milli
+
+[Term]
+id: UO:1000208
+name: gram per deciliter based unit
+is_a: UO:0000052
+
+[Term]
+id: UO:0000208
+name: gram per deciliter
+is_a: UO:1000208
+
+[Term]
 id: UO:0000198
 intersection_of: UO:1000197 ! liter per kilogram
 intersection_of: has_prefix UO:0000297 ! milli
@@ -607,6 +627,11 @@ is_a: UO:0000052
 id: UO:0000173
 name: gram per milliliter
 is_a: UO:1000173
+
+[Term]
+id: UO:0010068
+intersection_of: UO:1000208 ! gram per deciliter
+intersection_of: has_prefix UO:0000299 ! micro
 
 [Term]
 id: UO:0000275

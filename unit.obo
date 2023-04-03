@@ -424,6 +424,17 @@ is_a: UO:0000001 ! length unit
 created_by: george gkoutos
 
 [Term]
+id: UO:0010066
+name: kilometer
+namespace: unit.ontology
+def: "A length unit which is equal to one thousand meters." [UOB:LKSR]
+subset: unit_slim
+synonym: "kilometre" EXACT []
+synonym: "km" EXACT []
+is_a: UO:0000001 ! length unit
+created_by: https://orcid.org/0000-0001-9227-0670
+
+[Term]
 id: UO:0000016
 name: millimeter
 namespace: unit.ontology
@@ -2337,6 +2348,19 @@ synonym: "milligram per millilitre" EXACT []
 is_a: UO:0000052 ! mass density unit
 created_by: george gkoutos
 
+
+[Term]
+id: UO:0010067
+name: milligram per deciliter
+namespace: unit.ontology
+def: "A mass unit density which is equal to mass of an object in milligrams divided by the volume in deciliters." [UOB:LKSR]
+subset: unit_slim
+synonym: "mg/dl" EXACT []
+synonym: "milligram per decilitre" EXACT []
+is_a: UO:0000052 ! mass density unit
+created_by: https://orcid.org/0000-0001-9227-0670
+
+
 [Term]
 id: UO:0000177
 name: unit per volume unit
@@ -3423,6 +3447,17 @@ synonym: "ug/ml" EXACT []
 is_a: UO:0000052 ! mass density unit
 created_by: George Gkoutos
 creation_date: 2011-03-21T10:40:21Z
+
+[Term]
+id: UO:0010068
+name: microgram per deciliter
+namespace: unit.ontology
+def: "A mass unit density which is equal to mass of an object in micrograms divided by the volume in deciliters." [UOB:LKSR]
+subset: unit_slim
+synonym: "microgram per decilitre" RELATED []
+synonym: "ug/dl" EXACT []
+is_a: UO:0000052 ! mass density unit
+created_by: https://orcid.org/0000-0001-9227-0670
 
 [Term]
 id: UO:0000275

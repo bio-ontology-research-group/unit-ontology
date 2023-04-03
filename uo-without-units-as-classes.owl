@@ -5142,6 +5142,33 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UO_0010066 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0010066">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000001"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A length unit which is equal to one thousand meters.&quot; [UOB:LKSR]</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0010067 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0010067">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000052"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A mass unit density which is equal to mass of an object in milligrams divided by the volume in deciliters.&quot; [UOB:LKSR]</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0010068 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0010068">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000052"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A mass unit density which is equal to mass of an object in micrograms divided by the volume in deciliters.&quot; [UOB:LKSR]</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
