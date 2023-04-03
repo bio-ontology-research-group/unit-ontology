@@ -429,7 +429,7 @@ name: millimeter
 namespace: unit.ontology
 def: "A length unit which is equal to one thousandth of a meter or 10^[-3] m." [NIST:NIST]
 subset: unit_slim
-synonym: "micrometre" EXACT []
+synonym: "millimetre" EXACT []
 synonym: "mm" EXACT []
 is_a: UO:0000001 ! length unit
 created_by: george gkoutos
@@ -1181,7 +1181,6 @@ name: kilogram per square meter
 namespace: unit.ontology
 def: "An area density unit which is equal to the mass of an object in kilograms divided by the surface area in meters squared." [NIST:NIST]
 subset: unit_slim
-synonym: "Body Mass Index (BMI)" EXACT []
 synonym: "kg/m^[2]" EXACT []
 synonym: "kilogram per square metre" EXACT []
 is_a: UO:0000054 ! area density unit
