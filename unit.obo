@@ -135,7 +135,7 @@ def: "A length unit which is equal to 0.0254 metres." [Wikipedia:Wikpiedia]
 subset: unit_slim
 is_a: UO:0000001 ! length unit
 is_a: UO:0000045 ! base unit
-created_by: Luke Slater
+created_by: https://orcid.org/0000-0001-9227-0670
 
 [Term]
 id: UO:0010012
@@ -147,7 +147,7 @@ synonym: "th" EXACT []
 subset: unit_slim
 is_a: UO:0000001 ! length unit
 is_a: UO:0000045 ! base unit
-created_by: Luke Slater
+created_by: https://orcid.org/0000-0001-9227-0670
 
 [Term]
 id: UO:0010013
@@ -158,7 +158,7 @@ synonym: "ft" EXACT []
 subset: unit_slim
 is_a: UO:0000001 ! length unit
 is_a: UO:0000045 ! base unit
-created_by: Luke Slater
+created_by: https://orcid.org/0000-0001-9227-0670
 
 [Term]
 id: UO:0010014
@@ -169,7 +169,7 @@ synonym: "yd" EXACT []
 subset: unit_slim
 is_a: UO:0000001 ! length unit
 is_a: UO:0000045 ! base unit
-created_by: Luke Slater
+created_by: https://orcid.org/0000-0001-9227-0670
 
 [Term]
 id: UO:0010015
@@ -180,7 +180,7 @@ synonym: "ch" EXACT []
 subset: unit_slim
 is_a: UO:0000001 ! length unit
 is_a: UO:0000045 ! base unit
-created_by: Luke Slater
+created_by: https://orcid.org/0000-0001-9227-0670
 
 [Term]
 id: UO:0010016
@@ -191,7 +191,7 @@ synonym: "fur" EXACT []
 subset: unit_slim
 is_a: UO:0000001 ! length unit
 is_a: UO:0000045 ! base unit
-created_by: Luke Slater
+created_by: https://orcid.org/0000-0001-9227-0670
 
 [Term]
 id: UO:0010017
@@ -202,7 +202,7 @@ synonym: "mi" EXACT []
 subset: unit_slim
 is_a: UO:0000001 ! length unit
 is_a: UO:0000045 ! base unit
-created_by: Luke Slater
+created_by: https://orcid.org/0000-0001-9227-0670
 
 [Term]
 id: UO:0010018
@@ -213,7 +213,7 @@ synonym: "lea" EXACT []
 subset: unit_slim
 is_a: UO:0000001 ! length unit
 is_a: UO:0000045 ! base unit
-created_by: Luke Slater
+created_by: https://orcid.org/0000-0001-9227-0670
 
 [Term]
 id: UO:0010019
@@ -222,7 +222,7 @@ namespace: unit.ontology
 def: "A maritime length unit is one used primarily at sea." [Wikipedia:Wikpiedia]
 subset: unit_slim
 is_a: UO:0000001 ! length unit
-created_by: Luke Slater
+created_by: https://orcid.org/0000-0001-9227-0670
 
 [Term]
 id: UO:0010020
@@ -232,7 +232,7 @@ def: "A maritime length unit which is equal to 6.08 feet, or 1.853184 metres" [W
 synonym: "ftm" EXACT []
 subset: unit_slim
 is_a: UO:0010019 ! maritime length unit
-created_by: Luke Slater
+created_by: https://orcid.org/0000-0001-9227-0670
 
 [Term]
 id: UO:0010021
@@ -241,7 +241,7 @@ namespace: unit.ontology
 def: "A maritime length unit which is equal to 608 feet, 100 fathoms, or 185.3184 metres" [Wikipedia:Wikpiedia]
 subset: unit_slim
 is_a: UO:0010019 ! maritime length unit
-created_by: Luke Slater
+created_by: https://orcid.org/0000-0001-9227-0670
 
 [Term]
 id: UO:0010022
@@ -250,7 +250,7 @@ namespace: unit.ontology
 def: "A maritime length unit which is equal to 6,080 feet, 10 cables, or 1,853.184 metres" [Wikipedia:Wikpiedia]
 subset: unit_slim
 is_a: UO:0010019 ! maritime length unit
-created_by: Luke Slater
+created_by: https://orcid.org/0000-0001-9227-0670
 
 [Term]
 id: UO:0000009
@@ -271,7 +271,7 @@ def: "An imperial mass unit which is equivalent to 64.798,91 milligrams." [Wikip
 synonym: "gr" EXACT []
 subset: unit_slim
 is_a: UO:0000002 ! mass unit
-created_by: Luke Slater
+created_by: https://orcid.org/0000-0001-9227-0670
 
 [Term]
 id: UO:0010032
@@ -281,7 +281,7 @@ def: "An imperial mass unit which is equivalent to 1.771,845,195,3125 grams, or 
 synonym: "dr" EXACT []
 subset: unit_slim
 is_a: UO:0000002 ! mass unit
-created_by: Luke Slater
+created_by: https://orcid.org/0000-0001-9227-0670
 
 [Term]
 id: UO:0010033
@@ -291,7 +291,7 @@ def: "An imperial mass unit which is equivalent to 28.349,523,125 grams, or 1/16
 synonym: "oz" EXACT []
 subset: unit_slim
 is_a: UO:0000002 ! mass unit
-created_by: Luke Slater
+created_by: https://orcid.org/0000-0001-9227-0670
 
 [Term]
 id: UO:0010034
@@ -301,7 +301,7 @@ def: "An imperial mass unit which is equivalent to 453.592,37 grams." [Wikipedia
 synonym: "lb" EXACT []
 subset: unit_slim
 is_a: UO:0000002 ! mass unit
-created_by: Luke Slater
+created_by: https://orcid.org/0000-0001-9227-0670
 
 [Term]
 id: UO:0010035
@@ -311,7 +311,7 @@ def: "An imperial mass unit which is equivalent to 6,350.293,18 grams, or 14 pou
 synonym: "st" EXACT []
 subset: unit_slim
 is_a: UO:0000002 ! mass unit
-created_by: Luke Slater
+created_by: https://orcid.org/0000-0001-9227-0670
 
 [Term]
 id: UO:0010036
@@ -322,7 +322,7 @@ synonym: "qr" EXACT []
 synonym: "qtr" EXACT []
 subset: unit_slim
 is_a: UO:0000002 ! mass unit
-created_by: Luke Slater
+created_by: https://orcid.org/0000-0001-9227-0670
 
 [Term]
 id: UO:0010037
@@ -332,7 +332,7 @@ def: "An imperial mass unit which is equivalent to 50.802,345,44 kilograms, 112 
 synonym: "cwt" EXACT []
 subset: unit_slim
 is_a: UO:0000002 ! mass unit
-created_by: Luke Slater
+created_by: https://orcid.org/0000-0001-9227-0670
 
 [Term]
 id: UO:0010038
@@ -342,7 +342,7 @@ def: "An imperial mass unit which is equivalent to 1,016.046,9088 kilograms, or 
 synonym: "t" EXACT []
 subset: unit_slim
 is_a: UO:0000002 ! mass unit
-created_by: Luke Slater
+created_by: https://orcid.org/0000-0001-9227-0670
 
 [Term]
 id: UO:0010009
@@ -355,7 +355,7 @@ synonym: "mDa" EXACT []
 synonym: "mmu" EXACT []
 synonym: "milli unified atomic mass unit" EXACT []
 is_a: UO:0000002 ! mass unit
-created_by: Luke Slater
+created_by: https://orcid.org/0000-0001-9227-0670
 
 [Term]
 id: UO:0000010
@@ -1081,7 +1081,7 @@ def: "An area unit which is equal to an area of 10,000 square meters. Equivalent
 subset: unit_slim
 synonym: "HA" EXACT []
 is_a: UO:0000047 ! area unit
-created_by: Luke Slater
+created_by: https://orcid.org/0000-0001-9227-0670
 
 [Term]
 id: UO:0010023
@@ -1090,7 +1090,7 @@ namespace: unit.ontology
 def: "An area unit which is equal to an area of 25.292,852,64 square meters, or 1 square rod." [Wikipedia:Wikipedia]
 subset: unit_slim
 is_a: UO:0000047 ! area unit
-created_by: Luke Slater
+created_by: https://orcid.org/0000-0001-9227-0670
 
 [Term]
 id: UO:0010024
@@ -1099,7 +1099,7 @@ namespace: unit.ontology
 def: "An area unit which is equivalent to 1 furlong x 1 rod. This is equal to an area of 1,011.714,1056 square meters, or 40 square rods." [Wikipedia:Wikipedia]
 subset: unit_slim
 is_a: UO:0000047 ! area unit
-created_by: Luke Slater
+created_by: https://orcid.org/0000-0001-9227-0670
 
 [Term]
 id: UO:0010025
@@ -1108,7 +1108,7 @@ namespace: unit.ontology
 def: "An area unit which is equivalent to 1 furlong x 1 chain. This is equal to an area of 4,046.856,4224 square meters, or 43,500 square feet." [Wikipedia:Wikipedia]
 subset: unit_slim
 is_a: UO:0000047 ! area unit
-created_by: Luke Slater
+created_by: https://orcid.org/0000-0001-9227-0670
 
 [Term]
 id: UO:0010001
@@ -1118,7 +1118,7 @@ def: "An area unit which is equal to an area enclosed by a square with sides eac
 subset: unit_slim
 synonym: "square micrometre" RELATED []
 is_a: UO:0000047 ! area unit
-created_by: Luke Slater
+created_by: https://orcid.org/0000-0001-9227-0670
 
 [Term]
 id: UO:0000081
@@ -1282,7 +1282,7 @@ subset: unit_slim
 synonym: "km/h" EXACT []
 synonym: "kilometre per hour" EXACT []
 is_a: UO:0000060 ! speed/velocity unit
-created_by: Luke Slater
+created_by: https://orcid.org/0000-0001-9227-0670
 
 [Term]
 id: UO:0010005
@@ -1292,7 +1292,7 @@ def: "A speed/velocity unit which is equal to the speed of an object traveling 1
 subset: unit_slim
 synonym: "mm/day" EXACT []
 is_a: UO:0000060 ! speed/velocity unit
-created_by: Luke Slater
+created_by: https://orcid.org/0000-0001-9227-0670
 
 [Term]
 id: UO:0000095
@@ -1346,7 +1346,7 @@ def: "An imperial volume unit which is equivalent to 28.413,0625 millilitres." [
 synonym: "fl oz" EXACT []
 subset: unit_slim
 is_a: UO:0000095 ! volume unit
-created_by: Luke Slater
+created_by: https://orcid.org/0000-0001-9227-0670
 
 [Term]
 id: UO:0010027
@@ -1356,7 +1356,7 @@ def: "An imperial volume unit which is equivalent to 142.065,3125 millilitres." 
 synonym: "gi" EXACT []
 subset: unit_slim
 is_a: UO:0000095 ! volume unit
-created_by: Luke Slater
+created_by: https://orcid.org/0000-0001-9227-0670
 
 [Term]
 id: UO:0010028
@@ -1366,7 +1366,7 @@ def: "An imperial volume unit which is equivalent to 568.261,25 millilitres." [W
 synonym: "pt" EXACT []
 subset: unit_slim
 is_a: UO:0000095 ! volume unit
-created_by: Luke Slater
+created_by: https://orcid.org/0000-0001-9227-0670
 
 [Term]
 id: UO:0010029
@@ -1376,7 +1376,7 @@ def: "An imperial volume unit which is equivalent to 1,136.5225 millilitres, or 
 synonym: "qt" EXACT []
 subset: unit_slim
 is_a: UO:0000095 ! volume unit
-created_by: Luke Slater
+created_by: https://orcid.org/0000-0001-9227-0670
 
 [Term]
 id: UO:0010030
@@ -1386,7 +1386,7 @@ def: "An imperial volume unit which is equivalent to 4,546.09 millilitres, or 8 
 synonym: "gal" EXACT []
 subset: unit_slim
 is_a: UO:0000095 ! volume unit
-created_by: Luke Slater
+created_by: https://orcid.org/0000-0001-9227-0670
 
 [Term]
 id: UO:0000099
@@ -1515,7 +1515,7 @@ def: "A pressure unit which is equal to 6894.757 pascal." [Wikipedia:Wikipedia]
 synonym: "psi" EXACT []
 synonym: "lbf/in^[2]" EXACT []
 is_a: UO:0000109 ! pressure unit
-created_by: Luke Slater
+created_by: https://orcid.org/0000-0001-9227-0670
 
 [Term]
 id: UO:0000110
@@ -1545,7 +1545,7 @@ namespace: unit.ontology
 def: "An imperial gravitational unit which is equivalent to a mass that accelerates by 1ft/s² when a force of one pound (lbf) is exerted on it." [Wikipedia:Wikipedia]
 subset: unit_slim
 is_a: UO:0000111 ! energy unit
-created_by: Luke Slater
+created_by: https://orcid.org/0000-0001-9227-0670
 
 [Term]
 id: UO:0010040
@@ -1555,7 +1555,7 @@ subset: unit_slim
 is_a: UO:0000095 ! volume unit 
 synonym: "metric teaspoon" EXACT []
 synonym: "tsp" EXACT []
-created_by: Luke Slater
+created_by: https://orcid.org/0000-0001-9227-0670
 
 [Term]
 id: UO:0010041
@@ -1563,7 +1563,7 @@ name: united states customary teaspoon
 def: "A United States customary units teaspoon is a unit of measurement of volume widely used in cooking recipes and pharmaceutic prescriptions in America. It equals a 4.93 mL volume." [Wikipedia:https://en.wikipedia.org/wiki/United_States_customary_units#Cooking_measures]
 is_a: UO:0000095 ! volume unit 
 synonym: "us customary teaspoon" EXACT []
-created_by: Luke Slater
+created_by: https://orcid.org/0000-0001-9227-0670
 
 [Term]
 id: UO:0010042
@@ -1572,7 +1572,7 @@ def: "A metric tablespoon is a unit of measurement of volume widely used in cook
 is_a: UO:0000095 ! volume unit 
 synonym: "metric tablespoon" EXACT []
 synonym: "tbsp" EXACT []
-created_by: Luke Slater
+created_by: https://orcid.org/0000-0001-9227-0670
 
 [Term]
 id: UO:0010043
@@ -1631,7 +1631,7 @@ synonym: "cal" EXACT []
 synonym: "calorie" EXACT []
 synonym: "kcal" EXACT []
 is_a: UO:0000111 ! energy unit
-created_by: Luke Slater
+created_by: https://orcid.org/0000-0001-9227-0670
 creation_date: 2020-10-24T18:01:12Z
 
 [Term]
@@ -1918,7 +1918,7 @@ def: "An absorbed dose unit which is equal to 0.01 gray (Gy)" [NIST:NIST]
 subset: unit_slim
 synonym: "cGy" EXACT []
 is_a: UO:0000129 ! absorbed dose unit
-created_by: Luke Slater
+created_by: https://orcid.org/0000-0001-9227-0670
 
 [Term]
 id: UO:0010060
@@ -1928,7 +1928,7 @@ def: "A derived absorbed dose unit which is equal to one gray absorbed per minut
 subset: unit_slim
 synonym: "Gy/min" EXACT []
 is_a: UO:0000129 ! absorbed dose unit
-created_by: Luke Slater
+created_by: https://orcid.org/0000-0001-9227-0670
 
 [Term]
 id: UO:0010061
@@ -1938,7 +1938,7 @@ def: "A derived absorbed dose unit which is equal to one centigray absorbed per 
 subset: unit_slim
 synonym: "cGy/min" EXACT []
 is_a: UO:0000129 ! absorbed dose unit
-created_by: Luke Slater
+created_by: https://orcid.org/0000-0001-9227-0670
 
 [Term]
 id: UO:0010062
@@ -1948,7 +1948,7 @@ def: "A derived absorbed dose unit which is equal to one milligray absorbed per 
 subset: unit_slim
 synonym: "mGy/min" EXACT []
 is_a: UO:0000129 ! absorbed dose unit
-created_by: Luke Slater
+created_by: https://orcid.org/0000-0001-9227-0670
 
 
 [Term]
@@ -1959,7 +1959,7 @@ def: "A derived absorbed dose unit which is equal to one milligray absorbed per 
 subset: unit_slim
 synonym: "mGy/min" EXACT []
 is_a: UO:0000129 ! absorbed dose unit
-created_by: Luke Slater
+created_by: https://orcid.org/0000-0001-9227-0670
 
 [Term]
 id: UO:0010064
@@ -1969,7 +1969,7 @@ def: "A derived absorbed dose unit which is equal to one milligray absorbed per 
 subset: unit_slim
 synonym: "mGy/h" EXACT []
 is_a: UO:0000129 ! absorbed dose unit
-created_by: Luke Slater
+created_by: https://orcid.org/0000-0001-9227-0670
 
 [Term]
 id: UO:0010065
@@ -1979,7 +1979,7 @@ def: "A derived absorbed dose unit which is equal to one milligray absorbed per 
 subset: unit_slim
 synonym: "mGy/s" EXACT []
 is_a: UO:0000129 ! absorbed dose unit
-created_by: Luke Slater
+created_by: https://orcid.org/0000-0001-9227-0670
 
 [Term]
 id: UO:0000142
@@ -2483,7 +2483,7 @@ namespace: unit.ontology
 def: "A dimensionless ratio unit which, given a pair of quantities a and b, for which b is a multiple of a, denotes b by giving the multiplier (coefficient) c for a to result in b." [UOB:LKSR]
 subset: unit_group_slim
 is_a: UO:0000190 ! ratio
-created_by: Luke Slater
+created_by: https://orcid.org/0000-0001-9227-0670
 
 [Term]
 id: UO:0000191
@@ -2636,7 +2636,7 @@ namespace: unit.ontology
 def: "A specific concentration unit which is equal to 1 micromole in a given volume of one thousandth of a cubic meter." [NIST:NIST]
 subset: unit_slim
 is_a: UO:0000067 ! unit of molality
-created_by: Luke Slater
+created_by: https://orcid.org/0000-0001-9227-0670
 
 [Term]
 id: UO:0010004
@@ -2645,7 +2645,7 @@ namespace: unit.ontology
 def: "A specific concentration unit which is equal to 1 micromole of a given substance per kilogram of solvent." [UOB:LKSR]
 subset: unit_slim
 is_a: UO:0000067 ! unit of molality
-created_by: Luke Slater
+created_by: https://orcid.org/0000-0001-9227-0670
 
 [Term]
 id: UO:0000205
@@ -3239,7 +3239,7 @@ def: "An electrical mobility unit which is equal to one volt second per square c
 is_a: UO:0000262 ! electrical conduction unit
 synonym: "volt-second per square centimetre" EXACT []
 synonym: "Vs/cm^2" EXACT []
-created_by: Luke Slater
+created_by: https://orcid.org/0000-0001-9227-0670
 
 [Term]
 id: UO:0000263
@@ -3271,7 +3271,7 @@ def: "An electrical conduction unit which is equal to one thousandth of a siemen
 synonym: "mS" RELATED []
 subset: unit_slim
 is_a: UO:0000262 ! electrical conduction unit
-created_by: Luke Slater
+created_by: https://orcid.org/0000-0001-9227-0670
 
 [Term]
 id: UO:0000265
@@ -3303,7 +3303,7 @@ def: "A unit of energy that is equal to one thousand million electronvolts." []
 subset: unit_slim
 synonym: "GeV" EXACT []
 is_a: UO:0000111 ! energy unit
-created_by: Luke Slater
+created_by: https://orcid.org/0000-0001-9227-0670
 
 [Term]
 id: UO:0010057
@@ -3313,7 +3313,7 @@ def: "Derived unit which is equal to the total kinetic energy of an atomic nucle
 subset: unit_slim
 synonym: "GeV/nucleon" EXACT []
 is_a: UO:0000111 ! energy unit
-created_by: Luke Slater
+created_by: https://orcid.org/0000-0001-9227-0670
 
 [Term]
 id: UO:0010058
@@ -3323,7 +3323,7 @@ def: "Derived unit which is equal to the total kinetic energy of an atomic nucle
 subset: unit_slim
 synonym: "MeV/nucleon" EXACT []
 is_a: UO:0000111 ! energy unit
-created_by: Luke Slater
+created_by: https://orcid.org/0000-0001-9227-0670
 
 [Term]
 id: UO:0010059
@@ -3333,7 +3333,7 @@ def: "A derived unit equal to the energy deposited by ionizing radiation per mic
 subset: unit_slim
 synonym: "keV/micron" EXACT []
 is_a: UO:0000111 ! energy unit
-created_by: Luke Slater
+created_by: https://orcid.org/0000-0001-9227-0670
 
 [Term]
 id: UO:0000267
@@ -3446,7 +3446,7 @@ subset: unit_slim
 synonym: "nanogram per microlitre" EXACT []
 synonym: "ng/ul" EXACT []
 is_a: UO:0000052 ! mass density unit
-created_by: Luke Slater
+created_by: https://orcid.org/0000-0001-9227-0670
 creation_date: 2020-10-24T17:54:12Z
 
 [Term]
@@ -3457,7 +3457,7 @@ def: "A unit of mass concentration defined as the number of micrograms of a subs
 subset: unit_slim
 is_a: UO:0000052 ! mass density unit
 synonym: "micrograms per bottle" RELATED []
-created_by: Luke Slater
+created_by: https://orcid.org/0000-0001-9227-0670
 creation_date: 2020-10-24T18:09:12Z
 
 [Term]
@@ -4079,7 +4079,7 @@ def: "A substance unit which is equal to one millionth of a mole." [UOB:LTS]
 subset: unit_slim
 synonym: "µmol" EXACT []
 is_a: UO:0000006 ! substance unit
-created_by: Luke Slater
+created_by: https://orcid.org/0000-0001-9227-0670
 
 [Term]
 id: UO:0010049
@@ -4090,6 +4090,6 @@ subset: unit_slim
 synonym: "g/m^[2]" EXACT []
 synonym: "gram per square metre" EXACT []
 is_a: UO:0000054 ! area density unit
-created_by: Luke Slater
+created_by: https://orcid.org/0000-0001-9227-0670
 
 
