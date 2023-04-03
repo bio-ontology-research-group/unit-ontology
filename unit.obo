@@ -1945,7 +1945,7 @@ name: milligray per minute
 namespace: unit.ontology
 def: "A derived absorbed dose unit which is equal to one milligray absorbed per minute." [NIST:NIST]
 subset: unit_slim
-synonym: "mGy/min" EXACT []
+synonym: "mGy/day" EXACT []
 is_a: UO:0000129 ! absorbed dose unit
 created_by: https://orcid.org/0000-0001-9227-0670
 
@@ -3989,6 +3989,7 @@ namespace: unit.ontology
 def: "A frequency unit which is equal to one million hertz or 10^[6] V." [UOC:GVG]
 subset: unit_slim
 synonym: "mH" RELATED []
+synonym: "megahertz" RELATED []
 is_a: UO:0000105 ! frequency unit
 created_by: gkoutos
 creation_date: 2013-12-06T12:17:48Z

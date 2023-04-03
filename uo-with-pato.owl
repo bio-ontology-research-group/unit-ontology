@@ -11859,6 +11859,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">megaHertz</rdfs:label>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A frequency unit which is equal to one million hertz or 10^[6] V.&quot; [UOC:GVG]</rdfs:comment>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mH</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">megahertz</oboInOwl:hasRelatedSynonym>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000326">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">centiMorgan</rdfs:label>
@@ -12145,7 +12146,7 @@
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0010062">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">milligray per minute</rdfs:label>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A derived absorbed dose unit which is equal to one milligray absorbed per minute.&quot; [NIST:NIST]</rdfs:comment>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mGy/min</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mGy/day</oboInOwl:hasExactSynonym>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0010063">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">milligray per day</rdfs:label>
