@@ -4075,11 +4075,12 @@ creation_date: 2014-04-09T01:35:23Z
 id: UO:0010048
 name: micromole
 namespace: unit.ontology
-def: "A substance unit which is equal to one millionth of a mole." [UOB:LTS]
+def: "DEPRECATED: Duplicate of http://purl.obolibrary.org/obo/UO_0000039. A substance unit which is equal to one millionth of a mole." [UOB:LTS]
 subset: unit_slim
-synonym: "µmol" EXACT []
 is_a: UO:0000006 ! substance unit
 created_by: https://orcid.org/0000-0001-9227-0670
+is_obsolete: 'true'
+replaced_by: UO:0000039
 
 [Term]
 id: UO:0010049
