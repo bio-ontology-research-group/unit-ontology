@@ -3323,7 +3323,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000211">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000189"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_1000211"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A dimensionless count unit which a measure of plague forming units in a given volume.&quot; [Wikipedia:Wikipedia]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A dimensionless count unit which a measure of plaque forming units in a given volume.&quot; [Wikipedia:Wikipedia]</rdfs:comment>
     </owl:Class>
     
 
@@ -3351,7 +3351,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000214">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000051"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A concentration unit which a measure of plague forming units in a given volume.&quot; [UOC:GVG]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A concentration unit which a measure of plaque forming units in a given volume.&quot; [UOC:GVG]</rdfs:comment>
     </owl:Class>
     
 
@@ -3361,7 +3361,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000215">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000214"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_1000215"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A concentration unit which a measure of plague forming units in one milliliter.&quot; [UOC:GVG]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A concentration unit which a measure of plaque forming units in one milliliter.&quot; [UOC:GVG]</rdfs:comment>
     </owl:Class>
     
 

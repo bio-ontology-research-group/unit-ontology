@@ -4082,7 +4082,7 @@
     <!-- http://purl.obolibrary.org/obo/UO_0000190 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000190">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ratio</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ratio unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000186"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A dimensionless unit which denotes an amount or magnitude of one quantity relative to another.&quot; [Wikipedia:Wikipedia]</rdfs:comment>
     </owl:Class>
@@ -4503,7 +4503,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000214">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plaque forming unit per volume</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000051"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A concentration unit which a measure of plague forming units in a given volume.&quot; [UOC:GVG]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A concentration unit which a measure of plaque forming units in a given volume.&quot; [UOC:GVG]</rdfs:comment>
     </owl:Class>
     
 
@@ -11529,7 +11529,7 @@
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000211">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plaque forming unit</rdfs:label>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A dimensionless count unit which a measure of plague forming units in a given volume.&quot; [Wikipedia:Wikipedia]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A dimensionless count unit which a measure of plaque forming units in a given volume.&quot; [Wikipedia:Wikipedia]</rdfs:comment>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pfu</oboInOwl:hasExactSynonym>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000213">
@@ -11540,7 +11540,7 @@
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000215">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plaque forming unit per milliliter</rdfs:label>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A concentration unit which a measure of plague forming units in one milliliter.&quot; [UOC:GVG]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A concentration unit which a measure of plaque forming units in one milliliter.&quot; [UOC:GVG]</rdfs:comment>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pfu/ml</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plaque forming unit per millilitre</oboInOwl:hasExactSynonym>
     </rdf:Description>

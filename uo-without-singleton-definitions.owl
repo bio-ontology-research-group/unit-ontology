@@ -3200,7 +3200,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000214">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000051"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A concentration unit which a measure of plague forming units in a given volume.&quot; [UOC:GVG]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A concentration unit which a measure of plaque forming units in a given volume.&quot; [UOC:GVG]</rdfs:comment>
     </owl:Class>
     
 
@@ -9327,13 +9327,13 @@
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A dimensionless count unit which a measure of viable bacterial numbers.&quot; [Wikipedia:Wikipedia]</rdfs:comment>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000211">
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A dimensionless count unit which a measure of plague forming units in a given volume.&quot; [Wikipedia:Wikipedia]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A dimensionless count unit which a measure of plaque forming units in a given volume.&quot; [Wikipedia:Wikipedia]</rdfs:comment>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000213">
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A colony forming unit which a measure of viable bacterial numbers in one milliliter.&quot; [Wikipedia:Wikipedia]</rdfs:comment>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000215">
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A concentration unit which a measure of plague forming units in one milliliter.&quot; [UOC:GVG]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A concentration unit which a measure of plaque forming units in one milliliter.&quot; [UOC:GVG]</rdfs:comment>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000216">
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;An activity (of a radionuclide) unit which is equal to the activity of a quantity of radioactive material in which one nucleus decays per second or there is one atom disintegration per second.&quot; [ORCBS:ORCBS]</rdfs:comment>

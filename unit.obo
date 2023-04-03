@@ -2468,7 +2468,7 @@ created_by: george gkoutos
 
 [Term]
 id: UO:0000190
-name: ratio
+name: ratio unit
 namespace: unit.ontology
 def: "A dimensionless unit which denotes an amount or magnitude of one quantity relative to another." [Wikipedia:Wikipedia]
 subset: unit_group_slim

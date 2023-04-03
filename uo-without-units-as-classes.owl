@@ -3526,7 +3526,7 @@
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0000211">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000189"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A dimensionless count unit which a measure of plague forming units in a given volume.&quot; [Wikipedia:Wikipedia]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A dimensionless count unit which a measure of plaque forming units in a given volume.&quot; [Wikipedia:Wikipedia]</rdfs:comment>
     </owl:NamedIndividual>
     
 
@@ -3560,7 +3560,7 @@
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0000215">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000214"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A concentration unit which a measure of plague forming units in one milliliter.&quot; [UOC:GVG]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A concentration unit which a measure of plaque forming units in one milliliter.&quot; [UOC:GVG]</rdfs:comment>
     </owl:NamedIndividual>
     
 
@@ -5331,7 +5331,7 @@
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A concentration unit which a measure of viable bacterial numbers in a given volume.&quot; [Wikipedia:Wikipedia]</rdfs:comment>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000214">
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A concentration unit which a measure of plague forming units in a given volume.&quot; [UOC:GVG]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A concentration unit which a measure of plaque forming units in a given volume.&quot; [UOC:GVG]</rdfs:comment>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000217">
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A unit which is a standard measure of the work done per unit charge as a charge is moved between two points in an electric field.&quot; [Wikipedia:Wikipedia]</rdfs:comment>
