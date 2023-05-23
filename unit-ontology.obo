@@ -1,7 +1,7 @@
 format-version: 1.2
-data-version: releases/2023-04-03
+data-version: releases/2023-05-23
 ontology: unit-ontology
-property_value: owl:versionInfo "2023-04-03" xsd:string
+property_value: owl:versionInfo "2023-05-23" xsd:string
 
 [Term]
 id: UO:0000000
@@ -13,7 +13,6 @@ id: UO:0000001
 name: length unit
 comment: "A unit which is a standard measure of the distance between two points." [Wikipedia:Wikipedia]
 is_a: UO:0000000 ! unit
-relationship: http://purl.obolibrary.org/obo/is_unit_of PATO:0001708 {all_only="true"}
 
 [Term]
 id: UO:0000002
@@ -40,7 +39,6 @@ name: temperature unit
 comment: "A unit which is a standard measure of the average kinetic energy of the particles in a sample of matter." [Wikipedia:Wikipedia]
 synonym: "temperature derived unit" EXACT []
 is_a: UO:0000000 ! unit
-relationship: http://purl.obolibrary.org/obo/is_unit_of PATO:0000146 {all_only="true"}
 
 [Term]
 id: UO:0000006
@@ -404,35 +402,30 @@ id: UO:0000047
 name: area unit
 comment: "A unit which is a standard measure of the amount of a 2-dimensional flat surface." [UOC:GVG]
 is_a: UO:0000000 ! unit
-relationship: http://purl.obolibrary.org/obo/is_unit_of PATO:0001709 {all_only="true"}
 
 [Term]
 id: UO:0000048
 name: acceleration unit
 comment: "A unit which is a standard measure of the rate of change of velocity in either speed or direction." [Wikipedia:Wikipedia]
 is_a: UO:0000000 ! unit
-relationship: http://purl.obolibrary.org/obo/is_unit_of PATO:0001028 {all_only="true"}
 
 [Term]
 id: UO:0000049
 name: angular velocity unit
 comment: "A unit which is a standard measure of the rate of angular movement about an axis; the angle rotated in a given time." [Wikipedia:Wikipedia]
 is_a: UO:0000000 ! unit
-relationship: http://purl.obolibrary.org/obo/is_unit_of PATO:0001413 {all_only="true"}
 
 [Term]
 id: UO:0000050
 name: angular acceleration unit
 comment: "A unit which is a standard measure of the rate of change of angular velocity." [Wikipedia:Wikipedia]
 is_a: UO:0000000 ! unit
-relationship: http://purl.obolibrary.org/obo/is_unit_of PATO:0001350 {all_only="true"}
 
 [Term]
 id: UO:0000051
 name: concentration unit
 comment: "A unit which represents a standard measurement of how much of a given substance there is mixed with another substance." [UOC:GVG]
 is_a: UO:0000000 ! unit
-relationship: http://purl.obolibrary.org/obo/is_unit_of PATO:0000033 {all_only="true"}
 
 [Term]
 id: UO:0000052
@@ -440,14 +433,12 @@ name: mass density unit
 comment: "A density unit which is a standard measure of the mass of a substance in a given volume." [UOC:GVG]
 synonym: "mass per unit volume" EXACT []
 is_a: UO:0000182 ! density unit
-relationship: http://purl.obolibrary.org/obo/is_unit_of PATO:0001353 {all_only="true"}
 
 [Term]
 id: UO:0000053
 name: luminance unit
 comment: "A unit which is a standard measure of the luminous intensity impinging on a given area." [Wikipedia:Wikipedia]
 is_a: UO:0000157 ! light unit
-relationship: http://purl.obolibrary.org/obo/is_unit_of PATO:0001718 {all_only="true"}
 
 [Term]
 id: UO:0000054
@@ -455,21 +446,18 @@ name: area density unit
 comment: "A density unit which is a standard measure of the mass exerting an influence on a given area." [Wikipedia:Wikipedia]
 synonym: "mass per unit area unit" EXACT []
 is_a: UO:0000182 ! density unit
-relationship: http://purl.obolibrary.org/obo/is_unit_of PATO:0001351 {all_only="true"}
 
 [Term]
 id: UO:0000055
 name: molar mass unit
 comment: "A unit which is a standard measure of the mass of a homogeneous substance containing 6.02 x 1023 atoms or molecules." [Wikipedia:Wikipedia]
 is_a: UO:0000002 ! mass unit
-relationship: http://purl.obolibrary.org/obo/is_unit_of PATO:0001681 {all_only="true"}
 
 [Term]
 id: UO:0000056
 name: molar volume unit
 comment: "A unit which is a standard measure of the volume of a homogeneous substance containing 6.02 x 1023 atoms or molecules." [Wikipedia:Wikipedia]
 is_a: UO:0000095 ! volume unit
-relationship: http://purl.obolibrary.org/obo/is_unit_of PATO:0001680 {all_only="true"}
 
 [Term]
 id: UO:0000057
@@ -494,7 +482,6 @@ id: UO:0000060
 name: speed/velocity unit
 comment: "A unit which is a standard measure of the rate of movement. Speed is measured in the same physical units of measurement as velocity, but does not contain the element of direction that velocity has. Speed is thus the magnitude component of velocity." [Wikipedia:Wikipedia]
 is_a: UO:0000000 ! unit
-relationship: http://purl.obolibrary.org/obo/is_unit_of PATO:0000008 {all_only="true"}
 
 [Term]
 id: UO:0000061
@@ -785,7 +772,6 @@ id: UO:0000095
 name: volume unit
 comment: "A unit which is a standard measure of the amount of space occupied by any substance, whether solid, liquid, or gas." [NIST:NIST]
 is_a: UO:0000000 ! unit
-relationship: http://purl.obolibrary.org/obo/is_unit_of PATO:0001710 {all_only="true"}
 
 [Term]
 id: UO:0000096
@@ -881,7 +867,6 @@ id: UO:0000105
 name: frequency unit
 comment: "A unit which is a standard measure of the number of repetitive actions in a particular time." [NIST:NIST]
 is_a: UO:0000000 ! unit
-relationship: http://purl.obolibrary.org/obo/is_unit_of PATO:0000044 {all_only="true"}
 
 [Term]
 id: UO:0000106
@@ -896,7 +881,6 @@ id: UO:0000107
 name: force unit
 comment: "A unit which is a standard measure of the force is applied when a mass is accelerated." [NIST:NIST]
 is_a: UO:0000000 ! unit
-relationship: http://purl.obolibrary.org/obo/is_unit_of PATO:0001035 {all_only="true"}
 
 [Term]
 id: UO:0000108
@@ -910,7 +894,6 @@ id: UO:0000109
 name: pressure unit
 comment: "A unit which is a standard measure of the force applied to a given area." [NIST:NIST]
 is_a: UO:0000000 ! unit
-relationship: http://purl.obolibrary.org/obo/is_unit_of PATO:0001025 {all_only="true"}
 
 [Term]
 id: UO:0000110
@@ -937,7 +920,6 @@ id: UO:0000113
 name: power unit
 comment: "A unit which is a standard measure power or the rate of doing work." [NIST:NIST]
 is_a: UO:0000000 ! unit
-relationship: http://purl.obolibrary.org/obo/is_unit_of PATO:0001024 {all_only="true"}
 
 [Term]
 id: UO:0000114
@@ -964,7 +946,6 @@ id: UO:0000117
 name: luminous flux unit
 comment: "A unit which is a standard measure of the flow of radiant energy." [Wikipedia:Wikipedia]
 is_a: UO:0000157 ! light unit
-relationship: http://purl.obolibrary.org/obo/is_unit_of PATO:0001296 {all_only="true"}
 
 [Term]
 id: UO:0000118
@@ -978,7 +959,6 @@ id: UO:0000119
 name: catalytic activity unit
 comment: "A unit which is a standard measure of the amount of the action of a catalyst." [NIST:NIST]
 is_a: UO:0000000 ! unit
-relationship: http://purl.obolibrary.org/obo/is_unit_of PATO:0001414 {all_only="true"}
 
 [Term]
 id: UO:0000120
@@ -992,7 +972,6 @@ id: UO:0000121
 name: angle unit
 comment: "A unit which is a standard measure of the figure or space formed by the junction of two lines or planes." [Wikipedia:Wikipedia]
 is_a: UO:0000000 ! unit
-relationship: http://purl.obolibrary.org/obo/is_unit_of PATO:0000133 {all_only="true"}
 
 [Term]
 id: UO:0000122
@@ -1031,28 +1010,24 @@ id: UO:0000128
 name: activity (of a radionuclide) unit
 comment: "A unit which is a standard measure of the transformation (disintegration) rate of a radioactive substance." [DEFRA:DEFRA]
 is_a: UO:0000127 ! radiation unit
-relationship: http://purl.obolibrary.org/obo/is_unit_of PATO:0001740 {all_only="true"}
 
 [Term]
 id: UO:0000129
 name: absorbed dose unit
 comment: "A unit which is a standard measure of the energy imparted by ionizing radiation to unit mass of matter such as tissue." [DEFRA:DEFRA]
 is_a: UO:0000127 ! radiation unit
-relationship: http://purl.obolibrary.org/obo/is_unit_of PATO:0001745 {all_only="true"}
 
 [Term]
 id: UO:0000130
 name: dose equivalent unit
 comment: "A unit which is a standard measure of the expression of dose in terms of its biological effect." [ORCBS:ORCBS]
 is_a: UO:0000127 ! radiation unit
-relationship: http://purl.obolibrary.org/obo/is_unit_of PATO:0001746 {all_only="true"}
 
 [Term]
 id: UO:0000131
 name: exposure unit
 comment: "A unit which is a standard measure of the quantity that expresses the ability of radiation to ionize air and thereby create electric charges which can be collected and measured." [ORCBS:ORCBS]
 is_a: UO:0000127 ! radiation unit
-relationship: http://purl.obolibrary.org/obo/is_unit_of PATO:0001744 {all_only="true"}
 
 [Term]
 id: UO:0000132
@@ -1267,7 +1242,6 @@ id: UO:0000159
 name: radiant intensity unit
 comment: "A unit which is a standard measure of the intensity of electromagnetic radiation." [Wikipedia:Wikipedia]
 is_a: UO:0000157 ! light unit
-relationship: http://purl.obolibrary.org/obo/is_unit_of PATO:0001717 {all_only="true"}
 
 [Term]
 id: UO:0000160
@@ -1286,7 +1260,6 @@ id: UO:0000161
 name: radiance unit
 comment: "A unit which is a standard measure of the power of electromagnetic radiation through space or through a material medium in the form of electromagnetic waves." [Wikipedia:Wikipedia]
 is_a: UO:0000157 ! light unit
-relationship: http://purl.obolibrary.org/obo/is_unit_of PATO:0001299 {all_only="true"}
 
 [Term]
 id: UO:0000162
@@ -1450,14 +1423,12 @@ id: UO:0000182
 name: density unit
 comment: "A unit which is a standard measure of the influence exerted by some mass." [Wikipedia:Wikipedia]
 is_a: UO:0000000 ! unit
-relationship: http://purl.obolibrary.org/obo/is_unit_of PATO:0001019 {all_only="true"}
 
 [Term]
 id: UO:0000183
 name: linear density unit
 comment: "A density unit which is a standard measure of the mass exerting an influence on a one-dimensional object." [Wikipedia:Wikipedia]
 is_a: UO:0000182 ! density unit
-relationship: http://purl.obolibrary.org/obo/is_unit_of PATO:0001352 {all_only="true"}
 
 [Term]
 id: UO:0000184
@@ -1541,7 +1512,6 @@ id: UO:0000196
 name: pH
 comment: "A dimensionless concentration notation which denotes the acidity of a solution in terms of activity of hydrogen ions (H+)." [Wikipedia:Wikipedia]
 is_a: UO:1000196 ! pH based unit
-relationship: http://purl.obolibrary.org/obo/is_unit_of PATO:0001428 {all_only="true"}
 
 [Term]
 id: UO:0000197
@@ -1592,7 +1562,6 @@ id: UO:0000202
 name: catalytic (activity) concentration unit
 comment: "A concentration unit which is a standard measure of the amount of the action of a catalyst in a given volume." [UOC:GVG]
 is_a: UO:0000051 ! concentration unit
-relationship: http://purl.obolibrary.org/obo/is_unit_of PATO:0001674 {all_only="true"}
 
 [Term]
 id: UO:0000203
@@ -1705,7 +1674,6 @@ id: UO:0000217
 name: electric potential difference unit
 comment: "A unit which is a standard measure of the work done per unit charge as a charge is moved between two points in an electric field." [Wikipedia:Wikipedia]
 is_a: UO:0000000 ! unit
-relationship: http://purl.obolibrary.org/obo/is_unit_of PATO:0001464 {all_only="true"}
 
 [Term]
 id: UO:0000218
@@ -1768,7 +1736,6 @@ id: UO:0000225
 name: magnetic flux unit
 comment: "A unit which is a standard measure of quantity of magnetism, taking account of the strength and the extent of a magnetic field." [Wikipedia:Wikipedia]
 is_a: UO:0000000 ! unit
-relationship: http://purl.obolibrary.org/obo/is_unit_of PATO:0001682 {all_only="true"}
 
 [Term]
 id: UO:0000226
@@ -1990,7 +1957,6 @@ id: UO:0000253
 name: surface tension unit
 comment: "A unit which is a standard measure of the ability of a liguid to attraction of molecules at its surface as a result of unbalanced molecular cohesive forces." [NIST:NIST]
 is_a: UO:0000000 ! unit
-relationship: http://purl.obolibrary.org/obo/is_unit_of PATO:0001461 {all_only="true"}
 
 [Term]
 id: UO:0000254
@@ -2012,7 +1978,6 @@ id: UO:0000256
 name: viscosity unit
 comment: "A unit which is a standard measure of the internal resistance of fluids to flow." [UOC:GVG]
 is_a: UO:0000000 ! unit
-relationship: http://purl.obolibrary.org/obo/is_unit_of PATO:0000992 {all_only="true"}
 
 [Term]
 id: UO:0000257
@@ -2035,14 +2000,12 @@ name: decibel
 comment: "A ratio unit which is an indicator of sound power per unit area." [techtarget:techtarget]
 synonym: "dB" EXACT []
 is_a: UO:0000190 ! ratio unit
-relationship: http://purl.obolibrary.org/obo/is_unit_of PATO:0001521 {all_only="true"}
 
 [Term]
 id: UO:0000260
 name: effective dose unit
 comment: "A unit which is a standard measure of the estimate of the stochastic effect that a non-uniform radiation dose has on a human." [Wikipedia:Wikipedia]
 is_a: UO:1000260 ! effective dose unit based unit
-relationship: http://purl.obolibrary.org/obo/is_unit_of PATO:0001747 {all_only="true"}
 
 [Term]
 id: UO:0000261
@@ -2055,14 +2018,12 @@ id: UO:0000262
 name: electrical conduction unit
 comment: "A unit which represents a standard measurement of the movement of electrically charged particles through a transmission medium (electrical conductor)." [UOC:GVG]
 is_a: UO:0000261 ! conduction unit
-relationship: http://purl.obolibrary.org/obo/is_unit_of PATO:0001757 {all_only="true"}
 
 [Term]
 id: UO:0000263
 name: heat conduction unit
 comment: "A unit which represents a standard measurement of the spontaneous transfer of thermal energy through matter, from a region of higher temperature to a region of lower temperature." [Wikipedia:Wikipedia]
 is_a: UO:0000261 ! conduction unit
-relationship: http://purl.obolibrary.org/obo/is_unit_of PATO:0001756 {all_only="true"}
 
 [Term]
 id: UO:0000264
@@ -2124,7 +2085,6 @@ comment: "A volumetric flow rate unit which is equal to one microliter volume th
 synonym: "microlitres per minute" EXACT []
 synonym: "uL/min" EXACT []
 is_a: UO:0000270 ! volumetric flow rate unit
-relationship: http://purl.obolibrary.org/obo/is_unit_of PATO:0001574 {all_only="true"}
 
 [Term]
 id: UO:0000272
