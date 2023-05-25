@@ -11,12 +11,12 @@ Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 Prefix: idrange: <http://purl.obolibrary.org/obo/ro/idrange/>
 Prefix: owl: <http://www.w3.org/2002/07/owl#>
 
-Ontology: <http://purl.obolibrary.org/obo/unit-ontology/unit-ontology-idranges.owl>
+Ontology: <http://purl.obolibrary.org/obo/uo/uo-idranges.owl>
 
 
 Annotations: 
-    idsfor: "UNIT-ONTOLOGY",
-    idprefix: "http://purl.obolibrary.org/obo/UNIT-ONTOLOGY_",
+    idsfor: "UO",
+    idprefix: "http://purl.obolibrary.org/obo/UO_",
     iddigits: 7
 
 AnnotationProperty: idprefix:

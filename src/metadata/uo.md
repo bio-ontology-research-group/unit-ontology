@@ -1,6 +1,6 @@
 ---
 layout: ontology_detail
-id: unit-ontology
+id: uo
 title: unit-ontology
 jobs:
   - id: https://travis-ci.org/bio-ontology-research-group/unit-ontology
@@ -17,17 +17,17 @@ description: unit-ontology is an ontology...
 domain: stuff
 homepage: https://github.com/bio-ontology-research-group/unit-ontology
 products:
-  - id: unit-ontology.owl
+  - id: uo.owl
     name: "unit-ontology main release in OWL format"
-  - id: unit-ontology.obo
+  - id: uo.obo
     name: "unit-ontology additional release in OBO format"
-  - id: unit-ontology.json
+  - id: uo.json
     name: "unit-ontology additional release in OBOJSon format"
-  - id: unit-ontology/unit-ontology-base.owl
+  - id: uo/uo-base.owl
     name: "unit-ontology main release in OWL format"
-  - id: unit-ontology/unit-ontology-base.obo
+  - id: uo/uo-base.obo
     name: "unit-ontology additional release in OBO format"
-  - id: unit-ontology/unit-ontology-base.json
+  - id: uo/uo-base.json
     name: "unit-ontology additional release in OBOJSon format"
 dependencies:
 - id: pato

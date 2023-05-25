@@ -36,7 +36,7 @@ git_main_branch: main
 git_user: ''
 github_org: bio-ontology-research-group
 gzip_main: false
-id: unit-ontology
+id: uo
 import_component_format: ofn
 import_group:
   annotation_properties:

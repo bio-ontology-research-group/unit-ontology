@@ -1,0 +1,45 @@
+{
+  "graphs" : [ {
+    "nodes" : [ {
+      "id" : "http://purl.org/dc/terms/license",
+      "type" : "PROPERTY",
+      "lbl" : "license"
+    }, {
+      "id" : "http://purl.org/dc/terms/title",
+      "type" : "PROPERTY",
+      "lbl" : "title"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/UO_0000000",
+      "type" : "CLASS",
+      "lbl" : "root node"
+    }, {
+      "id" : "http://purl.org/dc/terms/description",
+      "type" : "PROPERTY",
+      "lbl" : "description"
+    } ],
+    "edges" : [ ],
+    "id" : "http://purl.obolibrary.org/obo/uo/uo-full.json",
+    "meta" : {
+      "subsets" : [ ],
+      "xrefs" : [ ],
+      "basicPropertyValues" : [ {
+        "pred" : "http://purl.org/dc/terms/description",
+        "val" : "An ontology of units of measurements."
+      }, {
+        "pred" : "http://purl.org/dc/terms/license",
+        "val" : "https://creativecommons.org/licenses/by/2.0/"
+      }, {
+        "pred" : "http://purl.org/dc/terms/title",
+        "val" : "unit-ontology"
+      }, {
+        "pred" : "http://www.w3.org/2002/07/owl#versionInfo",
+        "val" : "2023-05-25"
+      } ],
+      "version" : "http://purl.obolibrary.org/obo/uo/releases/2023-05-25/uo-full.json"
+    },
+    "equivalentNodesSets" : [ ],
+    "logicalDefinitionAxioms" : [ ],
+    "domainRangeAxioms" : [ ],
+    "propertyChainAxioms" : [ ]
+  } ]
+}

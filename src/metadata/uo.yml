@@ -1,0 +1,28 @@
+# PURL configuration for http://purl.obolibrary.org/obo/uo
+
+idspace: UO
+base_url: /obo/uo
+
+products:
+- uo.owl: https://raw.githubusercontent.com/bio-ontology-research-group/unit-ontology/main/uo.owl
+- uo.obo: https://raw.githubusercontent.com/bio-ontology-research-group/unit-ontology/main/uo.obo
+
+term_browser: ontobee
+example_terms:
+- UO_0000000
+
+entries:
+
+- prefix: /releases/
+  replacement: https://raw.githubusercontent.com/bio-ontology-research-group/unit-ontology/v
+
+- prefix: /tracker/
+  replacement: https://github.com/bio-ontology-research-group/unit-ontology/issues
+
+- prefix: /about/
+  replacement: http://www.ontobee.org/ontology/UO?iri=http://purl.obolibrary.org/obo/
+
+## generic fall-through, serve direct from github by default
+- prefix: /
+  replacement: https://raw.githubusercontent.com/bio-ontology-research-group/unit-ontology/main/
+

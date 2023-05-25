@@ -1,0 +1,13 @@
+format-version: 1.2
+data-version: uo/releases/2023-05-25/uo-base.owl
+ontology: uo/uo-base
+property_value: http://purl.org/dc/elements/1.1/type IAO:8000001
+property_value: http://purl.org/dc/terms/description "An ontology of units of measurements." xsd:string
+property_value: http://purl.org/dc/terms/license https://creativecommons.org/licenses/by/2.0/
+property_value: http://purl.org/dc/terms/title "unit-ontology" xsd:string
+property_value: owl:versionInfo "2023-05-25" xsd:string
+
+[Term]
+id: UO:0000000
+name: root node
+
