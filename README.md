@@ -6,7 +6,7 @@ The ontology is provided under a [CC-BY](https://creativecommons.org/licenses/by
 
 Description: An ontology of units of measurements
 
-More information can be found at http://obofoundry.org/ontology/unit-ontology
+More information can be found at http://obofoundry.org/ontology/uo
 
 ## Versions
 
@@ -14,13 +14,13 @@ More information can be found at http://obofoundry.org/ontology/unit-ontology
 
 The latest version of the ontology can always be found at:
 
-http://purl.obolibrary.org/obo/unit-ontology.owl
+http://purl.obolibrary.org/obo/uo.owl
 
 (note this will not show up until the request has been approved by obofoundry.org)
 
 ### Editors' version
 
-Editors of this ontology should use the edit version, [src/ontology/unit-ontology-edit.owl](src/ontology/unit-ontology-edit.owl)
+Editors of this ontology should use the edit version, [src/ontology/uo-edit.owl](src/ontology/uo-edit.owl)
 
 ## Contact
 
