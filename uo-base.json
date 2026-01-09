@@ -4339,6 +4339,95 @@
         } ]
       }
     }, {
+      "id" : "http://purl.obolibrary.org/obo/UO_0010070",
+      "lbl" : "picogram per milliliter",
+      "type" : "CLASS",
+      "meta" : {
+        "comments" : [ "A gram per milliliter unit which is equal to one picogram per one milliliter." ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "pg/mL"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/UO_0010072",
+      "lbl" : "microgram per microliter",
+      "type" : "CLASS",
+      "meta" : {
+        "comments" : [ "\"A mass unit density which is equal to mass of an object in nanograms divided by the volume in microliters.\" [UOB:LTS]" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "mcg/mcL"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "ug/uL"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "µg/µL"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/UO_0010073",
+      "lbl" : "cell count",
+      "type" : "CLASS",
+      "meta" : {
+        "comments" : [ "A count unit that denotes a count of cells." ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/UO_0010074",
+      "lbl" : "heartbeats per minute",
+      "type" : "CLASS",
+      "meta" : {
+        "comments" : [ "A rate unit which represents a measurement of the number of an organism's heartbeats per one minute." ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "BPM"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/UO_0010075",
+      "lbl" : "multiplicity of infection",
+      "type" : "CLASS",
+      "meta" : {
+        "comments" : [ "A ratio unit which denotes the quantity of infectious agents to infection targets." ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "MOI"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/UO_0010076",
+      "lbl" : "breaths per minute",
+      "type" : "CLASS",
+      "meta" : {
+        "comments" : [ "A rate unit which represents a measurement of the number of breaths taken by an organism per one minute." ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "br/min"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "brpm"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/UO_0010077",
+      "lbl" : "PCR quantification cycle",
+      "type" : "CLASS",
+      "meta" : {
+        "comments" : [ "A count unit of how many Polymerase Chain Reaction (PCR) cycles it took to detect a real signal from a sample. Equivalent to the PCR cycle number at which a sample's reaction curve intersects the threshold line." ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "Ct"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/UO_0010080",
+      "lbl" : "titer",
+      "type" : "CLASS",
+      "meta" : {
+        "comments" : [ "A concentration unit which denotes the minimum amount of a substance in a solution that still yields a positive reading, as determined by serial dilution." ]
+      }
+    }, {
       "id" : "http://purl.obolibrary.org/obo/UO_1000008",
       "lbl" : "meter based unit",
       "type" : "CLASS"
@@ -6987,6 +7076,38 @@
       "sub" : "http://purl.obolibrary.org/obo/UO_0010068",
       "pred" : "http://purl.obolibrary.org/obo/has_prefix",
       "obj" : "http://purl.obolibrary.org/obo/UO_0000299"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/UO_0010070",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/UO_1000173"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/UO_0010072",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/UO_0000052"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/UO_0010073",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/UO_0000189"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/UO_0010074",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/UO_0000280"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/UO_0010075",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/UO_0000190"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/UO_0010076",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/UO_0000280"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/UO_0010077",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/UO_0000189"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/UO_0010080",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/UO_0000051"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/UO_1000008",
       "pred" : "is_a",

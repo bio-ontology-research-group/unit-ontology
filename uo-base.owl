@@ -6879,6 +6879,95 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UO_0010070 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0010070">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_1000173"/>
+        <oboInOwl:hasExactSynonym xml:lang="en">pg/mL</oboInOwl:hasExactSynonym>
+        <rdfs:comment xml:lang="en">A gram per milliliter unit which is equal to one picogram per one milliliter.</rdfs:comment>
+        <rdfs:label xml:lang="en">picogram per milliliter</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0010072 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0010072">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000052"/>
+        <oboInOwl:hasExactSynonym xml:lang="en">mcg/mcL</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">ug/uL</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">µg/µL</oboInOwl:hasExactSynonym>
+        <rdfs:comment xml:lang="en">&quot;A mass unit density which is equal to mass of an object in nanograms divided by the volume in microliters.&quot; [UOB:LTS]</rdfs:comment>
+        <rdfs:label xml:lang="en">microgram per microliter</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0010073 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0010073">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000189"/>
+        <rdfs:comment xml:lang="en">A count unit that denotes a count of cells.</rdfs:comment>
+        <rdfs:label xml:lang="en">cell count</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0010074 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0010074">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000280"/>
+        <oboInOwl:hasExactSynonym xml:lang="en">BPM</oboInOwl:hasExactSynonym>
+        <rdfs:comment xml:lang="en">A rate unit which represents a measurement of the number of an organism&apos;s heartbeats per one minute.</rdfs:comment>
+        <rdfs:label xml:lang="en">heartbeats per minute</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0010075 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0010075">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000190"/>
+        <oboInOwl:hasExactSynonym xml:lang="en">MOI</oboInOwl:hasExactSynonym>
+        <rdfs:comment xml:lang="en">A ratio unit which denotes the quantity of infectious agents to infection targets.</rdfs:comment>
+        <rdfs:label xml:lang="en">multiplicity of infection</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0010076 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0010076">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000280"/>
+        <oboInOwl:hasExactSynonym xml:lang="en">br/min</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">brpm</oboInOwl:hasExactSynonym>
+        <rdfs:comment xml:lang="en">A rate unit which represents a measurement of the number of breaths taken by an organism per one minute.</rdfs:comment>
+        <rdfs:label xml:lang="en">breaths per minute</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0010077 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0010077">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000189"/>
+        <oboInOwl:hasExactSynonym xml:lang="en">Ct</oboInOwl:hasExactSynonym>
+        <rdfs:comment xml:lang="en">A count unit of how many Polymerase Chain Reaction (PCR) cycles it took to detect a real signal from a sample. Equivalent to the PCR cycle number at which a sample&apos;s reaction curve intersects the threshold line.</rdfs:comment>
+        <rdfs:label xml:lang="en">PCR quantification cycle</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0010080 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0010080">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000051"/>
+        <rdfs:comment xml:lang="en">A concentration unit which denotes the minimum amount of a substance in a solution that still yields a positive reading, as determined by serial dilution.</rdfs:comment>
+        <rdfs:label xml:lang="en">titer</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UO_1000008 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000008">

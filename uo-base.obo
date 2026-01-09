@@ -3073,6 +3073,63 @@ intersection_of: has:prefix UO:0000299 ! micro
 relationship: has:prefix UO:0000299 ! micro
 
 [Term]
+id: UO:0010070
+name: picogram per milliliter
+comment: A gram per milliliter unit which is equal to one picogram per one milliliter.
+synonym: "pg/mL" EXACT []
+is_a: UO:1000173 ! gram per milliliter based unit
+
+[Term]
+id: UO:0010072
+name: microgram per microliter
+comment: "A mass unit density which is equal to mass of an object in nanograms divided by the volume in microliters." [UOB:LTS]
+synonym: "mcg/mcL" EXACT []
+synonym: "ug/uL" EXACT []
+synonym: "µg/µL" EXACT []
+is_a: UO:0000052 ! mass density unit
+
+[Term]
+id: UO:0010073
+name: cell count
+comment: A count unit that denotes a count of cells.
+is_a: UO:0000189 ! count unit
+
+[Term]
+id: UO:0010074
+name: heartbeats per minute
+comment: A rate unit which represents a measurement of the number of an organism's heartbeats per one minute.
+synonym: "BPM" EXACT []
+is_a: UO:0000280 ! rate unit
+
+[Term]
+id: UO:0010075
+name: multiplicity of infection
+comment: A ratio unit which denotes the quantity of infectious agents to infection targets.
+synonym: "MOI" EXACT []
+is_a: UO:0000190 ! ratio unit
+
+[Term]
+id: UO:0010076
+name: breaths per minute
+comment: A rate unit which represents a measurement of the number of breaths taken by an organism per one minute.
+synonym: "br/min" EXACT []
+synonym: "brpm" EXACT []
+is_a: UO:0000280 ! rate unit
+
+[Term]
+id: UO:0010077
+name: PCR quantification cycle
+comment: A count unit of how many Polymerase Chain Reaction (PCR) cycles it took to detect a real signal from a sample. Equivalent to the PCR cycle number at which a sample's reaction curve intersects the threshold line.
+synonym: "Ct" EXACT []
+is_a: UO:0000189 ! count unit
+
+[Term]
+id: UO:0010080
+name: titer
+comment: A concentration unit which denotes the minimum amount of a substance in a solution that still yields a positive reading, as determined by serial dilution.
+is_a: UO:0000051 ! concentration unit
+
+[Term]
 id: UO:1000008
 name: meter based unit
 is_a: UO:0000001 ! length unit
