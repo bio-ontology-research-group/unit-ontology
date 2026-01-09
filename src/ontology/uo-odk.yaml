@@ -31,7 +31,7 @@ export_formats:
 - obo
 - json
 export_project_yaml: false
-git_main_branch: main
+git_main_branch: master
 git_user: ''
 github_org: bio-ontology-research-group
 gzip_main: false
@@ -134,3 +134,4 @@ use_mappings: false
 use_templates: false
 workflows:
 - docs
+- qc
