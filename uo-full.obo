@@ -1,7 +1,9 @@
 format-version: 1.2
-data-version: uo/releases/2023-05-25/uo-full.owl
+data-version: uo/releases/2026-01-09/uo-full.owl
+idspace: dc http://purl.org/dc/elements/1.1/ 
+idspace: oboInOwl http://www.geneontology.org/formats/oboInOwl# 
 ontology: uo/uo-full
-property_value: owl:versionInfo "2023-05-25" xsd:string
+property_value: owl:versionInfo "2026-01-09" xsd:string
 
 [Term]
 id: UO:0000000
@@ -1378,8 +1380,8 @@ name: milligram per milliliter
 comment: "A mass unit density which is equal to mass of an object in milligrams divided by the volume in milliliters." [UOC:GVG]
 synonym: "mg/ml" EXACT []
 synonym: "milligram per millilitre" EXACT []
-is_a: UO:1000175 ! gram per liter based unit
-intersection_of: UO:1000175 ! gram per liter based unit
+is_a: UO:1000173 ! gram per milliliter based unit
+intersection_of: UO:1000173 ! gram per milliliter based unit
 intersection_of: has:prefix UO:0000297 ! milli
 relationship: has:prefix UO:0000297 ! milli
 
@@ -2891,10 +2893,8 @@ is_a: UO:0000095 ! volume unit
 id: UO:0010048
 name: micromole
 comment: "DEPRECATED: Duplicate of http://purl.obolibrary.org/obo/UO_0000039. A substance unit which is equal to one millionth of a mole." [UOB:LTS]
-is_a: UO:1000013 ! mole based unit
-intersection_of: UO:1000013 ! mole based unit
-intersection_of: has:prefix UO:0000299 ! micro
-relationship: has:prefix UO:0000299 ! micro
+is_a: UO:0000006 ! substance unit
+is_obsolete: true
 
 [Term]
 id: UO:0010049
