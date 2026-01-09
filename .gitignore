@@ -1,3 +1,6 @@
+# ODK-managed rules, do not modify
+# If you need to add your own ignore rules, you may do so below
+# the "End ODK-managed rules" marker at the end of this file.
 .DS_Store
 semantic.cache
 bin/
@@ -6,20 +9,38 @@ bin/
 *.tmp.obo
 *.tmp.owl
 *.tmp.json
+*-relation-graph.tsv.gz
+.template.db
 
 .github/token.txt
+
+/uo.owl
+/uo.obo
+/uo.json
+/uo.db
+/uo-base.*
+/uo-basic.*
+/uo-full.*
+/uo-simple.*
+/uo-simple-non-classified.*
+/mappings/
+/patterns/
+/reports/
+/subsets/
 
 src/ontology/mirror
 src/ontology/mirror/*
 src/ontology/reports/*
-src/ontology/unit-ontology.owl
-src/ontology/unit-ontology.obo
-src/ontology/unit-ontology.json
-src/ontology/unit-ontology-base.*
-src/ontology/unit-ontology-basic.*
-src/ontology/unit-ontology-full.*
-src/ontology/unit-ontology-simple.*
-src/ontology/unit-ontology-simple-non-classified.*
+!src/ontology/reports/release-diff.md
+src/ontology/uo.owl
+src/ontology/uo.obo
+src/ontology/uo.json
+src/ontology/uo.db
+src/ontology/uo-base.*
+src/ontology/uo-basic.*
+src/ontology/uo-full.*
+src/ontology/uo-simple.*
+src/ontology/uo-simple-non-classified.*
 
 src/ontology/seed.txt
 src/ontology/dosdp-tools.log
@@ -27,10 +48,12 @@ src/ontology/ed_definitions_merged.owl
 src/ontology/ontologyterms.txt
 src/ontology/simple_seed.txt
 src/ontology/patterns
-src/ontology/merged-unit-ontology-edit.owl
+src/ontology/merged-uo-edit.owl
+src/ontology/uo-edit.properties
 
 src/ontology/target/
 src/ontology/tmp/*
+!src/ontology/tmp/.gitkeep
 !src/ontology/tmp/README.md
 
 src/ontology/run.sh.conf
@@ -42,3 +65,22 @@ src/patterns/data/**/*.ofn
 src/patterns/data/**/*.txt
 src/patterns/pattern_owl_seed.txt
 src/patterns/all_pattern_terms.txt
+
+# End of ODK-managed rules
+
+
+
+src/ontology/unit-ontology.owl
+src/ontology/unit-ontology.obo
+src/ontology/unit-ontology.json
+src/ontology/unit-ontology-base.*
+src/ontology/unit-ontology-basic.*
+src/ontology/unit-ontology-full.*
+src/ontology/unit-ontology-simple.*
+src/ontology/unit-ontology-simple-non-classified.*
+
+src/ontology/merged-unit-ontology-edit.owl
+
+
+
+
