@@ -6,7 +6,7 @@ The ontology is provided under a [CC-BY](https://creativecommons.org/licenses/by
 
 Description: An ontology of units of measurements
 
-⚠️ UO is now a community project in maintenance mode and currently not supported by bespoke funding. Change requests, such as new term requests, are not automatically handled by the UO core team. Such requests are much more likely to be implemented if they are accompanied by a well motivated issue on the issue tracker AND a respective pull request. Thank you for your understanding.
+⚠️ UO is a community project that is being maintained by its users. If you use UO and need some changes in its contents (for example you need some new terms), the surest way of making the changes happen is to implement them yourself and to submit a pull request. There is no “UO core team” specifically in charge of meeting users’ requests.
 
 More information can be found at http://obofoundry.org/ontology/uo
 
