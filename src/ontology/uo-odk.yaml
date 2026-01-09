@@ -1,5 +1,4 @@
-#allow_equivalents: asserted-only
-allow_equivalents: all
+allow_equivalents: asserted-only
 catalog_file: catalog-v001.xml
 ci:
 - github_actions
