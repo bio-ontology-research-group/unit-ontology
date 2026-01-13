@@ -409,6 +409,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/UO_0010065>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UO_0010066>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UO_0010067>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UO_0010068>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UO_0010069>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UO_0010070>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UO_0010072>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UO_0010073>))
@@ -859,6 +860,7 @@ Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/UO_0010065>))
 Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/UO_0010066>))
 Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/UO_0010067>))
 Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/UO_0010068>))
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/UO_0010069>))
 Declaration(AnnotationProperty(oboInOwl:hasExactSynonym))
 Declaration(AnnotationProperty(oboInOwl:hasRelatedSynonym))
 
@@ -4217,6 +4219,14 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_0010068> "micr
 EquivalentClasses(<http://purl.obolibrary.org/obo/UO_0010068> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UO_1000208> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/has_prefix> <http://purl.obolibrary.org/obo/UO_0000299>)))
 EquivalentClasses(<http://purl.obolibrary.org/obo/UO_0010068> ObjectOneOf(<http://purl.obolibrary.org/obo/UO_0010068>))
 SubClassOf(<http://purl.obolibrary.org/obo/UO_0010068> <http://purl.obolibrary.org/obo/UO_0000052>)
+
+# Class: <http://purl.obolibrary.org/obo/UO_0010069> (bar)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UO_0010069> "\"A pressure unit which is equal to 100,000 pascal or the pressure or stress on a surface caused by a force of 100,000 newtons spread over a surface of 1 m^[2].\" [NIST:NIST]")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_0010069> "bar")
+EquivalentClasses(<http://purl.obolibrary.org/obo/UO_0010069> ObjectOneOf(<http://purl.obolibrary.org/obo/UO_0010069>))
+SubClassOf(<http://purl.obolibrary.org/obo/UO_0010069> <http://purl.obolibrary.org/obo/UO_0000109>)
+SubClassOf(<http://purl.obolibrary.org/obo/UO_0010069> <http://purl.obolibrary.org/obo/UO_1000110>)
 
 # Class: <http://purl.obolibrary.org/obo/UO_0010070> (picogram per milliliter)
 
