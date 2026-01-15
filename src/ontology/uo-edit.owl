@@ -411,6 +411,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/UO_0010067>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UO_0010068>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UO_0010069>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UO_0010070>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UO_0010071>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UO_0010072>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UO_0010073>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UO_0010074>))
@@ -4234,6 +4235,14 @@ AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UO_0010070> "A gram per milliliter unit which is equal to one picogram per one milliliter."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_0010070> "picogram per milliliter"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/UO_0010070> <http://purl.obolibrary.org/obo/UO_1000173>)
+
+# Class: <http://purl.obolibrary.org/obo/UO_0010071> (microgram per square centimeter)
+
+AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_0010071> "mcg/cm2"@en)
+AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_0010071> "µg/cm²"@en)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UO_0010071> "An area density unit which is equal to the mass of an object in micrograms divided by the surface area in square centimeters."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_0010071> "microgram per square centimeter"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/UO_0010071> <http://purl.obolibrary.org/obo/UO_0000054>)
 
 # Class: <http://purl.obolibrary.org/obo/UO_0010072> (microgram per microliter)
 
