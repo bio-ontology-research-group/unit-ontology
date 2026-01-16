@@ -3110,14 +3110,14 @@ SubClassOf(<http://purl.obolibrary.org/obo/UO_0000266> <http://purl.obolibrary.o
 
 # Class: <http://purl.obolibrary.org/obo/UO_0000267> (electric field strength unit)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "Wikipedia:http\\://en.wikipedia.org/wiki/Electric_field") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_0000267> "The electric field strength is a unit which is a measure of the potential difference between two points some distance apart.")
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "Wikipedia:Electric_field") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_0000267> "The electric field strength is a unit which is a measure of the potential difference between two points some distance apart.")
 AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_0000267> "E-field strength ")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_0000267> "electric field strength unit")
 SubClassOf(<http://purl.obolibrary.org/obo/UO_0000267> <http://purl.obolibrary.org/obo/UO_0000000>)
 
 # Class: <http://purl.obolibrary.org/obo/UO_0000268> (volt per meter)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "Wikipedia:http\\://en.wikipedia.org/wiki/Electric_field") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_0000268> "The volt per meter is a unit of electric field strength equal to the a potential difference of 1 volt existing between two points that are 1 meter apart.")
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "Wikipedia:Electric_field") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_0000268> "The volt per meter is a unit of electric field strength equal to the a potential difference of 1 volt existing between two points that are 1 meter apart.")
 AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_0000268> "V/m")
 AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_0000268> "volt per metre")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_0000268> "volt per meter")
@@ -3127,7 +3127,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/UO_0000268> <http://purl.obolibrary.o
 
 # Class: <http://purl.obolibrary.org/obo/UO_0000269> (absorbance unit)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "Wikipedia:http\\://en.wikipedia.org/wiki/Absorbance") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_0000269> "A dimensionless logarithmic unit assigned to a measure of absorbance of light through a partially absorbing substance, defined as -log10(I/I_0) where I = transmitted light and I_0 = incident light.")
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "Wikipedia:Absorbance") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_0000269> "A dimensionless logarithmic unit assigned to a measure of absorbance of light through a partially absorbing substance, defined as -log10(I/I_0) where I = transmitted light and I_0 = incident light.")
 AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_0000269> "AU")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_0000269> "absorbance unit")
 EquivalentClasses(<http://purl.obolibrary.org/obo/UO_0000269> ObjectOneOf(<http://purl.obolibrary.org/obo/UO_0000269>))
@@ -3572,7 +3572,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/UO_0000325> <http://purl.obolibrary.o
 
 # Class: <http://purl.obolibrary.org/obo/UO_0000326> (centiMorgan)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "NCBI:http\\://www.ncbi.nlm.nih.gov/SCIENCE96/Glossary.html") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_0000326> "A unit used to express distances on a genetic map. In genetic mapping, distances between markers are determined by measuring the rate of meoitic recombination between them, which increases proportionately with the distance separating them. A cM is defined as the length of an interval in which there is a 1% probability of recombination. On the average, 1 cM is roughly equivalent to 1 megabase (Mb) of DNA, although this can vary widely due to hot and cold spots of recombination.")
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "http://www.ncbi.nlm.nih.gov/SCIENCE96/Glossary.html") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_0000326> "A unit used to express distances on a genetic map. In genetic mapping, distances between markers are determined by measuring the rate of meoitic recombination between them, which increases proportionately with the distance separating them. A cM is defined as the length of an interval in which there is a 1% probability of recombination. On the average, 1 cM is roughly equivalent to 1 megabase (Mb) of DNA, although this can vary widely due to hot and cold spots of recombination.")
 AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_0000326> "cM")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_0000326> "centiMorgan")
 EquivalentClasses(<http://purl.obolibrary.org/obo/UO_0000326> ObjectOneOf(<http://purl.obolibrary.org/obo/UO_0000326>))
@@ -3580,7 +3580,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/UO_0000326> <http://purl.obolibrary.o
 
 # Class: <http://purl.obolibrary.org/obo/UO_0000327> (centiRay)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "NCBI:http\\://www.ncbi.nlm.nih.gov/SCIENCE96/Glossary.html") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_0000327> "A unit of genetic map distance defined corresponding to an interval in which there is a 1% probability of X-irradiation induced breakage. To be completely specified, the unit must be qualified by the radiation in dosage in rads (e.g. cR8000), because this determines the actual breakage probability.")
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "http://www.ncbi.nlm.nih.gov/SCIENCE96/Glossary.html") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_0000327> "A unit of genetic map distance defined corresponding to an interval in which there is a 1% probability of X-irradiation induced breakage. To be completely specified, the unit must be qualified by the radiation in dosage in rads (e.g. cR8000), because this determines the actual breakage probability.")
 AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_0000327> "cR")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_0000327> "centiRay")
 EquivalentClasses(<http://purl.obolibrary.org/obo/UO_0000327> ObjectOneOf(<http://purl.obolibrary.org/obo/UO_0000327>))
@@ -3977,7 +3977,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/UO_0010039> <http://purl.obolibrary.o
 
 # Class: <http://purl.obolibrary.org/obo/UO_0010040> (teaspoon)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "Wikipedia:https://en.wikipedia.org/wiki/Teaspoon") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_0010040> "A metric teaspoon is a unit of measurement of volume widely used in cooking recipes and pharmaceutic prescriptions. It equals a 5mL volume.")
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "Wikipedia:Teaspoon") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_0010040> "A metric teaspoon is a unit of measurement of volume widely used in cooking recipes and pharmaceutic prescriptions. It equals a 5mL volume.")
 AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_0010040> "metric teaspoon")
 AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_0010040> "tsp")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_0010040> "teaspoon")
@@ -3987,14 +3987,14 @@ SubClassOf(<http://purl.obolibrary.org/obo/UO_0010040> <http://purl.obolibrary.o
 
 # Class: <http://purl.obolibrary.org/obo/UO_0010041> (united states customary teaspoon)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "Wikipedia:https://en.wikipedia.org/wiki/United_States_customary_units#Cooking_measures") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_0010041> "A United States customary units teaspoon is a unit of measurement of volume widely used in cooking recipes and pharmaceutic prescriptions in America. It equals a 4.93 mL volume.")
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "Wikipedia:United_States_customary_units#Cooking_measures") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_0010041> "A United States customary units teaspoon is a unit of measurement of volume widely used in cooking recipes and pharmaceutic prescriptions in America. It equals a 4.93 mL volume.")
 AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_0010041> "us customary teaspoon")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_0010041> "united states customary teaspoon")
 SubClassOf(<http://purl.obolibrary.org/obo/UO_0010041> <http://purl.obolibrary.org/obo/UO_0000095>)
 
 # Class: <http://purl.obolibrary.org/obo/UO_0010042> (tablespoon)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "Wikipedia:https://en.wikipedia.org/wiki/Tablespoon") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_0010042> "A metric tablespoon is a unit of measurement of volume widely used in cooking recipes and pharmaceutic prescriptions. It equals a 15mL volume.")
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "Wikipedia:Tablespoon") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_0010042> "A metric tablespoon is a unit of measurement of volume widely used in cooking recipes and pharmaceutic prescriptions. It equals a 15mL volume.")
 AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_0010042> "metric tablespoon")
 AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_0010042> "tbsp")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_0010042> "tablespoon")
@@ -4002,34 +4002,34 @@ SubClassOf(<http://purl.obolibrary.org/obo/UO_0010042> <http://purl.obolibrary.o
 
 # Class: <http://purl.obolibrary.org/obo/UO_0010043> (australian metric tablespoon)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "Wikipedia:https://en.wikipedia.org/wiki/Tablespoon") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_0010043> "An Australian metric tablespoon is a unit of measurement of volume used in Australia for cooking recipes and pharmaceutic prescriptions. It equals a 20mL volume.")
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "Wikipedia:Tablespoon") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_0010043> "An Australian metric tablespoon is a unit of measurement of volume used in Australia for cooking recipes and pharmaceutic prescriptions. It equals a 20mL volume.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_0010043> "australian metric tablespoon")
 SubClassOf(<http://purl.obolibrary.org/obo/UO_0010043> <http://purl.obolibrary.org/obo/UO_0000095>)
 
 # Class: <http://purl.obolibrary.org/obo/UO_0010044> (united states customary tablespoon)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "Wikipedia:https://en.wikipedia.org/wiki/United_States_customary_units#Cooking_measures") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_0010044> "A United States customary units tablespoon is a unit of measurement of volume widely used in cooking recipes and pharmaceutic prescriptions in America. It equals a 14.79 mL volume.")
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "Wikipedia:United_States_customary_units#Cooking_measures") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_0010044> "A United States customary units tablespoon is a unit of measurement of volume widely used in cooking recipes and pharmaceutic prescriptions in America. It equals a 14.79 mL volume.")
 AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_0010044> "us customary tablespoon")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_0010044> "united states customary tablespoon")
 SubClassOf(<http://purl.obolibrary.org/obo/UO_0010044> <http://purl.obolibrary.org/obo/UO_0000095>)
 
 # Class: <http://purl.obolibrary.org/obo/UO_0010045> (metric cup)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "Wikipedia:https://en.wikipedia.org/wiki/Cooking_weights_and_measures") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_0010045> "A metric cup is a unit of measurement of volume widely used in cooking recipes and pharmaceutic prescriptions. It equals a 250mL volume.")
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "Wikipedia:Cooking_weights_and_measures") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_0010045> "A metric cup is a unit of measurement of volume widely used in cooking recipes and pharmaceutic prescriptions. It equals a 250mL volume.")
 AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_0010045> "C")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_0010045> "metric cup")
 SubClassOf(<http://purl.obolibrary.org/obo/UO_0010045> <http://purl.obolibrary.org/obo/UO_0000095>)
 
 # Class: <http://purl.obolibrary.org/obo/UO_0010046> (united states customary cup)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "Wikipedia:https://en.wikipedia.org/wiki/United_States_customary_units#Cooking_measures") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_0010046> "A United States customary units cup is a unit of measurement of volume widely used in cooking recipes and pharmaceutic prescriptions in America. It equals a 236.59 mL volume.")
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "Wikipedia:United_States_customary_units#Cooking_measures") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_0010046> "A United States customary units cup is a unit of measurement of volume widely used in cooking recipes and pharmaceutic prescriptions in America. It equals a 236.59 mL volume.")
 AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_0010046> "us customary cup")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_0010046> "united states customary cup")
 SubClassOf(<http://purl.obolibrary.org/obo/UO_0010046> <http://purl.obolibrary.org/obo/UO_0000095>)
 
 # Class: <http://purl.obolibrary.org/obo/UO_0010047> (united states fda cup)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "Wikipedia:https://en.wikipedia.org/wiki/United_States_customary_units#Cooking_measures") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_0010047> "A United States FDA cup is a unit of measurement of volume used by the US Federal Department of Agriculture as a nutritional serving measure. It equals a 240 mL volume.")
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "Wikipedia:United_States_customary_units#Cooking_measures") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_0010047> "A United States FDA cup is a unit of measurement of volume used by the US Federal Department of Agriculture as a nutritional serving measure. It equals a 240 mL volume.")
 AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_0010047> "us fda cup")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_0010047> "united states fda cup")
 SubClassOf(<http://purl.obolibrary.org/obo/UO_0010047> <http://purl.obolibrary.org/obo/UO_0000095>)
