@@ -3399,7 +3399,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/UO_0000301> <http://purl.obolibrary.o
 
 AnnotationAssertion(Annotation(oboInOwl:hasDbXref "GVG:UO") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_0000302> "A prefix in the metric system denoting a factor of 10 to the power of -12.")
 AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_0000302> "10^[-12]")
-AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_0000302> "n")
+AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_0000302> "p")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_0000302> "pico")
 SubClassOf(<http://purl.obolibrary.org/obo/UO_0000302> <http://purl.obolibrary.org/obo/UO_0000046>)
 
