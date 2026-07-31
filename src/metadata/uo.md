@@ -34,8 +34,8 @@ dependencies:
 
 tracker: https://github.com/bio-ontology-research-group/unit-ontology/issues
 license:
-  url: http://creativecommons.org/licenses/by/3.0/
-  label: CC-BY
+  url: https://creativecommons.org/licenses/by/4.0/
+  label: CC BY 4.0
 activity_status: active
 ---
 
