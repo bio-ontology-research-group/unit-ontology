@@ -6,10 +6,19 @@
         "pred" : "http://purl.org/dc/elements/1.1/type",
         "val" : "http://purl.obolibrary.org/obo/IAO_8000001"
       }, {
+        "pred" : "http://purl.org/dc/terms/description",
+        "val" : "Metrical units for use in conjunction with PATO"
+      }, {
+        "pred" : "http://purl.org/dc/terms/license",
+        "val" : "https://creativecommons.org/licenses/by/4.0/"
+      }, {
+        "pred" : "http://purl.org/dc/terms/title",
+        "val" : "Units of measurement ontology"
+      }, {
         "pred" : "http://www.w3.org/2002/07/owl#versionInfo",
-        "val" : "2026-01-16"
+        "val" : "2026-07-31"
       } ],
-      "version" : "http://purl.obolibrary.org/obo/uo/releases/2026-01-16/uo-base.json"
+      "version" : "http://purl.obolibrary.org/obo/uo/releases/2026-07-31/uo-base.json"
     },
     "nodes" : [ {
       "id" : "http://purl.obolibrary.org/obo/UO_0000000",
@@ -3577,7 +3586,7 @@
           "val" : "A V^-1"
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "mho "
+          "val" : "mho"
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "S"
@@ -3628,7 +3637,7 @@
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
-          "val" : "E-field strength "
+          "val" : "E-field strength"
         } ]
       }
     }, {
@@ -4079,7 +4088,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A prefix in the metric system denoting a factor of one thousand.",
+          "val" : "A prefix in the metric system denoting a factor of one thousandth.",
           "xrefs" : [ "UO:GVG" ]
         },
         "synonyms" : [ {
@@ -4096,7 +4105,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A prefix in the metric system denoting a factor of one hundred.",
+          "val" : "A prefix in the metric system denoting a factor of one hundredth.",
           "xrefs" : [ "UO:GVG" ]
         },
         "synonyms" : [ {
@@ -4675,11 +4684,11 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/UO_0010009",
-      "lbl" : "milli",
+      "lbl" : "millidalton",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A mass unit which is equal to 1/12 the mass of 12C",
+          "val" : "A mass unit which is equal to one thousandth of a dalton, i.e. 1/12000 the mass of 12C",
           "xrefs" : [ "Wikipedia:Wikipedia" ]
         },
         "synonyms" : [ {
@@ -4688,9 +4697,6 @@
         }, {
           "pred" : "hasExactSynonym",
           "val" : "milli unified atomic mass unit"
-        }, {
-          "pred" : "hasExactSynonym",
-          "val" : "millidalton"
         }, {
           "pred" : "hasExactSynonym",
           "val" : "mmu"
@@ -5210,13 +5216,17 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/UO_0010048",
-      "lbl" : "micromole",
+      "lbl" : "obsolete micromole",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
           "val" : "DEPRECATED: Duplicate of http://purl.obolibrary.org/obo/UO_0000039. A substance unit which is equal to one millionth of a mole.",
           "xrefs" : [ "UOB:LTS" ]
         },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0100001",
+          "val" : "http://purl.obolibrary.org/obo/UO_0000039"
+        } ],
         "deprecated" : true
       }
     }, {
@@ -6329,7 +6339,23 @@
       "type" : "PROPERTY",
       "propertyType" : "ANNOTATION"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/IAO_0100001",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
       "id" : "http://purl.org/dc/elements/1.1/type",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://purl.org/dc/terms/description",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://purl.org/dc/terms/license",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://purl.org/dc/terms/title",
       "type" : "PROPERTY",
       "propertyType" : "ANNOTATION"
     }, {
@@ -8201,10 +8227,6 @@
       "sub" : "http://purl.obolibrary.org/obo/UO_0010047",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UO_0000095"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/UO_0010048",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/UO_0000006"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/UO_0010049",
       "pred" : "is_a",

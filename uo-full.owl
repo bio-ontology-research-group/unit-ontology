@@ -8,10 +8,14 @@
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:dcterms="http://purl.org/dc/terms/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/uo/uo-full.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/uo/releases/2026-01-16/uo-full.owl"/>
-        <owl:versionInfo>2026-01-16</owl:versionInfo>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/uo/releases/2026-07-31/uo-full.owl"/>
+        <dcterms:description>Metrical units for use in conjunction with PATO</dcterms:description>
+        <dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+        <dcterms:title>Units of measurement ontology</dcterms:title>
+        <owl:versionInfo>2026-07-31</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -33,9 +37,33 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/IAO_0100001 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0100001"/>
+    
+
+
     <!-- http://purl.org/dc/elements/1.1/source -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/source"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/description -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/description"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/license -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/title -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/title"/>
     
 
 
@@ -5242,7 +5270,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000267">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000000"/>
         <obo:IAO_0000115>The electric field strength is a unit which is a measure of the potential difference between two points some distance apart.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym>E-field strength </oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>E-field strength</oboInOwl:hasExactSynonym>
         <rdfs:label>electric field strength unit</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -5782,7 +5810,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000297">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000046"/>
-        <obo:IAO_0000115>A prefix in the metric system denoting a factor of one thousand.</obo:IAO_0000115>
+        <obo:IAO_0000115>A prefix in the metric system denoting a factor of one thousandth.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>10^[-3]</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>m</oboInOwl:hasExactSynonym>
         <rdfs:label>milli</rdfs:label>
@@ -5790,7 +5818,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UO_0000297"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A prefix in the metric system denoting a factor of one thousand.</owl:annotatedTarget>
+        <owl:annotatedTarget>A prefix in the metric system denoting a factor of one thousandth.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>UO:GVG</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -5800,7 +5828,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000298">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000046"/>
-        <obo:IAO_0000115>A prefix in the metric system denoting a factor of one hundred.</obo:IAO_0000115>
+        <obo:IAO_0000115>A prefix in the metric system denoting a factor of one hundredth.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>10^[-2]</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>c</oboInOwl:hasExactSynonym>
         <rdfs:label>centi</rdfs:label>
@@ -5808,7 +5836,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UO_0000298"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A prefix in the metric system denoting a factor of one hundred.</owl:annotatedTarget>
+        <owl:annotatedTarget>A prefix in the metric system denoting a factor of one hundredth.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>UO:GVG</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -7188,15 +7216,17 @@
     <!-- http://purl.obolibrary.org/obo/UO_0010048 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0010048">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:oneOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0010048"/>
-                </owl:oneOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000006"/>
+        <obo:IAO_0000115>DEPRECATED: Duplicate of http://purl.obolibrary.org/obo/UO_0000039. A substance unit which is equal to one millionth of a mole.</obo:IAO_0000115>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/UO_0000039"/>
+        <rdfs:label>obsolete micromole</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UO_0010048"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>DEPRECATED: Duplicate of http://purl.obolibrary.org/obo/UO_0000039. A substance unit which is equal to one millionth of a mole.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>UOB:LTS</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -10792,12 +10822,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/UO_0010048 -->
-
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0010048"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/UO_0010049 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0010049"/>
@@ -13063,7 +13087,7 @@
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000264">
         <obo:IAO_0000115>An electrical conduction unit which is equal to A/V.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>A V^-1</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>mho </oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>mho</oboInOwl:hasExactSynonym>
         <oboInOwl:hasRelatedSynonym>S</oboInOwl:hasRelatedSynonym>
         <rdfs:label>siemens</rdfs:label>
     </rdf:Description>
@@ -13454,17 +13478,16 @@
         <oboInOwl:hasDbXref>NIST:NIST</oboInOwl:hasDbXref>
     </owl:Axiom>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0010009">
-        <obo:IAO_0000115>A mass unit which is equal to 1/12 the mass of 12C</obo:IAO_0000115>
+        <obo:IAO_0000115>A mass unit which is equal to one thousandth of a dalton, i.e. 1/12000 the mass of 12C</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>mDa</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>milli unified atomic mass unit</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>millidalton</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>mmu</oboInOwl:hasExactSynonym>
-        <rdfs:label>milli</rdfs:label>
+        <rdfs:label>millidalton</rdfs:label>
     </rdf:Description>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UO_0010009"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A mass unit which is equal to 1/12 the mass of 12C</owl:annotatedTarget>
+        <owl:annotatedTarget>A mass unit which is equal to one thousandth of a dalton, i.e. 1/12000 the mass of 12C</owl:annotatedTarget>
         <oboInOwl:hasDbXref>Wikipedia:Wikipedia</oboInOwl:hasDbXref>
     </owl:Axiom>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0010010">
@@ -13803,17 +13826,6 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A metric teaspoon is a unit of measurement of volume widely used in cooking recipes and pharmaceutic prescriptions. It equals a 5mL volume.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>Wikipedia:Teaspoon</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0010048">
-        <obo:IAO_0000115>DEPRECATED: Duplicate of http://purl.obolibrary.org/obo/UO_0000039. A substance unit which is equal to one millionth of a mole.</obo:IAO_0000115>
-        <rdfs:label>micromole</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </rdf:Description>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UO_0010048"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>DEPRECATED: Duplicate of http://purl.obolibrary.org/obo/UO_0000039. A substance unit which is equal to one millionth of a mole.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>UOB:LTS</oboInOwl:hasDbXref>
     </owl:Axiom>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0010049">
         <obo:IAO_0000115>An area density unit which is equal to the mass of an object in grams divided by the surface area in meters squared.</obo:IAO_0000115>
