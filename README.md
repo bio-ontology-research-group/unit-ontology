@@ -1,6 +1,6 @@
 # Unit Ontology: An ontology of units of measurements
 
-The ontology is provided under a [CC-BY](https://creativecommons.org/licenses/by/2.0/) license.
+The ontology is provided under a [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) license.
 
 ![Build Status](https://github.com/bio-ontology-research-group/unit-ontology/workflows/CI/badge.svg)
 

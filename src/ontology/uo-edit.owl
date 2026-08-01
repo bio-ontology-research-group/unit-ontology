@@ -5,10 +5,14 @@ Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
 Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
 Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 Prefix(oboInOwl:=<http://www.geneontology.org/formats/oboInOwl#>)
+Prefix(dcterms:=<http://purl.org/dc/terms/>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/uo.owl>
 Import(<http://purl.obolibrary.org/obo/uo/imports/pato_import.owl>)
+Annotation(dcterms:title "Units of measurement ontology")
+Annotation(dcterms:description "Metrical units for use in conjunction with PATO")
+Annotation(dcterms:license <https://creativecommons.org/licenses/by/4.0/>)
 
 Declaration(Class(<http://purl.obolibrary.org/obo/UO_0000000>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UO_0000001>))
@@ -841,7 +845,6 @@ Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/UO_0010037>))
 Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/UO_0010038>))
 Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/UO_0010039>))
 Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/UO_0010040>))
-Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/UO_0010048>))
 Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/UO_0010049>))
 Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/UO_0010050>))
 Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/UO_0010051>))
@@ -863,6 +866,10 @@ Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/UO_0010067>))
 Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/UO_0010068>))
 Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/UO_0010069>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000115>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0100001>))
+Declaration(AnnotationProperty(dcterms:description))
+Declaration(AnnotationProperty(dcterms:license))
+Declaration(AnnotationProperty(dcterms:title))
 Declaration(AnnotationProperty(oboInOwl:hasDbXref))
 Declaration(AnnotationProperty(oboInOwl:hasExactSynonym))
 Declaration(AnnotationProperty(oboInOwl:hasRelatedSynonym))
@@ -3081,7 +3088,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/UO_0000263> <http://purl.obolibrary.o
 
 AnnotationAssertion(Annotation(oboInOwl:hasDbXref "NIST:NIST") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_0000264> "An electrical conduction unit which is equal to A/V.")
 AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_0000264> "A V^-1")
-AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_0000264> "mho ")
+AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_0000264> "mho")
 AnnotationAssertion(oboInOwl:hasRelatedSynonym <http://purl.obolibrary.org/obo/UO_0000264> "S")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_0000264> "siemens")
 EquivalentClasses(<http://purl.obolibrary.org/obo/UO_0000264> ObjectOneOf(<http://purl.obolibrary.org/obo/UO_0000264>))
@@ -3111,7 +3118,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/UO_0000266> <http://purl.obolibrary.o
 # Class: <http://purl.obolibrary.org/obo/UO_0000267> (electric field strength unit)
 
 AnnotationAssertion(Annotation(oboInOwl:hasDbXref "Wikipedia:Electric_field") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_0000267> "The electric field strength is a unit which is a measure of the potential difference between two points some distance apart.")
-AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_0000267> "E-field strength ")
+AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_0000267> "E-field strength")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_0000267> "electric field strength unit")
 SubClassOf(<http://purl.obolibrary.org/obo/UO_0000267> <http://purl.obolibrary.org/obo/UO_0000000>)
 
@@ -3356,7 +3363,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/UO_0000296> <http://purl.obolibrary.o
 
 # Class: <http://purl.obolibrary.org/obo/UO_0000297> (milli)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "UO:GVG") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_0000297> "A prefix in the metric system denoting a factor of one thousand.")
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "UO:GVG") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_0000297> "A prefix in the metric system denoting a factor of one thousandth.")
 AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_0000297> "10^[-3]")
 AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_0000297> "m")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_0000297> "milli")
@@ -3364,7 +3371,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/UO_0000297> <http://purl.obolibrary.o
 
 # Class: <http://purl.obolibrary.org/obo/UO_0000298> (centi)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "UO:GVG") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_0000298> "A prefix in the metric system denoting a factor of one hundred.")
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "UO:GVG") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_0000298> "A prefix in the metric system denoting a factor of one hundredth.")
 AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_0000298> "10^[-2]")
 AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_0000298> "c")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_0000298> "centi")
@@ -3691,14 +3698,13 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_0010008> "kilo
 EquivalentClasses(<http://purl.obolibrary.org/obo/UO_0010008> ObjectOneOf(<http://purl.obolibrary.org/obo/UO_0010008>))
 SubClassOf(<http://purl.obolibrary.org/obo/UO_0010008> <http://purl.obolibrary.org/obo/UO_0000060>)
 
-# Class: <http://purl.obolibrary.org/obo/UO_0010009> (milli)
+# Class: <http://purl.obolibrary.org/obo/UO_0010009> (millidalton)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "Wikipedia:Wikipedia") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_0010009> "A mass unit which is equal to 1/12 the mass of 12C")
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "Wikipedia:Wikipedia") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_0010009> "A mass unit which is equal to one thousandth of a dalton, i.e. 1/12000 the mass of 12C")
 AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_0010009> "mDa")
 AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_0010009> "milli unified atomic mass unit")
-AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_0010009> "millidalton")
 AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_0010009> "mmu")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_0010009> "milli")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_0010009> "millidalton")
 EquivalentClasses(<http://purl.obolibrary.org/obo/UO_0010009> ObjectOneOf(<http://purl.obolibrary.org/obo/UO_0010009>))
 SubClassOf(<http://purl.obolibrary.org/obo/UO_0010009> <http://purl.obolibrary.org/obo/UO_0000002>)
 
@@ -4034,13 +4040,12 @@ AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_0010047> "united states fda cup")
 SubClassOf(<http://purl.obolibrary.org/obo/UO_0010047> <http://purl.obolibrary.org/obo/UO_0000095>)
 
-# Class: <http://purl.obolibrary.org/obo/UO_0010048> (micromole)
+# Class: <http://purl.obolibrary.org/obo/UO_0010048> (obsolete micromole)
 
 AnnotationAssertion(Annotation(oboInOwl:hasDbXref "UOB:LTS") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_0010048> "DEPRECATED: Duplicate of http://purl.obolibrary.org/obo/UO_0000039. A substance unit which is equal to one millionth of a mole.")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_0010048> "micromole")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/UO_0010048> <http://purl.obolibrary.org/obo/UO_0000039>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_0010048> "obsolete micromole")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UO_0010048> "true"^^xsd:boolean)
-EquivalentClasses(<http://purl.obolibrary.org/obo/UO_0010048> ObjectOneOf(<http://purl.obolibrary.org/obo/UO_0010048>))
-SubClassOf(<http://purl.obolibrary.org/obo/UO_0010048> <http://purl.obolibrary.org/obo/UO_0000006>)
 
 # Class: <http://purl.obolibrary.org/obo/UO_0010049> (gram per square meter)
 

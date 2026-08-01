@@ -75,7 +75,7 @@ import_group:
   slme_individuals: include
   use_base_merging: false
 import_pattern_ontology: false
-license: https://creativecommons.org/licenses/by/2.0/
+license: https://creativecommons.org/licenses/by/4.0/
 namespaces:
   - http://purl.obolibrary.org/obo/UO_
 obo_format_options: ''

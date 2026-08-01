@@ -1,44 +1,31 @@
 ---
 layout: ontology_detail
 id: uo
-title: unit-ontology
-jobs:
-  - id: https://travis-ci.org/bio-ontology-research-group/unit-ontology
-    type: travis-ci
-build:
-  checkout: git clone https://github.com/bio-ontology-research-group/unit-ontology.git
-  system: git
-  path: "."
+title: Units of measurement ontology
 contact:
-  email: 
-  label: 
-  github: 
-description: unit-ontology is an ontology...
-domain: stuff
+  email: g.gkoutos@gmail.com
+  github: gkoutos
+  label: George Gkoutos
+  orcid: 0000-0002-2061-091X
+description: Metrical units for use in conjunction with PATO
+domain: phenotype
 homepage: https://github.com/bio-ontology-research-group/unit-ontology
-products:
-  - id: uo.owl
-    name: "unit-ontology main release in OWL format"
-  - id: uo.obo
-    name: "unit-ontology additional release in OBO format"
-  - id: uo.json
-    name: "unit-ontology additional release in OBOJSon format"
-  - id: uo/uo-base.owl
-    name: "unit-ontology main release in OWL format"
-  - id: uo/uo-base.obo
-    name: "unit-ontology additional release in OBO format"
-  - id: uo/uo-base.json
-    name: "unit-ontology additional release in OBOJSon format"
-dependencies:
-- id: pato
-
-tracker: https://github.com/bio-ontology-research-group/unit-ontology/issues
 license:
-  url: http://creativecommons.org/licenses/by/3.0/
-  label: CC-BY
+  label: CC BY 4.0
+  url: https://creativecommons.org/licenses/by/4.0/
+preferredPrefix: UO
+products:
+- id: uo.owl
+- id: uo.obo
+- id: uo.json
+publications:
+- id: https://www.ncbi.nlm.nih.gov/pubmed/23060432
+  title: 'The Units Ontology: a tool for integrating units of measurement in science'
+repository: https://github.com/bio-ontology-research-group/unit-ontology
+tracker: https://github.com/bio-ontology-research-group/unit-ontology/issues
 activity_status: active
 ---
 
-Enter a detailed description of your ontology here. You can use arbitrary markdown and HTML.
-You can also embed images too.
+See also:
 
+ * [units-of-measurement](https://units-of-measurement.org/)
