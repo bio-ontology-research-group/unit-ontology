@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: uo/releases/2026-07-31/uo-full.owl
+data-version: uo/releases/2026-10-06/uo-full.owl
 idspace: dc http://purl.org/dc/elements/1.1/ 
 idspace: dcterms http://purl.org/dc/terms/ 
 idspace: oboInOwl http://www.geneontology.org/formats/oboInOwl# 
@@ -7,7 +7,7 @@ ontology: uo/uo-full
 property_value: dcterms:description "Metrical units for use in conjunction with PATO" xsd:string
 property_value: dcterms:license https://creativecommons.org/licenses/by/4.0/
 property_value: dcterms:title "Units of measurement ontology" xsd:string
-property_value: owl:versionInfo "2026-07-31" xsd:string
+property_value: owl:versionInfo "2026-10-06" xsd:string
 
 [Term]
 id: UO:0000000
@@ -2500,7 +2500,7 @@ is_a: UO:0000105 ! frequency unit
 [Term]
 id: UO:0000326
 name: centiMorgan
-def: "A unit used to express distances on a genetic map. In genetic mapping, distances between markers are determined by measuring the rate of meoitic recombination between them, which increases proportionately with the distance separating them. A cM is defined as the length of an interval in which there is a 1% probability of recombination. On the average, 1 cM is roughly equivalent to 1 megabase (Mb) of DNA, although this can vary widely due to hot and cold spots of recombination." [http://www.ncbi.nlm.nih.gov/SCIENCE96/Glossary.html]
+def: "A unit used to express distances on a genetic map. In genetic mapping, distances between markers are determined by measuring the rate of meiotic recombination between them, which increases proportionately with the distance separating them. A cM is defined as the length of an interval in which there is a 1% probability of recombination. On the average, 1 cM is roughly equivalent to 1 megabase (Mb) of DNA, although this can vary widely due to hot and cold spots of recombination." [http://www.ncbi.nlm.nih.gov/SCIENCE96/Glossary.html]
 synonym: "cM" EXACT []
 is_a: UO:0000001 ! length unit
 
