@@ -11,11 +11,11 @@
      xmlns:dcterms="http://purl.org/dc/terms/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/uo/uo-full.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/uo/releases/2026-07-31/uo-full.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/uo/releases/2026-10-12/uo-full.owl"/>
         <dcterms:description>Metrical units for use in conjunction with PATO</dcterms:description>
         <dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
         <dcterms:title>Units of measurement ontology</dcterms:title>
-        <owl:versionInfo>2026-07-31</owl:versionInfo>
+        <owl:versionInfo>2026-10-12</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -13367,14 +13367,14 @@
         <oboInOwl:hasDbXref>UOC:GVG</oboInOwl:hasDbXref>
     </owl:Axiom>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000326">
-        <obo:IAO_0000115>A unit used to express distances on a genetic map. In genetic mapping, distances between markers are determined by measuring the rate of meoitic recombination between them, which increases proportionately with the distance separating them. A cM is defined as the length of an interval in which there is a 1% probability of recombination. On the average, 1 cM is roughly equivalent to 1 megabase (Mb) of DNA, although this can vary widely due to hot and cold spots of recombination.</obo:IAO_0000115>
+        <obo:IAO_0000115>A unit used to express distances on a genetic map. In genetic mapping, distances between markers are determined by measuring the rate of meiotic recombination between them, which increases proportionately with the distance separating them. A cM is defined as the length of an interval in which there is a 1% probability of recombination. On the average, 1 cM is roughly equivalent to 1 megabase (Mb) of DNA, although this can vary widely due to hot and cold spots of recombination.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>cM</oboInOwl:hasExactSynonym>
         <rdfs:label>centiMorgan</rdfs:label>
     </rdf:Description>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UO_0000326"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A unit used to express distances on a genetic map. In genetic mapping, distances between markers are determined by measuring the rate of meoitic recombination between them, which increases proportionately with the distance separating them. A cM is defined as the length of an interval in which there is a 1% probability of recombination. On the average, 1 cM is roughly equivalent to 1 megabase (Mb) of DNA, although this can vary widely due to hot and cold spots of recombination.</owl:annotatedTarget>
+        <owl:annotatedTarget>A unit used to express distances on a genetic map. In genetic mapping, distances between markers are determined by measuring the rate of meiotic recombination between them, which increases proportionately with the distance separating them. A cM is defined as the length of an interval in which there is a 1% probability of recombination. On the average, 1 cM is roughly equivalent to 1 megabase (Mb) of DNA, although this can vary widely due to hot and cold spots of recombination.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>http://www.ncbi.nlm.nih.gov/SCIENCE96/Glossary.html</oboInOwl:hasDbXref>
     </owl:Axiom>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000327">

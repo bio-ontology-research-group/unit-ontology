@@ -13,9 +13,9 @@
         "val" : "Units of measurement ontology"
       }, {
         "pred" : "http://www.w3.org/2002/07/owl#versionInfo",
-        "val" : "2026-07-31"
+        "val" : "2026-10-12"
       } ],
-      "version" : "http://purl.obolibrary.org/obo/uo/releases/2026-07-31/uo-full.json"
+      "version" : "http://purl.obolibrary.org/obo/uo/releases/2026-10-12/uo-full.json"
     },
     "nodes" : [ {
       "id" : "http://purl.obolibrary.org/obo/UO_0000000",
@@ -4472,7 +4472,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A unit used to express distances on a genetic map. In genetic mapping, distances between markers are determined by measuring the rate of meoitic recombination between them, which increases proportionately with the distance separating them. A cM is defined as the length of an interval in which there is a 1% probability of recombination. On the average, 1 cM is roughly equivalent to 1 megabase (Mb) of DNA, although this can vary widely due to hot and cold spots of recombination.",
+          "val" : "A unit used to express distances on a genetic map. In genetic mapping, distances between markers are determined by measuring the rate of meiotic recombination between them, which increases proportionately with the distance separating them. A cM is defined as the length of an interval in which there is a 1% probability of recombination. On the average, 1 cM is roughly equivalent to 1 megabase (Mb) of DNA, although this can vary widely due to hot and cold spots of recombination.",
           "xrefs" : [ "http://www.ncbi.nlm.nih.gov/SCIENCE96/Glossary.html" ]
         },
         "synonyms" : [ {
