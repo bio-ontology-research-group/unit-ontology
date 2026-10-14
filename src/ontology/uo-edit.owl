@@ -1397,6 +1397,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/UO_0000063> <http://purl.obolibrary.o
 AnnotationAssertion(Annotation(oboInOwl:hasDbXref "UOC:GVG") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_0000064> "A unit of molarity which is equal to one millionth of a molar or 10^[-6] M.")
 AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_0000064> "uM")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_0000064> "micromolar")
+EquivalentClasses(<http://purl.obolibrary.org/obo/UO_0000064> <http://purl.obolibrary.org/obo/UO_0010003>)
 EquivalentClasses(<http://purl.obolibrary.org/obo/UO_0000064> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UO_1000062> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/has_prefix> <http://purl.obolibrary.org/obo/UO_0000299>)))
 EquivalentClasses(<http://purl.obolibrary.org/obo/UO_0000064> ObjectOneOf(<http://purl.obolibrary.org/obo/UO_0000064>))
 SubClassOf(<http://purl.obolibrary.org/obo/UO_0000064> <http://purl.obolibrary.org/obo/UO_0000061>)
@@ -3658,7 +3659,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/UO_0010002> <http://purl.obolibrary.o
 AnnotationAssertion(Annotation(oboInOwl:hasDbXref "NIST:NIST") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_0010003> "A specific concentration unit which is equal to 1 micromole in a given volume of one thousandth of a cubic meter.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_0010003> "micromole per litre")
 EquivalentClasses(<http://purl.obolibrary.org/obo/UO_0010003> ObjectOneOf(<http://purl.obolibrary.org/obo/UO_0010003>))
-SubClassOf(<http://purl.obolibrary.org/obo/UO_0010003> <http://purl.obolibrary.org/obo/UO_0000067>)
+SubClassOf(<http://purl.obolibrary.org/obo/UO_0010003> <http://purl.obolibrary.org/obo/UO_0000061>)
 
 # Class: <http://purl.obolibrary.org/obo/UO_0010004> (micromole per kilogram)
 
