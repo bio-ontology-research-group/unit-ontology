@@ -20,6 +20,18 @@ http://purl.obolibrary.org/obo/uo.owl
 
 (note this will not show up until the request has been approved by obofoundry.org)
 
+### Making releases
+There is no schedule for releases, but if 3-4 changes have been merged a release will probably soon come after. Releases may also be made on request.
+
+The process for making releases:
+
+- Ensure you have latest ODK installed (docker pull obolibrary/odkfull)
+- Create new branch, e.g. release20260101
+- `cd src/ontology`
+- `sh run.sh make prepare_release`
+- Commit changes to branch with a meaningful message
+- Push and open PR
+
 ### Editors' version
 
 Editors of this ontology should use the edit version, [src/ontology/uo-edit.owl](src/ontology/uo-edit.owl)
