@@ -2481,7 +2481,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/UO_0000181> <http://purl.obolibrary.o
 
 # Class: <http://purl.obolibrary.org/obo/UO_0000182> (density unit)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "https://orcid.org/0000-0001-8613-1447") Annotation(oboInOwl:hasDbXref "https://orcid.org/0000-0002-2748-7993") Annotation(oboInOwl:hasDbXref "https://orcid.org/0009-0007-1391-4986") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_0000182> "A unit which is a standard measure of the amount of a physical property, substance, or number of entities distributed per unit of spatial dimension (volume, area, or length)."@en)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "https://orcid.org/0000-0001-8613-1447") Annotation(oboInOwl:hasDbXref "https://orcid.org/0000-0002-2748-7993") Annotation(oboInOwl:hasDbXref "https://orcid.org/0009-0007-1391-4986") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_0000182> "A unit which is a standard measure of the amount of a physical property or number of entities distributed per unit of spatial dimension (volume, area, or length)."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_0000182> "density unit")
 SubClassOf(<http://purl.obolibrary.org/obo/UO_0000182> <http://purl.obolibrary.org/obo/UO_0000000>)
 
@@ -5185,7 +5185,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/UO_1000417> <http://purl.obolibrary.o
 
 # Class: <http://purl.obolibrary.org/obo/UO_1000418> (force constant unit)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "https://orcid.org/0000-0001-8613-1447") Annotation(oboInOwl:hasDbXref "https://orcid.org/0000-0002-2748-7993") Annotation(oboInOwl:hasDbXref "https://orcid.org/0009-0007-1391-4986") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_1000418> "A unit which is a standard measure of the restoring force exerted by a system per unit of displacement, typically representing the stiffness of a spring or harmonic potential."@en)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "https://orcid.org/0000-0001-8613-1447") Annotation(oboInOwl:hasDbXref "https://orcid.org/0000-0002-2748-7993") Annotation(oboInOwl:hasDbXref "https://orcid.org/0009-0007-1391-4986") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_1000418> "A unit which is a standard measure of a coefficient of the potential energy expanded in powers of a linear or angular displacement."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_1000418> "force constant unit"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/UO_1000418> <http://purl.obolibrary.org/obo/UO_0000000>)
 
