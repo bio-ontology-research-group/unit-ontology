@@ -5101,7 +5101,7 @@ AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_
 AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_1000408> "cm^[2] s^[-1]")
 AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_1000408> "cm^[2]/s")
 AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_1000408> "stokes")
-AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UO_1000408> "CGS unit for kinematic viscosity, physically equivalent to the stokes."@en)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UO_1000408> "The name stokes (St) applies only to kinematic viscosity."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_1000408> "square centimeter per second"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/UO_1000408> ObjectOneOf(<http://purl.obolibrary.org/obo/UO_1000408>))
 SubClassOf(<http://purl.obolibrary.org/obo/UO_1000408> <http://purl.obolibrary.org/obo/UO_1000405>)
