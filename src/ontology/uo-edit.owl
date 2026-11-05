@@ -553,6 +553,50 @@ Declaration(Class(<http://purl.obolibrary.org/obo/UO_1000310>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UO_1000312>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UO_1000313>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UO_1000314>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UO_1000400>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UO_1000401>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UO_1000402>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UO_1000403>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UO_1000404>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UO_1000405>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UO_1000406>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UO_1000407>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UO_1000408>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UO_1000409>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UO_1000410>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UO_1000411>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UO_1000412>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UO_1000413>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UO_1000414>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UO_1000415>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UO_1000416>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UO_1000417>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UO_1000418>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UO_1000419>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UO_1000420>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UO_1000421>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UO_1000422>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UO_1000423>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UO_1000424>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UO_1000425>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UO_1000426>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UO_1000427>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UO_1000428>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UO_1000429>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UO_1000430>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UO_1000431>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UO_1000432>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UO_1000433>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UO_1000434>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UO_1000435>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UO_1000436>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UO_1000437>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UO_1000438>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UO_1000439>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UO_1000440>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UO_1000441>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UO_1000442>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UO_1000443>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UO_1010001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UO_1010010>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UO_1010011>))
@@ -865,6 +909,33 @@ Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/UO_0010066>))
 Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/UO_0010067>))
 Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/UO_0010068>))
 Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/UO_0010069>))
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/UO_1000400>))
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/UO_1000402>))
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/UO_1000404>))
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/UO_1000407>))
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/UO_1000408>))
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/UO_1000409>))
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/UO_1000410>))
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/UO_1000412>))
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/UO_1000413>))
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/UO_1000414>))
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/UO_1000416>))
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/UO_1000417>))
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/UO_1000420>))
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/UO_1000422>))
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/UO_1000424>))
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/UO_1000425>))
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/UO_1000427>))
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/UO_1000428>))
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/UO_1000430>))
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/UO_1000431>))
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/UO_1000433>))
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/UO_1000434>))
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/UO_1000435>))
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/UO_1000436>))
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/UO_1000437>))
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/UO_1000440>))
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/UO_1000443>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000115>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0100001>))
 Declaration(AnnotationProperty(dcterms:description))
@@ -2410,7 +2481,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/UO_0000181> <http://purl.obolibrary.o
 
 # Class: <http://purl.obolibrary.org/obo/UO_0000182> (density unit)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "Wikipedia:Wikipedia") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_0000182> "A unit which is a standard measure of the influence exerted by some mass.")
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "https://orcid.org/0000-0001-8613-1447") Annotation(oboInOwl:hasDbXref "https://orcid.org/0000-0002-2748-7993") Annotation(oboInOwl:hasDbXref "https://orcid.org/0009-0007-1391-4986") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_0000182> "A unit which is a standard measure of the amount of a physical property or number of entities distributed per unit of spatial dimension (volume, area, or length)."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_0000182> "density unit")
 SubClassOf(<http://purl.obolibrary.org/obo/UO_0000182> <http://purl.obolibrary.org/obo/UO_0000000>)
 
@@ -3038,8 +3109,8 @@ AnnotationAssertion(Annotation(oboInOwl:hasDbXref "NIST:NIST") <http://purl.obol
 AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_0000257> "Pa  s")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_0000257> "pascal second")
 EquivalentClasses(<http://purl.obolibrary.org/obo/UO_0000257> ObjectOneOf(<http://purl.obolibrary.org/obo/UO_0000257>))
-SubClassOf(<http://purl.obolibrary.org/obo/UO_0000257> <http://purl.obolibrary.org/obo/UO_0000256>)
 SubClassOf(<http://purl.obolibrary.org/obo/UO_0000257> <http://purl.obolibrary.org/obo/UO_1000257>)
+SubClassOf(<http://purl.obolibrary.org/obo/UO_0000257> <http://purl.obolibrary.org/obo/UO_1000441>)
 
 # Class: <http://purl.obolibrary.org/obo/UO_0000258> (poise)
 
@@ -3048,8 +3119,8 @@ AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_
 AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_0000258> "dyne s/cm^2")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_0000258> "poise")
 EquivalentClasses(<http://purl.obolibrary.org/obo/UO_0000258> ObjectOneOf(<http://purl.obolibrary.org/obo/UO_0000258>))
-SubClassOf(<http://purl.obolibrary.org/obo/UO_0000258> <http://purl.obolibrary.org/obo/UO_0000256>)
 SubClassOf(<http://purl.obolibrary.org/obo/UO_0000258> <http://purl.obolibrary.org/obo/UO_1000258>)
+SubClassOf(<http://purl.obolibrary.org/obo/UO_0000258> <http://purl.obolibrary.org/obo/UO_1000441>)
 
 # Class: <http://purl.obolibrary.org/obo/UO_0000259> (decibel)
 
@@ -4880,12 +4951,12 @@ SubClassOf(<http://purl.obolibrary.org/obo/UO_1000255> <http://purl.obolibrary.o
 # Class: <http://purl.obolibrary.org/obo/UO_1000257> (pascal second based unit)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_1000257> "pascal second based unit")
-SubClassOf(<http://purl.obolibrary.org/obo/UO_1000257> <http://purl.obolibrary.org/obo/UO_0000256>)
+SubClassOf(<http://purl.obolibrary.org/obo/UO_1000257> <http://purl.obolibrary.org/obo/UO_1000441>)
 
 # Class: <http://purl.obolibrary.org/obo/UO_1000258> (poise based unit)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_1000258> "poise based unit")
-SubClassOf(<http://purl.obolibrary.org/obo/UO_1000258> <http://purl.obolibrary.org/obo/UO_0000256>)
+SubClassOf(<http://purl.obolibrary.org/obo/UO_1000258> <http://purl.obolibrary.org/obo/UO_1000441>)
 
 # Class: <http://purl.obolibrary.org/obo/UO_1000260> (effective dose unit based unit)
 
@@ -4904,6 +4975,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/UO_1000265> <http://purl.obolibrary.o
 
 # Class: <http://purl.obolibrary.org/obo/UO_1000266> (electronvolt based unit)
 
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "https://orcid.org/0000-0001-8613-1447") Annotation(oboInOwl:hasDbXref "https://orcid.org/0000-0002-2748-7993") Annotation(oboInOwl:hasDbXref "https://orcid.org/0009-0007-1391-4986") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_1000266> "An energy unit which is an electronvolt or a multiple/submultiple of an electronvolt."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_1000266> "electronvolt based unit")
 SubClassOf(<http://purl.obolibrary.org/obo/UO_1000266> <http://purl.obolibrary.org/obo/UO_0000111>)
 
@@ -4956,6 +5028,368 @@ SubClassOf(<http://purl.obolibrary.org/obo/UO_1000313> <http://purl.obolibrary.o
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_1000314> "relative fluorescence unit based unit")
 SubClassOf(<http://purl.obolibrary.org/obo/UO_1000314> <http://purl.obolibrary.org/obo/UO_0000312>)
+
+# Class: <http://purl.obolibrary.org/obo/UO_1000400> (degree per picosecond)
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "https://orcid.org/0000-0001-8613-1447") Annotation(oboInOwl:hasDbXref "https://orcid.org/0000-0002-2748-7993") Annotation(oboInOwl:hasDbXref "https://orcid.org/0009-0007-1391-4986") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_1000400> "An angular velocity unit which is equal to the angular velocity of an object changing its angle by one degree in one picosecond."@en)
+AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_1000400> "deg ps^[-1]")
+AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_1000400> "deg/ps")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_1000400> "degree per picosecond"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/UO_1000400> ObjectOneOf(<http://purl.obolibrary.org/obo/UO_1000400>))
+SubClassOf(<http://purl.obolibrary.org/obo/UO_1000400> <http://purl.obolibrary.org/obo/UO_0000049>)
+
+# Class: <http://purl.obolibrary.org/obo/UO_1000401> (compressibility unit)
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "https://orcid.org/0000-0001-8613-1447") Annotation(oboInOwl:hasDbXref "https://orcid.org/0000-0002-2748-7993") Annotation(oboInOwl:hasDbXref "https://orcid.org/0009-0007-1391-4986") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_1000401> "A unit which is a standard measure of how much a substance's volume changes as a response to a change in pressure."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_1000401> "compressibility unit"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/UO_1000401> <http://purl.obolibrary.org/obo/UO_0000000>)
+
+# Class: <http://purl.obolibrary.org/obo/UO_1000402> (reciprocal bar)
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "https://orcid.org/0000-0001-8613-1447") Annotation(oboInOwl:hasDbXref "https://orcid.org/0000-0002-2748-7993") Annotation(oboInOwl:hasDbXref "https://orcid.org/0009-0007-1391-4986") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_1000402> "A compressibility unit which is equal to the reciprocal of one bar of pressure."@en)
+AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_1000402> "1/bar")
+AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_1000402> "bar^[-1]")
+AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_1000402> "inverse bar")
+AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_1000402> "per bar")
+AnnotationAssertion(oboInOwl:hasRelatedSynonym <http://purl.obolibrary.org/obo/UO_1000402> "volume fraction per bar")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_1000402> "reciprocal bar"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/UO_1000402> ObjectOneOf(<http://purl.obolibrary.org/obo/UO_1000402>))
+SubClassOf(<http://purl.obolibrary.org/obo/UO_1000402> <http://purl.obolibrary.org/obo/UO_1000401>)
+
+# Class: <http://purl.obolibrary.org/obo/UO_1000403> (surface number density unit)
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "https://orcid.org/0000-0001-8613-1447") Annotation(oboInOwl:hasDbXref "https://orcid.org/0000-0002-2748-7993") Annotation(oboInOwl:hasDbXref "https://orcid.org/0009-0007-1391-4986") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_1000403> "A unit which is a standard measure of the number of entities, objects or particles distributed per unit of two-dimensional surface area. It measures how closely packed items are on a surface."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_1000403> "surface number density unit"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/UO_1000403> <http://purl.obolibrary.org/obo/UO_0000182>)
+
+# Class: <http://purl.obolibrary.org/obo/UO_1000404> (reciprocal square nanometer)
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "https://orcid.org/0000-0001-8613-1447") Annotation(oboInOwl:hasDbXref "https://orcid.org/0000-0002-2748-7993") Annotation(oboInOwl:hasDbXref "https://orcid.org/0009-0007-1391-4986") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_1000404> "A surface number density unit which is defined as the number of entities per one square nanometer of surface area."@en)
+AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_1000404> "1/nm^[2]")
+AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_1000404> "inverse square nanometer")
+AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_1000404> "nm^[-2]")
+AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_1000404> "count per square nanometer")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_1000404> "reciprocal square nanometer"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/UO_1000404> ObjectOneOf(<http://purl.obolibrary.org/obo/UO_1000404>))
+SubClassOf(<http://purl.obolibrary.org/obo/UO_1000404> <http://purl.obolibrary.org/obo/UO_1000403>)
+
+# Class: <http://purl.obolibrary.org/obo/UO_1000405> (diffusion coefficient unit)
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "https://orcid.org/0000-0001-8613-1447") Annotation(oboInOwl:hasDbXref "https://orcid.org/0000-0002-2748-7993") Annotation(oboInOwl:hasDbXref "https://orcid.org/0009-0007-1391-4986") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_1000405> "A unit which is a standard measure of the proportionality factor that quantifies how rapidly particles, heat, or momentum diffuses, relating the diffusive flux to the concentration gradient over an area per unit of time."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_1000405> "diffusion coefficient unit"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/UO_1000405> <http://purl.obolibrary.org/obo/UO_0000000>)
+
+# Class: <http://purl.obolibrary.org/obo/UO_1000406> (rotational diffusion coefficient unit)
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "https://orcid.org/0000-0001-8613-1447") Annotation(oboInOwl:hasDbXref "https://orcid.org/0000-0002-2748-7993") Annotation(oboInOwl:hasDbXref "https://orcid.org/0009-0007-1391-4986") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_1000406> "A unit which is a standard measure of the rate at which molecules or particles reorient in a fluid, determining their rotational Brownian motion based on size, shape, and medium viscosity."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_1000406> "rotational diffusion coefficient unit"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/UO_1000406> <http://purl.obolibrary.org/obo/UO_1000405>)
+
+# Class: <http://purl.obolibrary.org/obo/UO_1000407> (radian squared per picosecond)
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "https://orcid.org/0000-0001-8613-1447") Annotation(oboInOwl:hasDbXref "https://orcid.org/0000-0002-2748-7993") Annotation(oboInOwl:hasDbXref "https://orcid.org/0009-0007-1391-4986") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_1000407> "A rotational diffusion coefficient unit which is equal to a squared angular displacement of one square radian in one picosecond."@en)
+AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_1000407> "rad^[2] ps^[-1]")
+AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_1000407> "rad^[2]/ps")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_1000407> "radian squared per picosecond"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/UO_1000407> ObjectOneOf(<http://purl.obolibrary.org/obo/UO_1000407>))
+SubClassOf(<http://purl.obolibrary.org/obo/UO_1000407> <http://purl.obolibrary.org/obo/UO_1000406>)
+
+# Class: <http://purl.obolibrary.org/obo/UO_1000408> (square centimeter per second)
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "https://orcid.org/0000-0001-8613-1447") Annotation(oboInOwl:hasDbXref "https://orcid.org/0000-0002-2748-7993") Annotation(oboInOwl:hasDbXref "https://orcid.org/0009-0007-1391-4986") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_1000408> "A kinematic viscosity unit which is equal to a kinematic viscosity or diffusion rate of one square centimeter of area per second of time, equivalent to 10^[-4] square meters per second."@en)
+AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_1000408> "St")
+AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_1000408> "cm^[2] s^[-1]")
+AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_1000408> "cm^[2]/s")
+AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_1000408> "stokes")
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UO_1000408> "The name stokes (St) applies only to kinematic viscosity."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_1000408> "square centimeter per second"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/UO_1000408> ObjectOneOf(<http://purl.obolibrary.org/obo/UO_1000408>))
+SubClassOf(<http://purl.obolibrary.org/obo/UO_1000408> <http://purl.obolibrary.org/obo/UO_1000405>)
+SubClassOf(<http://purl.obolibrary.org/obo/UO_1000408> <http://purl.obolibrary.org/obo/UO_1000442>)
+
+# Class: <http://purl.obolibrary.org/obo/UO_1000409> (square nanometer per picosecond)
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "https://orcid.org/0000-0001-8613-1447") Annotation(oboInOwl:hasDbXref "https://orcid.org/0000-0002-2748-7993") Annotation(oboInOwl:hasDbXref "https://orcid.org/0009-0007-1391-4986") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_1000409> "A diffusion coefficient unit which is equal to an area of one square nanometer diffused in one picosecond."@en)
+AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_1000409> "nm^[2] ps^[-1]")
+AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_1000409> "nm^[2]/ps")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_1000409> "square nanometer per picosecond"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/UO_1000409> ObjectOneOf(<http://purl.obolibrary.org/obo/UO_1000409>))
+SubClassOf(<http://purl.obolibrary.org/obo/UO_1000409> <http://purl.obolibrary.org/obo/UO_1000405>)
+
+# Class: <http://purl.obolibrary.org/obo/UO_1000410> (elementary charge)
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "https://orcid.org/0000-0001-8613-1447") Annotation(oboInOwl:hasDbXref "https://orcid.org/0000-0002-2748-7993") Annotation(oboInOwl:hasDbXref "https://orcid.org/0009-0007-1391-4986") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_1000410> "An electric charge unit used in atomic and molecular physics, defined as exactly 1.602176634 × 10^[-19] coulombs."@en)
+AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_1000410> "e")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_1000410> "elementary charge"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/UO_1000410> ObjectOneOf(<http://purl.obolibrary.org/obo/UO_1000410>))
+SubClassOf(<http://purl.obolibrary.org/obo/UO_1000410> <http://purl.obolibrary.org/obo/UO_0000219>)
+
+# Class: <http://purl.obolibrary.org/obo/UO_1000411> (electric dipole moment unit)
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "https://orcid.org/0000-0001-8613-1447") Annotation(oboInOwl:hasDbXref "https://orcid.org/0000-0002-2748-7993") Annotation(oboInOwl:hasDbXref "https://orcid.org/0009-0007-1391-4986") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_1000411> "A unit which is a standard measure of the strength of an electric dipole, defined as the product of the magnitude of the charges and the distance separating them."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_1000411> "electric dipole moment unit"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/UO_1000411> <http://purl.obolibrary.org/obo/UO_0000000>)
+
+# Class: <http://purl.obolibrary.org/obo/UO_1000412> (debye)
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "https://orcid.org/0000-0001-8613-1447") Annotation(oboInOwl:hasDbXref "https://orcid.org/0000-0002-2748-7993") Annotation(oboInOwl:hasDbXref "https://orcid.org/0009-0007-1391-4986") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_1000412> "An electric dipole moment unit which is approximately equal to 3.33564 × 10^[-30] coulomb-meters."@en)
+AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_1000412> "D")
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UO_1000412> "A non-SI unit for expressing electric dipole moments of molecules."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_1000412> "debye"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/UO_1000412> ObjectOneOf(<http://purl.obolibrary.org/obo/UO_1000412>))
+SubClassOf(<http://purl.obolibrary.org/obo/UO_1000412> <http://purl.obolibrary.org/obo/UO_1000411>)
+
+# Class: <http://purl.obolibrary.org/obo/UO_1000413> (volt per nanometer)
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "https://orcid.org/0000-0001-8613-1447") Annotation(oboInOwl:hasDbXref "https://orcid.org/0000-0002-2748-7993") Annotation(oboInOwl:hasDbXref "https://orcid.org/0009-0007-1391-4986") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_1000413> "An electric field strength unit which is equal to a potential difference of one volt separating two points one nanometer apart."@en)
+AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_1000413> "V nm^[-1]")
+AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_1000413> "V/nm")
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UO_1000413> "Used to describe electric fields within molecular structures. It scales the existing V/m field strength unit."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_1000413> "volt per nanometer"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/UO_1000413> ObjectOneOf(<http://purl.obolibrary.org/obo/UO_1000413>))
+SubClassOf(<http://purl.obolibrary.org/obo/UO_1000413> <http://purl.obolibrary.org/obo/UO_1000268>)
+
+# Class: <http://purl.obolibrary.org/obo/UO_1000414> (kiloelectronvolt)
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "https://orcid.org/0000-0001-8613-1447") Annotation(oboInOwl:hasDbXref "https://orcid.org/0000-0002-2748-7993") Annotation(oboInOwl:hasDbXref "https://orcid.org/0009-0007-1391-4986") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_1000414> "An electronvolt based unit which is equal to one thousand electronvolts or 10^[3] eV."@en)
+AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_1000414> "keV")
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UO_1000414> "Commonly used in atomic, nuclear, and particle physics to describe the energy of electrons, ions, X-rays, and gamma rays."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_1000414> "kiloelectronvolt"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/UO_1000414> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UO_1000266> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/has_prefix> <http://purl.obolibrary.org/obo/UO_0000294>)))
+EquivalentClasses(<http://purl.obolibrary.org/obo/UO_1000414> ObjectOneOf(<http://purl.obolibrary.org/obo/UO_1000414>))
+SubClassOf(<http://purl.obolibrary.org/obo/UO_1000414> <http://purl.obolibrary.org/obo/UO_1000266>)
+
+# Class: <http://purl.obolibrary.org/obo/UO_1000415> (molar energy unit)
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "https://orcid.org/0000-0001-8613-1447") Annotation(oboInOwl:hasDbXref "https://orcid.org/0000-0002-2748-7993") Annotation(oboInOwl:hasDbXref "https://orcid.org/0009-0007-1391-4986") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_1000415> "A unit which is a standard measure of the amount of thermodynamic energy absorbed or released, often as heat, per mole of a given substance."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_1000415> "molar energy unit"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/UO_1000415> <http://purl.obolibrary.org/obo/UO_0000111>)
+
+# Class: <http://purl.obolibrary.org/obo/UO_1000416> (kilocalorie per mole)
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "https://orcid.org/0000-0001-8613-1447") Annotation(oboInOwl:hasDbXref "https://orcid.org/0000-0002-2748-7993") Annotation(oboInOwl:hasDbXref "https://orcid.org/0009-0007-1391-4986") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_1000416> "A molar energy unit which is equal to one kilocalorie of energy per one mole of substance, equivalent to 4184 joules per mole."@en)
+AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_1000416> "kcal mol^[-1]")
+AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_1000416> "kcal/mol")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_1000416> "kilocalorie per mole"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/UO_1000416> ObjectOneOf(<http://purl.obolibrary.org/obo/UO_1000416>))
+SubClassOf(<http://purl.obolibrary.org/obo/UO_1000416> <http://purl.obolibrary.org/obo/UO_1000415>)
+
+# Class: <http://purl.obolibrary.org/obo/UO_1000417> (kilojoule per mole)
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "https://orcid.org/0000-0001-8613-1447") Annotation(oboInOwl:hasDbXref "https://orcid.org/0000-0002-2748-7993") Annotation(oboInOwl:hasDbXref "https://orcid.org/0009-0007-1391-4986") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_1000417> "A molar energy unit which is equal to one kilojoule of energy per one mole of substance."@en)
+AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_1000417> "kJ mol^[-1]")
+AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_1000417> "kJ/mol")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_1000417> "kilojoule per mole"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/UO_1000417> ObjectOneOf(<http://purl.obolibrary.org/obo/UO_1000417>))
+SubClassOf(<http://purl.obolibrary.org/obo/UO_1000417> <http://purl.obolibrary.org/obo/UO_1000415>)
+
+# Class: <http://purl.obolibrary.org/obo/UO_1000418> (force constant unit)
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "https://orcid.org/0000-0001-8613-1447") Annotation(oboInOwl:hasDbXref "https://orcid.org/0000-0002-2748-7993") Annotation(oboInOwl:hasDbXref "https://orcid.org/0009-0007-1391-4986") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_1000418> "A unit which is a standard measure of a coefficient of the potential energy expanded in powers of a linear or angular displacement."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_1000418> "force constant unit"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/UO_1000418> <http://purl.obolibrary.org/obo/UO_0000000>)
+
+# Class: <http://purl.obolibrary.org/obo/UO_1000419> (molar angular force constant unit)
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "https://orcid.org/0000-0001-8613-1447") Annotation(oboInOwl:hasDbXref "https://orcid.org/0000-0002-2748-7993") Annotation(oboInOwl:hasDbXref "https://orcid.org/0009-0007-1391-4986") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_1000419> "A unit which is a standard measure of an angular harmonic force constant (energy penalty per squared angle) scaled per mole of a given substance."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_1000419> "molar angular force constant unit"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/UO_1000419> <http://purl.obolibrary.org/obo/UO_1000418>)
+
+# Class: <http://purl.obolibrary.org/obo/UO_1000420> (kilojoule per mole per radian squared)
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "https://orcid.org/0000-0001-8613-1447") Annotation(oboInOwl:hasDbXref "https://orcid.org/0000-0002-2748-7993") Annotation(oboInOwl:hasDbXref "https://orcid.org/0009-0007-1391-4986") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_1000420> "A molar angular force constant unit which is equal to one kilojoule per mole per squared radian."@en)
+AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_1000420> "kJ mol^[-1] rad^[-2]")
+AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_1000420> "kJ/mol/rad^[2]")
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UO_1000420> "Distinguishes second derivative angular force parameters from standard energy, despite SI dimensional equivalence."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_1000420> "kilojoule per mole per radian squared"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/UO_1000420> ObjectOneOf(<http://purl.obolibrary.org/obo/UO_1000420>))
+SubClassOf(<http://purl.obolibrary.org/obo/UO_1000420> <http://purl.obolibrary.org/obo/UO_1000419>)
+
+# Class: <http://purl.obolibrary.org/obo/UO_1000421> (molar anharmonic force constant unit)
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "https://orcid.org/0000-0001-8613-1447") Annotation(oboInOwl:hasDbXref "https://orcid.org/0000-0002-2748-7993") Annotation(oboInOwl:hasDbXref "https://orcid.org/0009-0007-1391-4986") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_1000421> "A unit which is a standard measure of the higher-order derivative of the potential energy surface, representing deviations from perfect harmonic (quadratic) motions per mole of a given substance."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_1000421> "molar anharmonic force constant unit"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/UO_1000421> <http://purl.obolibrary.org/obo/UO_1000418>)
+
+# Class: <http://purl.obolibrary.org/obo/UO_1000422> (kilojoule per mole per nanometer to the fourth)
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "https://orcid.org/0000-0001-8613-1447") Annotation(oboInOwl:hasDbXref "https://orcid.org/0000-0002-2748-7993") Annotation(oboInOwl:hasDbXref "https://orcid.org/0009-0007-1391-4986") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_1000422> "A molar anharmonic force constant unit which is equal to one kilojoule per mole per quartic nanometer."@en)
+AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_1000422> "kJ/mol/nm^[4]")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_1000422> "kilojoule per mole per nanometer to the fourth"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/UO_1000422> ObjectOneOf(<http://purl.obolibrary.org/obo/UO_1000422>))
+SubClassOf(<http://purl.obolibrary.org/obo/UO_1000422> <http://purl.obolibrary.org/obo/UO_1000421>)
+
+# Class: <http://purl.obolibrary.org/obo/UO_1000423> (molar force constant unit)
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "https://orcid.org/0000-0001-8613-1447") Annotation(oboInOwl:hasDbXref "https://orcid.org/0000-0002-2748-7993") Annotation(oboInOwl:hasDbXref "https://orcid.org/0009-0007-1391-4986") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_1000423> "A unit which is a standard measure of the stiffness of a harmonic potential (energy penalty per squared distance) scaled per mole of a given substance."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_1000423> "molar force constant unit"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/UO_1000423> <http://purl.obolibrary.org/obo/UO_1000418>)
+
+# Class: <http://purl.obolibrary.org/obo/UO_1000424> (kilocalorie per mole per square angstrom)
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "https://orcid.org/0000-0001-8613-1447") Annotation(oboInOwl:hasDbXref "https://orcid.org/0000-0002-2748-7993") Annotation(oboInOwl:hasDbXref "https://orcid.org/0009-0007-1391-4986") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_1000424> "A molar force constant unit which is equal to one kilocalorie of energy per mole per square angstrom."@en)
+AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_1000424> "kcal mol^[-1] Å^[-2]")
+AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_1000424> "kcal/mol/Å^[2]")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_1000424> "kilocalorie per mole per square angstrom"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/UO_1000424> ObjectOneOf(<http://purl.obolibrary.org/obo/UO_1000424>))
+SubClassOf(<http://purl.obolibrary.org/obo/UO_1000424> <http://purl.obolibrary.org/obo/UO_1000423>)
+
+# Class: <http://purl.obolibrary.org/obo/UO_1000425> (kilojoule per mole per square nanometer)
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "https://orcid.org/0000-0001-8613-1447") Annotation(oboInOwl:hasDbXref "https://orcid.org/0000-0002-2748-7993") Annotation(oboInOwl:hasDbXref "https://orcid.org/0009-0007-1391-4986") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_1000425> "A molar force constant unit which is equal to one kilojoule of energy per mole per square nanometer."@en)
+AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_1000425> "kJ/mol/nm^[2]")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_1000425> "kilojoule per mole per square nanometer"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/UO_1000425> ObjectOneOf(<http://purl.obolibrary.org/obo/UO_1000425>))
+SubClassOf(<http://purl.obolibrary.org/obo/UO_1000425> <http://purl.obolibrary.org/obo/UO_1000423>)
+
+# Class: <http://purl.obolibrary.org/obo/UO_1000426> (molar force unit)
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "https://orcid.org/0000-0001-8613-1447") Annotation(oboInOwl:hasDbXref "https://orcid.org/0000-0002-2748-7993") Annotation(oboInOwl:hasDbXref "https://orcid.org/0009-0007-1391-4986") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_1000426> "A unit which is a standard measure of the physical force exerted per mole of a given substance."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_1000426> "molar force unit"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/UO_1000426> <http://purl.obolibrary.org/obo/UO_0000107>)
+
+# Class: <http://purl.obolibrary.org/obo/UO_1000427> (kilojoule per mole per nanometer)
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "https://orcid.org/0000-0001-8613-1447") Annotation(oboInOwl:hasDbXref "https://orcid.org/0000-0002-2748-7993") Annotation(oboInOwl:hasDbXref "https://orcid.org/0009-0007-1391-4986") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_1000427> "A molar force unit which is equal to one kilojoule of energy per mole per nanometer of distance."@en)
+AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_1000427> "kJ/mol/nm")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_1000427> "kilojoule per mole per nanometer"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/UO_1000427> ObjectOneOf(<http://purl.obolibrary.org/obo/UO_1000427>))
+SubClassOf(<http://purl.obolibrary.org/obo/UO_1000427> <http://purl.obolibrary.org/obo/UO_1000426>)
+
+# Class: <http://purl.obolibrary.org/obo/UO_1000428> (reciprocal picosecond)
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "https://orcid.org/0000-0001-8613-1447") Annotation(oboInOwl:hasDbXref "https://orcid.org/0000-0002-2748-7993") Annotation(oboInOwl:hasDbXref "https://orcid.org/0009-0007-1391-4986") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_1000428> "A frequency unit which is equal to one cycle or occurrence per picosecond."@en)
+AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_1000428> "1/ps")
+AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_1000428> "cycle per picosecond")
+AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_1000428> "inverse picosecond")
+AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_1000428> "ps^[-1]")
+AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_1000428> "count per picosecond")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_1000428> "reciprocal picosecond"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/UO_1000428> ObjectOneOf(<http://purl.obolibrary.org/obo/UO_1000428>))
+SubClassOf(<http://purl.obolibrary.org/obo/UO_1000428> <http://purl.obolibrary.org/obo/UO_0000105>)
+
+# Class: <http://purl.obolibrary.org/obo/UO_1000429> (friction coefficient unit)
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "https://orcid.org/0000-0001-8613-1447") Annotation(oboInOwl:hasDbXref "https://orcid.org/0000-0002-2748-7993") Annotation(oboInOwl:hasDbXref "https://orcid.org/0009-0007-1391-4986") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_1000429> "A unit which is a standard measure of the proportionality coefficient relating the frictional drag force acting on a particle to its velocity relative to the surrounding medium."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_1000429> "friction coefficient unit"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/UO_1000429> <http://purl.obolibrary.org/obo/UO_0000000>)
+
+# Class: <http://purl.obolibrary.org/obo/UO_1000430> (atomic mass unit per picosecond)
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "https://orcid.org/0000-0001-8613-1447") Annotation(oboInOwl:hasDbXref "https://orcid.org/0000-0002-2748-7993") Annotation(oboInOwl:hasDbXref "https://orcid.org/0009-0007-1391-4986") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_1000430> "A friction coefficient unit which is equal to one unified atomic mass unit per picosecond, used for the friction acting on particles in Langevin dynamics, equivalent to approximately 1.66054 × 10^[-15] kg s^[-1]."@en)
+AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_1000430> "Da/ps")
+AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_1000430> "amu/ps")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_1000430> "atomic mass unit per picosecond"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/UO_1000430> ObjectOneOf(<http://purl.obolibrary.org/obo/UO_1000430>))
+SubClassOf(<http://purl.obolibrary.org/obo/UO_1000430> <http://purl.obolibrary.org/obo/UO_1000429>)
+
+# Class: <http://purl.obolibrary.org/obo/UO_1000431> (atmosphere)
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "https://orcid.org/0000-0001-8613-1447") Annotation(oboInOwl:hasDbXref "https://orcid.org/0000-0002-2748-7993") Annotation(oboInOwl:hasDbXref "https://orcid.org/0009-0007-1391-4986") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_1000431> "A pressure unit which is equal to 101,325 pascals, approximately equal to mean sea-level pressure on Earth."@en)
+AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_1000431> "atm")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_1000431> "atmosphere"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/UO_1000431> ObjectOneOf(<http://purl.obolibrary.org/obo/UO_1000431>))
+SubClassOf(<http://purl.obolibrary.org/obo/UO_1000431> <http://purl.obolibrary.org/obo/UO_0000109>)
+
+# Class: <http://purl.obolibrary.org/obo/UO_1000432> (spatial frequency unit)
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "https://orcid.org/0000-0001-8613-1447") Annotation(oboInOwl:hasDbXref "https://orcid.org/0000-0002-2748-7993") Annotation(oboInOwl:hasDbXref "https://orcid.org/0009-0007-1391-4986") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_1000432> "A unit which is a standard measure of how often sinusoidal components of a structure repeat per unit of distance, typically expressed as the number of cycles or occurrences of a periodic phenomenon per unit of spatial distance."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_1000432> "spatial frequency unit"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/UO_1000432> <http://purl.obolibrary.org/obo/UO_0000000>)
+
+# Class: <http://purl.obolibrary.org/obo/UO_1000433> (reciprocal centimeter)
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "https://orcid.org/0000-0001-8613-1447") Annotation(oboInOwl:hasDbXref "https://orcid.org/0000-0002-2748-7993") Annotation(oboInOwl:hasDbXref "https://orcid.org/0009-0007-1391-4986") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_1000433> "A spatial frequency unit which is equal to one cycle or occurrence per centimeter of distance."@en)
+AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_1000433> "1/cm")
+AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_1000433> "cm^[-1]")
+AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_1000433> "cycle per centimeter")
+AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_1000433> "inverse centimeter")
+AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_1000433> "count per centimeter")
+AnnotationAssertion(oboInOwl:hasRelatedSynonym <http://purl.obolibrary.org/obo/UO_1000433> "wavenumber")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_1000433> "reciprocal centimeter"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/UO_1000433> ObjectOneOf(<http://purl.obolibrary.org/obo/UO_1000433>))
+SubClassOf(<http://purl.obolibrary.org/obo/UO_1000433> <http://purl.obolibrary.org/obo/UO_1000432>)
+
+# Class: <http://purl.obolibrary.org/obo/UO_1000434> (reciprocal nanometer)
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "https://orcid.org/0000-0001-8613-1447") Annotation(oboInOwl:hasDbXref "https://orcid.org/0000-0002-2748-7993") Annotation(oboInOwl:hasDbXref "https://orcid.org/0009-0007-1391-4986") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_1000434> "A spatial frequency unit which is equal to one cycle or occurrence per nanometer of distance."@en)
+AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_1000434> "1/nm")
+AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_1000434> "cycle per nanometer")
+AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_1000434> "inverse nanometer")
+AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_1000434> "nm^[-1]")
+AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_1000434> "count per nanometer")
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UO_1000434> "Spatial frequency unit used as a measure of image resolution or object feature size."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_1000434> "reciprocal nanometer"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/UO_1000434> ObjectOneOf(<http://purl.obolibrary.org/obo/UO_1000434>))
+SubClassOf(<http://purl.obolibrary.org/obo/UO_1000434> <http://purl.obolibrary.org/obo/UO_1000432>)
+
+# Class: <http://purl.obolibrary.org/obo/UO_1000435> (angstrom per nanosecond)
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "https://orcid.org/0000-0001-8613-1447") Annotation(oboInOwl:hasDbXref "https://orcid.org/0000-0002-2748-7993") Annotation(oboInOwl:hasDbXref "https://orcid.org/0009-0007-1391-4986") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_1000435> "A speed/velocity unit which is equal to the speed of an object traveling one angstrom distance in one nanosecond, equivalent to 0.1 meters per second."@en)
+AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_1000435> "Å ns^[-1]")
+AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_1000435> "Å/ns")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_1000435> "angstrom per nanosecond"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/UO_1000435> ObjectOneOf(<http://purl.obolibrary.org/obo/UO_1000435>))
+SubClassOf(<http://purl.obolibrary.org/obo/UO_1000435> <http://purl.obolibrary.org/obo/UO_0000060>)
+
+# Class: <http://purl.obolibrary.org/obo/UO_1000436> (nanometer per picosecond)
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "https://orcid.org/0000-0001-8613-1447") Annotation(oboInOwl:hasDbXref "https://orcid.org/0000-0002-2748-7993") Annotation(oboInOwl:hasDbXref "https://orcid.org/0009-0007-1391-4986") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_1000436> "A speed/velocity unit which is equal to the speed of an object traveling one nanometer distance in one picosecond, equivalent to 1000 meters per second."@en)
+AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_1000436> "nm ps^[-1]")
+AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_1000436> "nm/ps")
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UO_1000436> "A standard velocity unit widely used in computational chemistry and molecular dynamics simulations (e.g., as the native velocity unit in GROMACS and OpenMM)."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_1000436> "nanometer per picosecond"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/UO_1000436> ObjectOneOf(<http://purl.obolibrary.org/obo/UO_1000436>))
+SubClassOf(<http://purl.obolibrary.org/obo/UO_1000436> <http://purl.obolibrary.org/obo/UO_1000094>)
+
+# Class: <http://purl.obolibrary.org/obo/UO_1000437> (femtosecond)
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "https://orcid.org/0000-0001-8613-1447") Annotation(oboInOwl:hasDbXref "https://orcid.org/0000-0002-2748-7993") Annotation(oboInOwl:hasDbXref "https://orcid.org/0009-0007-1391-4986") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_1000437> "A second based unit which is equal to 10^[-15] seconds or one quadrillionth of a second."@en)
+AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_1000437> "fs")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_1000437> "femtosecond"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/UO_1000437> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UO_1000010> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/has_prefix> <http://purl.obolibrary.org/obo/UO_0000303>)))
+EquivalentClasses(<http://purl.obolibrary.org/obo/UO_1000437> ObjectOneOf(<http://purl.obolibrary.org/obo/UO_1000437>))
+SubClassOf(<http://purl.obolibrary.org/obo/UO_1000437> <http://purl.obolibrary.org/obo/UO_1000010>)
+
+# Class: <http://purl.obolibrary.org/obo/UO_1000438> (torque unit)
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "https://orcid.org/0000-0001-8613-1447") Annotation(oboInOwl:hasDbXref "https://orcid.org/0000-0002-2748-7993") Annotation(oboInOwl:hasDbXref "https://orcid.org/0009-0007-1391-4986") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_1000438> "A unit which is a standard measure of the tendency of a force to rotate an object about an axis, fulcrum, or pivot."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_1000438> "torque unit"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/UO_1000438> <http://purl.obolibrary.org/obo/UO_0000000>)
+
+# Class: <http://purl.obolibrary.org/obo/UO_1000439> (molar torque unit)
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "https://orcid.org/0000-0001-8613-1447") Annotation(oboInOwl:hasDbXref "https://orcid.org/0000-0002-2748-7993") Annotation(oboInOwl:hasDbXref "https://orcid.org/0009-0007-1391-4986") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_1000439> "A unit which is a standard measure of the torque (or angular force) exerted per mole of a given substance."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_1000439> "molar torque unit"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/UO_1000439> <http://purl.obolibrary.org/obo/UO_1000438>)
+
+# Class: <http://purl.obolibrary.org/obo/UO_1000440> (kilojoule per mole per radian)
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "https://orcid.org/0000-0001-8613-1447") Annotation(oboInOwl:hasDbXref "https://orcid.org/0000-0002-2748-7993") Annotation(oboInOwl:hasDbXref "https://orcid.org/0009-0007-1391-4986") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_1000440> "A molar torque unit which is equal to one kilojoule of energy per mole per radian of angle."@en)
+AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_1000440> "kJ/mol/rad")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_1000440> "kilojoule per mole per radian"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/UO_1000440> ObjectOneOf(<http://purl.obolibrary.org/obo/UO_1000440>))
+SubClassOf(<http://purl.obolibrary.org/obo/UO_1000440> <http://purl.obolibrary.org/obo/UO_1000439>)
+
+# Class: <http://purl.obolibrary.org/obo/UO_1000441> (dynamic viscosity unit)
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "https://orcid.org/0000-0001-8613-1447") Annotation(oboInOwl:hasDbXref "https://orcid.org/0000-0002-2748-7993") Annotation(oboInOwl:hasDbXref "https://orcid.org/0009-0007-1391-4986") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_1000441> "A viscosity unit which is a standard measure of a fluid's absolute internal resistance to shear flow, defined as the ratio of shear stress to the shear rate."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_1000441> "dynamic viscosity unit"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/UO_1000441> <http://purl.obolibrary.org/obo/UO_0000256>)
+
+# Class: <http://purl.obolibrary.org/obo/UO_1000442> (kinematic viscosity unit)
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "https://orcid.org/0000-0001-8613-1447") Annotation(oboInOwl:hasDbXref "https://orcid.org/0000-0002-2748-7993") Annotation(oboInOwl:hasDbXref "https://orcid.org/0009-0007-1391-4986") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_1000442> "A viscosity unit which is a standard measure of a fluid's resistance to flow, defined as the ratio of its dynamic viscosity to its macroscopic mass density."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_1000442> "kinematic viscosity unit"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/UO_1000442> <http://purl.obolibrary.org/obo/UO_0000256>)
+
+# Class: <http://purl.obolibrary.org/obo/UO_1000443> (cubic nanometer)
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "https://orcid.org/0000-0001-8613-1447") Annotation(oboInOwl:hasDbXref "https://orcid.org/0000-0002-2748-7993") Annotation(oboInOwl:hasDbXref "https://orcid.org/0009-0007-1391-4986") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_1000443> "A volume unit which is equal to the volume of a cube with edges one nanometer in length."@en)
+AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_1000443> "nm^[3]")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_1000443> "cubic nanometer"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/UO_1000443> ObjectOneOf(<http://purl.obolibrary.org/obo/UO_1000443>))
+SubClassOf(<http://purl.obolibrary.org/obo/UO_1000443> <http://purl.obolibrary.org/obo/UO_0000095>)
 
 # Class: <http://purl.obolibrary.org/obo/UO_1010001> (square micrometer based unit)
 
