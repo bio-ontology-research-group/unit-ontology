@@ -4240,7 +4240,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/UO_0010061> <http://purl.obolibrary.o
 # Class: <http://purl.obolibrary.org/obo/UO_0010062> (milligray per minute)
 
 AnnotationAssertion(Annotation(oboInOwl:hasDbXref "NIST:NIST") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_0010062> "A derived absorbed dose unit which is equal to one milligray absorbed per minute.")
-AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_0010062> "mGy/day")
+AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_0010062> "mGy/min")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_0010062> "milligray per minute")
 EquivalentClasses(<http://purl.obolibrary.org/obo/UO_0010062> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UO_1010060> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/has_prefix> <http://purl.obolibrary.org/obo/UO_0000297>)))
 EquivalentClasses(<http://purl.obolibrary.org/obo/UO_0010062> ObjectOneOf(<http://purl.obolibrary.org/obo/UO_0010062>))
@@ -4249,7 +4249,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/UO_0010062> <http://purl.obolibrary.o
 # Class: <http://purl.obolibrary.org/obo/UO_0010063> (milligray per day)
 
 AnnotationAssertion(Annotation(oboInOwl:hasDbXref "NIST:NIST") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_0010063> "A derived absorbed dose unit which is equal to one milligray absorbed per day.")
-AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_0010063> "mGy/min")
+AnnotationAssertion(oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/UO_0010063> "mGy/day")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_0010063> "milligray per day")
 EquivalentClasses(<http://purl.obolibrary.org/obo/UO_0010063> ObjectOneOf(<http://purl.obolibrary.org/obo/UO_0010063>))
 SubClassOf(<http://purl.obolibrary.org/obo/UO_0010063> <http://purl.obolibrary.org/obo/UO_0000129>)
